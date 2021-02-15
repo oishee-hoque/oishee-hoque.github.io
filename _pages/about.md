@@ -21,7 +21,7 @@ I am Oishee Bintey Hoque, graduated with a B.Sc. degree in Computer Science from
 - <span style="color:Blue"> [Dec 2020] </span> - Prsented a paper at [ACCV MLCSA Workshop 2020](http://mlp.sci.yamaguchi-u.ac.jp/MLCSA2020/index.html).
 - <span style="color:Blue"> [Nov 2020] </span> - One paper got accepted at [ICCIT 2020](http://iccit.org.bd/2020/).
 - <span style="color:Blue"> [Oct 2020] </span> - One paper got accepted at [ACCV MLCSA Workshop 2020](http://mlp.sci.yamaguchi-u.ac.jp/MLCSA2020/index.html).
-- <span style="color:Blue"> [August 2020] </span> - One [Preprint](https://assets.researchsquare.com/files/rs-56285/v1_stamped.pdf) got published at [Research Squre](https://www.researchsquare.com/article/rs-56285/v1).
+- <span style="color:Blue"> [Aug 2020] </span> - One [Preprint](https://assets.researchsquare.com/files/rs-56285/v1_stamped.pdf) got published at [Research Squre](https://www.researchsquare.com/article/rs-56285/v1).
 - <span style="color:Blue"> [Dec 2018] </span> - Prsented a paper at [ICIET 2018](http://www.cse.du.ac.bd/iciet/index.html).
 - <span style="color:Blue"> [Nov 2018] </span> - One [paper](https://ieeexplore.ieee.org/document/8660780) got accepted at [ICIET 2018](http://www.cse.du.ac.bd/iciet/index.html).
 - <span style="color:Blue"> [Nov 2018] </span> - Participated in [ACM ICPC DHAKA REGIONALS 2018](https://icpc.baylor.edu/regionals/finder/Dhaka-2018).
