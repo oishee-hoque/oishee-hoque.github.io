@@ -9,7 +9,7 @@ redirect_from:
 
 # Education
 
-## B.Sc. in Computer Science and Information Technology
+## B.Sc. in Computer Science and Engineering
 
 ---
 
