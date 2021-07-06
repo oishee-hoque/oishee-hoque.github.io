@@ -10,6 +10,8 @@ redirect_from:
 
 I am Oishee Bintey Hoque, graduated with a B.Sc. degree in Computer Science from [Ahsanullah University of Science & Technology (AUST)](http://aust.edu/), Dhaka, Bangladesh. My research interests include, but are not limited to, Deep Learning, Machine Learning, Computer Vision and NLP. My extended undergraduate thesis has been published at [**ACCV MLCSA Workshop 2020**](http://mlp.sci.yamaguchi-u.ac.jp/MLCSA2020/index.html). Currently, I am working as a Software Engineer at [Enosis Solutions](https://www.enosisbd.com/), Bangladesh.
 
+\*\*I will be starting my Ph.D. at the University of Virginia in Fall'21.
+
 **For additional information, please see my [CV](https://oishee-hoque.github.io/cv/) and [publications](https://oishee-hoque.github.io/publications/).**
 
 <!-- <a href="https://oishee-hoque.github.io/publications/"> <img src="https://oishee-hoque.github.io/images/pubs.png" alt="Publication Venues"
