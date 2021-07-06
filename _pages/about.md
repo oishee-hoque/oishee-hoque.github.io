@@ -17,6 +17,7 @@ I am Oishee Bintey Hoque, graduated with a B.Sc. degree in Computer Science from
 
 ## Recent News
 
+- <span style="color:Blue"> [Jun 2020] </span> - Participated as Volunteer in [NAACL'21](https://2021.naacl.org/).
 - <span style="color:Blue"> [Dec 2020] </span> - Presented a paper at [ICCIT 2020](http://iccit.org.bd/2020/).
 - <span style="color:Blue"> [Dec 2020] </span> - Presented a paper at [ACCV MLCSA Workshop 2020](http://mlp.sci.yamaguchi-u.ac.jp/MLCSA2020/index.html).
 - <span style="color:Blue"> [Nov 2020] </span> - One paper got accepted at [ICCIT 2020](http://iccit.org.bd/2020/).
