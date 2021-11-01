@@ -10,7 +10,7 @@ redirect_from:
 
 I am Oishee Bintey Hoque, graduated with a B.Sc. degree in Computer Science from [Ahsanullah University of Science & Technology (AUST)](http://aust.edu/), Dhaka, Bangladesh. After graduation, I worked as a Software Engineer at [Enosis Solutions](https://www.enosisbd.com/), Bangladesh for a year. My research interests include, but are not limited to, Deep Learning, Machine Learning, Computer Vision and NLP.
 
-\*\*I have started my Ph.D. at the <b> University of Virginia </b> in Fall'21.
+\*\*I have started my Ph.D. at the **University of Virginia** in Fall'21.
 
 **For additional information, please see my [CV](https://oishee-hoque.github.io/cv/) and [publications](https://oishee-hoque.github.io/publications/).**
 
