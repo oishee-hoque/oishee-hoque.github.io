@@ -26,3 +26,14 @@ author_profile: true
 ---
 
 - **Oishee Bintey Hoque**, Md. Imrul Jubair, Md. Saiful Islam, Al-Farabi Akash, ["Real Time Bangladeshi Sign Language Detection using Faster R-CNN"](https://ieeexplore.ieee.org/document/8660780), In Proceedings of International Conference on Innovation in Engineering and Technology(ICIET), Dhaka, Bangladesh, 2018 (**ICIET 2018**). [<span style ="color:Green"> [**Code & Dataset**] </span>](https://github.com/imruljubair/bdslimset)[<span style ="color:Green"> [**Presentation**] </span>](https://oishee-hoque.github.io/files/ICIET2018_presentation.pdf) [<span style ="color:Green"> [**PDF**] </span>](https://oishee-hoque.github.io/files/ICIET2018.pdf) [<span style ="color:Green"> [**Demo Video**] </span>](https://youtu.be/OU8IFpR0_sU)
+
+## Undergraduate Thesis [2018-2019]
+
+- **REAL-TIME BANGLADESHI SIGN LANGUAGE DETECTION USING FASTER R-CNN**:
+  <br>
+  Accepted as a Full Paper in ICIET 2018.
+  This is a real-time system which detects sign from a video and classifies the sign in the video. For the purpose of our work, we developed a robust dataset from scratch - **BdSLImSet** - which is available for further research. Our system is trained on Faster R-CNN and detects the sign with great accuracy. [[**Paper**]](https://arxiv.org/abs/1811.12813) [[**Dataset**]](https://github.com/imruljubair/BdSLImset)
+
+- **BANGLADESHI SIGN WORD RECOGNITION USING LSTM**:
+  <br>
+  This is a system which detects sign words -sequence of actions- from a video. This works with sequential data and falls under the domain of action recognition. For the purpose of our work, we developed a robust dataset from scratch - **BdSLVidSet** - which is available for further research. This dataset is trained using CNN for feature extraction and LSTM to combine the sequential feature to recognize the words. [**Dataset**](https://github.com/anno23/Dataset2)
