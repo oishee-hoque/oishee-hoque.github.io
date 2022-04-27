@@ -8,21 +8,17 @@ redirect_from:
   - /about.html
 ---
 
-I am a 1st year Computer Science PhD student at the [University of Virginia] (https://engineering.virginia.edu/departments/computer-science), currently advised by [Dr. Madhav Marathe] (https://engineering.virginia.edu/faculty/madhav-marathe) in the [Biocomplexity Institute] (https://biocomplexity.virginia.edu/).
+I am a 1st year Computer Science PhD student at the [University of Virginia] (https://engineering.virginia.edu/departments/computer-science), currently advised by [Dr. Madhav Marathe](https://engineering.virginia.edu/faculty/madhav-marathe) in the [Biocomplexity Institute](https://biocomplexity.virginia.edu/). I have completed my undergrad in Computer Science from [Ahsanullah University of Science & Technology (AUST)](http://aust.edu/). After graduation, I worked as a Software Engineer at [Enosis Solutions](https://www.enosisbd.com/), Bangladesh for a year. My research interests include, but are not limited to, Deep Learning, Machine Learning, Computer Vision and NLP.
 
-I have completed my undergrad in Computer Science from [Ahsanullah University of Science & Technology (AUST)](http://aust.edu/). After graduation, I worked as a Software Engineer at [Enosis Solutions](https://www.enosisbd.com/), Bangladesh for a year.
-
-My research interests include, but are not limited to, Deep Learning, Machine Learning, Computer Vision and NLP.
-
-Contact Me: gza5dr (at) virginia (dot) edu
+**Contact**: gza5dr (at) virginia (dot) edu
+[**Download CV**](https://oishee-hoque.github.io/files/OisheeHoqueResume.pdf)
 
 <!-- <a href="https://oishee-hoque.github.io/publications/"> <img src="https://oishee-hoque.github.io/images/pubs.png" alt="Publication Venues"
 	title="Publication Venues" width="600" height="200"> </a> -->
 
 ## Recent News
 
-- <span style="color:Blue"> [Jan 2022] </span> - Started working as **Space and Media Chair** for UVA [Computer Science Graduate Student Group (CSGSG) Council](https://csgsg.org/), 2022
-
+- <span style="color:Blue"> [Jan 2022] </span> -Started working Joined UVA [Computer Science Graduate Student Group (CSGSG) Council](https://csgsg.org/), 2022 as **Space and Media Chair**
 - <span style="color:Blue"> [Jun 2020] </span> - Participated as a Volunteer in [NAACL'21](https://2021.naacl.org).
 - <span style="color:Blue"> [Dec 2020] </span> - Presented a paper at [ICCIT 2020](http://iccit.org.bd/2020/).
 - <span style="color:Blue"> [Dec 2020] </span> - Presented a paper at [ACCV MLCSA Workshop 2020](http://mlp.sci.yamaguchi-u.ac.jp/MLCSA2020/index.html).
