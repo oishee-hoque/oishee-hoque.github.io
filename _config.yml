@@ -79,8 +79,8 @@ analytics:
 author:
   name: "Oishee Bintey Hoque"
   avatar: "oishee.jpg"
-  bio:
-  location: "Dhaka, Bangladesh"
+  bio: 
+  location: "Virginia, USA"
   employer:
   pubmed: #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar: "https://scholar.google.com/citations?hl=en&authuser=3&user=Xyu3_yUAAAAJ"
@@ -113,7 +113,7 @@ author:
   xing:
   youtube: #"https://www.youtube.com/channel/UCfFEgu4mEqFNoqyJOvjKtQg"
   wikipedia:
-
+  CV: "https://oishee-hoque.github.io/files/OisheeHoqueResume.pdf"
 # Reading Files
 include:
   - .htaccess
