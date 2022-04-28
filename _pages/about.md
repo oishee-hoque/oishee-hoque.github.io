@@ -8,9 +8,10 @@ redirect_from:
   - /about.html
 ---
 
-I am a 1st year Computer Science PhD student at the [University of Virginia] (https://engineering.virginia.edu/departments/computer-science), currently advised by [Dr. Madhav Marathe](https://engineering.virginia.edu/faculty/madhav-marathe) in the [Biocomplexity Institute](https://biocomplexity.virginia.edu/). I have completed my undergrad in Computer Science from [Ahsanullah University of Science & Technology (AUST)](http://aust.edu/). After graduation, I worked as a Software Engineer at [Enosis Solutions](https://www.enosisbd.com/), Bangladesh for a year. My research interests include, but are not limited to, Deep Learning, Machine Learning, Computer Vision and NLP.
+I am a 1st year Computer Science PhD student at the [University of Virginia](https://engineering.virginia.edu/departments/computer-science), currently advised by [Dr. Madhav Marathe](https://engineering.virginia.edu/faculty/madhav-marathe) in the [Biocomplexity Institute](https://biocomplexity.virginia.edu/). I have completed my undergrad in Computer Science from [Ahsanullah University of Science & Technology (AUST)](http://aust.edu/). After graduation, I worked as a Software Engineer at [Enosis Solutions](https://www.enosisbd.com/), Bangladesh for a year. My research interests include, but are not limited to, Deep Learning, Machine Learning, Computer Vision and NLP.
 
 **Contact**: gza5dr (at) virginia (dot) edu
+
 [**Download CV**](https://oishee-hoque.github.io/files/OisheeHoqueResume.pdf)
 
 <!-- <a href="https://oishee-hoque.github.io/publications/"> <img src="https://oishee-hoque.github.io/images/pubs.png" alt="Publication Venues"
