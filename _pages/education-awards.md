@@ -9,11 +9,18 @@ redirect_from:
 
 # Education
 
+## Doctor of Philosophy, Computer Science (Ongoing)
+
+---
+
+[University of Virginia](https://engineering.virginia.edu/departments/computer-science), Charlottesville, VA, USA.
+
 ## B.Sc. in Computer Science and Engineering
 
 ---
 
-- [Ahsanullah University of Science & Technology (AUST)](http://aust.edu/), Dhaka, Bangladesh.
+[Ahsanullah University of Science & Technology (AUST)](http://aust.edu/), Dhaka, Bangladesh.
+
 - **CGPA: 3.79** <span style ="color:Green"> [*out of 4.00* ] </span>
 - **Thesis title:** ["Detecting Letters and Words from Bangladeshi SignLanguage in Real-time"](https://oishee-hoque.github.io/files/Defense.pdf)
 - **Thesis Presentation:** [<span style ="color:Green"> [**Presentation**] </span>](https://oishee-hoque.github.io/files/DefensePresentation.pdf)
