@@ -11,15 +11,15 @@ redirect_from:
 
 ## Doctor of Philosophy, Computer Science (Ongoing)
 
+[University of Virginia](https://engineering.virginia.edu/departments/computer-science), Charlottesville, VA, USA.
+
 ---
 
-[University of Virginia](https://engineering.virginia.edu/departments/computer-science), Charlottesville, VA, USA.
+- Relevant Courses: Machine Learning in Image Processing, Machine Learning, Interpretable Machine Learning, Mobile IoT and Security
 
 ## B.Sc. in Computer Science and Engineering
 
----
-
-[Ahsanullah University of Science & Technology (AUST)](http://aust.edu/), Dhaka, Bangladesh.
+## [Ahsanullah University of Science & Technology (AUST)](http://aust.edu/), Dhaka, Bangladesh.
 
 - **CGPA: 3.79** <span style ="color:Green"> [*out of 4.00* ] </span>
 - **Thesis title:** ["Detecting Letters and Words from Bangladeshi SignLanguage in Real-time"](https://oishee-hoque.github.io/files/Defense.pdf)
