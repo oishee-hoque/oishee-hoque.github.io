@@ -40,3 +40,13 @@ I am a 1st year Computer Science PhD student at the [University of Virginia](htt
 - Real-Time BdSl Sign Letter and Word Recognition [[Demo Video]](https://youtu.be/OU8IFpR0_sU).
 
 ---
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-37E1610WB8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-37E1610WB8');
+</script>
