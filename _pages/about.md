@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a 1st year Computer Science PhD student at the [University of Virginia](https://engineering.virginia.edu/departments/computer-science), currently advised by [Dr. Madhav Marathe](https://engineering.virginia.edu/faculty/madhav-marathe) in the [Biocomplexity Institute](https://biocomplexity.virginia.edu/). I have completed my undergrad in Computer Science from [Ahsanullah University of Science & Technology (AUST)](http://aust.edu/). After graduation, I worked as a Software Engineer at [Enosis Solutions](https://www.enosisbd.com/), Bangladesh for a year. My research interests include, but are not limited to, Deep Learning, Machine Learning, Computer Vision and NLP.
+I am a 2nd year Computer Science PhD student at the [University of Virginia](https://engineering.virginia.edu/departments/computer-science), currently advised by [Dr. Madhav Marathe](https://engineering.virginia.edu/faculty/madhav-marathe) in the [Biocomplexity Institute](https://biocomplexity.virginia.edu/). I have completed my undergrad in Computer Science from [Ahsanullah University of Science & Technology (AUST)](http://aust.edu/). After graduation, I worked as a Software Engineer at [Enosis Solutions](https://www.enosisbd.com/), Bangladesh for a year. My research interests include, but are not limited to, Deep Learning, Machine Learning, Computer Vision and NLP.
 
 **Contact**: gza5dr (at) virginia (dot) edu
 
@@ -40,13 +40,3 @@ I am a 1st year Computer Science PhD student at the [University of Virginia](htt
 - Real-Time BdSl Sign Letter and Word Recognition [[Demo Video]](https://youtu.be/OU8IFpR0_sU).
 
 ---
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-37E1610WB8"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-37E1610WB8');
-</script>
