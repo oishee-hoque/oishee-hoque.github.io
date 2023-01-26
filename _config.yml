@@ -75,8 +75,9 @@ analytics:
   # provider: "google-ga" # false (default), "google", "google-universal", "custom"
   # google:
   #   tracking_id: UA-189125427-1
-  google:
-  measurement_id          : "IG-37E1610WB8"
+  provider               : "google-gtag"
+  google: 
+  measurement_id          : "G-37E1610WB8"
   anonymize_ip         : # true, false (default)
 # Site Author
 author:
