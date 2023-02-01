@@ -9,13 +9,13 @@ redirect_from:
 
 # Education
 
-## Doctor of Philosophy, Computer Science (Ongoing)
+## Doctor of Philosophy, Computer Science (Aug 21 - Present)
 
 [University of Virginia](https://engineering.virginia.edu/departments/computer-science), Charlottesville, VA, USA.
 
 ---
 
-- Relevant Courses: Machine Learning in Image Processing, Machine Learning, Interpretable Machine Learning, Mobile IoT and Security
+- Relevant Courses: Machine Learning in Image Processing, Machine Learning, Interpretable Machine Learning, Mobile IoT and Security, Reinforcement Learning
 
 ## B.Sc. in Computer Science and Engineering
 
@@ -37,6 +37,7 @@ redirect_from:
 
 # Participations & Certificates
 
+- 3rd Position, [AgAthon - 2023](https://badgr.com/public/assertions/wJZIOVeESRiBJDtn-tRj6g?identity__email=gza5dr@virginia.edu).
 - 11th Position, National Girls Programming Contest-2016
 - 16th Position, National Girls Programming Contest-2017
 - 64th Position, ACM ICPC DHAKA Regional 2017
