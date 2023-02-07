@@ -14,7 +14,7 @@ I have completed my undergrad in Computer Science from [Ahsanullah University of
 
 **Contact**: gza5dr (at) virginia (dot) edu
 
-[**Download CV**](https://oishee-hoque.github.io/files/Oishee_CV.pdf)
+[**Download Resume**](https://oishee-hoque.github.io/files/Oishee_CV.pdf)
 
 <!-- <a href="https://oishee-hoque.github.io/publications/"> <img src="https://oishee-hoque.github.io/images/pubs.png" alt="Publication Venues"
 	title="Publication Venues" width="600" height="200"> </a> -->
