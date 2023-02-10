@@ -7,13 +7,13 @@ redirect_from:
   - /resume
 ---
 
-[Download Full CV](https://oishee-hoque.github.io/files/OisheeHoqueResume.pdf) <span style ="color:Green"> [<ins>*Last Updated on Dec 20, 2020*</ins>] </span>
+[Download Full CV](https://oishee-hoque.github.io/files/OisheeHoqueResume.pdf) <span style ="color:Green"> [<ins>*Last Updated on Dec 20, 2023*</ins>] </span>
 
 ## Contact Me
 
 ---
 
-**Email:** oisheebinteyhoque [at] gmail [dot] com <br />
+**Email:** gza5dr [at] gmail [dot] com <br />
 
 **Website:** [https://oishee-hoque.github.io](https://oishee-hoque.github.io/) <br />
 
