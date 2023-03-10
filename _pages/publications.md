@@ -9,6 +9,15 @@ author_profile: true
 
 **Full publication list can be accessed from the [Google Scholar](https://scholar.google.com/citations?hl=en&authuser=3&user=Xyu3_yUAAAAJ).**
 
+## 2023
+
+- **Oishee Bintey Hoque**; **Benjamin Hurt**; Finn Mokrzycki; Anjali Mathew; Maryann Xue; Luka Gabitsinashvili; Haile Mokrzycki; Ranya Fischer; Nicholas Telesca; Lauren Aurelia Xue; Jacob Ritchie; J.D. Zamfirescu-Pereira; Mark E Whiting; Madhav Marathe, ["COVID-19 non-pharmaceutical interventions: data annotation for rapidly changing local policy information"](https://www.nature.com/articles/s41597-023-01979-6), Scientific Data - Nature, volume 10, Article number: 126 (2023).
+
+## 2021
+
+- Sifat Ahmed, Tonmoy Hossain, **Oishee Bintey Hoque**, Sujan Sarker, Sejuti Rahman, Faisal Muhammad
+  Shah, _"Automated COVID-19 Detection from Chest X-Ray Images : A High Resolution Network (HRNet) Approach"_,[SN Computer Science,2(4): 294. July 2021](https://link.springer.com/article/10.1007/s42979-021-00690-w)
+
 ## 2020
 
 ---
@@ -17,9 +26,6 @@ author_profile: true
 
 - **Oishee Bintey Hoque**, Maisha Binte Rashid, K.M. Tawsik Zawad, _"Autonomous Deblurring Images
   and Information Extraction from Documents Using CycleGAN and Mask RCNN"_, In Proceedings of the 23rd International Conference on Computer and Information Technology, Dhaka, Bangladesh (**ICCIT 2020**), Dhaka, Bangladesh.[<span style ="color:Green"> [**Presentation**] </span>](https://oishee-hoque.github.io/files/ICCIT_2020_presentation.pdf) [<span style ="color:Green"> [**PDF**] </span>](https://oishee-hoque.github.io/files/ICCIT_2020.pdf)
-
-- Sifat Ahmed, Tonmoy Hossain, **Oishee Bintey Hoque**, Sujan Sarker, Sejuti Rahman, Faisal Muhammad
-  Shah, _"Automated COVID-19 Detection from Chest X-Ray Images : A High Resolution Network (HRNet) Approach"_, Pre-print version published available at [Research Square](https://www.researchsquare.com/article/rs-56285/v1) [<span style ="color:Green"> [**PDF**] </span>](https://oishee-hoque.github.io/files/HRNet.pdf)
 
 ## 2018
 
