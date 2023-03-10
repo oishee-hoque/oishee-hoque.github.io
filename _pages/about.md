@@ -12,7 +12,7 @@ I am a 2nd year Computer Science PhD student at the [University of Virginia](htt
 
 I have completed my undergrad in Computer Science from [Ahsanullah University of Science & Technology (AUST)](http://aust.edu/). After graduation, I worked as a Software Engineer at [Enosis Solutions](https://www.enosisbd.com/), Bangladesh for a year.
 
-**Contact**: gza5dr (at) virginia (dot) edu
+**Contact**: oishee (at) virginia (dot) edu
 
 [**Download Resume**](https://oishee-hoque.github.io/files/Oishee_CV.pdf)
 
@@ -21,7 +21,7 @@ I have completed my undergrad in Computer Science from [Ahsanullah University of
 
 ## Recent News
 
-- Our paper "COVID-19 non-pharmaceutical interventions: data annotation for rapidly changing local policy information" got published in [Scientific Data - Nature](https://www.nature.com/articles/s41597-023-01979-6).
+- <span style="color:Blue"> [Jan 2023]Our paper "COVID-19 non-pharmaceutical interventions: data annotation for rapidly changing local policy information" got published in [Scientific Data - Nature](https://www.nature.com/articles/s41597-023-01979-6).
 - <span style="color:Blue"> [Jan 2023] </span> - Our Team Won 3rd Position in [AgAthon - 2023](https://badgr.com/public/assertions/wJZIOVeESRiBJDtn-tRj6g?identity__email=gza5dr@virginia.edu).
 - <span style="color:Blue"> [Jan 2023] </span> - Participated in AgAID Digital Hackathon 2023 [AgAthon](https://badgr.com/public/assertions/wJZIOVeESRiBJDtn-tRj6g?identity__email=gza5dr@virginia.edu).
 - <span style="color:Blue"> [Jan 2023] </span> - One First Author paper got accepted at [Scientific Data - Nature](https://www.nature.com/sdata/).
