@@ -26,7 +26,7 @@ I have completed my undergrad in Computer Science from [Ahsanullah University of
 - <span style="color:Blue"> [Jan 2023] </span> - Participated in AgAID Digital Hackathon 2023 [AgAthon](https://badgr.com/public/assertions/wJZIOVeESRiBJDtn-tRj6g?identity__email=gza5dr@virginia.edu).
 - <span style="color:Blue"> [Jan 2023] </span> - One First Author paper got accepted at [Scientific Data - Nature](https://www.nature.com/sdata/).
 - <span style="color:Blue"> [Jan 2022] </span> - Joined UVA [Computer Science Graduate Student Group (CSGSG) Council](https://csgsg.org/), 2022 as **Space and Media Chair**
-- <span style="color:Blue">[Jan 2021] </span> - One long paper is accepted at [Springer Nature Computer Science] (https://link.springer.com/article/10.1007/s42979-021-00487-x) Journal.
+- <span style="color:Blue">[Jan 2021] </span> - One long paper is accepted at [Springer Nature Computer Science](https://link.springer.com/article/10.1007/s42979-021-00487-x) Journal.
 - <span style="color:Blue"> [Jun 2020] </span> - Participated as a Volunteer in [NAACL'21](https://2021.naacl.org).
 - <span style="color:Blue"> [Dec 2020] </span> - Presented a paper at [ICCIT 2020](http://iccit.org.bd/2020/).
 - <span style="color:Blue"> [Dec 2020] </span> - Presented a paper at [ACCV MLCSA Workshop 2020](http://mlp.sci.yamaguchi-u.ac.jp/MLCSA2020/index.html).
