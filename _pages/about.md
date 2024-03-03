@@ -8,19 +8,24 @@ redirect_from:
   - /about.html
 ---
 
-I am a 2nd year Computer Science PhD student at the [University of Virginia](https://engineering.virginia.edu/departments/computer-science), currently advised by [Dr. Madhav Marathe](https://engineering.virginia.edu/faculty/madhav-marathe) in the [Biocomplexity Institute](https://biocomplexity.virginia.edu/). My research interests include, but are not limited to, Deep Learning, Machine Learning and Data Analysis. My current research focuses on (i) designing AI and science-guided machine learning frameworks for effective seasonal and long-horizon planning, forecasting, and allocation decisions. (ii) Also, analysis of NPI data to better understand the pandemic.
+I am currently a third-year Computer Science PhD student at the [University of Virginia](https://engineering.virginia.edu/departments/computer-science), under the guidance of [Dr. Madhav Marathe](https://engineering.virginia.edu/faculty/madhav-marathe) at the [Biocomplexity Institute](https://biocomplexity.virginia.edu/). My research interests encompass Deep Learning, Machine Learning, and Computer Vision. My current projects include:
 
-I have completed my undergrad in Computer Science from [Ahsanullah University of Science & Technology (AUST)](http://aust.edu/). After graduation, I worked as a Software Engineer at [Enosis Solutions](https://www.enosisbd.com/), Bangladesh for a year.
+1. **Innovative Machine Learning Algorithms for Remote Sensing**: I am at the forefront of developing novel machine learning algorithms designed to detect irrigation canals from remote sensing data. This involves creating models that interpret irrigation canals as graph networks, focusing on understanding the topological structure to enhance model learning and refine inaccurate ground data.
+
+2. **Deep Learning for Irrigation Mapping**: I am developing a deep learning system tailored for irrigation mapping in varied environments. This project uses cutting-edge machine learning and Computer Vision techniques, integrating joint learning approaches to improve the segmentation model's ability to discern coarse features of different irrigation types.
+
+Prior to my PhD, my undergraduate research at [Ahsanullah University of Science & Technology (AUST)](http://aust.edu/) also centered on Computer Vision and Deep Learning. Following my graduation in Computer Science, I gained practical industry experience as a Software Engineer at [Enosis Solutions](https://www.enosisbd.com/) in Bangladesh, where I worked for a year.
 
 **Contact**: oishee (at) virginia (dot) edu
 
-[**Download Resume**](https://oishee-hoque.github.io/files/Oishee_CV.pdf)
+[**Download Resume**](https://oishee-hoque.github.io/files/OOishee_CV_2024_.pdf)
 
 <!-- <a href="https://oishee-hoque.github.io/publications/"> <img src="https://oishee-hoque.github.io/images/pubs.png" alt="Publication Venues"
 	title="Publication Venues" width="600" height="200"> </a> -->
 
 ## Recent News
 
+- <span style="color:Blue"> [Jan 2024] </span> - Joined UVA [Computer Science Graduate Student Group (CSGSG) Council](https://csgsg.org/), 2024 as **Social Chair**
 - <span style="color:Blue"> [June 2023] </span> Started Internship Program with USDA-ARS AI-COE/SCINet
 - <span style="color:Blue"> [April 2023] </span> I've been awarded a **fellowship** as part of my selection for the **USDA-ARS AI-COE/SCINet Graduate Student Internship Program**.
 - <span style="color:Blue"> [April 2023] </span> Attended [CCI Symposium 2023](https://cyberinitiative.org/events-programs/2023/cci-symposium-2023.html)
