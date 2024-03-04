@@ -13,6 +13,8 @@ I am currently a third-year Computer Science PhD student at the [University of V
 
 Prior to my PhD, my undergraduate research at [Ahsanullah University of Science & Technology (AUST)](http://aust.edu/) also centered on Computer Vision and Deep Learning. Following my graduation in Computer Science, I gained practical industry experience as a Software Engineer at [Enosis Solutions](https://www.enosisbd.com/) in Bangladesh, where I worked for a year.
 
+</div>
+
 **Contact**: oishee (at) virginia (dot) edu
 
 [**Download Resume**](https://oishee-hoque.github.io/files/OOishee_CV_2024_.pdf)
