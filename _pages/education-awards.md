@@ -15,7 +15,7 @@ redirect_from:
 
 ---
 
-- Relevant Courses: Machine Learning in Image Processing, Machine Learning, Interpretable Machine Learning, Mobile IoT and Security, Reinforcement Learning
+- Relevant Courses: Machine Learning in Image Processing, Machine Learning, Interpretable Machine Learning, Mobile IoT and Security, Natural Language Processing
 
 ## B.Sc. in Computer Science and Engineering
 

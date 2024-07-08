@@ -9,6 +9,10 @@ author_profile: true
 
 **Full publication list can be accessed from the [Google Scholar](https://scholar.google.com/citations?hl=en&authuser=3&user=Xyu3_yUAAAAJ).**
 
+## 2024
+
+- **Oishee Bintey Hoque**, Samarth Swarup, Abhijin Adiga, Sayjro Kossi Nouwakpo, Madhav Marathe, ["IrrNet: Advancing Irrigation Mapping with Incremental Patch Size Training on Remote Sensing Imagery"](https://openaccess.thecvf.com/content/CVPR2024W/Vision4Ag/html/Hoque_IrrNet_Advancing_Irrigation_Mapping_with_Incremental_Patch_Size_Training_on_CVPRW_2024_paper.html), Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops, 2024, pp. 5460-5469
+
 ## 2023
 
 - **Oishee Bintey Hoque**; **Benjamin Hurt**; Finn Mokrzycki; Anjali Mathew; Maryann Xue; Luka Gabitsinashvili; Haile Mokrzycki; Ranya Fischer; Nicholas Telesca; Lauren Aurelia Xue; Jacob Ritchie; J.D. Zamfirescu-Pereira; Mark E Whiting; Madhav Marathe, ["COVID-19 non-pharmaceutical interventions: data annotation for rapidly changing local policy information"](https://www.nature.com/articles/s41597-023-01979-6), Scientific Data - Nature, volume 10, Article number: 126 (2023).
