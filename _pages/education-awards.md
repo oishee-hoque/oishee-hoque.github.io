@@ -15,6 +15,7 @@ redirect_from:
 
 ---
 
+- Advisor: [Dr. Madhav Marathe](https://biocomplexity.virginia.edu/person/madhav-marathe)
 - Relevant Courses: Machine Learning in Image Processing, Machine Learning, Interpretable Machine Learning, Mobile IoT and Security, Natural Language Processing
 
 ## B.Sc. in Computer Science and Engineering
