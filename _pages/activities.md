@@ -9,6 +9,7 @@ author_profile: true
 
 ---
 
+- **Social Chair** for UVA Computer Science Graduate Student Group (CSGSG) Council, 2024
 - **Space and Media Chair** for UVA Computer Science Graduate Student Group (CSGSG) Council, 2022
 - **Program Committee/Sub-Reviewer**
   - **2019:** [ICIET](http://www.enggtech.du.ac.bd/iciet-2019/)
