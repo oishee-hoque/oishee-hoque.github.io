@@ -7,10 +7,10 @@ author_profile: true
 
 ## Research Projects [2021-Present]
 
-- **Improving MultiScale and Mutlti Resoulution Spatio-Temporal Segmentation guided Classification for Remote Sensing**
-- **Irrigation Canal Mapping: Constraining the Network Topology and Reachability to Water Sources**
-- **Agent-Based Modelling for Agricultural Water Use**
-- **Data-Driven Nash Bargaining Framework for Understandingn Agent Behavior in Conserving Resources among different States**
+- Improving MultiScale and Mutlti Resoulution Spatio-Temporal Segmentation guided Classification for Remote Sensing
+- Irrigation Canal Mapping: Constraining the Network Topology and Reachability to Water Sources
+- Agent-Based Modelling for Agricultural Water Use
+- Data-Driven Nash Bargaining Framework for Understandingn Agent Behavior in Conserving Resources among different States
 
 ## Undergraduate Thesis [2018-2019]
 
