@@ -37,8 +37,8 @@ Prior to my PhD, my undergraduate research at <a href="http://aust.edu/">Ahsanul
 - <span style="color:Blue"> [Jan 2024] </span> - Joined UVA [Computer Science Graduate Student Group (CSGSG) Council](https://csgsg.org/), 2024 as **Social Chair**
 - <span style="color:Blue"> [June 2023] </span> - Started **Internship** Program with USDA-ARS AI-COE/SCINet
 - <span style="color:Blue"> [April 2023] </span> - I've been awarded a **fellowship** as part of my selection for the **USDA-ARS AI-COE/SCINet Graduate Student Internship Program**.
-- <span style="color:Blue"> [April 2023] </span> - Attended [CCI Symposium 2023](https://cyberinitiative.org/events-programs/2023/cci-symposium-2023.html)
-- <span style="color:Blue"> [April 2023] </span> - Presented paper at [2023 CRA-WP Grad Cohort for Women Workshop](https://web.cvent.com/event/9bcae8aa-6d9e-4942-acc8-a36e48734459/summary)
+- <span style="color:Blue"> [April 2023] </span> - Presented our work at [CCI Symposium 2023](https://cyberinitiative.org/events-programs/2023/cci-symposium-2023.html)
+- <span style="color:Blue"> [April 2023] </span> - Attended [2023 CRA-WP Grad Cohort for Women Workshop](https://web.cvent.com/event/9bcae8aa-6d9e-4942-acc8-a36e48734459/summary)
 - <span style="color:Blue"> [Jan 2023] </span> - My joint first-author paper "COVID-19 non-pharmaceutical interventions: data annotation for rapidly changing local policy information" got published in [Scientific Data - Nature](https://www.nature.com/articles/s41597-023-01979-6).
 - <span style="color:Blue"> [Jan 2023] </span> - Our Team Won 3rd Position in [AgAthon - 2023](https://badgr.com/public/assertions/wJZIOVeESRiBJDtn-tRj6g?identity__email=gza5dr@virginia.edu).
 - <span style="color:Blue"> [Jan 2023] </span> - Participated in AgAID Digital Hackathon 2023 [AgAthon](https://badgr.com/public/assertions/wJZIOVeESRiBJDtn-tRj6g?identity__email=gza5dr@virginia.edu).
