@@ -5,12 +5,12 @@ permalink: /activities/
 author_profile: true
 ---
 
-## Professional Services
+### Professional Services
 
 ---
 
-- **Social Chair** for UVA Computer Science Graduate Student Group (CSGSG) Council, 2024
-- **Space and Media Chair** for UVA Computer Science Graduate Student Group (CSGSG) Council, 2022
+- **Social Chair**, UVA Computer Science Graduate Student Group (CSGSG) Council, 2024
+- **Space and Media Chair**, UVA Computer Science Graduate Student Group (CSGSG) Council, 2022
 - **Program Committee/Sub-Reviewer**
   - **2019:** [ICIET](http://www.enggtech.du.ac.bd/iciet-2019/)
 - **Judge** at [Bangladeshi National Robotics Olympiad, 2019](https://bdro.org/)
@@ -18,20 +18,20 @@ author_profile: true
 
 ---
 
-## Leadership Activities
+### Leadership Activities
 
 ---
 
 - Class Representative of **Batch - 35**, AUST, CSE Dept. (The class consisted of 52 students.)
 - Organizer and Host, **AUST CSE WEEK 2018**, Dhaka, Bangladesh.
 
-## Language Proficiency
+### Language Proficiency
 
 ---
 
 - Passed Japanese NAT - N4 Test
 
-## Other Activities
+### Other Activities
 
 ---
 
