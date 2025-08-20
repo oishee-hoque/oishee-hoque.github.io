@@ -14,7 +14,13 @@ redirect_from:
 [University of Virginia](https://engineering.virginia.edu/departments/computer-science), Charlottesville, VA, USA.
 
 - Advisor: [Dr. Madhav Marathe](https://biocomplexity.virginia.edu/person/madhav-marathe)
-- Relevant Courses: Machine Learning in Image Processing, Machine Learning, Interpretable Machine Learning, Mobile IoT and Security, Natural Language Processing
+- Specialization: Knowledge-Guided Machine Learning, Multimodal Understanding, VLMs, Remote Sensing 
+
+### MS in Computer Science
+
+[University of Virginia](https://engineering.virginia.edu/departments/computer-science), Charlottesville, VA, USA.
+
+- Relevant Courses: Machine Learning (ML), ML in Image Processing, Interpretable ML, Design and Analysis of Algorithms, NLP, Mobile and Iot Security, Software Security via Program Analysis, 3D Computer Vision
 
 ### B.Sc. in Computer Science and Engineering
 
