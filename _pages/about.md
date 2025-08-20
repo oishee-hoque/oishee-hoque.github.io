@@ -9,17 +9,15 @@ redirect_from:
 ---
 
 <div style="text-align: justify"> 
-I am currently a third-year Computer Science PhD student at the  <a href="https://engineering.virginia.edu/departments/computer-science">University of Virginia</a>, working with <a href="https://engineering.virginia.edu/faculty/madhav-marathe">Dr. Madhav Marathe</a> at the <a href="https://biocomplexity.virginia.edu/">Biocomplexity Institute</a>. My research focuses on Deep Learning, Machine Learning, and Computer Vision, with a particular emphasis on integrating domain-specific knowledge with machine learning models to improve data and performance.
+I am currently a third-year Computer Science PhD student at the  <a href="https://engineering.virginia.edu/departments/computer-science">University of Virginia</a>, working with <a href="https://engineering.virginia.edu/faculty/madhav-marathe">Dr. Madhav Marathe</a> at the <a href="https://biocomplexity.virginia.edu/">Biocomplexity Institute</a>. My research focuses on Knowledge-Guided Machine Learning, Multimodal Understanding, VLMs, Remote Sensing, with a particular emphasis on integrating domain-specific knowledge with machine learning models to improve data and performance.
 
-My recent projects include: (i)<b>Leveraging Global/Local Constraints in Infrastructure Networks:</b> Improving segmentation performance by incorporating optimization properties and constraints to reduce noise in ground truth data. (ii) <b>Knowledge-Guided Segmentation from Remote Sensing Data:</b> Utilizing multi-scale and multimodal features to enhance segmentation accuracy and generalization across heterogeneous data.
-<br>
 Prior to my PhD, my undergraduate research at <a href="http://aust.edu/">Ahsanullah University of Science & Technology (AUST)</a> also centered on Computer Vision and Deep Learning. Following my graduation in Computer Science, I gained practical industry experience as a Software Engineer at <a href="https://www.enosisbd.com/">Enosis Solutions</a> in Bangladesh, where I worked for a year.
 
 </div>
 <br>
 **Contact**: oishee@virginia.edu
 
-[**Download Resume**](https://oishee-hoque.github.io/files/Oishee_CV_2024.pdf)
+[**Download Resume**](https://oishee-hoque.github.io/files/OHoque_2025_CV_v2.pdf)
 
 <!-- <a href="https://oishee-hoque.github.io/publications/"> <img src="https://oishee-hoque.github.io/images/pubs.png" alt="Publication Venues"
 	title="Publication Venues" width="600" height="200"> </a> -->
@@ -27,7 +25,9 @@ Prior to my PhD, my undergraduate research at <a href="http://aust.edu/">Ahsanul
 ---
 
 ## Recent News
-
+- <span style="color:Blue"> [August 2025] </span> - Mentored two BII undergraduate interns during Summer 2025.
+- <span style="color:Blue"> [June 2025] </span> - One paper got accepted at **KDD 2025**.
+- <span style="color:Blue"> [June 2025] </span> - Two papers got accepted at **IJCAI 2025**.
 - <span style="color:Blue"> [June 2024] </span> - Attended **CVPR 2024** and presented a paper and two posters.
 - <span style="color:Blue"> [May 2024] </span> - I have received **DEI Travel** grant from CVPR.
 - <span style="color:Blue"> [May 2024] </span> - I have received **WiCV Travel Grant** for attending CVPR.

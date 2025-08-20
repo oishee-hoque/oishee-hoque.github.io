@@ -5,12 +5,13 @@ permalink: /projects/
 author_profile: true
 ---
 
-## Research Projects [2021-Present]
+## Research Projects [2021–Present]  
 
-- Improving MultiScale and Mutlti Resoulution Spatio-Temporal Segmentation guided Classification for Remote Sensing
-- Irrigation Canal Mapping: Constraining the Network Topology and Reachability to Water Sources
-- Agent-Based Modelling for Agricultural Water Use
-- Data-Driven Nash Bargaining Framework for Understandingn Agent Behavior in Conserving Resources among different States
+My research specializes in **Knowledge-Guided Machine Learning, Multimodal Understanding, Vision-Language Models (VLMs), and Remote Sensing** for sustainable agriculture and infrastructure mapping. I focus on:  
+- Building large-scale benchmark datasets (IRRISIGHT, CAFOSat, IrrMap) integrating imagery, metadata, and text.  
+- Designing ML frameworks (IrrNet, IGraSS, KIIM) that combine graph constraints, domain knowledge, and multimodal fusion.  
+- Developing scalable pipelines for irrigation mapping and agricultural water management.  
+
 
 ## Undergraduate Thesis [2018-2019]
 
