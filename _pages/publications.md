@@ -9,11 +9,13 @@ author_profile: true
 
 **Full publication list can be accessed from the [Google Scholar](https://scholar.google.com/citations?hl=en&authuser=3&user=Xyu3_yUAAAAJ).**
 ## 2025  
-- **Oishee Bintey Hoque**, et al., *“CAFOSat: A Strongly Annotated Dataset for Infrastructure-Aware CAFO Mapping Using High-Resolution Imagery”*, Under Review at **NeurIPS 2025**.  
-- **Oishee Bintey Hoque**, et al., *“IRRISIGHT: A Large-Scale Multimodal Dataset and Scalable Pipeline to Address Irrigation and Water Management in Agriculture”*, Under Review at **NeurIPS 2025**.  
+- **Oishee Bintey Hoque**, et al., *“IRRISIGHT: A Large-Scale Multimodal Dataset and Scalable Pipeline to Address Irrigation and Water Management in Agriculture”*, Accepted at **NeurIPS 2025**.  
 - **Oishee Bintey Hoque**, et al., *“Knowledge-Informed Deep Learning for Irrigation Type Mapping from Remote Sensing”*, Accepted at **IJCAI 2025**.  
 - **Oishee Bintey Hoque**, et al., *“IGraSS: Learning to Identify Infrastructure Networks from Satellite Imagery by Iterative Graph-constrained Semantic Segmentation”*, Accepted at **IJCAI 2025**.  
 - **Oishee Bintey Hoque**, et al., *“IrrMap: A Large-Scale Comprehensive Dataset for Irrigation Method Mapping”*, Accepted at **KDD 2025**.  
+- **Oishee Bintey Hoque**, et al., *“CAFOSat: A Strongly Annotated Dataset for Infrastructure-Aware CAFO Mapping Using High-Resolution Imagery”*, Under Review, 2025. 
+- **Oishee Bintey Hoque**, et al., “PRISM-CAFO: Prior-conditioned remote-sensing infrastructure segmentation and
+mapping for cafos,” Under Review, 2025.
 
 ## 2024
 
