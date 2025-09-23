@@ -18,7 +18,7 @@ Prior to my PhD, my undergraduate research at <a href="http://aust.edu/">Ahsanul
 **Contact**: oishee@virginia.edu
 
 [**Download Resume**](https://oishee-hoque.github.io/files/Oishee_CV_2024.pdf)
-[**Download CV**](https://oishee-hoque.github.io/files/Hoque_CV_2025.pdf)
+<!-- [**Download CV**](https://oishee-hoque.github.io/files/Hoque_CV_2025.pdf) -->
 
 <!-- <a href="https://oishee-hoque.github.io/publications/"> <img src="https://oishee-hoque.github.io/images/pubs.png" alt="Publication Venues"
 	title="Publication Venues" width="600" height="200"> </a> -->

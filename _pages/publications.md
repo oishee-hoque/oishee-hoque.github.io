@@ -14,8 +14,7 @@ author_profile: true
 - **Oishee Bintey Hoque**, et al., *“IGraSS: Learning to Identify Infrastructure Networks from Satellite Imagery by Iterative Graph-constrained Semantic Segmentation”*, Accepted at **IJCAI 2025**.  
 - **Oishee Bintey Hoque**, et al., *“IrrMap: A Large-Scale Comprehensive Dataset for Irrigation Method Mapping”*, Accepted at **KDD 2025**.  
 - **Oishee Bintey Hoque**, et al., *“CAFOSat: A Strongly Annotated Dataset for Infrastructure-Aware CAFO Mapping Using High-Resolution Imagery”*, Under Review, 2025. 
-- **Oishee Bintey Hoque**, et al., “PRISM-CAFO: Prior-conditioned remote-sensing infrastructure segmentation and
-mapping for cafos,” Under Review, 2025.
+- **Oishee Bintey Hoque**, et al., “PRISM-CAFO: Prior-conditioned remote-sensing infrastructure segmentation and mapping for cafos,” Under Review, 2025.
 
 ## 2024
 
