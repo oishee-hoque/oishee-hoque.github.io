@@ -521,17 +521,17 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
 }
 
 /* Buttons */
-.btn1 {
+.btn {
   display: inline-block;
   border-radius: 8px;
   padding: 0.35rem 0.6rem;
   text-decoration: none;
   font-size: 0.75rem;
-  border: 1px solid #2f855a;
-  color: #fff;
+  border: 1px solid #000;
+  color:  #000;
   background: #2f855a;
 }
-/* .btn:hover { filter: brightness(0.95); } */
+.btn:hover { filter: brightness(0.95); } */
 .btn.btn-disabled {
   pointer-events: none;
   opacity: 0.5;
@@ -539,7 +539,7 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
   border-color: #9aa0a6;
 }
 
-.btn {
+.btn2 {
   display: inline-block;
   border-radius: 8px;
   padding: 0.35rem 0.6rem;
@@ -551,9 +551,9 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
   transition: all 0.2s ease-in-out;
 }
 
-.btn:hover {
+/* .btn:hover {
   background: rgba(0, 0, 0, 0.05); /* subtle hover effect */
-}
+/* } */ */
 
 
 /* Emphasis styles preserved */
