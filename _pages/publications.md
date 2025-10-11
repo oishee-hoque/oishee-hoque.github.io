@@ -15,12 +15,16 @@ author_profile: true
       src="{{ '/images/pubs/irrisight.png' | relative_url }}"
       alt="IRRISIGHT demo"
       class="pub-thumb"
-      width="260" height="210" loading="lazy" decoding="async"
+      width="300" height="210" loading="lazy" decoding="async"
     />
     <span class="conf-badge">NeurIPS&nbsp;2025</span>
   </div>
   <div class="pub-info">
-    <h3>IRRISIGHT: A Large-Scale Multimodal Dataset and Scalable Pipeline to Address Irrigation and Water Management in Agriculture</h3>
+    <h3>
+    <a href="https://github.com/Nibir088/IRRISIGHT" target="_blank" rel="noopener">
+        IRRISIGHT: A Large-Scale Multimodal Dataset and Scalable Pipeline to Address Irrigation and Water Management in Agriculture
+    </a>
+    </h3>
   <p class="pub-authors">
   <span class="author">Nibir Chandra Mandal<sup>*</sup></span>,
     <span class="author me"><em>Oishee Bintey Hoque</em><sup>*</sup></span>,
@@ -45,12 +49,16 @@ author_profile: true
       src="{{ '/images/pubs/igrass.png' | relative_url }}"
       alt="IRRISIGHT demo"
       class="pub-thumb"
-      width="260" height="210" loading="lazy" decoding="async"
+      width="300" height="210" loading="lazy" decoding="async"
     />
     <span class="conf-badge">IJCAI&nbsp;2025</span>
   </div>
   <div class="pub-info">
-    <h3>IGraSS: Learning to Identify Infrastructure Networks from Satellite Imagery by Iterative Graph-constrained Semantic Segmentation</h3>
+    <h3>
+    <a href="https://www.ijcai.org/proceedings/2025/1076.pdf" target="_blank" rel="noopener">
+        IGraSS: Learning to Identify Infrastructure Networks from Satellite Imagery by Iterative Graph-constrained Semantic Segmentation
+    </a>
+    </h3>
     <p class="pub-authors">
   <span class="author me"><em>Oishee Bintey Hoque</em></span>,
   <span class="author">Abhijin Adiga</span>,
@@ -74,15 +82,19 @@ author_profile: true
   <!-- <img src="/images/pubs/kiim.png" alt="Knowledge-Informed Deep Learning demo" class="pub-thumb"> -->
    <div class="thumb-wrap">
     <img
-      src="{{ '/images/pubs/kiim.png' | relative_url }}"
+      src="{{ '/images/pubs/KIIM.png' | relative_url }}"
       alt="kiim demo"
       class="pub-thumb"
-      width="260" height="210" loading="lazy" decoding="async"
+      width="300" height="210" loading="lazy" decoding="async"
     />
     <span class="conf-badge">IJCAI&nbsp;2025</span>
   </div>
   <div class="pub-info">
-    <h3>Knowledge-Informed Deep Learning for Irrigation Type Mapping from Remote Sensing</h3>
+    <h3>
+    <a href="https://dl.acm.org/doi/pdf/10.1145/3711896.3737380" target="_blank" rel="noopener">
+       Knowledge-Informed Deep Learning for Irrigation Type Mapping from Remote Sensing
+    </a>
+    </h3>
    <p class="pub-authors">
    <span class="author me"><em>Oishee Bintey Hoque</em><sup>*</sup></span>
   Nibir Chandra Mandal<sup>*</sup>,
@@ -95,7 +107,6 @@ author_profile: true
   <a class="btn" href="https://github.com/Nibir088/KIIM/tree/main/KIIM" target="_blank" rel="noopener">Code</a>
 </div>
   </div>
-  </div>
 </div>
 
 <div class="pub-card">
@@ -105,12 +116,16 @@ author_profile: true
       src="{{ '/images/pubs/irrmap.png' | relative_url }}"
       alt="irrmap demo"
       class="pub-thumb"
-      width="260" height="210" loading="lazy" decoding="async"
+      width="300" height="210" loading="lazy" decoding="async"
     />
     <span class="conf-badge">KDD&nbsp;2025</span>
   </div>
   <div class="pub-info">
-    <h3>IrrMap: A Large-Scale Comprehensive Dataset for Irrigation Method Mapping</h3>
+    <h3>
+    <a href="https://dl.acm.org/doi/pdf/10.1145/3711896.3737380" target="_blank" rel="noopener">
+       IrrMap: A Large-Scale Comprehensive Dataset for Irrigation Method Mapping
+    </a>
+    </h3>
    <p class="pub-authors">
   <span class="author">Nibir Chandra Mandal<sup>*</sup></span>,
   <span class="author me"><em>Oishee Bintey Hoque</em><sup>*</sup></span>,
@@ -122,7 +137,7 @@ author_profile: true
   <span class="author">Miaomiao Zhang</span>,
   <span class="author">Geoffrey Fox</span>,
   <span class="author">Madhav Marathe</span>
-  <p><strong>IJCAI 2025</strong> </p>
+  <p><strong>KDD 2025</strong> </p>
 </p>
 <div class="pub-links">
   <a class="btn" href="https://dl.acm.org/doi/pdf/10.1145/3711896.3737380">PDF</a>
@@ -139,12 +154,16 @@ author_profile: true
       src="{{ '/images/pubs/cafosat.png' | relative_url }}"
       alt="cafosat demo"
       class="pub-thumb"
-      width="260" height="210" loading="lazy" decoding="async"
+      width="300" height="210" loading="lazy" decoding="async"
     />
-    <span class="conf-badge">KDD&nbsp;2025</span>
+    <span class="conf-badge">Under Review&nbsp;2025</span>
   </div>
   <div class="pub-info">
-    <h3>CAFOSat: A Strongly Annotated Dataset for Infrastructure-Aware CAFO Mapping Using High-Resolution Imagery</h3>
+    <h3>
+     <a href="https://github.com/oishee-hoque/CAFOSat" target="_blank" rel="noopener">
+        CAFOSat: A Strongly Annotated Dataset for Infrastructure-Aware CAFO Mapping Using High-Resolution Imagery
+    </a>
+  </h3>
     <p class="pub-authors">
   <span class="author me"><em>Oishee Bintey Hoque</em><sup>*</sup></span>,
   <span class="author">Nibir Chandra Mandal<sup>*</sup></span>,
@@ -168,12 +187,16 @@ author_profile: true
       src="{{ '/images/pubs/prism.png' | relative_url }}"
       alt="cafosat demo"
       class="pub-thumb"
-      width="260" height="210" loading="lazy" decoding="async"
+      width="300" height="210" loading="lazy" decoding="async"
     />
-    <span class="conf-badge">KDD&nbsp;2025</span>
+    <span class="conf-badge">Under Review&nbsp;2025</span>
   </div>
   <div class="pub-info">
-    <h3>PRISM-CAFO: Prior-conditioned remote-sensing infrastructure segmentation and mapping for CAFOs</h3>
+    <h3>
+    <a href="https://dummy" target="_blank" rel="noopener">
+        PRISM-CAFO: Prior-conditioned remote-sensing infrastructure segmentation and mapping for CAFOs
+    </a>
+    </h3>
    <p class="pub-authors">
   <span class="author me"><em>Oishee Bintey Hoque</em></span>,
   <span class="author">Nibir Chandra Mandal</span>,
@@ -193,14 +216,32 @@ author_profile: true
 <h2>2024</h2>
 
 <div class="pub-card">
-  <img src="/images/pubs/irrnet.png" alt="IrrNet demo" class="pub-thumb">
+  <!-- <img src="/images/pubs/irrnet.png" alt="IrrNet demo" class="pub-thumb"> -->
+  <div class="thumb-wrap">
+    <img
+      src="{{ '/images/pubs/irrnet.png' | relative_url }}"
+      alt="irrnet demo"
+      class="pub-thumb"
+      width="300" height="210" loading="lazy" decoding="async"
+    />
+    <span class="conf-badge">V4A@CVPR&nbsp;2025</span>
+  </div>
   <div class="pub-info">
     <h3>
       <a href="https://openaccess.thecvf.com/content/CVPR2024W/Vision4Ag/html/Hoque_IrrNet_Advancing_Irrigation_Mapping_with_Incremental_Patch_Size_Training_on_CVPRW_2024_paper.html" target="_blank" rel="noopener">
         IrrNet: Advancing Irrigation Mapping with Incremental Patch Size Training on Remote Sensing Imagery
       </a>
     </h3>
-    <p><em>Oishee Bintey Hoque</em>, Samarth Swarup, Abhijin Adiga, Sayjro Kossi Nouwakpo, Madhav Marathe — <strong>CVPR Workshops 2024</strong>, pp. 5460–5469</p>
+    <div class="pub-info">
+  <p class="pub-authors">
+    <span class="author me"><em>Oishee Bintey Hoque</em></span>,
+    <span class="author">Samarth Swarup</span>,
+    <span class="author">Abhijin Adiga</span>,
+    <span class="author">Sayjro Kossi Nouwakpo</span>,
+    <span class="author">Madhav Marathe</span>
+  </p>
+  <p><strong>CVPR</strong>(V4A Workshops), 2024</p>
+</div>
     <div class="pub-links">
       <a class="btn" href="https://openaccess.thecvf.com/content/CVPR2024W/Vision4Ag/html/Hoque_IrrNet_Advancing_Irrigation_Mapping_with_Incremental_Patch_Size_Training_on_CVPRW_2024_paper.html" target="_blank" rel="noopener">PDF</a>
     </div>
@@ -210,29 +251,69 @@ author_profile: true
 <h2>2023</h2>
 
 <div class="pub-card">
-  <img src="/images/pubs/npi.png" alt="COVID-19 NPI data annotation paper image" class="pub-thumb">
+  <!-- <img src="/images/pubs/npi.png" alt="COVID-19 NPI data annotation paper image" class="pub-thumb"> -->
+    <div class="thumb-wrap">
+    <img
+      src="{{ '/images/pubs/npi.png' | relative_url }}"
+      alt="npi demo"
+      class="pub-thumb"
+      width="300" height="210" loading="lazy" decoding="async"
+    />
+    <span class="conf-badge">Scientific Data @ Nature&nbsp;2023</span>
+  </div>
   <div class="pub-info">
     <h3>
       <a href="https://www.nature.com/articles/s41597-023-01979-6" target="_blank" rel="noopener">
         COVID-19 non-pharmaceutical interventions: data annotation for rapidly changing local policy information
       </a>
     </h3>
-    <p><em>Oishee Bintey Hoque</em>; <em>Benjamin Hurt</em>; Finn Mokrzycki; Anjali Mathew; Maryann Xue; Luka Gabitsinashvili; Haile Mokrzycki; Ranya Fischer; Nicholas Telesca; Lauren Aurelia Xue; Jacob Ritchie; J.D. Zamfirescu-Pereira; Mark E Whiting; Madhav Marathe — <strong>Scientific Data (Nature)</strong>, 2023, 10:126</p>
-    <div class="pub-links">
-      <a class="btn" href="https://www.nature.com/articles/s41597-023-01979-6" target="_blank" rel="noopener">Article</a>
-    </div>
+<div class="pub-info">
+  <h3>Scientific Data</h3>
+  <p class="pub-authors">
+    <span class="author me"><em>Oishee Bintey Hoque</em><sup>*</sup></span>,
+    <span class="author">Benjamin Hurt<sup>*</sup></span>,
+    <span class="author">Finn Mokrzycki</span>,
+    <span class="author">Anjali Mathew</span>,
+    <span class="author">Maryann Xue</span>,
+    <span class="author">Luka Gabitsinashvili</span>,
+    <span class="author">Haile Mokrzycki</span>,
+    <span class="author">Ranya Fischer</span>,
+    <span class="author">Nicholas Telesca</span>,
+    <span class="author">Lauren Aurelia Xue</span>,
+    <span class="author">Jacob Ritchie</span>,
+    <span class="author">J.D. Zamfirescu-Pereira</span>,
+    <span class="author">Mark E. Whiting</span>,
+    <span class="author">Madhav Marathe</span>
+  </p>
+  <p><strong>Scientific Data</strong> (<em>Nature</em>), 2023</p>
+</div>
+
+  <div class="pub-links">
+    <a class="btn" href="https://www.nature.com/articles/s41597-023-01979-6" target="_blank" rel="noopener">Article</a>
+  </div>
   </div>
 </div>
 
 <h2>2021</h2>
 
 <div class="pub-card">
-  <img src="/images/pubs/hrnet.png" alt="HRNet Chest X-Ray paper image" class="pub-thumb">
+  <!-- <img src="/images/pubs/hrnet.png" alt="HRNet Chest X-Ray paper image" class="pub-thumb"> -->
+   <div class="thumb-wrap">
+    <img
+      src="{{ '/images/pubs/npi.png' | relative_url }}"
+      alt="hrnet demo"
+      class="pub-thumb"
+      width="300" height="210" loading="lazy" decoding="async"
+    />
+    <span class="conf-badge">Springer CS&nbsp;2021</span>
+  </div>
   <div class="pub-info">
     <h3>
-      Automated COVID-19 Detection from Chest X-Ray Images: A High Resolution Network (HRNet) Approach
+      <a href="https://link.springer.com/article/10.1007/s42979-021-00690-w" target="_blank" rel="noopener">
+        Automated COVID-19 Detection from Chest X-Ray Images: A High Resolution Network (HRNet) Approach
+    </a>
     </h3>
-    <p>Sifat Ahmed, Tonmoy Hossain, <em>Oishee Bintey Hoque</em>, Sujan Sarker, Sejuti Rahman, Faisal Muhammad Shah — <a href="https://link.springer.com/article/10.1007/s42979-021-00690-w" target="_blank" rel="noopener"><strong>SN Computer Science</strong>, 2(4):294, July 2021</a></p>
+    <p>Sifat Ahmed, Tonmoy Hossain, <em>Oishee Bintey Hoque</em>, Sujan Sarker, Sejuti Rahman, Faisal Muhammad Shah — <a href="https://link.springer.com/article/10.1007/s42979-021-00690-w" target="_blank" rel="noopener"><strong>SN Computer Science</strong> July 2021</a></p>
     <div class="pub-links">
       <a class="btn" href="https://link.springer.com/article/10.1007/s42979-021-00690-w" target="_blank" rel="noopener">Article</a>
       <!-- Add PDF link if you have an open version -->
@@ -243,27 +324,55 @@ author_profile: true
 <h2>2020</h2>
 
 <div class="pub-card">
-  <img src="/images/pubs/bdsl36.png" alt="BdSL36 dataset paper image" class="pub-thumb">
+  <!-- <img src="/images/pubs/bdsl36.png" alt="BdSL36 dataset paper image" class="pub-thumb"> -->
+  <div class="thumb-wrap">
+    <img
+      src="{{ '/images/pubs/bdsl36.png' | relative_url }}"
+      alt="bdsl36 demo"
+      class="pub-thumb"
+      width="300" height="210" loading="lazy" decoding="async"
+    />
+    <span class="conf-badge">MLCSA@ACCV&nbsp;2020</span>
+  </div>
   <div class="pub-info">
     <h3>
       <a href="https://openaccess.thecvf.com/content/ACCV2020W/MLCSA/html/Hoque_BdSL36_A_Dataset_for_Bangladeshi_Sign_Letters_Recognition_ACCVW_2020_paper.html" target="_blank" rel="noopener">
         BdSL36: A Dataset for Bangladeshi Sign Letters Recognition
       </a>
     </h3>
-    <p><em>Oishee Bintey Hoque</em>, Mohammad Imrul Jubair, Al-Farabi Akash, Md Saiful Islam — <strong>ACCV MLCSA Workshop 2020</strong></p>
-    <div class="pub-links">
-      <a class="btn" href="https://openaccess.thecvf.com/content/ACCV2020W/MLCSA/html/Hoque_BdSL36_A_Dataset_for_Bangladeshi_Sign_Letters_Recognition_ACCVW_2020_paper.html" target="_blank" rel="noopener">PDF</a>
-      <a class="btn" href="https://rb.gy/mm3yjg" target="_blank" rel="noopener">Code &amp; Dataset</a>
-      <a class="btn" href="https://oishee-hoque.github.io/files/ACCV2020/ACCV_Presentation.pdf" target="_blank" rel="noopener">Presentation</a>
-      <a class="btn" href="https://youtu.be/lSYgBMn2Tlg" target="_blank" rel="noopener">Demo</a>
-    </div>
+    <div class="pub-info">
+  <h3>BdSL36: A Dataset for Bangladeshi Sign Letters Recognition</h3>
+  <p class="pub-authors">
+    <span class="author me"><em>Oishee Bintey Hoque</em></span>,
+    <span class="author">Mohammad Imrul Jubair</span>,
+    <span class="author">Al-Farabi Akash</span>,
+    <span class="author">Md. Saiful Islam</span>
+  </p>
+  <p><strong>ACCV</strong> (MLCSA Workshop), 2020</p>
+</div>
+
+  <div class="pub-links">
+    <a class="btn" href="https://openaccess.thecvf.com/content/ACCV2020W/MLCSA/html/Hoque_BdSL36_A_Dataset_for_Bangladeshi_Sign_Letters_Recognition_ACCVW_2020_paper.html" target="_blank" rel="noopener">PDF</a>
+    <a class="btn" href="https://rb.gy/mm3yjg" target="_blank" rel="noopener">Code &amp; Dataset</a>
+    <a class="btn" href="https://oishee-hoque.github.io/files/ACCV2020/ACCV_Presentation.pdf" target="_blank" rel="noopener">Presentation</a>
+    <a class="btn" href="https://youtu.be/lSYgBMn2Tlg" target="_blank" rel="noopener">Demo</a>
+  </div>
   </div>
 </div>
 
 <h2>2018</h2>
 
 <div class="pub-card">
-  <img src="/images/pubs/frnn.png" alt="Real-time BdSL Faster R-CNN paper image" class="pub-thumb">
+  <!-- <img src="/images/pubs/frnn.png" alt="Real-time BdSL Faster R-CNN paper image" class="pub-thumb"> -->
+  <div class="thumb-wrap">
+    <img
+      src="{{ '/images/pubs/frnn.png' | relative_url }}"
+      alt="frnn demo"
+      class="pub-thumb"
+      width="300" height="210" loading="lazy" decoding="async"
+    />
+    <span class="conf-badge">ICIET&nbsp;2018</span>
+  </div>
   <div class="pub-info">
     <h3>
       <a href="https://ieeexplore.ieee.org/document/8660780" target="_blank" rel="noopener">
@@ -272,9 +381,9 @@ author_profile: true
     </h3>
     <p><em>Oishee Bintey Hoque</em>, Md. Imrul Jubair, Md. Saiful Islam, Al-Farabi Akash — <strong>ICIET 2018</strong>, Dhaka, Bangladesh</p>
     <div class="pub-links">
+    <a class="btn" href="https://oishee-hoque.github.io/files/ICIET2018.pdf" target="_blank" rel="noopener">PDF</a>
       <a class="btn" href="https://github.com/imruljubair/bdslimset" target="_blank" rel="noopener">Code &amp; Dataset</a>
       <a class="btn" href="https://oishee-hoque.github.io/files/ICIET2018_presentation.pdf" target="_blank" rel="noopener">Presentation</a>
-      <a class="btn" href="https://oishee-hoque.github.io/files/ICIET2018.pdf" target="_blank" rel="noopener">PDF</a>
       <a class="btn" href="https://youtu.be/OU8IFpR0_sU" target="_blank" rel="noopener">Demo</a>
     </div>
   </div>
@@ -305,13 +414,13 @@ author_profile: true
 }
 .pub-info h3 {
   margin: 0 0 0.35rem;
-  font-size: .65rem;
+  font-size: .95rem;
   line-height: 1.35;
 }
 .pub-info p {
   margin: 0;
   color: #333;
-  font-size: 0.55rem;
+  font-size: 0.85rem;
 }
 .pub-links {
   margin-top: 0.5rem;
@@ -321,7 +430,7 @@ author_profile: true
   border-radius: 8px;
   padding: 0.35rem 0.6rem;
   text-decoration: none;
-  font-size: 0.65rem;
+  font-size: 0.75rem;
   border: 1px solid #2f855a;
   color: #fff;
   background: #2f855a;
@@ -340,14 +449,14 @@ author_profile: true
 }
 .pub-authors {
   margin: 0.15rem 0 0.25rem;
-  font-size: 0.5rem;
+  font-size: 0.85rem;
   line-height: 1.4;
   color: #222;
 }
 .pub-authors .author em { font-style: italic; }
 .contrib-note {
   margin: 0;
-  font-size: 0.45rem;
+  font-size: 0.95rem;
   color: #666;
 }
 .contrib-note {
@@ -356,7 +465,7 @@ author_profile: true
 .author.me em {
   text-decoration: underline;
   text-decoration-thickness: 1px;
-  text-underline-offset: 3px;
+  text-underline-offset: 2px;
 }
 /* Ensure the badge can position over the image */
 .thumb-wrap {
@@ -367,17 +476,64 @@ author_profile: true
 /* If your .pub-thumb is already fixed-size, this is enough */
 .conf-badge {
   position: absolute;
-  top: 1px;
-  left: 1px;
-  padding: 1px 1px;
+  top: 3px;
+  left: 3px;
+  padding: 3px 3px;
   font-size: 0.75rem;
   line-height: 1;
-  border-radius: 999px;        /* pill */
-  background: #1f2937;         /* dark slate */
+  border-radius: 5px;        /* pill */
+  background: #1d4ed8;         /* dark slate */
   color: #fff;
   box-shadow: 0 2px 6px rgba(0,0,0,.15);
   white-space: nowrap;
 }
+
+/* .conf-badge {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  padding: 3px 3px;
+  font-size: 0.75rem;
+  line-height: 1;
+  border-radius: 5px;
+  background: #1d4ed8;
+  color: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,.15);
+  white-space: nowrap;
+} */
+
+.thumb-wrap {
+  position: relative;
+  width: 300px;            /* or 100% with a max-width */
+  height: 210px;           /* keep card height stable */
+  overflow: hidden;
+  border-radius: 8px;
+  padding-top: 14px;       /* room for badge */
+  padding-left: 14px;      /* room for badge */
+}
+
+.thumb-wrap .pub-thumb {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;       /* use 'contain' for full image, with letterbox */
+  border-radius: 8px;
+}
+
+.conf-badge {
+  position: absolute;
+  top: 4px; left: 4px;
+  padding: 3px 6px;
+  font-size: 0.75rem;
+  line-height: 1;
+  border-radius: 5px;
+  background: #1d4ed8;
+  color: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,.15);
+  white-space: nowrap;
+}
+
+
 
 /* Optional themes */
 .conf-badge.kdd     { background:#1d4ed8; }   /* KDD blue */
