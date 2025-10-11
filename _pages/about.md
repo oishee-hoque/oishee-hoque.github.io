@@ -17,11 +17,11 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
 </div>
 <br>
 
-<p class="contact-cta">
-  <a class="btn btn--ghost-primary" href="mailto:oishee@virginia.edu">
+<p style="text-align:center;">
+  <a class="btn btn--primary" href="mailto:oishee@virginia.edu">
     <i class="fas fa-envelope" aria-hidden="true"></i> oishee@virginia.edu
   </a>
-  <a class="btn btn--ghost" href="https://oishee-hoque.github.io/files/Oishee_CV_2024.pdf">
+  <a class="btn" href="https://oishee-hoque.github.io/files/Oishee_CV_2024.pdf">
     <i class="fas fa-file-download" aria-hidden="true"></i> Download Resume
   </a>
 </p>
@@ -46,7 +46,7 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
 <div class="pub-card">
    <div class="thumb-wrap">
     <img
-      src="{{ '/images/pubs/irrisight-transformed.png' | relative_url }}"
+      src="{{ '/images/pubs/irrisightv2.png' | relative_url }}"
       alt="IRRISIGHT demo"
       class="pub-thumb"
       width="300" height="210" loading="lazy" decoding="async"
@@ -435,7 +435,7 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
 /* ========== Card Layout: fixed image + fixed text ========== */
 .pub-card {
   display: grid;
-  grid-template-columns: 260px 1fr; /* fixed image column + flexible text column */
+  grid-template-columns:300px 1fr; /* fixed image column + flexible text column */
   column-gap: 1.85rem;
   align-items: start;
   margin: 1.25rem 0 1.75rem;
@@ -449,7 +449,7 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
 /* -------- Fixed image block (with badge room) -------- */
 .thumb-wrap {
   position: relative;
-  width: 260px;
+  width: 300px;
   height: 210px;          /* fixed */
   overflow: hidden;
   border-radius: 10px;
