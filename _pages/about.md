@@ -35,7 +35,7 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
 <!-- <a href="https://oishee-hoque.github.io/publications/"> <img src="https://oishee-hoque.github.io/images/pubs.png" alt="Publication Venues"
 	title="Publication Venues" width="600" height="200"> </a> -->
 
-### Publications
+## Publications [<a href="https://scholar.google.com/citations?hl=en&authuser=3&user=Xyu3_yUAAAAJ" target="_blank" style="color:#e63946;" rel="noopener">Google Scholar</a>]
 <p class="contrib-note" style="color:#e63946;">
   <sup>*</sup> equal contribution
 </p>
