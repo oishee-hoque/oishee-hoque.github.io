@@ -9,20 +9,23 @@ redirect_from:
   - /about.html
 ---
 
-<div style="text-align: justify"> 
+<div style="text-align: justify; font-size: 1rem; line-height: 1.6;">
 I am a CS PhD candidate and an Endowed Fellow at the  <a href="https://engineering.virginia.edu/departments/computer-science">University of Virginia</a>, working with <a href="https://engineering.virginia.edu/faculty/madhav-marathe">Dr. Madhav Marathe</a> at the <a href="https://biocomplexity.virginia.edu/">Biocomplexity Institute</a>. My research focuses on Knowledge-Guided Machine Learning, Multimodal Understanding, VLMs, Remote Sensing, with a particular emphasis on integrating domain-specific knowledge with machine learning models to improve data and performance.
+<br>
 <br>
 Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsanullah University of Science & Technology (AUST)</a> focused on Computer Vision and Deep Learning. After earning my B.Sc. in Computer Science, I gained industry experience as a Software Engineer at <a href="https://www.enosisbd.com/">Enosis Solutions</a> in Bangladesh, where I contributed to the development of production-grade software systems for one year.
 
 </div>
 <br>
-
 <p style="text-align:center;">
   <a class="btn-link" href="mailto:oishee@virginia.edu">
     <i class="fas fa-envelope" aria-hidden="true"></i> oishee@virginia.edu
   </a>
   <a class="btn-link" href="https://oishee-hoque.github.io/files/Oishee_CV_2024.pdf">
     <i class="fas fa-file-download" aria-hidden="true"></i> Download Resume
+  </a>
+  <a class="btn-link" href="https://oishee-hoque.github.io/files/Oishee_CV_2024.pdf">
+    <i class="fas fa-file-download" aria-hidden="true"></i> Download CV
   </a>
 </p>
 
@@ -35,18 +38,23 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
 
 <!-- <a href="https://oishee-hoque.github.io/publications/"> <img src="https://oishee-hoque.github.io/images/pubs.png" alt="Publication Venues"
 	title="Publication Venues" width="600" height="200"> </a> -->
+---
+## Recent News
+- <span style="color:Blue"> [October 2025] </span> - Awarded **UVA SEAS Endowed Fellowship 2025**. Award Amount: $12000.
+- <span style="color:Blue"> [September 2025] </span> - One paper got accepted at **NeurIPS 2025**.
+- <span style="color:Blue"> [August 2025] </span> - Mentored two BII undergraduate interns during Summer 2025.
+- <span style="color:Blue"> [June 2025] </span> - One paper got accepted at **KDD 2025**.
+- <span style="color:Blue"> [June 2025] </span> - Two papers got accepted at **IJCAI 2025**.
+- <span style="color:Blue"> [June 2024] </span> - Attended **CVPR 2024** and presented a paper and two posters.
 
 ## Publications [<a href="https://scholar.google.com/citations?hl=en&authuser=3&user=Xyu3_yUAAAAJ" target="_blank" style="color:#1d4ed8;" rel="noopener">Google Scholar</a>]
-<p class="contrib-note" style="color:#e63946;">
-  <sup>*</sup> equal contribution
-</p>
 
 <h4>2025</h4>
 
 <div class="pub-card">
    <div class="thumb-wrap">
     <img
-      src="{{ '/images/pubs/irrisightv2.png' | relative_url }}"
+      src="{{ '/images/pubs/irrisightv3.png' | relative_url }}"
       alt="IRRISIGHT demo"
       class="pub-thumb"
       width="300" height="210" loading="lazy" decoding="async"
@@ -67,10 +75,14 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
   <span class="author">Sayjro K. Nouwakpo</span>,
   <span class="author">Abhijin Adiga</span>,
   <span class="author">Madhav Marathe </span>
+  <p class="contrib-note">
+  <em><sup>*</sup> equal contribution</em>
+  <br>
   <p><strong>NeurIPS 2025</strong></p>
+</p>
   </p>
   <div class="pub-links">
-    <a class="btn btn-disabled" aria-disabled="true" title="Link coming soon">PDF</a>
+    <!-- <a class="btn-link btn-disabled" aria-disabled="true" title="Link coming soon">PDF</a> -->
     <a class="btn-link" href="https://github.com/Nibir088/IRRISIGHT" target="_blank" rel="noopener">Code</a>
     <a class="btn-link" href="https://huggingface.co/datasets/OBH30/IRRISIGHT" target="_blank" rel="noopener">Dataset</a>
   </div>
@@ -106,8 +118,8 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
   <p><strong>IJCAI 2025</strong></p>
 </p>
 <div class="pub-links">
-  <a class="btn" href="https://www.ijcai.org/proceedings/2025/1076.pdf">PDF</a>
-  <a class="btn" href="https://github.com/oishee-hoque/IGraSS">Code</a>
+  <a class="btn-link" href="https://www.ijcai.org/proceedings/2025/1076.pdf">PDF</a>
+  <a class="btn-link" href="https://github.com/oishee-hoque/IGraSS">Code</a>
 </div>
   </div>
 </div>
@@ -134,11 +146,12 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
   Nibir Chandra Mandal<sup>*</sup>,
   Abhijin Adiga, Samarth Swarup,
   Sayjro K. Nouwakpo, Amanda Wilson, Madhav Marathe
+   <p><em><sup>*</sup> equal contribution</em><p>
   <p><strong>IJCAI 2025</strong></p>
 </p>
 <div class="pub-links">
-  <a class="btn" href="https://www.ijcai.org/proceedings/2025/1077.pdf">PDF</a>
-  <a class="btn" href="https://github.com/Nibir088/KIIM/tree/main/KIIM" target="_blank" rel="noopener">Code</a>
+  <a class="btn-link" href="https://www.ijcai.org/proceedings/2025/1077.pdf">PDF</a>
+  <a class="btn-link" href="https://github.com/Nibir088/KIIM/tree/main/KIIM" target="_blank" rel="noopener">Code</a>
 </div>
   </div>
 </div>
@@ -171,12 +184,13 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
   <span class="author">Miaomiao Zhang</span>,
   <span class="author">Geoffrey Fox</span>,
   <span class="author">Madhav Marathe</span>
+   <p><em><sup>*</sup> equal contribution</em><p>
   <p><strong>KDD 2025</strong> </p>
 </p>
 <div class="pub-links">
-  <a class="btn" href="https://dl.acm.org/doi/pdf/10.1145/3711896.3737380">PDF</a>
-  <a class="btn" href="https://github.com/Nibir088/IrrMap">Code</a>
-  <a class="btn" href="https://huggingface.co/Nibir/IrrMap/tree/main">Dataset</a>
+  <a class="btn-link" href="https://dl.acm.org/doi/pdf/10.1145/3711896.3737380">PDF</a>
+  <a class="btn-link" href="https://github.com/Nibir088/IrrMap">Code</a>
+  <a class="btn-link" href="https://huggingface.co/Nibir/IrrMap/tree/main">Dataset</a>
 </div>
   </div>
 </div>
@@ -205,11 +219,12 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
   <span class="author">Samarth Swarup</span>,
   <span class="author">Madhav Marathe</span>,
   <span class="author">Abhijin Adiga</span>,
+   <p><em><sup>*</sup> equal contribution</em><p>
   <p><strong>Under Review (2025)</strong></p>
 </p>
     <div class="pub-links">
-      <a class="btn" href="https://github.com/oishee-hoque/CAFOSat">Code</a>
-      <a class="btn" href="https://huggingface.co/datasets/oishee3003/CAFOSat">Dataset</a>
+      <a class="btn-link" href="https://github.com/oishee-hoque/CAFOSat">Code</a>
+      <a class="btn-link" href="https://huggingface.co/datasets/oishee3003/CAFOSat">Dataset</a>
     </div>
   </div>
 </div>
@@ -239,10 +254,11 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
   <span class="author">Samarth Swarup</span>,
   <span class="author">Madhav Marathe</span>,
   <span class="author">Abhijin Adiga</span>
+   <p><em><sup>*</sup> equal contribution</em><p>
   <p><strong>Under Review (2025)</strong></p>
 </p>
     <div class="pub-links">
-      <a class="btn btn-disabled" aria-disabled="true">Coming Soon</a>
+      <a class="btn-link btn-disabled" aria-disabled="true">Coming Soon</a>
     </div>
   </div>
 </div>
@@ -277,7 +293,7 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
   <p><strong>CVPR</strong>(V4A Workshops) 2024</p>
 </div>
     <div class="pub-links">
-      <a class="btn" href="https://openaccess.thecvf.com/content/CVPR2024W/Vision4Ag/html/Hoque_IrrNet_Advancing_Irrigation_Mapping_with_Incremental_Patch_Size_Training_on_CVPRW_2024_paper.html" target="_blank" rel="noopener">PDF</a>
+      <a class="btn-link" href="https://openaccess.thecvf.com/content/CVPR2024W/Vision4Ag/html/Hoque_IrrNet_Advancing_Irrigation_Mapping_with_Incremental_Patch_Size_Training_on_CVPRW_2024_paper.html" target="_blank" rel="noopener">PDF</a>
     </div>
   </div>
 </div>
@@ -317,12 +333,13 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
     <span class="author">J.D. Zamfirescu-Pereira</span>,
     <span class="author">Mark E. Whiting</span>,
     <span class="author">Madhav Marathe</span>
+     <p><em><sup>*</sup> equal contribution</em><p>
   </p>
   <p><strong>Scientific Data</strong> (<em>Nature</em>) 2023</p>
 </div>
 
   <div class="pub-links">
-    <a class="btn" href="https://www.nature.com/articles/s41597-023-01979-6" target="_blank" rel="noopener">Article</a>
+    <a class="btn-link" href="https://www.nature.com/articles/s41597-023-01979-6" target="_blank" rel="noopener">Article</a>
   </div>
   </div>
 </div>
@@ -349,7 +366,7 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
     <p>Sifat Ahmed, Tonmoy Hossain, <em>Oishee Bintey Hoque</em>, Sujan Sarker, Sejuti Rahman, Faisal Muhammad Shah</p>
     <p><strong>SN Computer Science </strong>2021</p>
     <div class="pub-links">
-      <a class="btn" href="https://link.springer.com/article/10.1007/s42979-021-00690-w" target="_blank" rel="noopener">Article</a>
+      <a class="btn-link" href="https://link.springer.com/article/10.1007/s42979-021-00690-w" target="_blank" rel="noopener">Article</a>
       <!-- Add PDF link if you have an open version -->
     </div>
   </div>
@@ -386,10 +403,10 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
 </div>
 
   <div class="pub-links">
-    <a class="btn" href="https://openaccess.thecvf.com/content/ACCV2020W/MLCSA/html/Hoque_BdSL36_A_Dataset_for_Bangladeshi_Sign_Letters_Recognition_ACCVW_2020_paper.html" target="_blank" rel="noopener">PDF</a>
-    <a class="btn" href="https://rb.gy/mm3yjg" target="_blank" rel="noopener">Code &amp; Dataset</a>
-    <a class="btn" href="https://oishee-hoque.github.io/files/ACCV2020/ACCV_Presentation.pdf" target="_blank" rel="noopener">Presentation</a>
-    <a class="btn" href="https://youtu.be/lSYgBMn2Tlg" target="_blank" rel="noopener">Demo</a>
+    <a class="btn-link" href="https://openaccess.thecvf.com/content/ACCV2020W/MLCSA/html/Hoque_BdSL36_A_Dataset_for_Bangladeshi_Sign_Letters_Recognition_ACCVW_2020_paper.html" target="_blank" rel="noopener">PDF</a>
+    <a class="btn-link" href="https://rb.gy/mm3yjg" target="_blank" rel="noopener">Code &amp; Dataset</a>
+    <a class="btn-link" href="https://oishee-hoque.github.io/files/ACCV2020/ACCV_Presentation.pdf" target="_blank" rel="noopener">Presentation</a>
+    <a class="btn-link" href="https://youtu.be/lSYgBMn2Tlg" target="_blank" rel="noopener">Demo</a>
   </div>
   </div>
 </div>
@@ -400,7 +417,7 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
   <!-- <img src="/images/pubs/frnn.png" alt="Real-time BdSL Faster R-CNN paper image" class="pub-thumb"> -->
   <div class="thumb-wrap">
     <img
-      src="{{ '/images/pubs/frnn.png' | relative_url }}"
+      src="{{ '/images/pubs/frnn2.png' | relative_url }}"
       alt="frnn demo"
       class="pub-thumb"
       width="300" height="210" loading="lazy" decoding="async"
@@ -421,10 +438,10 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
   </p>
     <p> <strong>ICIET 2018</strong></p>
     <div class="pub-links">
-    <a class="btn" href="https://oishee-hoque.github.io/files/ICIET2018.pdf" target="_blank" rel="noopener">PDF</a>
-      <a class="btn" href="https://github.com/imruljubair/bdslimset" target="_blank" rel="noopener">Code &amp; Dataset</a>
-      <a class="btn" href="https://oishee-hoque.github.io/files/ICIET2018_presentation.pdf" target="_blank" rel="noopener">Presentation</a>
-      <a class="btn" href="https://youtu.be/OU8IFpR0_sU" target="_blank" rel="noopener">Demo</a>
+    <a class="btn-link" href="https://oishee-hoque.github.io/files/ICIET2018.pdf" target="_blank" rel="noopener">PDF</a>
+      <a class="btn-link" href="https://github.com/imruljubair/bdslimset" target="_blank" rel="noopener">Code &amp; Dataset</a>
+      <a class="btn-link" href="https://oishee-hoque.github.io/files/ICIET2018_presentation.pdf" target="_blank" rel="noopener">Presentation</a>
+      <a class="btn-link" href="https://youtu.be/OU8IFpR0_sU" target="_blank" rel="noopener">Demo</a>
     </div>
   </div>
 </div>
@@ -535,7 +552,7 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
   display: inline-block;
   border-radius: 8px;
   padding: 0.35rem 0.6rem;
-  text-decoration: none;
+  text-decoration: none; !important;
   font-size: 0.75rem;
   border: 1px solid #000; /* black outline */
   color: #000;            /* black text */
