@@ -35,7 +35,7 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
 <!-- <a href="https://oishee-hoque.github.io/publications/"> <img src="https://oishee-hoque.github.io/images/pubs.png" alt="Publication Venues"
 	title="Publication Venues" width="600" height="200"> </a> -->
 
-## Publications [<a href="https://scholar.google.com/citations?hl=en&authuser=3&user=Xyu3_yUAAAAJ" target="_blank" style="color:#e63946;" rel="noopener">Google Scholar</a>]
+## Publications [<a href="https://scholar.google.com/citations?hl=en&authuser=3&user=Xyu3_yUAAAAJ" target="_blank" style="color:#1d4ed8;" rel="noopener">Google Scholar</a>]
 <p class="contrib-note" style="color:#e63946;">
   <sup>*</sup> equal contribution
 </p>
@@ -434,8 +434,8 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
 /* ========== Card Layout: fixed image + fixed text ========== */
 .pub-card {
   display: grid;
-  grid-template-columns:330px 1fr; /* fixed image column + flexible text column */
-  column-gap: 1.85rem;
+  grid-template-columns:360px 1fr; /* fixed image column + flexible text column */
+  column-gap: .1rem;
   align-items: start;
   margin: 1.25rem 0 1.75rem;
   border: 1px solid #e6e6e6;
@@ -491,7 +491,7 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
   font-size: .95rem;
   line-height: 1.35;
   display: -webkit-box;
-  -webkit-line-clamp: 2;  /* clamp title to 2 lines */
+  -webkit-line-clamp: 3;  /* clamp title to 2 lines */
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
