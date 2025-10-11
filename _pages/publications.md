@@ -50,7 +50,7 @@ author_profile: true
   <!-- <img src="/images/pubs/igrass.jpg" alt="IGraSS demo" class="pub-thumb"> -->
   <div class="thumb-wrap">
     <img
-      src="{{ '/images/pubs/igrass.png' | relative_url }}"
+      src="{{ '/images/pubs/igrass2.png' | relative_url }}"
       alt="IRRISIGHT demo"
       class="pub-thumb"
       width="300" height="210" loading="lazy" decoding="async"
@@ -424,8 +424,6 @@ author_profile: true
   overflow: hidden;
   border-radius: 10px;
   background: #f3f3f3;
-  padding-top: 14px;       /* room for badge */
-  padding-left: 14px;      /* room for badge */
 }
 .thumb-wrap .pub-thumb {
   display: block;
