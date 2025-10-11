@@ -18,10 +18,10 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
 <br>
 
 <p style="text-align:center;">
-  <a class="btn btn-outline-primary" href="mailto:oishee@virginia.edu">
+  <a class="btn-link" href="mailto:oishee@virginia.edu">
     <i class="fas fa-envelope" aria-hidden="true"></i> oishee@virginia.edu
   </a>
-  <a class="btn btn-outline-primary" href="https://oishee-hoque.github.io/files/Oishee_CV_2024.pdf">
+  <a class="btn-link" href="https://oishee-hoque.github.io/files/Oishee_CV_2024.pdf">
     <i class="fas fa-file-download" aria-hidden="true"></i> Download Resume
   </a>
 </p>
@@ -70,9 +70,9 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
   <p><strong>NeurIPS 2025</strong></p>
   </p>
   <div class="pub-links">
-    <a class="btn" aria-disabled="true" title="Link coming soon">PDF</a>
+    <a class="btn btn-disabled" aria-disabled="true" title="Link coming soon">PDF</a>
     <a class="btn-link" href="https://github.com/Nibir088/IRRISIGHT" target="_blank" rel="noopener">Code</a>
-    <a class="btn" href="https://huggingface.co/datasets/OBH30/IRRISIGHT" target="_blank" rel="noopener">Dataset</a>
+    <a class="btn-link" href="https://huggingface.co/datasets/OBH30/IRRISIGHT" target="_blank" rel="noopener">Dataset</a>
   </div>
   </div>
 </div>
@@ -531,25 +531,7 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
   color:  #000;
   background: #2f855a;
 }
-.btn-link{
-  display: inline-block;
-  border-radius: 8px;
-  padding: 0.35rem 0.6rem;
-  text-decoration: none;
-  font-size: 0.75rem;
-  border: 1px solid #000;
-  color:  #000;
-  background: #2f855a;
-}
-.btn:hover { filter: brightness(0.95); } */
-.btn.btn-disabled {
-  pointer-events: none;
-  opacity: 0.5;
-  background: #9aa0a6;
-  border-color: #9aa0a6;
-}
-
-.btn2 {
+.btn-link {
   display: inline-block;
   border-radius: 8px;
   padding: 0.35rem 0.6rem;
@@ -559,6 +541,13 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
   color: #000;            /* black text */
   background: transparent; /* no fill color */
   transition: all 0.2s ease-in-out;
+}
+.btn:hover { filter: brightness(0.95); } */
+.btn.btn-disabled {
+  pointer-events: none;
+  opacity: 0.5;
+  background: #9aa0a6;
+  border-color: #9aa0a6;
 }
 
 /* .btn:hover {
