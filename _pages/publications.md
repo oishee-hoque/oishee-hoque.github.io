@@ -15,7 +15,7 @@ author_profile: true
       src="{{ '/images/pubs/irrisight.png' | relative_url }}"
       alt="IRRISIGHT demo"
       class="pub-thumb"
-      width="260" height="210" loading="lazy" decoding="async"
+      width="160" height="110" loading="lazy" decoding="async"
     />
     <span class="conf-badge">NeurIPS&nbsp;2025</span>
   </div>
@@ -32,7 +32,7 @@ author_profile: true
   </p>
   <strong>NeurIPS 2025</strong>
     <div class="pub-links">
-      <a class="btn btn-disabled" aria-disabled="true" title="Link coming soon">PDF</a>
+      <a class="btn" aria-disabled="true" title="Link coming soon">PDF</a>
       <a class="btn" href="https://github.com/Nibir088/IRRISIGHT" target="_blank" rel="noopener">Code</a>
       <a class="btn" href="https://huggingface.co/datasets/OBH30/IRRISIGHT" target="_blank" rel="noopener">Dataset</a>
     </div>
