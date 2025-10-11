@@ -10,18 +10,17 @@ redirect_from:
 
 <div style="text-align: justify"> 
 I am a CS PhD candidate at the  <a href="https://engineering.virginia.edu/departments/computer-science">University of Virginia</a>, working with <a href="https://engineering.virginia.edu/faculty/madhav-marathe">Dr. Madhav Marathe</a> at the <a href="https://biocomplexity.virginia.edu/">Biocomplexity Institute</a>. My research focuses on Knowledge-Guided Machine Learning, Multimodal Understanding, VLMs, Remote Sensing, with a particular emphasis on integrating domain-specific knowledge with machine learning models to improve data and performance.
-
-
+<br>
 Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsanullah University of Science & Technology (AUST)</a> focused on Computer Vision and Deep Learning. After earning my B.Sc. in Computer Science, I gained industry experience as a Software Engineer at <a href="https://www.enosisbd.com/">Enosis Solutions</a> in Bangladesh, where I contributed to the development of production-grade software systems for one year.
 
 </div>
 <br>
 
 <p style="text-align:center;">
-  <a class="btn btn--primary" href="mailto:oishee@virginia.edu">
+  <a class="btn btn-outline-primary" href="mailto:oishee@virginia.edu">
     <i class="fas fa-envelope" aria-hidden="true"></i> oishee@virginia.edu
   </a>
-  <a class="btn" href="https://oishee-hoque.github.io/files/Oishee_CV_2024.pdf">
+  <a class="btn btn-outline-primary" href="https://oishee-hoque.github.io/files/Oishee_CV_2024.pdf">
     <i class="fas fa-file-download" aria-hidden="true"></i> Download Resume
   </a>
 </p>
@@ -35,13 +34,13 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
 
 <!-- <a href="https://oishee-hoque.github.io/publications/"> <img src="https://oishee-hoque.github.io/images/pubs.png" alt="Publication Venues"
 	title="Publication Venues" width="600" height="200"> </a> -->
----
+
 ## Publications
 <p class="contrib-note" style="color:#e63946;">
   <sup>*</sup> equal contribution
 </p>
 
-<h2>2025</h2>
+<h4>2025</h4>
 
 <div class="pub-card">
    <div class="thumb-wrap">
@@ -247,7 +246,7 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
   </div>
 </div>
 
-<h2>2024</h2>
+<h4>2024</h4>
 
 <div class="pub-card">
   <!-- <img src="/images/pubs/irrnet.png" alt="IrrNet demo" class="pub-thumb"> -->
@@ -282,7 +281,7 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
   </div>
 </div>
 
-<h2>2023</h2>
+<h4>2023</h4>
 
 <div class="pub-card">
   <!-- <img src="/images/pubs/npi.png" alt="COVID-19 NPI data annotation paper image" class="pub-thumb"> -->
@@ -327,7 +326,7 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
   </div>
 </div>
 
-<h2>2021</h2>
+<h4>2021</h4>
 
 <div class="pub-card">
   <!-- <img src="/images/pubs/hrnet.png" alt="HRNet Chest X-Ray paper image" class="pub-thumb"> -->
@@ -355,7 +354,7 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
   </div>
 </div>
 
-<h2>2020</h2>
+<h4>2020</h4>
 
 <div class="pub-card">
   <!-- <img src="/images/pubs/bdsl36.png" alt="BdSL36 dataset paper image" class="pub-thumb"> -->
@@ -394,7 +393,7 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
   </div>
 </div>
 
-<h2>2018</h2>
+<h4>2018</h4>
 
 <div class="pub-card">
   <!-- <img src="/images/pubs/frnn.png" alt="Real-time BdSL Faster R-CNN paper image" class="pub-thumb"> -->
@@ -435,7 +434,7 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
 /* ========== Card Layout: fixed image + fixed text ========== */
 .pub-card {
   display: grid;
-  grid-template-columns:300px 1fr; /* fixed image column + flexible text column */
+  grid-template-columns:330px 1fr; /* fixed image column + flexible text column */
   column-gap: 1.85rem;
   align-items: start;
   margin: 1.25rem 0 1.75rem;
@@ -449,7 +448,7 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
 /* -------- Fixed image block (with badge room) -------- */
 .thumb-wrap {
   position: relative;
-  width: 300px;
+  width: 330px;
   height: 210px;          /* fixed */
   overflow: hidden;
   border-radius: 10px;
