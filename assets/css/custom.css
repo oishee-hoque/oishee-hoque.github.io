@@ -1,0 +1,43 @@
+/* Base font size (everything scales from this) */
+html { font-size: 10px; }   /* default is 16px; try 15 or 14 */
+
+/* Headings a bit smaller */
+h1 { font-size: 1.9rem; }
+h2 { font-size: 1.6rem; }
+h3 { font-size: 1.3rem; }
+
+/* Optional: tighter body text in posts/pages */
+.page__content { font-size: 0.95rem; line-height: 1.55; }
+
+/* Optional: smaller nav/sidebar text */
+.masthead, .site-nav { font-size: 0.95rem; }
+.sidebar { font-size: 0.9rem; }
+
+/* Mobile tweaks */
+@media (max-width: 640px) {
+  html { font-size: 14px; }
+}
+/* center the row */
+.contact-cta {
+  text-align: center;
+  margin: 1rem 0 1.25rem;
+}
+
+/* ghost/transparent buttons */
+.btn--ghost,
+.btn--ghost-primary {
+  background: transparent !important;
+  color: #2f855a;                /* primary green */
+  border-color: #2f855a;
+}
+
+.btn--ghost-primary {
+  color: #1d4ed8;                /* blue accent for primary */
+  border-color: #1d4ed8;
+}
+
+.btn--ghost:hover        { background: rgba(47,133,90,0.08) !important; }
+.btn--ghost-primary:hover{ background: rgba(29,78,216,0.08) !important; }
+
+/* optional: make icons align nicely */
+.contact-cta .btn i { margin-right: .4rem; vertical-align: -1px; }
