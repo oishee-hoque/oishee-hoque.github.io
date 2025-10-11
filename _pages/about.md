@@ -10,7 +10,7 @@ redirect_from:
 ---
 
 <div style="text-align: justify"> 
-I am a CS PhD candidate at the  <a href="https://engineering.virginia.edu/departments/computer-science">University of Virginia</a>, working with <a href="https://engineering.virginia.edu/faculty/madhav-marathe">Dr. Madhav Marathe</a> at the <a href="https://biocomplexity.virginia.edu/">Biocomplexity Institute</a>. My research focuses on Knowledge-Guided Machine Learning, Multimodal Understanding, VLMs, Remote Sensing, with a particular emphasis on integrating domain-specific knowledge with machine learning models to improve data and performance.
+I am a CS PhD candidate and an Endowed Fellow at the  <a href="https://engineering.virginia.edu/departments/computer-science">University of Virginia</a>, working with <a href="https://engineering.virginia.edu/faculty/madhav-marathe">Dr. Madhav Marathe</a> at the <a href="https://biocomplexity.virginia.edu/">Biocomplexity Institute</a>. My research focuses on Knowledge-Guided Machine Learning, Multimodal Understanding, VLMs, Remote Sensing, with a particular emphasis on integrating domain-specific knowledge with machine learning models to improve data and performance.
 <br>
 Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsanullah University of Science & Technology (AUST)</a> focused on Computer Vision and Deep Learning. After earning my B.Sc. in Computer Science, I gained industry experience as a Software Engineer at <a href="https://www.enosisbd.com/">Enosis Solutions</a> in Bangladesh, where I contributed to the development of production-grade software systems for one year.
 
@@ -521,7 +521,7 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
 }
 
 /* Buttons */
-.btn {
+.btn1 {
   display: inline-block;
   border-radius: 8px;
   padding: 0.35rem 0.6rem;
@@ -531,13 +531,30 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
   color: #fff;
   background: #2f855a;
 }
-.btn:hover { filter: brightness(0.95); }
+/* .btn:hover { filter: brightness(0.95); } */
 .btn.btn-disabled {
   pointer-events: none;
   opacity: 0.5;
   background: #9aa0a6;
   border-color: #9aa0a6;
 }
+
+.btn {
+  display: inline-block;
+  border-radius: 8px;
+  padding: 0.35rem 0.6rem;
+  text-decoration: none;
+  font-size: 0.75rem;
+  border: 1px solid #000; /* black outline */
+  color: #000;            /* black text */
+  background: transparent; /* no fill color */
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+  background: rgba(0, 0, 0, 0.05); /* subtle hover effect */
+}
+
 
 /* Emphasis styles preserved */
 .pub-authors .author em { font-style: italic; }
