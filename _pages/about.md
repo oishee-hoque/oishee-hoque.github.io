@@ -71,7 +71,7 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
   </p>
   <div class="pub-links">
     <a class="btn" aria-disabled="true" title="Link coming soon">PDF</a>
-    <a class="btn btn.btn-link" href="https://github.com/Nibir088/IRRISIGHT" target="_blank" rel="noopener">Code</a>
+    <a class="btn-link" href="https://github.com/Nibir088/IRRISIGHT" target="_blank" rel="noopener">Code</a>
     <a class="btn" href="https://huggingface.co/datasets/OBH30/IRRISIGHT" target="_blank" rel="noopener">Dataset</a>
   </div>
   </div>
@@ -531,7 +531,7 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
   color:  #000;
   background: #2f855a;
 }
-.btn.btn-link{
+.btn-link{
   display: inline-block;
   border-radius: 8px;
   padding: 0.35rem 0.6rem;
