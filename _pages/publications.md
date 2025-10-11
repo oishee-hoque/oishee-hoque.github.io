@@ -10,7 +10,7 @@ author_profile: true
 <h2>2025</h2>
 
 <div class="pub-card">
-  <img src="https://github.com/oishee-hoque/oishee-hoque.github.io/blob/master/images/pubs/irrisight.png" alt="IRRISIGHT demo" class="pub-thumb">
+  <img src="/images/pubs/irrisight.png" alt="IRRISIGHT demo" class="pub-thumb">
   <div class="pub-info">
     <h3>IRRISIGHT: A Large-Scale Multimodal Dataset and Scalable Pipeline to Address Irrigation and Water Management in Agriculture</h3>
   <p class="pub-authors">
@@ -23,7 +23,6 @@ author_profile: true
   <span class="author">Madhav Marathe </span>
   </p>
   <strong>NeurIPS 2025</strong>
-  </p>
     <div class="pub-links">
       <a class="btn btn-disabled" aria-disabled="true" title="Link coming soon">PDF</a>
       <a class="btn" href="https://github.com/Nibir088/IRRISIGHT" target="_blank" rel="noopener">Code</a>
@@ -77,10 +76,23 @@ author_profile: true
  <img src="/images/pubs/irrmap.png" alt="IrrMap demo" class="pub-thumb">
   <div class="pub-info">
     <h3>IrrMap: A Large-Scale Comprehensive Dataset for Irrigation Method Mapping</h3>
-    <p><em>Oishee Bintey Hoque</em>, et al. — <strong>KDD 2025 (accepted)</strong></p>
+   <p class="pub-authors">
+  <span class="author">Nibir Chandra Mandal<sup>*</sup></span>,
+  <span class="author me"><em>Oishee Bintey Hoque</em><sup>*</sup></span>,
+  <span class="author">Abhijin Adiga</span>,
+  <span class="author">Samarth Swarup</span>,
+  <span class="author">Mandy L. Wilson</span>,
+  <span class="author">Lu Feng</span>,
+  <span class="author">Yangfeng Ji</span>,
+  <span class="author">Miaomiao Zhang</span>,
+  <span class="author">Geoffrey Fox</span>,
+  <span class="author">Madhav Marathe</span>
+</p>
+<strong>IJCAI 2025</strong>
+</strong></p>
     <div class="pub-links">
       <a class="btn" href="https://dl.acm.org/doi/pdf/10.1145/3711896.3737380">PDF</a>
-      <a class="btn btn-disabled" href="https://github.com/Nibir088/IrrMap">Code</a>
+      <a class="btn" href="https://github.com/Nibir088/IrrMap">Code</a>
       <a class="btn" href="https://huggingface.co/Nibir/IrrMap/tree/main">Dataset</a>
     </div>
   </div>
@@ -90,11 +102,19 @@ author_profile: true
   <img src="/images/pubs/cafosat.jpg" alt="CAFOSat demo" class="pub-thumb">
   <div class="pub-info">
     <h3>CAFOSat: A Strongly Annotated Dataset for Infrastructure-Aware CAFO Mapping Using High-Resolution Imagery</h3>
-    <p><em>Oishee Bintey Hoque</em>, et al. — <strong>Under review (2025)</strong></p>
+    <p class="pub-authors">
+  <span class="author me"><em>Oishee Bintey Hoque</em><sup>*</sup></span>,
+  <span class="author">Nibir Chandra Mandal<sup>*</sup></span>,
+  <span class="author">Mandy L. Wilson</span>,
+  <span class="author">Samarth Swarup</span>,
+  <span class="author">Madhav Marathe</span>,
+  <span class="author">Abhijin Adiga</span>
+</p>
+<strong>Under Review (2025)</strong>
+</strong></p>
     <div class="pub-links">
-      <a class="btn btn-disabled" aria-disabled="true">Preprint</a>
-      <a class="btn btn-disabled" aria-disabled="true">Code</a>
-      <a class="btn btn-disabled" aria-disabled="true">Dataset</a>
+      <a class="btn" href="https://github.com/oishee-hoque/CAFOSat">Code</a>
+      <a class="btn" href="https://huggingface.co/datasets/oishee3003/CAFOSat">Dataset</a>
     </div>
   </div>
 </div>
@@ -103,11 +123,18 @@ author_profile: true
   <img src="/images/pubs/prism-cafo.jpg" alt="PRISM-CAFO demo" class="pub-thumb">
   <div class="pub-info">
     <h3>PRISM-CAFO: Prior-conditioned remote-sensing infrastructure segmentation and mapping for CAFOs</h3>
-    <p><em>Oishee Bintey Hoque</em>, et al. — <strong>Under review (2025)</strong></p>
+   <p class="pub-authors">
+  <span class="author me"><em>Oishee Bintey Hoque</em></span>,
+  <span class="author">Nibir Chandra Mandal</span>,
+  <span class="author">Kyle Luong</span>,
+  <span class="author">Mandy L. Wilson</span>,
+  <span class="author">Samarth Swarup</span>,
+  <span class="author">Madhav Marathe</span>,
+  <span class="author">Abhijin Adiga</span>
+</p>
+<strong>Under Review (2025)</strong></p>
     <div class="pub-links">
-      <a class="btn btn-disabled" aria-disabled="true">Preprint</a>
-      <a class="btn btn-disabled" aria-disabled="true">Code</a>
-      <a class="btn btn-disabled" aria-disabled="true">Dataset</a>
+      <a class="btn btn-disabled" aria-disabled="true">Coming Soon</a>
     </div>
   </div>
 </div>
@@ -178,7 +205,6 @@ author_profile: true
       <a class="btn" href="https://rb.gy/mm3yjg" target="_blank" rel="noopener">Code &amp; Dataset</a>
       <a class="btn" href="https://oishee-hoque.github.io/files/ACCV2020/ACCV_Presentation.pdf" target="_blank" rel="noopener">Presentation</a>
       <a class="btn" href="https://youtu.be/lSYgBMn2Tlg" target="_blank" rel="noopener">Demo</a>
-      <a class="btn" href="https://oishee-hoque.github.io/files/ACCV2020/ACCV.pdf" target="_blank" rel="noopener">Project PDF</a>
     </div>
   </div>
 </div>
