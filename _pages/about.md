@@ -469,7 +469,7 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
   top: 4px; left: 4px;
   padding: 3px 6px;
   font-size: 0.75rem;
-  line-height: 1;
+  line-height: 2;
   border-radius: 5px;
   background: #1d4ed8;
   color: #fff;
