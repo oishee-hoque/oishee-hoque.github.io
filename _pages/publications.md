@@ -5,8 +5,12 @@ permalink: /publications/
 author_profile: true
 ---
 
-**Full publication list can be accessed from the <a href="https://scholar.google.com/citations?hl=en&authuser=3&user=Xyu3_yUAAAAJ" target="_blank" rel="noopener">Google Scholar</a>.**
-<p class="contrib-note"><sup>*</sup> equal contribution</p>
+<!-- **Full publication list can be accessed from the <a href="https://scholar.google.com/citations?hl=en&authuser=3&user=Xyu3_yUAAAAJ" target="_blank" rel="noopener">Google Scholar</a>.** -->
+<!-- <p class="contrib-note"><sup>*</sup> equal contribution</p> -->
+<p class="contrib-note" style="color:#e63946;">
+  <sup>*</sup> equal contribution
+</p>
+
 <h2>2025</h2>
 
 <div class="pub-card">
@@ -240,7 +244,7 @@ author_profile: true
     <span class="author">Sayjro Kossi Nouwakpo</span>,
     <span class="author">Madhav Marathe</span>
   </p>
-  <p><strong>CVPR</strong>(V4A Workshops), 2024</p>
+  <p><strong>CVPR</strong>(V4A Workshops) 2024</p>
 </div>
     <div class="pub-links">
       <a class="btn" href="https://openaccess.thecvf.com/content/CVPR2024W/Vision4Ag/html/Hoque_IrrNet_Advancing_Irrigation_Mapping_with_Incremental_Patch_Size_Training_on_CVPRW_2024_paper.html" target="_blank" rel="noopener">PDF</a>
@@ -268,7 +272,6 @@ author_profile: true
       </a>
     </h3>
 <div class="pub-info">
-  <h3>Scientific Data</h3>
   <p class="pub-authors">
     <span class="author me"><em>Oishee Bintey Hoque</em><sup>*</sup></span>,
     <span class="author">Benjamin Hurt<sup>*</sup></span>,
@@ -285,7 +288,7 @@ author_profile: true
     <span class="author">Mark E. Whiting</span>,
     <span class="author">Madhav Marathe</span>
   </p>
-  <p><strong>Scientific Data</strong> (<em>Nature</em>), 2023</p>
+  <p><strong>Scientific Data</strong> (<em>Nature</em>) 2023</p>
 </div>
 
   <div class="pub-links">
@@ -313,7 +316,8 @@ author_profile: true
         Automated COVID-19 Detection from Chest X-Ray Images: A High Resolution Network (HRNet) Approach
     </a>
     </h3>
-    <p>Sifat Ahmed, Tonmoy Hossain, <em>Oishee Bintey Hoque</em>, Sujan Sarker, Sejuti Rahman, Faisal Muhammad Shah — <a href="https://link.springer.com/article/10.1007/s42979-021-00690-w" target="_blank" rel="noopener"><strong>SN Computer Science</strong> July 2021</a></p>
+    <p>Sifat Ahmed, Tonmoy Hossain, <em>Oishee Bintey Hoque</em>, Sujan Sarker, Sejuti Rahman, Faisal Muhammad Shah</p>
+    <p><strong>SN Computer Science </strong>2021</p>
     <div class="pub-links">
       <a class="btn" href="https://link.springer.com/article/10.1007/s42979-021-00690-w" target="_blank" rel="noopener">Article</a>
       <!-- Add PDF link if you have an open version -->
@@ -348,7 +352,7 @@ author_profile: true
     <span class="author">Al-Farabi Akash</span>,
     <span class="author">Md. Saiful Islam</span>
   </p>
-  <p><strong>ACCV</strong> (MLCSA Workshop), 2020</p>
+  <p><strong>ACCV</strong> (MLCSA Workshop) 2020</p>
 </div>
 
   <div class="pub-links">
@@ -379,7 +383,13 @@ author_profile: true
         Real Time Bangladeshi Sign Language Detection using Faster R-CNN
       </a>
     </h3>
-    <p><em>Oishee Bintey Hoque</em>, Md. Imrul Jubair, Md. Saiful Islam, Al-Farabi Akash — <strong>ICIET 2018</strong>, Dhaka, Bangladesh</p>
+  <p class="pub-authors">
+    <span class="author me"><em>Oishee Bintey Hoque</em></span>,
+    <span class="author">Mohammad Imrul Jubair</span>,
+    <span class="author">Al-Farabi Akash</span>,
+    <span class="author">Md. Saiful Islam</span>
+  </p>
+    <p> <strong>ICIET 2018</strong></p>
     <div class="pub-links">
     <a class="btn" href="https://oishee-hoque.github.io/files/ICIET2018.pdf" target="_blank" rel="noopener">PDF</a>
       <a class="btn" href="https://github.com/imruljubair/bdslimset" target="_blank" rel="noopener">Code &amp; Dataset</a>
@@ -392,11 +402,12 @@ author_profile: true
 <!-- Optional: Undergraduate Thesis section can be included as cards too -->
 
 <style>
-/* Card layout */
+/* ========== Card Layout: fixed image + fixed text ========== */
 .pub-card {
-  display: flex;
-  align-items: flex-start;
-  gap: 1.25rem;
+  display: grid;
+  grid-template-columns: 260px 1fr; /* fixed image column + flexible text column */
+  column-gap: 1.85rem;
+  align-items: start;
   margin: 1.25rem 0 1.75rem;
   border: 1px solid #e6e6e6;
   border-radius: 14px;
@@ -404,122 +415,27 @@ author_profile: true
   box-shadow: 0 4px 14px rgba(0,0,0,0.05);
   background: #fff;
 }
-.pub-thumb {
+
+/* -------- Fixed image block (with badge room) -------- */
+.thumb-wrap {
+  position: relative;
   width: 260px;
-  height: 210px;
-  object-fit: cover;
-  border-radius: 10px;
-  flex-shrink: 0;
-  background: #f3f3f3;
-}
-.pub-info h3 {
-  margin: 0 0 0.35rem;
-  font-size: .95rem;
-  line-height: 1.35;
-}
-.pub-info p {
-  margin: 0;
-  color: #333;
-  font-size: 0.85rem;
-}
-.pub-links {
-  margin-top: 0.5rem;
-}
-.btn {
-  display: inline-block;
-  border-radius: 8px;
-  padding: 0.35rem 0.6rem;
-  text-decoration: none;
-  font-size: 0.75rem;
-  border: 1px solid #2f855a;
-  color: #fff;
-  background: #2f855a;
-  margin: 0.25rem 0.35rem 0 0;
-}
-.btn:hover { filter: brightness(0.95); }
-.btn.btn-disabled {
-  pointer-events: none;
-  opacity: 0.5;
-  background: #9aa0a6;
-  border-color: #9aa0a6;
-}
-@media (max-width: 640px) {
-  .pub-card { flex-direction: column; }
-  .pub-thumb { width: 100%; height: 160px; }
-}
-.pub-authors {
-  margin: 0.15rem 0 0.25rem;
-  font-size: 0.85rem;
-  line-height: 1.4;
-  color: #222;
-}
-.pub-authors .author em { font-style: italic; }
-.contrib-note {
-  margin: 0;
-  font-size: 0.95rem;
-  color: #666;
-}
-.contrib-note {
-  font-style: italic;
-}
-.author.me em {
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 2px;
-}
-/* Ensure the badge can position over the image */
-.thumb-wrap {
-  position: relative;
-  display: inline-block;       /* keeps badge bound to the image */
-}
-
-/* If your .pub-thumb is already fixed-size, this is enough */
-.conf-badge {
-  position: absolute;
-  top: 3px;
-  left: 3px;
-  padding: 3px 3px;
-  font-size: 0.75rem;
-  line-height: 1;
-  border-radius: 5px;        /* pill */
-  background: #1d4ed8;         /* dark slate */
-  color: #fff;
-  box-shadow: 0 2px 6px rgba(0,0,0,.15);
-  white-space: nowrap;
-}
-
-/* .conf-badge {
-  position: absolute;
-  top: 3px;
-  left: 3px;
-  padding: 3px 3px;
-  font-size: 0.75rem;
-  line-height: 1;
-  border-radius: 5px;
-  background: #1d4ed8;
-  color: #fff;
-  box-shadow: 0 2px 6px rgba(0,0,0,.15);
-  white-space: nowrap;
-} */
-
-.thumb-wrap {
-  position: relative;
-  width: 300px;            /* or 100% with a max-width */
-  height: 210px;           /* keep card height stable */
+  height: 210px;          /* fixed */
   overflow: hidden;
-  border-radius: 8px;
+  border-radius: 10px;
+  background: #f3f3f3;
   padding-top: 14px;       /* room for badge */
   padding-left: 14px;      /* room for badge */
 }
-
 .thumb-wrap .pub-thumb {
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover;       /* use 'contain' for full image, with letterbox */
-  border-radius: 8px;
+  object-fit: cover;       /* use 'contain' if you prefer letterboxing */
+  border-radius: 10px;
 }
 
+/* Single .conf-badge definition */
 .conf-badge {
   position: absolute;
   top: 4px; left: 4px;
@@ -532,16 +448,92 @@ author_profile: true
   box-shadow: 0 2px 6px rgba(0,0,0,.15);
   white-space: nowrap;
 }
+/* Optional themed colors */
+.conf-badge.kdd     { background:#1d4ed8; }
+.conf-badge.ijcai   { background:#059669; }
+.conf-badge.neurips { background:#111827; }
+.conf-badge.review  { background:#9ca3af; }
 
+/* -------- Fixed text block sizing + graceful truncation -------- */
+.pub-info {
+  max-height: 210px;      /* same visual height as image */
+  overflow: hidden;       /* hide overflow to keep card uniform */
+}
+.pub-info h3 {
+  margin: 0 0 0.35rem;
+  font-size: .95rem;
+  line-height: 1.35;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;  /* clamp title to 2 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.pub-authors {
+  margin: 0.15rem 0 0.25rem;
+  font-size: 0.85rem;
+  line-height: 1.4;
+  color: #222;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;  /* clamp authors to 2 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.pub-info p {            /* generic paragraphs */
+  margin: 0;
+  color: #333;
+  font-size: 0.85rem;
+}
 
+/* Buttons/links row stays within fixed text area */
+.pub-links {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .35rem;
+}
 
-/* Optional themes */
-.conf-badge.kdd     { background:#1d4ed8; }   /* KDD blue */
-.conf-badge.ijcai   { background:#059669; }   /* IJCAI green */
-.conf-badge.neurips { background:#111827; }   /* NeurIPS dark */
-.conf-badge.review  { background:#9ca3af; }   /* Under review */
+/* Buttons */
+.btn {
+  display: inline-block;
+  border-radius: 8px;
+  padding: 0.35rem 0.6rem;
+  text-decoration: none;
+  font-size: 0.75rem;
+  border: 1px solid #2f855a;
+  color: #fff;
+  background: #2f855a;
+}
+.btn:hover { filter: brightness(0.95); }
+.btn.btn-disabled {
+  pointer-events: none;
+  opacity: 0.5;
+  background: #9aa0a6;
+  border-color: #9aa0a6;
+}
 
+/* Emphasis styles preserved */
+.pub-authors .author em { font-style: italic; }
+.author.me em {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
 
+/* -------- Responsive: lock image width, stack on small screens -------- */
+@media (max-width: 640px) {
+  .pub-card {
+    grid-template-columns: 1fr;
+  }
+  .thumb-wrap {
+    width: 100%;
+    height: 160px;         /* shorter fixed height on mobile */
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  .pub-info {
+    max-height: none;      /* allow text to flow on mobile */
+  }
+}
 
 </style>
 
