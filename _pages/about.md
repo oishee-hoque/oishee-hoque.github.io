@@ -26,6 +26,7 @@ Prior to my PhD, my undergraduate research at <a href="http://aust.edu/">Ahsanul
 ---
 
 ## Recent News
+- <span style="color:Blue"> [October 2025] </span> - Awarded SEAS Endowed Fellowship 2025. Award Amount: $12000
 - <span style="color:Blue"> [September 2025] </span> - One paper got accepted at **NeurIPS 2025**.
 - <span style="color:Blue"> [August 2025] </span> - Mentored two BII undergraduate interns during Summer 2025.
 - <span style="color:Blue"> [June 2025] </span> - One paper got accepted at **KDD 2025**.
