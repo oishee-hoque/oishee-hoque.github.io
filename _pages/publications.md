@@ -50,7 +50,7 @@ author_profile: true
   <!-- <img src="/images/pubs/igrass.jpg" alt="IGraSS demo" class="pub-thumb"> -->
   <div class="thumb-wrap">
     <img
-      src="{{ '/images/pubs/igrass2.png' | relative_url }}"
+      src="{{ '/images/pubs/igrassv2.png' | relative_url }}"
       alt="IRRISIGHT demo"
       class="pub-thumb"
       width="300" height="210" loading="lazy" decoding="async"
