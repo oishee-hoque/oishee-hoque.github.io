@@ -9,13 +9,13 @@ author_profile: true
 <p class="contrib-note"><sup>*</sup> equal contribution</p>
 <h2>2025</h2>
 
-<div class="publications compact">
+<div class="pub-card">
    <div class="thumb-wrap">
     <img
-      src="{{ '/images/pubs/irrisight.jpg' | relative_url }}"
+      src="{{ '/images/pubs/irrisight.png' | relative_url }}"
       alt="IRRISIGHT demo"
       class="pub-thumb"
-      width="160" height="110" loading="lazy" decoding="async"
+      width="260" height="210" loading="lazy" decoding="async"
     />
     <span class="conf-badge">NeurIPS&nbsp;2025</span>
   </div>
@@ -265,8 +265,8 @@ author_profile: true
   background: #fff;
 }
 .pub-thumb {
-  width: 260px;
-  height: 210px;
+  width: 160px;
+  height: 110px;
   object-fit: cover;
   border-radius: 10px;
   flex-shrink: 0;
@@ -274,7 +274,7 @@ author_profile: true
 }
 .pub-info h3 {
   margin: 0 0 0.35rem;
-  font-size: 1.05rem;
+  font-size: .95rem;
   line-height: 1.35;
 }
 .pub-info p {
@@ -309,7 +309,7 @@ author_profile: true
 }
 .pub-authors {
   margin: 0.15rem 0 0.25rem;
-  font-size: 0.95rem;
+  font-size: 0.85rem;
   line-height: 1.4;
   color: #222;
 }
@@ -348,45 +348,12 @@ author_profile: true
   white-space: nowrap;
 }
 
-/* Scope smaller fonts to the publications area */
-.compact .pub-card { font-size: 0.9rem; }            /* base shrink */
-.compact .pub-info h3 { 
-  font-size: 0.95rem; 
-  line-height: 1.25; 
-  margin-bottom: 0.25rem;
-}
-.compact .pub-authors { 
-  font-size: 0.85rem; 
-  line-height: 1.35; 
-  margin: 0.15rem 0 0.35rem;
-}
-.compact .pub-links .btn {
-  font-size: 0.8rem;
-  padding: 0.28rem 0.5rem;
-  border-radius: 6px;
-}
-.compact .conf-badge { 
-  font-size: 0.7rem; 
-  padding: 3px 7px; 
-  top: 6px; 
-  left: 6px;
-}
-.compact .pub-thumb { width: 150px; height: 100px; }  /* slightly smaller image */
-
-/* Optional: ultra-compact on small screens */
-@media (max-width: 640px) {
-  .compact .pub-info h3 { font-size: 0.9rem; }
-  .compact .pub-authors { font-size: 0.8rem; }
-  .compact .pub-links .btn { font-size: 0.78rem; }
-  .compact .conf-badge { font-size: 0.68rem; }
-}
-
-
 /* Optional themes */
 .conf-badge.kdd     { background:#1d4ed8; }   /* KDD blue */
 .conf-badge.ijcai   { background:#059669; }   /* IJCAI green */
 .conf-badge.neurips { background:#111827; }   /* NeurIPS dark */
 .conf-badge.review  { background:#9ca3af; }   /* Under review */
+
 
 
 </style>
