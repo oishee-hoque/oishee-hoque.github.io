@@ -155,7 +155,7 @@ author_profile: true
   <!-- <img src="/images/pubs/cafosat.png" alt="CAFOSat demo" class="pub-thumb"> -->
    <div class="thumb-wrap">
     <img
-      src="{{ '/images/pubs/cafosat.png' | relative_url }}"
+      src="{{ '/images/pubs/cafosat2.png' | relative_url }}"
       alt="cafosat demo"
       class="pub-thumb"
       width="300" height="210" loading="lazy" decoding="async"
@@ -303,7 +303,7 @@ author_profile: true
   <!-- <img src="/images/pubs/hrnet.png" alt="HRNet Chest X-Ray paper image" class="pub-thumb"> -->
    <div class="thumb-wrap">
     <img
-      src="{{ '/images/pubs/npi.png' | relative_url }}"
+      src="{{ '/images/pubs/hrnet.png' | relative_url }}"
       alt="hrnet demo"
       class="pub-thumb"
       width="300" height="210" loading="lazy" decoding="async"
