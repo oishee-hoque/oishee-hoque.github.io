@@ -10,11 +10,10 @@ redirect_from:
 ---
 
 <div style="text-align: justify; font-size: 1rem; line-height: 1.6;">
-I am a CS PhD candidate and an Endowed Fellow at the  <a href="https://engineering.virginia.edu/departments/computer-science">University of Virginia</a>, working with <a href="https://engineering.virginia.edu/faculty/madhav-marathe">Dr. Madhav Marathe</a> at the <a href="https://biocomplexity.virginia.edu/">Biocomplexity Institute</a>. My research focuses on Knowledge-Guided Machine Learning, Multimodal Understanding, VLMs, Remote Sensing, with a particular emphasis on integrating domain-specific knowledge with machine learning models to improve data and performance.
+I am a CS PhD candidate and an Endowed Fellow at the  <a href="https://engineering.virginia.edu/departments/computer-science">University of Virginia</a>, working with <a href="https://engineering.virginia.edu/faculty/madhav-marathe">Dr. Madhav Marathe</a> at the <a href="https://biocomplexity.virginia.edu/">Biocomplexity Institute</a>. Prior to my Ph.D., I completed my B.Sc. in Computer Science at <a href="http://aust.edu/">Ahsanullah University of Science & Technology (AUST)</a>. After that, I gained industry experience as a Software Engineer at <a href="https://www.enosisbd.com/">Enosis Solutions</a> in Bangladesh, where I contributed to the development of production-grade software systems for one year.
 <br>
 <br>
-Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsanullah University of Science & Technology (AUST)</a> focused on Computer Vision and Deep Learning. After earning my B.Sc. in Computer Science, I gained industry experience as a Software Engineer at <a href="https://www.enosisbd.com/">Enosis Solutions</a> in Bangladesh, where I contributed to the development of production-grade software systems for one year.
-
+My current research focuses on Knowledge-Guided Machine Learning, Multimodal Understanding, VLMs, Remote Sensing, with a particular emphasis on integrating domain-specific knowledge with machine learning models to improve data and performance.
 </div>
 <br>
 <p style="text-align:center;">
@@ -48,34 +47,34 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
 - <span class="news-icon pub"><i class="fas fa-file-alt"></i></span>
   <span style="color:Blue">[September 2025]</span> – One paper got accepted at **NeurIPS 2025**.
 
-- <span class="news-icon mentor"><i class="fas fa-user-graduate"></i></span>
+- <span class="news-icon mentor"><i class="fas fa-user"></i></span>
   <span style="color:Blue">[August 2025]</span> – Mentored two BII undergraduate interns during Summer 2025.
 
 - <span class="news-icon pub"><i class="fas fa-file-alt"></i></span>
   <span style="color:Blue">[June 2025]</span> – One paper got accepted at **KDD 2025**.
 
-- <span class="news-icon pub"><i class="fas fa-book"></i></span>
+- <span class="news-icon pub"><i class="fas fa-file-alt"></i></span>
   <span style="color:Blue">[June 2025]</span> – Two papers got accepted at **IJCAI 2025**.
 
 - <span class="news-icon talk"><i class="fas fa-microphone"></i></span>
   <span style="color:Blue">[June 2024]</span> – Attended **CVPR 2024** and presented a paper and two posters.
 
-- <span class="news-icon grant"><i class="fas fa-hand-holding-usd"></i></span>
+- <span class="news-icon grant"><i class="fas fa-trophy"></i></span>
   <span style="color:Blue">[May 2024]</span> – Received **DEI Travel** grant from CVPR.
 
-- <span class="news-icon grant"><i class="fas fa-hand-holding-usd"></i></span>
+- <span class="news-icon grant"><i class="fas fa-trophy"></i></span>
   <span style="color:Blue">[May 2024]</span> – Received **WiCV Travel Grant** for attending CVPR.
 
-- <span class="news-icon talk"><i class="fas fa-chalkboard-teacher"></i></span>
+- <span class="news-icon talk"><i class="fas fa-file-alt"></i></span>
   <span style="color:Blue">[April 2024]</span> – Poster accepted at **WiCV, CVPR 2024**.
 
 - <span class="news-icon pub"><i class="fas fa-file-alt"></i></span>
   <span style="color:Blue">[April 2024]</span> – First-author paper **“IrrNet”** accepted at **V4A, CVPR 2024** (oral + poster).
 
-- <span class="news-icon grant"><i class="fas fa-hand-holding-usd"></i></span>
+- <span class="news-icon grant"><i class="fas fa-trophy"></i></span>
   <span style="color:Blue">[April 2024]</span> – Awarded full travel grant from **2024 Tapia Conference**.
 
-- <span class="news-icon talk"><i class="fas fa-users"></i></span>
+- <span class="news-icon talk"><i class="fas fa-book"></i></span>
   <span style="color:Blue">[April 2024]</span> – **Doctoral Consortium** accepted for Tapia 2024.
 
 - <span class="news-icon talk"><i class="fas fa-microphone"></i></span>
@@ -87,7 +86,7 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
 - <span class="news-icon intern"><i class="fas fa-briefcase"></i></span>
   <span style="color:Blue">[June 2023]</span> – Started **Internship** with **USDA-ARS AI-COE/SCINet**.
 
-- <span class="news-icon award"><i class="fas fa-award"></i></span>
+- <span class="news-icon award"><i class="fas fa-trophy"></i></span>
   <span style="color:Blue">[April 2023]</span> – Awarded **USDA-ARS AI-COE/SCINet Graduate Student Internship Program** fellowship.
 
 - <span class="news-icon talk"><i class="fas fa-microphone"></i></span>
@@ -111,7 +110,7 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
 - <span class="news-icon lead"><i class="fas fa-users"></i></span>
   <span style="color:Blue">[Jan 2022]</span> – Joined **CSGSG Council 2022** as **Space and Media Chair**.
 
-- <span class="news-icon pub"><i class="fas fa-book"></i></span>
+- <span class="news-icon pub"><i class="fas fa-file-alt"></i></span>
   <span style="color:Blue">[Jan 2021]</span> – Long paper accepted at **Springer Nature Computer Science**.
 
 - <span class="news-icon service"><i class="fas fa-hands-helping"></i></span>
@@ -138,19 +137,19 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
 - <span class="news-icon pub"><i class="fas fa-file-alt"></i></span>
   <span style="color:Blue">[Nov 2018]</span> – Paper accepted at **ICIET 2018**.
 
-- <span class="news-icon competition"><i class="fas fa-medal"></i></span>
+- <span class="news-icon competition"><i class="fas fa-code"></i></span>
   <span style="color:Blue">[Nov 2018]</span> – Participated in **ACM ICPC Dhaka Regionals 2018**.
 
-- <span class="news-icon competition"><i class="fas fa-medal"></i></span>
+- <span class="news-icon competition"><i class="fas fa-code"></i></span>
   <span style="color:Blue">[Oct 2018]</span> – Participated in **National Girls Programming Contest 2018**.
 
 - <span class="news-icon talk"><i class="fas fa-bullhorn"></i></span>
   <span style="color:Blue">[Jun 2018]</span> – Hosted **AUST CSE Week Prize Giving Ceremony 2018**.
 
-- <span class="news-icon competition"><i class="fas fa-medal"></i></span>
+- <span class="news-icon competition"><i class="fas fa-code"></i></span>
   <span style="color:Blue">[Nov 2017]</span> – Participated in **ACM ICPC Dhaka Regionals 2017**.
 
-- <span class="news-icon competition"><i class="fas fa-medal"></i></span>
+- <span class="news-icon competition"><i class="fas fa-code"></i></span>
   <span style="color:Blue">[Dec 2016]</span> – Participated in **National Girls Programming Contest 2016**.
 
 </div>
@@ -713,7 +712,7 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
   padding: 0.75rem 0.9rem;
   border: 1px solid #e6e6e6;
   border-radius: 12px;
-  background: #fff;
+  background: #d5d5d5ff;
   box-shadow: 0 4px 12px rgba(0,0,0,.04);
 }
 
@@ -758,7 +757,7 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
 .news-block li { position: relative; padding-left: 1.6rem; }
 .news-block li{position:relative;padding-left:1.6rem}
 .news-icon{position:absolute;left:0;top:.15rem;width:1.1rem;text-align:center;opacity:.9}
-.news-icon.award{color:#EAB308}.news-icon.pub{color:#2563EB}.news-icon.talk{color:#059669}
+.news-icon.award{color:#EAB308}.news-icon.pub{color:#65a30d}.news-icon.talk{color:#059669}
 .news-icon.grant{color:#7C3AED}.news-icon.lead{color:#DC2626}.news-icon.mentor{color:#0EA5E9}
 .news-icon.intern{color:#0F766E}.news-icon.dataset{color:#9333EA}.news-icon.travel{color:#6B7280}
 .news-icon.competition{color:#F97316}.news-icon.preprint{color:#111827}.news-icon.service{color:#10B981}
