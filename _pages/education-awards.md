@@ -52,7 +52,7 @@ redirect_from:
 
 <h1 style="color:#1e90ff;">Experience</h1>
 <!-- ### Research Experience -->
-<h2 style="color:#555555; font-style:italic;">Research Experience</h2>
+<h3 style="color:#555555; font-style:italic;">Research Experience</h3>
 
 - **Graduate Research Assistant**, University of Virginia *(2021 – Present)*  
 - **Research Intern**, USDA-NIFA / NSF AI Institute for Next Generation Food Systems *(Summer 2023)*  
@@ -60,7 +60,7 @@ redirect_from:
 
 ---
 <!-- ### Teaching and Mentoring Experience -->
-<h2 style="color:#555555; font-style:italic;">Teaching and Mentoring Experience</h2>
+<h3 style="color:#555555; font-style:italic;">Teaching and Mentoring Experience</h3>
 
 - **Graduate Teaching Assistant**, University of Virginia *(2021 – 2025)*   
   - *Machine Learning*  
@@ -72,7 +72,7 @@ redirect_from:
   Mentoring undergraduate students in computer vision and remote sensing research, with a focus on dataset creation, model evaluation, and research writing.
 ---
 <!-- ### Industry Experience -->
-<h2 style="color:#555555; font-style:italic;">Industry Experience</h2>
+<h3 style="color:#555555; font-style:italic;">Industry Experience</h3>
 
 - **Software Engineer**, Enosis Solutions, Dhaka, Bangladesh *(2020 – 2021)* 
 
