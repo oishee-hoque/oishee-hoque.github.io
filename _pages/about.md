@@ -712,7 +712,7 @@ My current research focuses on Knowledge-Guided Machine Learning, Multimodal Und
   padding: 0.75rem 0.9rem;
   border: 1px solid #e6e6e6;
   border-radius: 12px;
-  background: #ebebebff;
+  background: #ffffff;
   box-shadow: 0 4px 12px rgba(0,0,0,.04);
 }
 
