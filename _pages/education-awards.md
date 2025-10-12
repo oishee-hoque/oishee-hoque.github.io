@@ -59,6 +59,7 @@ redirect_from:
 - **Unergraduate Research**, Ahsanullah University of Science & Technology (AUST) *(2018-2020)*  
 
 ---
+
 <!-- ### Teaching and Mentoring Experience -->
 <h3 style="color:#555555; font-style:italic;">Teaching and Mentoring Experience</h3>
 
@@ -70,7 +71,9 @@ redirect_from:
 
 - **Undergraduate Research Mentor**, Biocomplexity Institute, University of Virginia *(2025 – Present)*  
   Mentoring undergraduate students in computer vision and remote sensing research, with a focus on dataset creation, model evaluation, and research writing.
+
 ---
+
 <!-- ### Industry Experience -->
 <h3 style="color:#555555; font-style:italic;">Industry Experience</h3>
 
