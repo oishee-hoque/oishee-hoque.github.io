@@ -26,7 +26,9 @@
   <br>
   {% if author.email %}
     <!-- keep email as text, centered with the row -->
-    <p style="margin:0 0 0 6px;"><a href="mailto:{{ author.email }}" style="text-align:center;color:#222;text-decoration:none;font-style: italic; font-family: 'Georgia', serif; font-size: 0.65rem;">{{ author.email }}</a></p>
+    <p style="text-align:center; margin: 0 auto; max-width: 80%; font-style: italic; font-family: 'Georgia', serif; font-size: 0.70rem;">
+    {{ author.email }}
+    </p>
   {% endif %}
 {% endif %}
   </div>

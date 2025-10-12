@@ -15,7 +15,7 @@ I am a CS PhD candidate and an Endowed Fellow at the  <a href="https://engineeri
 <br>
 My current research focuses on Knowledge-Guided Machine Learning, Multimodal Understanding, VLMs, Remote Sensing, with a particular emphasis on integrating domain-specific knowledge with machine learning models to improve data and performance.
 </div>
-<br>
+
 <p style="text-align:center;">
   <!-- <a class="btn-link" href="mailto:oishee@virginia.edu">
     <i class="fas fa-envelope" aria-hidden="true"></i> oishee@virginia.edu
