@@ -42,12 +42,24 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
 ## Recent News
 <div class="news-block" markdown="1">
   
-- <span style="color:Blue"> [October 2025] </span> - Awarded **UVA SEAS Endowed Fellowship 2025**. Award Amount: $12000.
-- <span style="color:Blue"> [September 2025] </span> - One paper got accepted at **NeurIPS 2025**.
-- <span style="color:Blue"> [August 2025] </span> - Mentored two BII undergraduate interns during Summer 2025.
-- <span style="color:Blue"> [June 2025] </span> - One paper got accepted at **KDD 2025**.
-- <span style="color:Blue"> [June 2025] </span> - Two papers got accepted at **IJCAI 2025**.
-- <span style="color:Blue"> [June 2024] </span> - Attended **CVPR 2024** and presented a paper and two posters.
+- <span class="news-icon award"><i class="fa-solid fa-trophy"></i></span>
+  <span style="color:Blue">[October 2025]</span> – Awarded **UVA SEAS Endowed Fellowship 2025**. Award Amount: $12,000.
+
+- <span class="news-icon pub"><i class="fa-solid fa-file-lines"></i></span>
+  <span style="color:Blue">[September 2025]</span> – One paper accepted at **NeurIPS 2025**.
+
+- <span class="news-icon mentor"><i class="fa-solid fa-user-graduate"></i></span>
+  <span style="color:Blue">[August 2025]</span> – Mentored two BII undergraduate interns.
+
+- <span class="news-icon pub"><i class="fa-solid fa-file-lines"></i></span>
+  <span style="color:Blue">[June 2025]</span> – Paper accepted at **KDD 2025**.
+
+- <span class="news-icon pub"><i class="fa-solid fa-book"></i></span>
+  <span style="color:Blue">[June 2025]</span> – Two papers accepted at **IJCAI 2025**.
+
+- <span class="news-icon talk"><i class="fa-solid fa-microphone"></i></span>
+  <span style="color:Blue">[June 2024]</span> – Presented a paper and two posters at **CVPR 2024**.
+  
 - <span style="color:Blue"> [May 2024] </span> - I have received **DEI Travel** grant from CVPR.
 - <span style="color:Blue"> [May 2024] </span> - I have received **WiCV Travel Grant** for attending CVPR.
 - <span style="color:Blue"> [April 2024] </span> - My poster has been accepted at **WiCV, CVPR 2024**.
@@ -434,6 +446,7 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
     <span class="author">Mohammad Imrul Jubair</span>,
     <span class="author">Al-Farabi Akash</span>,
     <span class="author">Md. Saiful Islam</span>
+    <p><em><sup>**</sup> Part of my undergraduate thesis</em></p>
   </p>
   <p><strong>ACCV</strong> (MLCSA Workshop) 2020</p>
 </div>
@@ -471,6 +484,7 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
     <span class="author">Mohammad Imrul Jubair</span>,
     <span class="author">Al-Farabi Akash</span>,
     <span class="author">Md. Saiful Islam</span>
+    <p><em><sup>**</sup> Part of my undergraduate thesis</em></p>
   </p>
     <p> <strong>ICIET 2018</strong></p>
     <div class="pub-links">
@@ -669,6 +683,27 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
 .news-block::-webkit-scrollbar-track { background: transparent; }
 .news-block::-webkit-scrollbar-thumb { background: #d1d5db; border-radius: 8px; }
 .news-block:hover::-webkit-scrollbar-thumb { background: #9ca3af; }
+
+.news-block li { position: relative; padding-left: 1.6rem; }
+.news-icon {
+  position: absolute; left: 0; top: .15rem;
+  width: 1.1rem; text-align: center; opacity: .9;
+}
+
+/* Color accents by type (optional) */
+.news-icon.award      { color: #EAB308; } /* amber */
+.news-icon.pub        { color: #2563EB; } /* blue */
+.news-icon.talk       { color: #059669; } /* green */
+.news-icon.grant      { color: #7C3AED; } /* violet */
+.news-icon.lead       { color: #DC2626; } /* red */
+.news-icon.mentor     { color: #0EA5E9; } /* sky */
+.news-icon.intern     { color: #0F766E; } /* teal */
+.news-icon.dataset    { color: #9333EA; } /* purple */
+.news-icon.travel     { color: #6B7280; } /* gray */
+.news-icon.competition{ color: #F97316; } /* orange */
+.news-icon.preprint   { color: #111827; } /* near-black */
+.news-icon.service    { color: #10B981; } /* emerald */
+
 
 </style>
 
