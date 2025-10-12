@@ -8,14 +8,17 @@ main:
 
   - title: "Education & Experience"
     url: /education-awards/
+  
+  # - title: "Awards & Recognitions"
+  #   url: /awards/
 
-  - title: "Projects"
-    url: /projects/
+  # - title: "Projects"
+  #   url: /projects/
 
   #- title: "Blog Posts"
   #url: /blog-posts/
 
-  - title: "Activities"
+  - title: "Misc."
     url: /activities/
 
   # - title: "CV"
