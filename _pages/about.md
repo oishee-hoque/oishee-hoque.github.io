@@ -59,10 +59,10 @@ My current research focuses on Knowledge-Guided Machine Learning, Multimodal Und
 - <span class="news-icon talk"><i class="fas fa-microphone"></i></span>
   <span style="color:Blue">[June 2024]</span> – Attended **CVPR 2024** and presented a paper and two posters.
 
-- <span class="news-icon grant"><i class="fas fa-trophy"></i></span>
+- <span class="news-icon award"><i class="fas fa-trophy"></i></span>
   <span style="color:Blue">[May 2024]</span> – Received **DEI Travel** grant from CVPR.
 
-- <span class="news-icon grant"><i class="fas fa-trophy"></i></span>
+- <span class="news-icon award"><i class="fas fa-trophy"></i></span>
   <span style="color:Blue">[May 2024]</span> – Received **WiCV Travel Grant** for attending CVPR.
 
 - <span class="news-icon talk"><i class="fas fa-file-alt"></i></span>
@@ -71,7 +71,7 @@ My current research focuses on Knowledge-Guided Machine Learning, Multimodal Und
 - <span class="news-icon pub"><i class="fas fa-file-alt"></i></span>
   <span style="color:Blue">[April 2024]</span> – First-author paper **“IrrNet”** accepted at **V4A, CVPR 2024** (oral + poster).
 
-- <span class="news-icon grant"><i class="fas fa-trophy"></i></span>
+- <span class="news-icon award"><i class="fas fa-trophy"></i></span>
   <span style="color:Blue">[April 2024]</span> – Awarded full travel grant from **2024 Tapia Conference**.
 
 - <span class="news-icon talk"><i class="fas fa-book"></i></span>
@@ -712,7 +712,7 @@ My current research focuses on Knowledge-Guided Machine Learning, Multimodal Und
   padding: 0.75rem 0.9rem;
   border: 1px solid #e6e6e6;
   border-radius: 12px;
-  background: #d5d5d5ff;
+  background: #e6e6e6;
   box-shadow: 0 4px 12px rgba(0,0,0,.04);
 }
 
