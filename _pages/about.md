@@ -23,7 +23,7 @@ My current research focuses on Knowledge-Guided Machine Learning, Multimodal Und
   <a class="btn-link" href="https://oishee-hoque.github.io/files/Oishee_CV_2024.pdf">
     <i class="fas fa-file-download" aria-hidden="true"></i> Download Resume
   </a>
-  <a class="btn-link" href="https://oishee-hoque.github.io/files/Oishee_CV_2024.pdf">
+  <a class="btn-link" href="https://oishee-hoque.github.io/files/Hoque_CV_2025.pdf">
     <i class="fas fa-file-download" aria-hidden="true"></i> Download CV
   </a>
 </p>
