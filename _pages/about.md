@@ -164,7 +164,7 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
   <!-- <img src="/images/pubs/kiim.png" alt="Knowledge-Informed Deep Learning demo" class="pub-thumb"> -->
    <div class="thumb-wrap">
     <img
-      src="{{ '/images/pubs/kiimv2.png' | relative_url }}"
+      src="{{ '/images/pubs/KIIM.png' | relative_url }}"
       alt="kiim demo"
       class="pub-thumb"
       width="300" height="210" loading="lazy" decoding="async"
@@ -196,7 +196,7 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
  <!-- <img src="/images/pubs/irrmap.png" alt="IrrMap demo" class="pub-thumb"> -->
  <div class="thumb-wrap">
     <img
-      src="{{ '/images/pubs/irrmap.png' | relative_url }}"
+      src="{{ '/images/pubs/kiimv2.png' | relative_url }}"
       alt="irrmap demo"
       class="pub-thumb"
       width="300" height="210" loading="lazy" decoding="async"
