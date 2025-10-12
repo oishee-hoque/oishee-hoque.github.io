@@ -20,12 +20,12 @@
      <br>
   {% if author.bio %}
   <p class="author__bio"
-     style="text-align:center; margin: 0 auto; max-width: 80%; font-style: italic; font-family: 'Georgia', serif; font-size: 0.95rem;">
+     style="text-align:center; margin: 0 auto; max-width: 80%; font-style: italic; font-family: 'Georgia', serif; font-size: 0.75rem;">
     {{ author.bio }}
   </p>
   {% if author.email %}
     <!-- keep email as text, centered with the row -->
-    <p style="margin:0 0 0 6px;"><a href="mailto:{{ author.email }}" style="color:#222;text-decoration:none;font-style: italic; font-family: 'Georgia', serif; font-size: 0.95rem;">{{ author.email }}</a></p>
+    <p style="margin:0 0 0 6px;"><a href="mailto:{{ author.email }}" style="color:#222;text-decoration:none;font-style: italic; font-family: 'Georgia', serif; font-size: 0.75rem;">{{ author.email }}</a></p>
   {% endif %}
 {% endif %}
   </div>
