@@ -41,47 +41,120 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
 ---
 ## Recent News
 <div class="news-block" markdown="1">
-  
-- <span style="color:Blue">[October 2025]</span> – Awarded **UVA SEAS Endowed Fellowship 2025**. Award Amount: $12,000. <span class="news-icon award"><i class="fas fa-trophy"></i></span>
 
-- <span style="color:Blue"> [September 2025] </span> - One paper got accepted at **NeurIPS 2025**.
-- <span style="color:Blue"> [August 2025] </span> - Mentored two BII undergraduate interns during Summer 2025.
-- <span style="color:Blue"> [June 2025] </span> - One paper got accepted at **KDD 2025**.
-- <span style="color:Blue"> [June 2025] </span> - Two papers got accepted at **IJCAI 2025**.
-- <span style="color:Blue"> [June 2024] </span> - Attended **CVPR 2024** and presented a paper and two posters.
-- <span style="color:Blue"> [May 2024] </span> - I have received **DEI Travel** grant from CVPR.
-- <span style="color:Blue"> [May 2024] </span> - I have received **WiCV Travel Grant** for attending CVPR.
-- <span style="color:Blue"> [April 2024] </span> - My poster has been accepted at **WiCV, CVPR 2024**.
-- <span style="color:Blue"> [April 2024] </span> - My first-author paper "IrrNet: Advancing Irrigation Mapping with Incremental Patch Size Training on Remote Sensing Imagery" has been accepted at **V4A, CVPR 2024** <br>and selected for both an oral and poster presentation.
-- <span style="color:Blue"> [April 2024] </span> - I have been awarded full travel grant from the **2024 CMD-IT/ACM Richard Tapia Celebration of Diversity in Computing Conference**.
-- <span style="color:Blue"> [April 2024] </span> - My Doctoral Consortium submission, "IrrNet: Spatio-Temporal Segmentation guided Classification for Irrigation Mapping", has been accepted for the **2024 CMD-IT/ACM Richard Tapia Celebration of Diversity in Computing Conference**.
-- <span style="color:Blue"> [April 2024] </span> - My Poster "Irrigation Canal Mapping: Constraining the Network Topology and Reachability to Water Sources", has been accepted for the **2024 CMD-IT/ACM Richard Tapia Celebration of Diversity in Computing Conference in San Diego, California!**
-- <span style="color:Blue"> [Jan 2024] </span> - Joined UVA [Computer Science Graduate Student Group (CSGSG) Council](https://csgsg.org/), 2024 as **Social Chair**
-- <span style="color:Blue"> [June 2023] </span> - Started **Internship** Program with USDA-ARS AI-COE/SCINet
-- <span style="color:Blue"> [April 2023] </span> - I've been awarded a **fellowship** as part of my selection for the **USDA-ARS AI-COE/SCINet Graduate Student Internship Program**.
-- <span style="color:Blue"> [April 2023] </span> - Presented our work at [CCI Symposium 2023](https://cyberinitiative.org/events-programs/2023/cci-symposium-2023.html)
-- <span style="color:Blue"> [April 2023] </span> - Attended [2023 CRA-WP Grad Cohort for Women Workshop](https://web.cvent.com/event/9bcae8aa-6d9e-4942-acc8-a36e48734459/summary)
-- <span style="color:Blue"> [Jan 2023] </span> - My joint first-author paper "COVID-19 non-pharmaceutical interventions: data annotation for rapidly changing local policy information" got published in [Scientific Data - Nature](https://www.nature.com/articles/s41597-023-01979-6).
-- <span style="color:Blue"> [Jan 2023] </span> - Our Team Won 3rd Position in [AgAthon - 2023](https://badgr.com/public/assertions/wJZIOVeESRiBJDtn-tRj6g?identity__email=gza5dr@virginia.edu).
-- <span style="color:Blue"> [Jan 2023] </span> - Participated in AgAID Digital Hackathon 2023 [AgAthon](https://badgr.com/public/assertions/wJZIOVeESRiBJDtn-tRj6g?identity__email=gza5dr@virginia.edu).
-- <span style="color:Blue"> [Jan 2023] </span> - One First Author paper got accepted at [Scientific Data - Nature](https://www.nature.com/sdata/).
-- <span style="color:Blue"> [Jan 2022] </span> - Joined UVA [Computer Science Graduate Student Group (CSGSG) Council](https://csgsg.org/), 2022 as **Space and Media Chair**
-- <span style="color:Blue"> [Jan 2021] </span> - One long paper is accepted at [Springer Nature Computer Science](https://link.springer.com/article/10.1007/s42979-021-00487-x) Journal.
-- <span style="color:Blue"> [Jun 2020] </span> - Participated as a Volunteer in [NAACL'21](https://2021.naacl.org).
-- <span style="color:Blue"> [Dec 2020] </span> - Presented a paper at [ICCIT 2020](http://iccit.org.bd/2020/).
-- <span style="color:Blue"> [Dec 2020] </span> - Presented a paper at [ACCV MLCSA Workshop 2020](http://mlp.sci.yamaguchi-u.ac.jp/MLCSA2020/index.html).
-- <span style="color:Blue"> [Nov 2020] </span> - One paper got accepted at [ICCIT 2020](http://iccit.org.bd/2020/).
-- <span style="color:Blue"> [Oct 2020] </span> - One paper got accepted at [ACCV MLCSA Workshop 2020](http://mlp.sci.yamaguchi-u.ac.jp/MLCSA2020/index.html).
-- <span style="color:Blue"> [Aug 2020] </span> - One [Preprint](https://assets.researchsquare.com/files/rs-56285/v1_stamped.pdf) got published at [Research Square](https://www.researchsquare.com/article/rs-56285/v1).
-- <span style="color:Blue"> [Dec 2018] </span> - Presented a paper at [ICIET 2018](http://www.cse.du.ac.bd/iciet/index.html).
-- <span style="color:Blue"> [Nov 2018] </span> - One [paper](https://ieeexplore.ieee.org/document/8660780) got accepted at [ICIET 2018](http://www.cse.du.ac.bd/iciet/index.html).
-- <span style="color:Blue"> [Nov 2018] </span> - Participated in [ACM ICPC DHAKA REGIONALS 2018](https://icpc.baylor.edu/regionals/finder/Dhaka-2018).
-- <span style="color:Blue"> [Oct 2018] </span> - Participated in [National Girls Programming Contest 2018](https://cseweek.bdosn.org/national-girls-programming-contest).
-- <span style="color:Blue"> [Jun 2018] </span> - Hosted [Aust Cse Week Prize Giving Ceremony - 2018](https://www.facebook.com/codeware.aust/).
-- <span style="color:Blue"> [Nov 2018] </span> - Participated in [ACM ICPC DHAKA REGIONALS 2017](https://icpc.baylor.edu/regionals/finder/Dhaka-2017).
-- <span style="color:Blue"> [Dec 2016] </span> - Participated in [National Girls Programming Contest 2018](https://cseweek.bdosn.org/national-girls-programming-contest).
+- <span class="news-icon award"><i class="fas fa-trophy"></i></span>
+  <span style="color:Blue">[October 2025]</span> – Awarded **UVA SEAS Endowed Fellowship 2025**. Award Amount: $12,000.
+
+- <span class="news-icon pub"><i class="fas fa-file-alt"></i></span>
+  <span style="color:Blue">[September 2025]</span> – One paper got accepted at **NeurIPS 2025**.
+
+- <span class="news-icon mentor"><i class="fas fa-user-graduate"></i></span>
+  <span style="color:Blue">[August 2025]</span> – Mentored two BII undergraduate interns during Summer 2025.
+
+- <span class="news-icon pub"><i class="fas fa-file-alt"></i></span>
+  <span style="color:Blue">[June 2025]</span> – One paper got accepted at **KDD 2025**.
+
+- <span class="news-icon pub"><i class="fas fa-book"></i></span>
+  <span style="color:Blue">[June 2025]</span> – Two papers got accepted at **IJCAI 2025**.
+
+- <span class="news-icon talk"><i class="fas fa-microphone"></i></span>
+  <span style="color:Blue">[June 2024]</span> – Attended **CVPR 2024** and presented a paper and two posters.
+
+- <span class="news-icon grant"><i class="fas fa-hand-holding-usd"></i></span>
+  <span style="color:Blue">[May 2024]</span> – Received **DEI Travel** grant from CVPR.
+
+- <span class="news-icon grant"><i class="fas fa-hand-holding-usd"></i></span>
+  <span style="color:Blue">[May 2024]</span> – Received **WiCV Travel Grant** for attending CVPR.
+
+- <span class="news-icon talk"><i class="fas fa-chalkboard-teacher"></i></span>
+  <span style="color:Blue">[April 2024]</span> – Poster accepted at **WiCV, CVPR 2024**.
+
+- <span class="news-icon pub"><i class="fas fa-file-alt"></i></span>
+  <span style="color:Blue">[April 2024]</span> – First-author paper **“IrrNet”** accepted at **V4A, CVPR 2024** (oral + poster).
+
+- <span class="news-icon grant"><i class="fas fa-hand-holding-usd"></i></span>
+  <span style="color:Blue">[April 2024]</span> – Awarded full travel grant from **2024 Tapia Conference**.
+
+- <span class="news-icon talk"><i class="fas fa-users"></i></span>
+  <span style="color:Blue">[April 2024]</span> – **Doctoral Consortium** accepted for Tapia 2024.
+
+- <span class="news-icon talk"><i class="fas fa-microphone"></i></span>
+  <span style="color:Blue">[April 2024]</span> – Poster **“Irrigation Canal Mapping…”** accepted for **Tapia 2024** (San Diego, CA).
+
+- <span class="news-icon lead"><i class="fas fa-user-tie"></i></span>
+  <span style="color:Blue">[Jan 2024]</span> – Joined **CSGSG Council** as **Social Chair**.
+
+- <span class="news-icon intern"><i class="fas fa-briefcase"></i></span>
+  <span style="color:Blue">[June 2023]</span> – Started **Internship** with **USDA-ARS AI-COE/SCINet**.
+
+- <span class="news-icon award"><i class="fas fa-award"></i></span>
+  <span style="color:Blue">[April 2023]</span> – Awarded **USDA-ARS AI-COE/SCINet Graduate Student Internship Program** fellowship.
+
+- <span class="news-icon talk"><i class="fas fa-microphone"></i></span>
+  <span style="color:Blue">[April 2023]</span> – Presented at **CCI Symposium 2023**.
+
+- <span class="news-icon travel"><i class="fas fa-plane-departure"></i></span>
+  <span style="color:Blue">[April 2023]</span> – Attended **CRA-WP Grad Cohort for Women 2023**.
+
+- <span class="news-icon pub"><i class="fas fa-file-alt"></i></span>
+  <span style="color:Blue">[Jan 2023]</span> – Joint first-author paper published in **Scientific Data (Nature)**.
+
+- <span class="news-icon competition"><i class="fas fa-medal"></i></span>
+  <span style="color:Blue">[Jan 2023]</span> – Team won **3rd place** in **AgAthon 2023**.
+
+- <span class="news-icon dataset"><i class="fas fa-code"></i></span>
+  <span style="color:Blue">[Jan 2023]</span> – Participated in **AgAID Digital Hackathon 2023 (AgAthon)**.
+
+- <span class="news-icon pub"><i class="fas fa-file-alt"></i></span>
+  <span style="color:Blue">[Jan 2023]</span> – First-author paper accepted at **Scientific Data (Nature)**.
+
+- <span class="news-icon lead"><i class="fas fa-users"></i></span>
+  <span style="color:Blue">[Jan 2022]</span> – Joined **CSGSG Council 2022** as **Space and Media Chair**.
+
+- <span class="news-icon pub"><i class="fas fa-book"></i></span>
+  <span style="color:Blue">[Jan 2021]</span> – Long paper accepted at **Springer Nature Computer Science**.
+
+- <span class="news-icon service"><i class="fas fa-hands-helping"></i></span>
+  <span style="color:Blue">[Jun 2020]</span> – Volunteered at **NAACL ’21**.
+
+- <span class="news-icon talk"><i class="fas fa-microphone"></i></span>
+  <span style="color:Blue">[Dec 2020]</span> – Presented a paper at **ICCIT 2020**.
+
+- <span class="news-icon talk"><i class="fas fa-microphone"></i></span>
+  <span style="color:Blue">[Dec 2020]</span> – Presented a paper at **ACCV MLCSA 2020**.
+
+- <span class="news-icon pub"><i class="fas fa-file-alt"></i></span>
+  <span style="color:Blue">[Nov 2020]</span> – Paper accepted at **ICCIT 2020**.
+
+- <span class="news-icon pub"><i class="fas fa-file-alt"></i></span>
+  <span style="color:Blue">[Oct 2020]</span> – Paper accepted at **ACCV MLCSA 2020**.
+
+- <span class="news-icon preprint"><i class="fas fa-file"></i></span>
+  <span style="color:Blue">[Aug 2020]</span> – **Preprint** published at **Research Square**.
+
+- <span class="news-icon talk"><i class="fas fa-microphone"></i></span>
+  <span style="color:Blue">[Dec 2018]</span> – Presented a paper at **ICIET 2018**.
+
+- <span class="news-icon pub"><i class="fas fa-file-alt"></i></span>
+  <span style="color:Blue">[Nov 2018]</span> – Paper accepted at **ICIET 2018**.
+
+- <span class="news-icon competition"><i class="fas fa-medal"></i></span>
+  <span style="color:Blue">[Nov 2018]</span> – Participated in **ACM ICPC Dhaka Regionals 2018**.
+
+- <span class="news-icon competition"><i class="fas fa-medal"></i></span>
+  <span style="color:Blue">[Oct 2018]</span> – Participated in **National Girls Programming Contest 2018**.
+
+- <span class="news-icon talk"><i class="fas fa-bullhorn"></i></span>
+  <span style="color:Blue">[Jun 2018]</span> – Hosted **AUST CSE Week Prize Giving Ceremony 2018**.
+
+- <span class="news-icon competition"><i class="fas fa-medal"></i></span>
+  <span style="color:Blue">[Nov 2017]</span> – Participated in **ACM ICPC Dhaka Regionals 2017**.
+
+- <span class="news-icon competition"><i class="fas fa-medal"></i></span>
+  <span style="color:Blue">[Dec 2016]</span> – Participated in **National Girls Programming Contest 2016**.
 
 </div>
+
 ---
 
 ## Publications [<a href="https://scholar.google.com/citations?hl=en&authuser=3&user=Xyu3_yUAAAAJ" target="_blank" style="color:#1d4ed8;" rel="noopener">Google Scholar</a>]
@@ -429,7 +502,6 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
       </a>
     </h3>
     <div class="pub-info">
-  <h3>BdSL36: A Dataset for Bangladeshi Sign Letters Recognition</h3>
   <p class="pub-authors">
     <span class="author me"><em>Oishee Bintey Hoque</em></span>,
     <span class="author">Mohammad Imrul Jubair</span>,
@@ -684,6 +756,13 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
 
 .news-icon.award { color: #EAB308; } /* gold trophy */
 .news-block li { position: relative; padding-left: 1.6rem; }
+.news-block li{position:relative;padding-left:1.6rem}
+.news-icon{position:absolute;left:0;top:.15rem;width:1.1rem;text-align:center;opacity:.9}
+.news-icon.award{color:#EAB308}.news-icon.pub{color:#2563EB}.news-icon.talk{color:#059669}
+.news-icon.grant{color:#7C3AED}.news-icon.lead{color:#DC2626}.news-icon.mentor{color:#0EA5E9}
+.news-icon.intern{color:#0F766E}.news-icon.dataset{color:#9333EA}.news-icon.travel{color:#6B7280}
+.news-icon.competition{color:#F97316}.news-icon.preprint{color:#111827}.news-icon.service{color:#10B981}
+
 
 
 </style>
