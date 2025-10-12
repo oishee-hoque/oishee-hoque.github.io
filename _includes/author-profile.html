@@ -6,6 +6,64 @@
   {% assign author = site.author %}
 {% endif %}
 
+<div itemscope itemtype="http://schema.org/Person">
+
+  <div class="author__content">
+    <!-- Avatar -->
+    <div class="author__avatar">
+      {% if author.avatar contains "://" %}
+        <img src="{{ author.avatar }}" alt="{{ author.name }}">
+      {% else %}
+        <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" alt="{{ author.name }}">
+      {% endif %}
+    </div>
+
+    <!-- Name -->
+    <h3 class="author__name">{{ author.name }}</h3>
+
+    <!-- Bio (custom two-line; replace with {{ author.bio }} if you want the config value) -->
+    {% if author.bio %}
+      <p class="author__bio">PhD Candidate<br>University of Virginia</p>
+    {% endif %}
+
+    <!-- Email -->
+    {% if author.email %}
+      <p class="author-email">{{ author.email }}</p>
+    {% endif %}
+  </div>
+
+  <!-- Social Icons -->
+  <div class="author__urls-wrapper">
+    <ul class="author__urls social-icons">
+      {% if author.location %}
+        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i></li>
+      {% endif %}
+
+      {% if author.researchgate %}
+        <li><a href="{{ author.researchgate }}" target="_blank" rel="noopener"><i class="fab fa-researchgate" aria-hidden="true"></i></a></li>
+      {% endif %}
+
+      {% if author.twitter %}
+        <li><a href="https://twitter.com/{{ author.twitter }}" target="_blank" rel="noopener"><i class="fab fa-twitter-square" aria-hidden="true"></i></a></li>
+      {% endif %}
+
+      {% if author.linkedin %}
+        <li><a href="https://www.linkedin.com/in/{{ author.linkedin }}" target="_blank" rel="noopener"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+      {% endif %}
+
+      {% if author.github %}
+        <li><a href="https://github.com/{{ author.github }}" target="_blank" rel="noopener"><i class="fab fa-github" aria-hidden="true"></i></a></li>
+      {% endif %}
+
+      {% if author.googlescholar %}
+        <li><a href="{{ author.googlescholar }}" target="_blank" rel="noopener"><i class="fas fa-graduation-cap" aria-hidden="true"></i></a></li>
+      {% endif %}
+    </ul>
+  </div>
+
+</div>
+
+
 <style>
 /* --- Desktop defaults: keep things tidy --- */
 .author__content,
@@ -87,61 +145,3 @@
   .author__urls.social-icons { display: flex !important; }
 }
 </style>
-
-<div itemscope itemtype="http://schema.org/Person">
-
-  <div class="author__content">
-    <!-- Avatar -->
-    <div class="author__avatar">
-      {% if author.avatar contains "://" %}
-        <img src="{{ author.avatar }}" alt="{{ author.name }}">
-      {% else %}
-        <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" alt="{{ author.name }}">
-      {% endif %}
-    </div>
-
-    <!-- Name -->
-    <h3 class="author__name">{{ author.name }}</h3>
-
-    <!-- Bio (custom two-line; replace with {{ author.bio }} if you want the config value) -->
-    {% if author.bio %}
-      <p class="author__bio">PhD Candidate<br>University of Virginia</p>
-    {% endif %}
-
-    <!-- Email -->
-    {% if author.email %}
-      <p class="author-email">{{ author.email }}</p>
-    {% endif %}
-  </div>
-
-  <!-- Social Icons -->
-  <div class="author__urls-wrapper">
-    <ul class="author__urls social-icons">
-      {% if author.location %}
-        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i></li>
-      {% endif %}
-
-      {% if author.researchgate %}
-        <li><a href="{{ author.researchgate }}" target="_blank" rel="noopener"><i class="fab fa-researchgate" aria-hidden="true"></i></a></li>
-      {% endif %}
-
-      {% if author.twitter %}
-        <li><a href="https://twitter.com/{{ author.twitter }}" target="_blank" rel="noopener"><i class="fab fa-twitter-square" aria-hidden="true"></i></a></li>
-      {% endif %}
-
-      {% if author.linkedin %}
-        <li><a href="https://www.linkedin.com/in/{{ author.linkedin }}" target="_blank" rel="noopener"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
-      {% endif %}
-
-      {% if author.github %}
-        <li><a href="https://github.com/{{ author.github }}" target="_blank" rel="noopener"><i class="fab fa-github" aria-hidden="true"></i></a></li>
-      {% endif %}
-
-      {% if author.googlescholar %}
-        <li><a href="{{ author.googlescholar }}" target="_blank" rel="noopener"><i class="fas fa-graduation-cap" aria-hidden="true"></i></a></li>
-      {% endif %}
-    </ul>
-  </div>
-
-</div>
-
