@@ -1,82 +1,147 @@
 {% include base_path %}
 
 {% if page.author and site.data.authors[page.author] %}
-  {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
+  {% assign author = site.data.authors[page.author] %}
+{% else %}
+  {% assign author = site.author %}
 {% endif %}
+
+<style>
+/* --- Desktop defaults: keep things tidy --- */
+.author__content,
+.author__avatar,
+.author__urls-wrapper { text-align: center; }
+
+.author__avatar img {
+  max-width: 160px;
+  height: auto;
+  border-radius: 9999px; /* nice circle if square image */
+  display: block;
+  margin: 0 auto 8px;
+}
+
+.author__name {
+  margin: .25rem 0 0.35rem;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 0.95rem;
+}
+
+.author__bio {
+  margin: 0 auto;
+  max-width: 80%;
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: #333;
+}
+
+.author-email {
+  margin: .25rem auto 0;
+  max-width: 80%;
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 0.8rem;
+  color: #333;
+}
+
+.author__urls.social-icons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: .5rem auto 0;
+}
+
+.author__urls.social-icons li { margin: 0; }
+
+.author__urls.social-icons a {
+  display: inline-flex;
+  width: 28px; height: 28px;
+  align-items: center; justify-content: center;
+  color: #222; text-decoration: none;
+}
+
+.author__urls.social-icons i { font-size: 1.2rem; line-height: 1; }
+
+/* --- Mobile: force stacked center layout & ensure icons show --- */
+@media (max-width: 640px) {
+  .author__content,
+  .author__avatar,
+  .author__urls-wrapper {
+    text-align: center !important;
+    margin: 0 auto !important;
+    width: 100% !important;
+  }
+  .author__avatar img {
+    width: 120px; height: 120px;
+    object-fit: cover;
+  }
+  .author__name { font-size: 1rem !important; }
+  .author__bio  { max-width: 90% !important; font-size: .85rem !important; }
+  .author-email  { max-width: 90% !important; font-size: .8rem !important; }
+
+  /* Some themes hide this on mobile; force it visible */
+  .author__urls.social-icons { display: flex !important; }
+}
+</style>
 
 <div itemscope itemtype="http://schema.org/Person">
 
- 
-
-  <div class="author__content" style="text-align:center;">
-    <!-- Author Avatar -->
-    <div class="author__avatar" style="text-align:center;">
-    {% if author.avatar contains "://" %}
-    	<img style="text-align:center;" src="{{ author.avatar }}" alt="{{ author.name }}">
-    {% else %}
-    	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}">
-    {% endif %}
+  <div class="author__content">
+    <!-- Avatar -->
+    <div class="author__avatar">
+      {% if author.avatar contains "://" %}
+        <img src="{{ author.avatar }}" alt="{{ author.name }}">
+      {% else %}
+        <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" alt="{{ author.name }}">
+      {% endif %}
     </div>
 
-    <!-- Author Name -->
-    <h3  style="text-align:center;font-family: 'Georgia', serif;font-size: 0.85rem;"" class="author__name">{{ author.name }}</h3>
-    <!-- {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %} -->
-     <br>
+    <!-- Name -->
+    <h3 class="author__name">{{ author.name }}</h3>
 
-     
-    <!-- Author Bio -->
-  {% if author.bio %}
-  <p class="author__bio"
-     style="text-align:center; margin: 0 auto; max-width: 80%; font-style: italic; font-family: 'Georgia', serif; font-size: 0.75rem;">
-    PhD Candidate<br>University of Virginia
-     <!-- {{ author.bio }} -->
-  </p>
-  {% endif %}
-  {% if author.email %}
-    <!-- keep email as text, centered with the row -->
-    <p style="text-align:center; margin: 0 auto; max-width: 80%; font-style: italic; font-family: 'Georgia', serif; font-size: 0.70rem;">
-    {{ author.email }}
-    </p>
-  {% endif %}
-  <br>
+    <!-- Bio (custom two-line; replace with {{ author.bio }} if you want the config value) -->
+    {% if author.bio %}
+      <p class="author__bio">PhD Candidate<br>University of Virginia</p>
+    {% endif %}
 
-</div>
-
-  <div class="author__urls-wrapper">
-    <!-- <button class="btn btn--inverse">Follow</button> -->
-<ul class="author__urls social-icons"
-    style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;list-style:none;padding:0;margin:.5rem 0 0;">
-  {% if author.location %}
-    <li style="margin:0;"><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
-  {% endif %}
-  {% if author.researchgate %}
-    <li style="margin:0;"><a href="{{ author.researchgate }}" target="_blank" rel="noopener"
-      style="display:inline-flex;width:28px;height:28px;align-items:center;justify-content:center;color:#222;text-decoration:none;">
-      <i class="fab fa-researchgate" aria-hidden="true" style="font-size:1.2rem;line-height:1;"></i></a></li>
-  {% endif %}
-  {% if author.twitter %}
-    <li style="margin:0;"><a href="https://twitter.com/{{ author.twitter }}" target="_blank" rel="noopener"
-      style="display:inline-flex;width:28px;height:28px;align-items:center;justify-content:center;color:#222;text-decoration:none;">
-      <i class="fab fa-twitter-square" aria-hidden="true" style="font-size:1.2rem;line-height:1;"></i></a></li>
-  {% endif %}
-  {% if author.linkedin %}
-    <li style="margin:0;"><a href="https://www.linkedin.com/in/{{ author.linkedin }}" target="_blank" rel="noopener"
-      style="display:inline-flex;width:28px;height:28px;align-items:center;justify-content:center;color:#222;text-decoration:none;">
-      <i class="fab fa-linkedin" aria-hidden="true" style="font-size:1.2rem;line-height:1;"></i></a></li>
-  {% endif %}
-  {% if author.github %}
-    <li style="margin:0;"><a href="https://github.com/{{ author.github }}" target="_blank" rel="noopener"
-      style="display:inline-flex;width:28px;height:28px;align-items:center;justify-content:center;color:#222;text-decoration:none;">
-      <i class="fab fa-github" aria-hidden="true" style="font-size:1.2rem;line-height:1;"></i></a></li>
-  {% endif %}
-  {% if author.googlescholar %}
-    <li style="margin:0;"><a href="{{ author.googlescholar }}" target="_blank" rel="noopener"
-      style="display:inline-flex;width:28px;height:28px;align-items:center;justify-content:center;color:#222;text-decoration:none;">
-      <i class="fas fa-graduation-cap" aria-hidden="true" style="font-size:1.2rem;line-height:1;"></i></a></li>
-  {% endif %}
-</ul>
-
+    <!-- Email -->
+    {% if author.email %}
+      <p class="author-email">{{ author.email }}</p>
+    {% endif %}
   </div>
 
+  <!-- Social Icons -->
+  <div class="author__urls-wrapper">
+    <ul class="author__urls social-icons">
+      {% if author.location %}
+        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i></li>
+      {% endif %}
+
+      {% if author.researchgate %}
+        <li><a href="{{ author.researchgate }}" target="_blank" rel="noopener"><i class="fab fa-researchgate" aria-hidden="true"></i></a></li>
+      {% endif %}
+
+      {% if author.twitter %}
+        <li><a href="https://twitter.com/{{ author.twitter }}" target="_blank" rel="noopener"><i class="fab fa-twitter-square" aria-hidden="true"></i></a></li>
+      {% endif %}
+
+      {% if author.linkedin %}
+        <li><a href="https://www.linkedin.com/in/{{ author.linkedin }}" target="_blank" rel="noopener"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+      {% endif %}
+
+      {% if author.github %}
+        <li><a href="https://github.com/{{ author.github }}" target="_blank" rel="noopener"><i class="fab fa-github" aria-hidden="true"></i></a></li>
+      {% endif %}
+
+      {% if author.googlescholar %}
+        <li><a href="{{ author.googlescholar }}" target="_blank" rel="noopener"><i class="fas fa-graduation-cap" aria-hidden="true"></i></a></li>
+      {% endif %}
+    </ul>
+  </div>
 
 </div>
+
