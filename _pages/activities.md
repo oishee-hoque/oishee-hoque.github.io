@@ -44,16 +44,14 @@ author_profile: true
 
 ---
 
-<h3 style="color:#1e90ff;">Services</h3>
-
-#### Professional Services
+<h3 style="color:#1e90ff;">Professional Services</h3>
 - **2024** – Reviewer, *CVPR Workshop on Vision for Agriculture (V4A)*;  
   Social Chair, UVA Computer Science Graduate Student Group (CSGSG) Council.  
 - **2022** – Space and Media Chair, UVA CSGSG Council.  
 - **2020–2019** – Judge, *Bangladeshi National Robotics Olympiad*.  
 - **2019** – Program Committee / Sub-Reviewer, *ICIET 2019*.  
 
-#### Other Services
+<h3 style="color:#1e90ff;">Other Services</h3>
 - **2023** – Student Volunteer, *GEMS (Girls Excited about Math and Science)*, University of Virginia — assisted with course design and teaching.  
 - **2023** – Volunteer, *Meals on Wheels* — assisted with meal delivery to elderly individuals.  
 - **2018** – Problem Setter, Organizer, and Host, *AUST CSE Week*; Host, *Prize Giving Ceremony*.  
