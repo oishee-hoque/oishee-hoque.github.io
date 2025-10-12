@@ -40,7 +40,7 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
 	title="Publication Venues" width="600" height="200"> </a> -->
 ---
 ## Recent News
-<div class="news-block">
+<div class="news-block" markdown="1">
   
 - <span style="color:Blue"> [October 2025] </span> - Awarded **UVA SEAS Endowed Fellowship 2025**. Award Amount: $12000.
 - <span style="color:Blue"> [September 2025] </span> - One paper got accepted at **NeurIPS 2025**.
@@ -128,7 +128,7 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
   <!-- <img src="/images/pubs/igrass.jpg" alt="IGraSS demo" class="pub-thumb"> -->
   <div class="thumb-wrap">
     <img
-      src="{{ '/images/pubs/igrassv3.png' | relative_url }}"
+      src="{{ '/images/pubs/igrassv4.png' | relative_url }}"
       alt="igrass demo"
       class="pub-thumb"
       width="300" height="210" loading="lazy" decoding="async"
@@ -164,7 +164,7 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
   <!-- <img src="/images/pubs/kiim.png" alt="Knowledge-Informed Deep Learning demo" class="pub-thumb"> -->
    <div class="thumb-wrap">
     <img
-      src="{{ '/images/pubs/KIIM.png' | relative_url }}"
+      src="{{ '/images/pubs/kiimv2.png' | relative_url }}"
       alt="kiim demo"
       class="pub-thumb"
       width="300" height="210" loading="lazy" decoding="async"
@@ -369,7 +369,7 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
     <span class="author">J.D. Zamfirescu-Pereira</span>,
     <span class="author">Mark E. Whiting</span>,
     <span class="author">Madhav Marathe</span>
-     <p><em><sup>*</sup> equal contribution</em><p>
+     <p><em><sup>*</sup> equal contribution</em></p>
   </p>
   <p><strong>Scientific Data</strong> (<em>Nature</em>) 2023</p>
 </div>
@@ -642,9 +642,7 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
   box-shadow: 0 4px 12px rgba(0,0,0,.04);
 }
 
-/* Tighten list spacing inside the box */
-.news-block ul { margin: 0; padding-left: 1.1rem; }
-.news-block li { margin: .35rem 0; }
+
 
 /* Subtle custom scrollbar (WebKit) */
 .news-block::-webkit-scrollbar { width: 8px; }
@@ -654,6 +652,24 @@ Prior to my Ph.D., my undergraduate research at <a href="http://aust.edu/">Ahsan
   border-radius: 8px;
 }
 .news-block:hover::-webkit-scrollbar-thumb { background: #9ca3af; }
+
+
+
+/* Bullet spacing/indents */
+.news-block,
+.news-block ul {
+  list-style: disc;
+  padding-left: 1.1rem;
+  margin: 0;
+}
+.news-block li { margin: .35rem 0; }
+
+/* Subtle custom scrollbar (WebKit) */
+.news-block::-webkit-scrollbar { width: 8px; }
+.news-block::-webkit-scrollbar-track { background: transparent; }
+.news-block::-webkit-scrollbar-thumb { background: #d1d5db; border-radius: 8px; }
+.news-block:hover::-webkit-scrollbar-thumb { background: #9ca3af; }
+
 </style>
 
 <!-- ## Recent News
