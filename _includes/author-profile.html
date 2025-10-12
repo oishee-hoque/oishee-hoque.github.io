@@ -18,12 +18,12 @@
     <h3 class="author__name">{{ author.name }}</h3>
     <!-- {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %} -->
      <br>
-    {% if author.bio %}
-  <p class="author__bio" style="text-align:center; margin: 0 auto; max-width: 80%;">
+  {% if author.bio %}
+  <p class="author__bio"
+     style="text-align:center; margin: 0 auto; max-width: 80%; font-style: italic; font-family: 'Georgia', serif; font-size: 0.95rem;">
     {{ author.bio }}
   </p>
 {% endif %}
-
   </div>
 
   <div class="author__urls-wrapper">
