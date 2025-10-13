@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: ""
+# excerpt: "About me"
 permalink: /activities/
 author_profile: true
 ---

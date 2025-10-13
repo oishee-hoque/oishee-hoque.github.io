@@ -1,69 +1,112 @@
 {% include base_path %}
 
-{% if page.author and site.data.authors[page.author] %}
-  {% assign author = site.data.authors[page.author] %}
-{% else %}
-  {% assign author = site.author %}
-{% endif %}
+<style>
+  /* mobile: only the button; hide inline links */
+  @media (max-width: 768px) {
+    .greedy-nav .visible-links { display: none !important; }
+    .greedy-nav .greedy-nav__toggle { display: inline-flex !important; align-items:center; }
+    .greedy-nav .hidden-links {
+      display: none;                /* toggled by JS */
+      position: absolute;
+      left: 0; right: 0;
+      top: 100%;
+      background: #fff;
+      border: 1px solid #e5e7eb;
+      border-top: none;
+      z-index: 1000;
+      padding: .4rem .6rem;
+      box-shadow: 0 8px 20px rgba(0,0,0,.08);
+    }
+    .greedy-nav .hidden-links li { list-style: none; }
+    .greedy-nav .hidden-links a {
+      display: block; padding: .4rem .5rem; text-decoration: none; color: #111827;
+    }
+    .greedy-nav .hidden-links a:hover { background: #f3f4f6; }
+  }
 
-<!-- Center only this block with margin:auto; never touches masthead/nav -->
-<div itemscope itemtype="http://schema.org/Person"
-     style="text-align:center; max-width:560px; margin:0 auto; padding:4px 8px;">
+  /* desktop: normal inline nav */
+  @media (min-width: 769px) {
+    .greedy-nav { position: relative; }
+    .greedy-nav .hidden-links { display: none !important; }
+    .greedy-nav .greedy-nav__toggle { display: none; }
+  }
 
-  <!-- Avatar -->
-  {% if author.avatar contains "://" %}
-    <img src="{{ author.avatar }}" alt="{{ author.name }}"
-         style="display:block; margin:0 auto 10px; width:110px; height:110px; border-radius:9999px; object-fit:cover;">
-  {% else %}
-    <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" alt="{{ author.name }}"
-         style="display:block; margin:0 auto 10px; width:110px; height:110px; border-radius:9999px; object-fit:cover;">
-  {% endif %}
+  .masthead { position: relative; }
+  .greedy-nav { display: flex; align-items: center; gap: .5rem; position: relative; }
+  .greedy-nav .visible-links { display: flex; gap: .75rem; margin: 0; padding: 0; }
+  .greedy-nav .visible-links li { list-style: none; }
+  .greedy-nav__toggle { border: 1px solid #e5e7eb; background: #fff; padding: .4rem .6rem; border-radius: .5rem; cursor: pointer; }
+  .greedy-nav__toggle .navicon { width: 18px; height: 2px; background:#111; position: relative; display:block; }
+  .greedy-nav__toggle .navicon:before, .greedy-nav__toggle .navicon:after {
+    content:""; position:absolute; left:0; right:0; height:2px; background:#111;
+  }
+  .greedy-nav__toggle .navicon:before { top:-6px; }
+  .greedy-nav__toggle .navicon:after  { top: 6px; }
+</style>
 
-  <!-- Name -->
-  <h3 style="font-family:'Georgia', serif; font-size:1rem; font-weight:700; margin:.25rem 0 .35rem;">
-    {{ author.name }}
-  </h3>
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <!-- button the theme expects -->
+        <button class="greedy-nav__toggle" type="button" aria-label="Toggle menu">
+          <span class="navicon"></span>
+        </button>
 
-  <!-- Bio -->
-  {% if author.bio %}
-    <p style="font-style:italic; font-family:'Georgia', serif; font-size:.9rem; line-height:1.35; margin:.25rem 0;">
-      PhD Candidate<br>University of Virginia
-    </p>
-  {% endif %}
+        <!-- inline links (desktop only); JS will clone/move them into the dropdown on mobile -->
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+          {% for link in site.data.navigation.main %}
+            {% if link.url contains 'http' %}
+              {% assign domain = '' %}
+            {% else %}
+              {% assign domain = base_path %}
+            {% endif %}
+            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+          {% endfor %}
+        </ul>
 
-  <!-- Email -->
-  {% if author.email %}
-    <p style="font-style:italic; font-family:'Georgia', serif; font-size:.85rem; margin:.25rem 0;">
-      <a href="mailto:{{ author.email }}" style="color:#333; text-decoration:underline;">{{ author.email }}</a>
-    </p>
-  {% endif %}
-
-  <!-- Social icons -->
-  <ul style="display:flex; justify-content:center; gap:10px; list-style:none; padding:0; margin:.6rem 0 0; flex-wrap:wrap;">
-    {% if author.researchgate %}
-      <li><a href="{{ author.researchgate }}" target="_blank" rel="noopener"
-             style="display:inline-flex; width:28px; height:28px; align-items:center; justify-content:center; color:#333; text-decoration:none;">
-             <i class="fab fa-researchgate" style="font-size:1.3rem;"></i></a></li>
-    {% endif %}
-    {% if author.linkedin %}
-      <li><a href="https://www.linkedin.com/in/{{ author.linkedin }}" target="_blank" rel="noopener"
-             style="display:inline-flex; width:28px; height:28px; align-items:center; justify-content:center; color:#333; text-decoration:none;">
-             <i class="fab fa-linkedin" style="font-size:1.3rem;"></i></a></li>
-    {% endif %}
-    {% if author.github %}
-      <li><a href="https://github.com/{{ author.github }}" target="_blank" rel="noopener"
-             style="display:inline-flex; width:28px; height:28px; align-items:center; justify-content:center; color:#333; text-decoration:none;">
-             <i class="fab fa-github" style="font-size:1.3rem;"></i></a></li>
-    {% endif %}
-    {% if author.googlescholar %}
-      <li><a href="{{ author.googlescholar }}" target="_blank" rel="noopener"
-             style="display:inline-flex; width:28px; height:28px; align-items:center; justify-content:center; color:#333; text-decoration:none;">
-             <i class="fas fa-graduation-cap" style="font-size:1.3rem;"></i></a></li>
-    {% endif %}
-    {% if author.twitter %}
-      <li><a href="https://twitter.com/{{ author.twitter }}" target="_blank" rel="noopener"
-             style="display:inline-flex; width:28px; height:28px; align-items:center; justify-content:center; color:#333; text-decoration:none;">
-             <i class="fab fa-twitter-square" style="font-size:1.3rem;"></i></a></li>
-    {% endif %}
-  </ul>
+        <!-- dropdown container -->
+        <ul class="hidden-links"></ul>
+      </nav>
+    </div>
+  </div>
 </div>
+
+<script>
+  (function () {
+    var nav = document.getElementById('site-nav');
+    if (!nav) return;
+    var btn = nav.querySelector('.greedy-nav__toggle');
+    var visible = nav.querySelector('.visible-links');
+    var hidden = nav.querySelector('.hidden-links');
+
+    function toMobile() {
+      // move ALL items into the dropdown on mobile (including site title)
+      while (visible.children.length) hidden.appendChild(visible.children[0]);
+      btn.style.display = 'inline-flex';
+    }
+
+    function toDesktop() {
+      // move items back out to visible list on desktop
+      while (hidden.children.length) visible.appendChild(hidden.children[0]);
+      hidden.style.display = 'none';
+      btn.style.display = 'none';
+    }
+
+    function sync() {
+      if (window.matchMedia('(max-width: 768px)').matches) toMobile(); else toDesktop();
+    }
+
+    // toggle dropdown
+    btn.addEventListener('click', function () {
+      hidden.style.display = (hidden.style.display === 'block') ? 'none' : 'block';
+    });
+
+    // init + respond to resize
+    document.addEventListener('DOMContentLoaded', sync);
+    window.addEventListener('resize', sync);
+    // if DOMContentLoaded already fired (include at bottom), call immediately
+    if (document.readyState === 'interactive' || document.readyState === 'complete') sync();
+  })();
+</script>
