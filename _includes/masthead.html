@@ -1,23 +1,48 @@
 {% include base_path %}
 
+<style>
+  /* Mobile: hide all inline links; show only the toggle button */
+  @media (max-width: 768px) {
+    .greedy-nav .visible-links { display: none !important; }
+    .greedy-nav .greedy-nav__toggle { display: inline-flex !important; }
+  }
+</style>
+
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
+        <!-- add the expected class + a11y bits -->
+        <button class="greedy-nav__toggle hidden" type="button" aria-label="Toggle menu">
+          <span class="navicon"></span>
+        </button>
+
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg">
+            <a href="{{ base_path }}/">{{ site.title }}</a>
+          </li>
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
-              {% else %}
+            {% else %}
               {% assign domain = base_path %}
             {% endif %}
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
         </ul>
+
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
   </div>
 </div>
+
+<!-- ensure the toggle is unhidden on mobile -->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    if (window.matchMedia('(max-width: 768px)').matches) {
+      var btn = document.querySelector('.greedy-nav .greedy-nav__toggle');
+      if (btn) btn.classList.remove('hidden');
+    }
+  });
+</script>
