@@ -1,82 +1,74 @@
 {% include base_path %}
 
 {% if page.author and site.data.authors[page.author] %}
-  {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
+  {% assign author = site.data.authors[page.author] %}
+{% else %}
+  {% assign author = site.author %}
 {% endif %}
 
-<div itemscope itemtype="http://schema.org/Person">
+<!-- OUTER WRAPPER CENTERS THE WHOLE THING -->
+<div style="width:100%; display:flex; justify-content:center;">
 
- 
+  <!-- INNER CARD (set a nice max width; fully centered) -->
+  <div itemscope itemtype="http://schema.org/Person"
+       style="text-align:center; width:100%; max-width:560px; padding:4px 8px;">
 
-  <div class="author__content" style="text-align:center;">
-    <!-- Author Avatar -->
-    <div class="author__avatar" style="text-align:center;">
+    <!-- Avatar -->
     {% if author.avatar contains "://" %}
-    	<img style="text-align:center;" src="{{ author.avatar }}" alt="{{ author.name }}">
+      <img src="{{ author.avatar }}" alt="{{ author.name }}"
+           style="display:block; margin:0 auto 10px; width:110px; height:110px; border-radius:9999px; object-fit:cover;">
     {% else %}
-    	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}">
+      <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" alt="{{ author.name }}"
+           style="display:block; margin:0 auto 10px; width:110px; height:110px; border-radius:9999px; object-fit:cover;">
     {% endif %}
-    </div>
 
-    <!-- Author Name -->
-    <h3  style="text-align:center;font-family: 'Georgia', serif;font-size: 0.85rem;"" class="author__name">{{ author.name }}</h3>
-    <!-- {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %} -->
-     <br>
+    <!-- Name -->
+    <h3 style="font-family:'Georgia', serif; font-size:1rem; font-weight:700; margin:.25rem 0 .35rem;">
+      {{ author.name }}
+    </h3>
 
-     
-    <!-- Author Bio -->
-  {% if author.bio %}
-  <p class="author__bio"
-     style="text-align:center; margin: 0 auto; max-width: 80%; font-style: italic; font-family: 'Georgia', serif; font-size: 0.75rem;">
-    PhD Candidate<br>University of Virginia
-     <!-- {{ author.bio }} -->
-  </p>
-  {% endif %}
-  {% if author.email %}
-    <!-- keep email as text, centered with the row -->
-    <p style="text-align:center; margin: 0 auto; max-width: 80%; font-style: italic; font-family: 'Georgia', serif; font-size: 0.70rem;">
-    {{ author.email }}
-    </p>
-  {% endif %}
-  <br>
+    <!-- Bio -->
+    {% if author.bio %}
+      <p style="font-style:italic; font-family:'Georgia', serif; font-size:.9rem; line-height:1.35; margin:.25rem 0;">
+        PhD Candidate<br>University of Virginia
+      </p>
+    {% endif %}
 
-</div>
+    <!-- Email -->
+    {% if author.email %}
+      <p style="font-style:italic; font-family:'Georgia', serif; font-size:.85rem; margin:.25rem 0;">
+        <a href="mailto:{{ author.email }}" style="color:#333; text-decoration:underline;">{{ author.email }}</a>
+      </p>
+    {% endif %}
 
-  <div class="author__urls-wrapper">
-    <!-- <button class="btn btn--inverse">Follow</button> -->
-<ul class="author__urls social-icons"
-    style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;list-style:none;padding:0;margin:.5rem 0 0;">
-  {% if author.location %}
-    <li style="margin:0;"><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
-  {% endif %}
-  {% if author.researchgate %}
-    <li style="margin:0;"><a href="{{ author.researchgate }}" target="_blank" rel="noopener"
-      style="display:inline-flex;width:28px;height:28px;align-items:center;justify-content:center;color:#222;text-decoration:none;">
-      <i class="fab fa-researchgate" aria-hidden="true" style="font-size:1.2rem;line-height:1;"></i></a></li>
-  {% endif %}
-  {% if author.twitter %}
-    <li style="margin:0;"><a href="https://twitter.com/{{ author.twitter }}" target="_blank" rel="noopener"
-      style="display:inline-flex;width:28px;height:28px;align-items:center;justify-content:center;color:#222;text-decoration:none;">
-      <i class="fab fa-twitter-square" aria-hidden="true" style="font-size:1.2rem;line-height:1;"></i></a></li>
-  {% endif %}
-  {% if author.linkedin %}
-    <li style="margin:0;"><a href="https://www.linkedin.com/in/{{ author.linkedin }}" target="_blank" rel="noopener"
-      style="display:inline-flex;width:28px;height:28px;align-items:center;justify-content:center;color:#222;text-decoration:none;">
-      <i class="fab fa-linkedin" aria-hidden="true" style="font-size:1.2rem;line-height:1;"></i></a></li>
-  {% endif %}
-  {% if author.github %}
-    <li style="margin:0;"><a href="https://github.com/{{ author.github }}" target="_blank" rel="noopener"
-      style="display:inline-flex;width:28px;height:28px;align-items:center;justify-content:center;color:#222;text-decoration:none;">
-      <i class="fab fa-github" aria-hidden="true" style="font-size:1.2rem;line-height:1;"></i></a></li>
-  {% endif %}
-  {% if author.googlescholar %}
-    <li style="margin:0;"><a href="{{ author.googlescholar }}" target="_blank" rel="noopener"
-      style="display:inline-flex;width:28px;height:28px;align-items:center;justify-content:center;color:#222;text-decoration:none;">
-      <i class="fas fa-graduation-cap" aria-hidden="true" style="font-size:1.2rem;line-height:1;"></i></a></li>
-  {% endif %}
-</ul>
+    <!-- Social icons -->
+    <ul style="display:flex; justify-content:center; gap:10px; list-style:none; padding:0; margin:.6rem 0 0; flex-wrap:wrap;">
+      {% if author.researchgate %}
+        <li><a href="{{ author.researchgate }}" target="_blank" rel="noopener"
+               style="display:inline-flex; width:28px; height:28px; align-items:center; justify-content:center; color:#333; text-decoration:none;">
+               <i class="fab fa-researchgate" style="font-size:1.3rem;"></i></a></li>
+      {% endif %}
+      {% if author.linkedin %}
+        <li><a href="https://www.linkedin.com/in/{{ author.linkedin }}" target="_blank" rel="noopener"
+               style="display:inline-flex; width:28px; height:28px; align-items:center; justify-content:center; color:#333; text-decoration:none;">
+               <i class="fab fa-linkedin" style="font-size:1.3rem;"></i></a></li>
+      {% endif %}
+      {% if author.github %}
+        <li><a href="https://github.com/{{ author.github }}" target="_blank" rel="noopener"
+               style="display:inline-flex; width:28px; height:28px; align-items:center; justify-content:center; color:#333; text-decoration:none;">
+               <i class="fab fa-github" style="font-size:1.3rem;"></i></a></li>
+      {% endif %}
+      {% if author.googlescholar %}
+        <li><a href="{{ author.googlescholar }}" target="_blank" rel="noopener"
+               style="display:inline-flex; width:28px; height:28px; align-items:center; justify-content:center; color:#333; text-decoration:none;">
+               <i class="fas fa-graduation-cap" style="font-size:1.3rem;"></i></a></li>
+      {% endif %}
+      {% if author.twitter %}
+        <li><a href="https://twitter.com/{{ author.twitter }}" target="_blank" rel="noopener"
+               style="display:inline-flex; width:28px; height:28px; align-items:center; justify-content:center; color:#333; text-decoration:none;">
+               <i class="fab fa-twitter-square" style="font-size:1.3rem;"></i></a></li>
+      {% endif %}
+    </ul>
 
   </div>
-
-
 </div>

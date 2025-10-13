@@ -7,55 +7,55 @@ author_profile: true
 
 <h3 style="color:#1e90ff;">Media and Research Highlights</h3>
 
-- **July 2025** – *Research Spotlight*, **SCINet Newsletter**: *Advancing Irrigation Mapping Through AI and Remote Sensing*; featured in the USDA SCINet July 2025 issue. [[Read online](https://scinet.usda.gov/news/newsletter/2025-07)]
-- **July 2025** – *Paper Recognition*: “**IrrMap: A Large-Scale Comprehensive Dataset for Irrigation Method Mapping**,” *KDD 2025*, highlighted on ACM Kudos. [[View on Kudos](https://link.growkudos.com/1e1cogkx91c)]
+- July 2025 – **Research Spotlight**, *SCINet Newsletter*: Advancing Irrigation Mapping Through AI and Remote Sensing; featured in the USDA SCINet July 2025 issue. [[Read online](https://scinet.usda.gov/news/newsletter/2025-07)]
+- July 2025 – **Paper Recognition**, *highlighted on ACM Kudo*s: “IrrMap: A Large-Scale Comprehensive Dataset for Irrigation Method Mapping,” KDD 2025, [[View on Kudos](https://link.growkudos.com/1e1cogkx91c)]
 
 ---
 
 <h3 style="color:#1e90ff;">Academic Awards</h3>
 
-- **2025** – *Endowed Fellowship*, UVA School of Engineering & Applied Science (SEAS); awarded to 20–25 outstanding doctoral students. **$12,000**.  
-- **2021** – *PhD Fellowship*, UVA Computer Science.  
-- **2019** – *Merit Award*, Dean’s List of Honor, AUST.  
+- 2025 – **Endowed Fellowship**, UVA School of Engineering & Applied Science (SEAS); awarded to 20–25 *outstanding doctoral students. Amount: $12,000*.  
+- 2023 – **USDA-ARS AI-COE Fellowship**, Graduate Student Internship Program, USDA-ARS, USA. 
+- 2021 – **PhD Fellowship**, UVA Computer Science.  
+- 2019 – **Dean’s List of Honor**, AUST.  
 
 ---
 
 <h3 style="color:#1e90ff;">Travel Grants</h3>
 
-- **Aug 2025** – *International Joint Conference on Artificial Intelligence (IJCAI)*, Montréal, Canada.  
-- **Apr 2025** – *Computing Research Association (CRA-WP)*, Grad Cohort for Women Workshop, Denver, CO.  
-- **Sep 2024** – *CMD-IT/ACM Richard Tapia Celebration of Diversity in Computing*, San Diego, CA.  
-- **Jun 2024** – *IEEE/CVF CVPR 2024*, DEI Travel Grant, Seattle, WA.  
-- **May 2024** – *Women in Computer Vision (WiCV)* Workshop, CVPR 2024, Seattle, WA.  
-- **Jun 2023** – *USDA-ARS AI-COE Fellowship*, Graduate Student Internship Program, USDA-ARS, USA.  
-- **Apr 2023** – *CRA-WP*, Grad Cohort for Women Workshop, San Francisco, CA.  
+- Aug 2025 – *International Joint Conference on Artificial Intelligence (IJCAI)*, Montréal, Canada.  
+- Apr 2025 – *Computing Research Association (CRA-WP)*, Grad Cohort for Women Workshop, Denver, CO.  
+- Sep 2024 – *CMD-IT/ACM Richard Tapia Celebration of Diversity in Computing*, San Diego, CA.  
+- Jun 2024 – *IEEE/CVF CVPR 2024*, DEI Travel Grant, Seattle, WA.  
+- May 2024 – *Women in Computer Vision (WiCV)* Workshop, CVPR 2024, Seattle, WA.   
+- Apr 2023 – *CRA-WP*, Grad Cohort for Women Workshop, San Francisco, CA.  
 
 ---
 
 <h3 style="color:#1e90ff;">Other Achievements</h3>
 
-- **Sep 2024** – Selected for *Doctoral Consortium*, CMD-IT/ACM Tapia Celebration of Diversity in Computing 2024.  
-  Also selected for a Poster Presentation at the same conference.  
-- **Jun 2024** – Extended Abstract and Poster Presentation, *Women in Computer Vision (WiCV)*, CVPR 2024.  
-  Oral Presentation, *Vision for Agriculture (V4A)* Workshop, CVPR 2024.  
-- **Jan 2023** – 3rd Place, *AgAthon 2023 (AgAID Digital Hackathon)*.  
-- **Oct 2018** – 11th Place (of 120 teams), *National Girls Programming Contest 2018*.  
-- **Mar 2016** – 5th Place, *Intra-AUST Programming Contest (Spring 2016)*.  
+- Sep 2024 – Selected for **Doctoral Consortium**, *CMD-IT/ACM Tapia Celebration of Diversity in Computing 2024*.  
+- Sep 2024 - Selected for a **Poster Presentation**, *CMD-IT/ACM Tapia Celebration of Diversity in Computing 2024*.   
+- Jun 2024 – Extended **Abstract and Poster Presentation**, *Women in Computer Vision (WiCV), CVPR 2024*.  
+- Jun 2024 – **Oral Presentation**, *Vision for Agriculture (V4A) Workshop, CVPR 2024*.  
+- Jan 2023 – 3rd Place, **AgAthon 2023 (AgAID Digital Hackathon)**.  
+- Oct 2018 – 11th Place (of 120 teams), **National Girls Programming Contest 2018**.  
+- Mar 2016 – 5th Place, **Intra-AUST Programming Contest (Spring 2016)**.  
 
 ---
 
 <h3 style="color:#1e90ff;">Professional Services</h3>
-- **2024** – Reviewer, *CVPR Workshop on Vision for Agriculture (V4A)*;  
-  Social Chair, UVA Computer Science Graduate Student Group (CSGSG) Council.  
-- **2022** – Space and Media Chair, UVA CSGSG Council.  
-- **2020–2019** – Judge, *Bangladeshi National Robotics Olympiad*.  
-- **2019** – Program Committee / Sub-Reviewer, *ICIET 2019*.  
+- 2024 – *Reviewer*, CVPR Workshop on Vision for Agriculture (V4A);  
+- 2024 - *Social Chair*, UVA Computer Science Graduate Student Group (CSGSG) Council.  
+- 2022 – *Space and Media Chair*, UVA CSGSG Council.  
+- 2020–2019 – *Judge*, Bangladeshi National Robotics Olympiad.  
+- 2019 – *Program Committee / Sub-Reviewer*, ICIET 2019.  
 
 <h3 style="color:#1e90ff;">Other Services</h3>
-- **2023** – Student Volunteer, *GEMS (Girls Excited about Math and Science)*, University of Virginia — assisted with course design and teaching.  
-- **2023** – Volunteer, *Meals on Wheels* — assisted with meal delivery to elderly individuals.  
-- **2018** – Problem Setter, Organizer, and Host, *AUST CSE Week*; Host, *Prize Giving Ceremony*.  
-- **2016–2018** – Class Representative, *Batch 35, AUST CSE Dept.* (52 students).  
+- 2023 – Student Volunteer, *GEMS (Girls Excited about Math and Science)*, University of Virginia — assisted with course design and teaching.  
+- 2023 – Volunteer, *Meals on Wheels* — assisted with meal delivery to elderly individuals.  
+- 2018 – Problem Setter, Organizer, and Host, *AUST CSE Week*; Host, *Prize Giving Ceremony*.  
+- 2016 – 2018 – Class Representative, *Batch 35, AUST CSE Dept.* (52 students).  
 
 ---
 
