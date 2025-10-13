@@ -2,7 +2,7 @@
 layout: archive
 title: ""
 permalink: /activities/
-author_profile: false
+author_profile: true
 ---
 
 <h3 style="color:#1e90ff;">Media and Research Highlights</h3>

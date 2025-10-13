@@ -2,7 +2,7 @@
 layout: archive
 title: ""
 permalink: /education-awards/
-author_profile: false
+author_profile: true
 redirect_from:
   - /resume
 ---
