@@ -27,7 +27,7 @@ author_profile: true
 - Aug 2025 – **International Joint Conference on Artificial Intelligence (IJCAI)**, Montréal, Canada.  
 - Apr 2025 – **CRA-WP, Grad Cohort for Women Workshop**, Denver, CO.  
 - Sep 2024 – **CMD-IT/ACM Richard Tapia Celebration of Diversity in Computing**, San Diego, CA.  
-- Jun 2024 – **IEEE/CVF CVPR 2024*, DEI Travel Grant**, Seattle, WA.  
+- Jun 2024 – **IEEE/CVF CVPR 2024, DEI Travel Grant**, Seattle, WA.  
 - May 2024 – **Women in Computer Vision (WiCV) Workshop**, *CVPR 2024*, Seattle, WA.   
 - Apr 2023 – **CRA-WP, Grad Cohort for Women Workshop**, San Francisco, CA.  
 
