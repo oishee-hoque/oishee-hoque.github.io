@@ -1,88 +1,82 @@
 {% include base_path %}
 
 <style>
-  /* Mobile: only the button/dropdown */
+  /* Mobile: show only the hidden list as a simple stacked menu */
   @media (max-width: 768px) {
+    .greedy-nav { position: relative; }
     .greedy-nav .visible-links { display: none !important; }
-    .greedy-nav .greedy-nav__toggle { display: inline-flex !important; align-items: center; }
-    .greedy-nav .hidden-links { display: none; } /* toggled by JS */
+    .greedy-nav .greedy-nav__toggle, .greedy-nav > button { display: none !important; } /* hide the button */
+    .greedy-nav .hidden-links {
+      display: block !important;     /* force it visible */
+      position: static;              /* make it flow under the masthead */
+      margin-top: 0;
+      padding: .25rem 0;
+      border: 0;
+      box-shadow: none;
+      background: transparent;
+    }
+    .greedy-nav .hidden-links li { display: block; list-style: none; }
+    .greedy-nav .hidden-links a {
+      display: block;
+      padding: .45rem 0;
+      margin: 0 1rem;
+      text-decoration: none;
+      color: inherit;
+      border-bottom: 1px solid rgba(0,0,0,.06);
+    }
+    .greedy-nav .hidden-links li:last-child a { border-bottom: 0; }
   }
-  /* Desktop: inline menu, no dropdown */
+
+  /* Desktop: normal inline nav; keep dropdown hidden */
   @media (min-width: 769px) {
     .greedy-nav .hidden-links { display: none !important; }
-    .greedy-nav .greedy-nav__toggle { display: none; }
   }
-  .greedy-nav { position: relative; }
-  .greedy-nav .hidden-links {
-    position: absolute; top:100%; right:0;
-    margin-top: 10px; padding: 6px 0;
-    background:#fff; border:1px solid #e5e7eb; border-radius:8px;
-    box-shadow: 0 8px 20px rgba(0,0,0,.08); z-index:1000;
-  }
-  .greedy-nav .hidden-links li { list-style:none; }
-  .greedy-nav .hidden-links a { display:block; padding:.45rem .9rem; text-decoration:none; color:#111827; }
-  .greedy-nav .hidden-links a:hover { background:#f3f4f6; }
-  .greedy-nav .visible-links { display: table; margin:0; padding:0; }
-  .greedy-nav .visible-links li { display: table-cell; vertical-align: middle; }
-  .greedy-nav__toggle { border:1px solid #e5e7eb; background:#fff; padding:.35rem .55rem; border-radius:.5rem; cursor:pointer; }
-  .greedy-nav__toggle .navicon { width:18px; height:2px; background:#111; position:relative; display:block; }
-  .greedy-nav__toggle .navicon:before, .greedy-nav__toggle .navicon:after {
-    content:""; position:absolute; left:0; right:0; height:2px; background:#111;
-  }
-  .greedy-nav__toggle .navicon:before { top:-6px; } .greedy-nav__toggle .navicon:after { top:6px; }
 </style>
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-
-        <!-- Button -->
+        <!-- keep the theme's button markup; it'll be hidden on mobile by CSS above -->
         <button class="greedy-nav__toggle" type="button" aria-label="Toggle menu">
           <span class="navicon"></span>
         </button>
 
-        <!-- Desktop inline menu -->
+        <!-- DESKTOP: inline links -->
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg">
             <a href="{{ base_path }}/">{{ site.title }}</a>
           </li>
           {% for link in site.data.navigation.main %}
-            {% assign domain = link.url contains 'http' | ternary: '', base_path %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            {% if link.url contains 'http' %}
+              {% assign domain = '' %}
+            {% else %}
+              {% assign domain = base_path %}
+            {% endif %}
+            <li class="masthead__menu-item">
+              <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+            </li>
           {% endfor %}
         </ul>
 
-        <!-- Mobile dropdown menu (duplicate items) -->
+        <!-- MOBILE: stacked menu (duplicate items) -->
         <ul class="hidden-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+          <!-- include the title too so it's inside the mobile menu -->
+          <li class="masthead__menu-item masthead__menu-item--lg">
+            <a href="{{ base_path }}/">{{ site.title }}</a>
+          </li>
           {% for link in site.data.navigation.main %}
-            {% assign domain = link.url contains 'http' | ternary: '', base_path %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            {% if link.url contains 'http' %}
+              {% assign domain = '' %}
+            {% else %}
+              {% assign domain = base_path %}
+            {% endif %}
+            <li class="masthead__menu-item">
+              <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+            </li>
           {% endfor %}
         </ul>
-
       </nav>
     </div>
   </div>
 </div>
-
-<script>
-  // Toggle dropdown on mobile
-  (function(){
-    var nav = document.getElementById('site-nav');
-    if (!nav) return;
-    var btn = nav.querySelector('.greedy-nav__toggle');
-    var hidden = nav.querySelector('.hidden-links');
-    if (!btn || !hidden) return;
-
-    btn.addEventListener('click', function () {
-      hidden.style.display = (hidden.style.display === 'block') ? 'none' : 'block';
-    });
-
-    // Close on outside click
-    document.addEventListener('click', function(e){
-      if (!nav.contains(e.target)) hidden.style.display = 'none';
-    });
-  })();
-</script>
