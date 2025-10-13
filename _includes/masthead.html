@@ -1,81 +1,22 @@
 {% include base_path %}
 
-<style>
-  /* Mobile: show only the hidden list as a simple stacked menu */
-  @media (max-width: 768px) {
-    .greedy-nav { position: relative; }
-    .greedy-nav .visible-links { display: none !important; }
-    .greedy-nav .greedy-nav__toggle, .greedy-nav > button { display: none !important; } /* hide the button */
-    .greedy-nav .hidden-links {
-      display: block !important;     /* force it visible */
-      position: static;              /* make it flow under the masthead */
-      margin-top: 0;
-      padding: .25rem 0;
-      border: 0;
-      box-shadow: none;
-      background: transparent;
-    }
-    .greedy-nav .hidden-links li { display: block; list-style: none; }
-    .greedy-nav .hidden-links a {
-      display: block;
-      padding: .45rem 0;
-      margin: 0 1rem;
-      text-decoration: none;
-      color: inherit;
-      border-bottom: 1px solid rgba(0,0,0,.06);
-    }
-    .greedy-nav .hidden-links li:last-child a { border-bottom: 0; }
-  }
-
-  /* Desktop: normal inline nav; keep dropdown hidden */
-  @media (min-width: 769px) {
-    .greedy-nav .hidden-links { display: none !important; }
-  }
-</style>
-
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        <!-- keep the theme's button markup; it'll be hidden on mobile by CSS above -->
-        <button class="greedy-nav__toggle" type="button" aria-label="Toggle menu">
-          <span class="navicon"></span>
-        </button>
-
-        <!-- DESKTOP: inline links -->
+        <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg">
-            <a href="{{ base_path }}/">{{ site.title }}</a>
-          </li>
+          <!-- <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li> -->
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
-            {% else %}
+              {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            <li class="masthead__menu-item">
-              <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
-            </li>
+            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
         </ul>
-
-        <!-- MOBILE: stacked menu (duplicate items) -->
-        <ul class="hidden-links">
-          <!-- include the title too so it's inside the mobile menu -->
-          <li class="masthead__menu-item masthead__menu-item--lg">
-            <a href="{{ base_path }}/">{{ site.title }}</a>
-          </li>
-          {% for link in site.data.navigation.main %}
-            {% if link.url contains 'http' %}
-              {% assign domain = '' %}
-            {% else %}
-              {% assign domain = base_path %}
-            {% endif %}
-            <li class="masthead__menu-item">
-              <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
-            </li>
-          {% endfor %}
-        </ul>
+        <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
   </div>
