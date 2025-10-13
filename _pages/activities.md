@@ -8,7 +8,7 @@ author_profile: true
 <h3 style="color:#1e90ff;">Media and Research Highlights</h3>
 
 - July 2025 – **Research Spotlight**, *SCINet Newsletter*: Advancing Irrigation Mapping Through AI and Remote Sensing; featured in the USDA SCINet July 2025 issue. [[Read online](https://scinet.usda.gov/news/newsletter/2025-07)]
-- July 2025 – **Paper Recognition**, *highlighted on ACM Kudo*s: “IrrMap: A Large-Scale Comprehensive Dataset for Irrigation Method Mapping,” KDD 2025, [[View on Kudos](https://link.growkudos.com/1e1cogkx91c)]
+- July 2025 – **Paper Highlight**, on *ACM Kudos*: “IrrMap: A Large-Scale Comprehensive Dataset for Irrigation Method Mapping,” KDD 2025, [[View on Kudos](https://link.growkudos.com/1e1cogkx91c)]
 
 ---
 
