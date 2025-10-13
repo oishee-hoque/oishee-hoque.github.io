@@ -1,48 +1,69 @@
 {% include base_path %}
 
-<style>
-  /* Mobile: hide all inline links; show only the toggle button */
-  @media (max-width: 768px) {
-    .greedy-nav .visible-links { display: none !important; }
-    .greedy-nav .greedy-nav__toggle { display: inline-flex !important; }
-  }
-</style>
+{% if page.author and site.data.authors[page.author] %}
+  {% assign author = site.data.authors[page.author] %}
+{% else %}
+  {% assign author = site.author %}
+{% endif %}
 
-<div class="masthead">
-  <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <!-- add the expected class + a11y bits -->
-        <button class="greedy-nav__toggle hidden" type="button" aria-label="Toggle menu">
-          <span class="navicon"></span>
-        </button>
+<!-- Center only this block with margin:auto; never touches masthead/nav -->
+<div itemscope itemtype="http://schema.org/Person"
+     style="text-align:center; max-width:560px; margin:0 auto; padding:4px 8px;">
 
-        <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg">
-            <a href="{{ base_path }}/">{{ site.title }}</a>
-          </li>
-          {% for link in site.data.navigation.main %}
-            {% if link.url contains 'http' %}
-              {% assign domain = '' %}
-            {% else %}
-              {% assign domain = base_path %}
-            {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
-          {% endfor %}
-        </ul>
+  <!-- Avatar -->
+  {% if author.avatar contains "://" %}
+    <img src="{{ author.avatar }}" alt="{{ author.name }}"
+         style="display:block; margin:0 auto 10px; width:110px; height:110px; border-radius:9999px; object-fit:cover;">
+  {% else %}
+    <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" alt="{{ author.name }}"
+         style="display:block; margin:0 auto 10px; width:110px; height:110px; border-radius:9999px; object-fit:cover;">
+  {% endif %}
 
-        <ul class="hidden-links hidden"></ul>
-      </nav>
-    </div>
-  </div>
+  <!-- Name -->
+  <h3 style="font-family:'Georgia', serif; font-size:1rem; font-weight:700; margin:.25rem 0 .35rem;">
+    {{ author.name }}
+  </h3>
+
+  <!-- Bio -->
+  {% if author.bio %}
+    <p style="font-style:italic; font-family:'Georgia', serif; font-size:.9rem; line-height:1.35; margin:.25rem 0;">
+      PhD Candidate<br>University of Virginia
+    </p>
+  {% endif %}
+
+  <!-- Email -->
+  {% if author.email %}
+    <p style="font-style:italic; font-family:'Georgia', serif; font-size:.85rem; margin:.25rem 0;">
+      <a href="mailto:{{ author.email }}" style="color:#333; text-decoration:underline;">{{ author.email }}</a>
+    </p>
+  {% endif %}
+
+  <!-- Social icons -->
+  <ul style="display:flex; justify-content:center; gap:10px; list-style:none; padding:0; margin:.6rem 0 0; flex-wrap:wrap;">
+    {% if author.researchgate %}
+      <li><a href="{{ author.researchgate }}" target="_blank" rel="noopener"
+             style="display:inline-flex; width:28px; height:28px; align-items:center; justify-content:center; color:#333; text-decoration:none;">
+             <i class="fab fa-researchgate" style="font-size:1.3rem;"></i></a></li>
+    {% endif %}
+    {% if author.linkedin %}
+      <li><a href="https://www.linkedin.com/in/{{ author.linkedin }}" target="_blank" rel="noopener"
+             style="display:inline-flex; width:28px; height:28px; align-items:center; justify-content:center; color:#333; text-decoration:none;">
+             <i class="fab fa-linkedin" style="font-size:1.3rem;"></i></a></li>
+    {% endif %}
+    {% if author.github %}
+      <li><a href="https://github.com/{{ author.github }}" target="_blank" rel="noopener"
+             style="display:inline-flex; width:28px; height:28px; align-items:center; justify-content:center; color:#333; text-decoration:none;">
+             <i class="fab fa-github" style="font-size:1.3rem;"></i></a></li>
+    {% endif %}
+    {% if author.googlescholar %}
+      <li><a href="{{ author.googlescholar }}" target="_blank" rel="noopener"
+             style="display:inline-flex; width:28px; height:28px; align-items:center; justify-content:center; color:#333; text-decoration:none;">
+             <i class="fas fa-graduation-cap" style="font-size:1.3rem;"></i></a></li>
+    {% endif %}
+    {% if author.twitter %}
+      <li><a href="https://twitter.com/{{ author.twitter }}" target="_blank" rel="noopener"
+             style="display:inline-flex; width:28px; height:28px; align-items:center; justify-content:center; color:#333; text-decoration:none;">
+             <i class="fab fa-twitter-square" style="font-size:1.3rem;"></i></a></li>
+    {% endif %}
+  </ul>
 </div>
-
-<!-- ensure the toggle is unhidden on mobile -->
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    if (window.matchMedia('(max-width: 768px)').matches) {
-      var btn = document.querySelector('.greedy-nav .greedy-nav__toggle');
-      if (btn) btn.classList.remove('hidden');
-    }
-  });
-</script>
