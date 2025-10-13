@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: ""
+title: "About me"
 layout: archive
 excerpt: "About me"
 author_profile: true

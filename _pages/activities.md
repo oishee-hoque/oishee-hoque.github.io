@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: ""
+title: "Misc."
 permalink: /activities/
 author_profile: true
 ---
