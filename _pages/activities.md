@@ -1,8 +1,8 @@
 ---
 layout: archive
-title: "Misc."
+title: ""
 permalink: /activities/
-author_profile: true
+author_profile: false
 ---
 
 <h3 style="color:#1e90ff;">Media and Research Highlights</h3>

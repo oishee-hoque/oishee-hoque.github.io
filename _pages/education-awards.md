@@ -1,8 +1,8 @@
 ---
 layout: archive
-title: "Education and Experience"
+title: ""
 permalink: /education-awards/
-author_profile: true
+author_profile: false
 redirect_from:
   - /resume
 ---
@@ -55,8 +55,11 @@ redirect_from:
 <h3 style="color:#555555; font-style:italic;">Research Experience</h3>
 
 - **Graduate Research Assistant**, University of Virginia *(2021 – Present)*  
-- **Research Intern**, USDA-NIFA / NSF AI Institute for Next Generation Food Systems *(Summer 2023)*  
+  - *Topic: Knowledge-Guided Machine Learning, Multimodal Understanding, VLMs, Multispectral Imagery*  
+- **Research Intern**, USDA-NIFA / NSF AI Institute for Next Generation Food Systems *(Summer 2023)* 
+  - *Topic: Deep Learning, Multispectral Imagery, Data Preparation* 
 - **Unergraduate Research**, Ahsanullah University of Science & Technology (AUST) *(2018-2020)*  
+  - *Deep Learning, Computer Vision, Classification, Real-Time Object Recogntion* 
 
 ---
 
