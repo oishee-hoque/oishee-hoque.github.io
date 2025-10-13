@@ -16,7 +16,12 @@
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
         </ul>
-        <ul class="hidden-links hidden"></ul>
+       <ul class="hidden-links hidden">
+        <!-- duplicate title just for mobile menu -->
+      <li class="masthead__menu-item masthead__menu-item--lg mobile-only">
+       <a href="{{ base_path }}/">{{ site.title }}</a>
+      </li>
+      </ul>
       </nav>
     </div>
   </div>
