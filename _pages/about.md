@@ -2,7 +2,7 @@
 permalink: /
 title: "About me"
 layout: archive
-excerpt: "About me"
+# excerpt: "About me"
 author_profile: true
 redirect_from:
   - /about/
