@@ -41,8 +41,8 @@ My current research focuses on Knowledge-Guided Machine Learning, Multimodal Und
 ## Recent News
 <div class="news-block" markdown="1">
 
-- <span class="news-icon award"><i class="as fa-file-alt"></i></span>
-  <span style="color:Blue">[October 2025]</span> – One paper got accepted at **WACV 2026**.
+- <span class="news-icon pub"><i class="fas fa-file-alt"></i></span>
+  <span style="color:Blue">[November 2025]</span> – One paper got accepted at **WACV 2026**.
 
 - <span class="news-icon award"><i class="fas fa-trophy"></i></span>
   <span style="color:Blue">[October 2025]</span> – Awarded **UVA SEAS Endowed Fellowship 2025**. Award Amount: $12,000.
