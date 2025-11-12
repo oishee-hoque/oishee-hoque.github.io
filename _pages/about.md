@@ -41,6 +41,9 @@ My current research focuses on Knowledge-Guided Machine Learning, Multimodal Und
 ## Recent News
 <div class="news-block" markdown="1">
 
+- <span class="news-icon award"><i class="as fa-file-alt"></i></span>
+  <span style="color:Blue">[October 2025]</span> – One paper got accepted at **WACV 2026**.
+
 - <span class="news-icon award"><i class="fas fa-trophy"></i></span>
   <span style="color:Blue">[October 2025]</span> – Awarded **UVA SEAS Endowed Fellowship 2025**. Award Amount: $12,000.
 
@@ -159,6 +162,39 @@ My current research focuses on Knowledge-Guided Machine Learning, Multimodal Und
 ## Publications [<a href="https://scholar.google.com/citations?hl=en&authuser=3&user=Xyu3_yUAAAAJ" target="_blank" style="color:#1d4ed8;" rel="noopener">Google Scholar</a>]
 
 <h4>2025</h4>
+<div class="pub-card">
+  <!-- <img src="/images/pubs/prism.png" alt="PRISM-CAFO demo" class="pub-thumb"> -->
+     <div class="thumb-wrap">
+    <img
+      src="{{ '/images/pubs/prism.png' | relative_url }}"
+      alt="cafosat demo"
+      class="pub-thumb"
+      width="300" height="210" loading="lazy" decoding="async"
+    />
+     <span class="conf-badge">WACV&nbsp;2026</span>
+  </div>
+  <div class="pub-info">
+    <h3>
+    <a href="https://dummy" target="_blank" rel="noopener">
+        PRISM-CAFO: Prior-conditioned remote-sensing infrastructure segmentation and mapping for CAFOs
+    </a>
+    </h3>
+   <p class="pub-authors">
+  <span class="author me"><em>Oishee Bintey Hoque</em><sup>*</sup></span>,
+  <span class="author">Nibir Chandra Mandal<sup>*</sup></span>,
+  <span class="author">Kyle Luong</span>,
+  <span class="author">Mandy L. Wilson</span>,
+  <span class="author">Samarth Swarup</span>,
+  <span class="author">Madhav Marathe</span>,
+  <span class="author">Abhijin Adiga</span>
+   <p><em><sup>*</sup> equal contribution</em></p>
+  <p><strong>WACV 2026</strong></p>
+</p>
+    <div class="pub-links">
+      <a class="btn-link btn-disabled" aria-disabled="true">Coming Soon</a>
+    </div>
+  </div>
+</div>
 
 <div class="pub-card">
    <div class="thumb-wrap">
@@ -338,39 +374,6 @@ My current research focuses on Knowledge-Guided Machine Learning, Multimodal Und
   </div>
 </div>
 
-<div class="pub-card">
-  <!-- <img src="/images/pubs/prism.png" alt="PRISM-CAFO demo" class="pub-thumb"> -->
-     <div class="thumb-wrap">
-    <img
-      src="{{ '/images/pubs/prism.png' | relative_url }}"
-      alt="cafosat demo"
-      class="pub-thumb"
-      width="300" height="210" loading="lazy" decoding="async"
-    />
-    <span class="conf-badge">Under Review&nbsp;2025</span>
-  </div>
-  <div class="pub-info">
-    <h3>
-    <a href="https://dummy" target="_blank" rel="noopener">
-        PRISM-CAFO: Prior-conditioned remote-sensing infrastructure segmentation and mapping for CAFOs
-    </a>
-    </h3>
-   <p class="pub-authors">
-  <span class="author me"><em>Oishee Bintey Hoque</em></span>,
-  <span class="author">Nibir Chandra Mandal</span>,
-  <span class="author">Kyle Luong</span>,
-  <span class="author">Mandy L. Wilson</span>,
-  <span class="author">Samarth Swarup</span>,
-  <span class="author">Madhav Marathe</span>,
-  <span class="author">Abhijin Adiga</span>
-   <p><em><sup>*</sup> equal contribution</em></p>
-  <p><strong>Under Review (2025)</strong></p>
-</p>
-    <div class="pub-links">
-      <a class="btn-link btn-disabled" aria-disabled="true">Coming Soon</a>
-    </div>
-  </div>
-</div>
 
 <h4>2024</h4>
 
