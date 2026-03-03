@@ -175,7 +175,7 @@ My current research focuses on Knowledge-Guided Machine Learning, Multimodal Und
   </div>
   <div class="pub-info">
     <h3>
-    <a href="https://dummy" target="_blank" rel="noopener">
+    <a href="https://arxiv.org/pdf/2601.11451" target="_blank" rel="noopener">
         PRISM-CAFO: Prior-conditioned remote-sensing infrastructure segmentation and mapping for CAFOs
     </a>
     </h3>
@@ -191,8 +191,10 @@ My current research focuses on Knowledge-Guided Machine Learning, Multimodal Und
   <p><strong>WACV 2026</strong></p>
 </p>
     <div class="pub-links">
-      <a class="btn-link btn-disabled" aria-disabled="true">Coming Soon</a>
-    </div>
+    <!-- <a class="btn-link btn-disabled" aria-disabled="true" title="Link coming soon">PDF</a> -->
+    <a class="btn-link" href="https://arxiv.org/pdf/2601.11451" target="_blank" rel="noopener">PDF</a>
+    <a class="btn-link" href="https://github.com/oishee-hoque/PRISM-CAFO" target="_blank" rel="noopener">Code</a>
+  </div>
   </div>
 </div>
 
