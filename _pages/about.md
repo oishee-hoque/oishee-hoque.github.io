@@ -41,8 +41,8 @@ My current research focuses on (i) knowledge-infused multimodal reasoning for ge
 ## Recent News
 <div class="news-block" markdown="1">
 
-- <span class="news-icon pub"><i class="fas fa-file-alt"></i></span>
-  <span style="color:Blue">[February 2026]</span> – Received travel grant from HARVEST-VISION @ WACV 2026.
+- <span class="news-icon award"><i class="fas fa-trophy"></i></span>
+  <span style="color:Blue">[February 2026]</span> – Received travel grant from **HARVEST-VISION @ WACV 2026.**
 
 - <span class="news-icon pub"><i class="fas fa-file-alt"></i></span>
   <span style="color:Blue">[November 2025]</span> – One paper got accepted at **WACV 2026**.
