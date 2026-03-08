@@ -13,7 +13,7 @@ redirect_from:
 I am a CS PhD candidate and an Endowed Fellow at the  <a href="https://engineering.virginia.edu/departments/computer-science">University of Virginia</a>, working with <a href="https://engineering.virginia.edu/faculty/madhav-marathe">Dr. Madhav Marathe</a> at the <a href="https://biocomplexity.virginia.edu/">Biocomplexity Institute</a>. Prior to my Ph.D., I completed my B.Sc. in Computer Science at <a href="http://aust.edu/">Ahsanullah University of Science & Technology (AUST)</a>. After that, I gained industry experience as a Software Engineer at <a href="https://www.enosisbd.com/">Enosis Solutions</a> in Bangladesh, where I contributed to the development of production-grade software systems for one year.
 <br>
 <br>
-My current research focuses on Knowledge-Guided Machine Learning, Multimodal Understanding, VLMs, Remote Sensing, with a particular emphasis on integrating domain-specific knowledge with machine learning models to improve data and performance.
+My current research focuses on (i) knowledge-infused multimodal learning for geospatial mapping, integrating domain-specific priors with imagery for robust segmentation and spatial understanding, and (ii) large-scale ML-ready multimodal dataset development, building scalable geospatial data pipelines and benchmark datasets.
 </div>
 
 <!-- <p style="text-align:center;">
@@ -40,6 +40,9 @@ My current research focuses on Knowledge-Guided Machine Learning, Multimodal Und
 ---
 ## Recent News
 <div class="news-block" markdown="1">
+
+- <span class="news-icon pub"><i class="fas fa-file-alt"></i></span>
+  <span style="color:Blue">[February 2026]</span> – Received travel grant from HARVEST-VISION @ WACV 2026.
 
 - <span class="news-icon pub"><i class="fas fa-file-alt"></i></span>
   <span style="color:Blue">[November 2025]</span> – One paper got accepted at **WACV 2026**.
