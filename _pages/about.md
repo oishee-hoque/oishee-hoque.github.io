@@ -16,17 +16,17 @@ I am a CS PhD candidate and an Endowed Fellow at the  <a href="https://engineeri
 My current research focuses on (i) knowledge-infused multimodal reasoning for geospatial mapping, integrating domain-specific priors into multimodal models for robust segmentation and spatial understanding. and (ii) large-scale ML-ready multimodal dataset development, building scalable geospatial data pipelines and benchmark datasets.
 </div>
 
-<!-- <p style="text-align:center;">
+<p style="text-align:center;">
   <!-- <a class="btn-link" href="mailto:oishee@virginia.edu">
     <i class="fas fa-envelope" aria-hidden="true"></i> oishee@virginia.edu
   </a> -->
   <!-- <a class="btn-link" href="https://oishee-hoque.github.io/files/Oishee_CV_2024.pdf">
     <i class="fas fa-file-download" aria-hidden="true"></i> Download Resume
   </a> -->
-  <!-- <a class="btn-link" href="https://oishee-hoque.github.io/files/Hoque_CV_2025.pdf">
+  <a class="btn-link" href="https://drive.google.com/file/d/1yzWAx-yG4dnEmRFRJhdz87CfAH2H8yq1/view">
     <i class="fas fa-file-download" aria-hidden="true"></i> Download CV
-  </a> -->
-<!-- </p> -->
+  </a>
+</p>
 
 
 
