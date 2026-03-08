@@ -13,7 +13,7 @@ redirect_from:
 I am a CS PhD candidate and an Endowed Fellow at the  <a href="https://engineering.virginia.edu/departments/computer-science">University of Virginia</a>, working with <a href="https://engineering.virginia.edu/faculty/madhav-marathe">Dr. Madhav Marathe</a> at the <a href="https://biocomplexity.virginia.edu/">Biocomplexity Institute</a>. Prior to my Ph.D., I completed my B.Sc. in Computer Science at <a href="http://aust.edu/">Ahsanullah University of Science & Technology (AUST)</a>. After that, I gained industry experience as a Software Engineer at <a href="https://www.enosisbd.com/">Enosis Solutions</a> in Bangladesh, where I contributed to the development of production-grade software systems for one year.
 <br>
 <br>
-My current research focuses on (i) knowledge-infused multimodal learning for geospatial mapping, integrating domain-specific priors with imagery for robust segmentation and spatial understanding, and (ii) large-scale ML-ready multimodal dataset development, building scalable geospatial data pipelines and benchmark datasets.
+My current research focuses on (i) knowledge-infused multimodal reasoning for geospatial mapping, integrating domain-specific priors into multimodal models for robust segmentation and spatial understanding. and (ii) large-scale ML-ready multimodal dataset development, building scalable geospatial data pipelines and benchmark datasets.
 </div>
 
 <!-- <p style="text-align:center;">
