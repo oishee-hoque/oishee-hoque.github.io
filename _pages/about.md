@@ -41,8 +41,11 @@ My current research focuses on (i) knowledge-infused multimodal reasoning for ge
 ## Recent News
 <div class="news-block" markdown="1">
 
+- <span class="news-icon pub"><i class="fas fa-file-alt"></i></span>
+  <span style="color:Blue">[March 2026]</span> – One paper got accepted at **EARTHVISION@CVPR 2026**.
+
 - <span class="news-icon award"><i class="fas fa-trophy"></i></span>
-  <span style="color:Blue">[February 2026]</span> – Received travel grant from **HARVEST-VISION @ WACV 2026.**
+  <span style="color:Blue">[February 2026]</span> – Received travel grant from **HARVEST-VISION @ WACV 2026 (AIVO Travel Grant).**
 
 - <span class="news-icon pub"><i class="fas fa-file-alt"></i></span>
   <span style="color:Blue">[November 2025]</span> – One paper got accepted at **WACV 2026**.
@@ -163,6 +166,41 @@ My current research focuses on (i) knowledge-infused multimodal reasoning for ge
 ---
 
 ## Publications [<a href="https://scholar.google.com/citations?hl=en&authuser=3&user=Xyu3_yUAAAAJ" target="_blank" style="color:#1d4ed8;" rel="noopener">Google Scholar</a>]
+
+<h4> 2026 </h4>
+<div class="pub-card">
+  <!-- <img src="/images/pubs/cafosat.png" alt="CAFOSat demo" class="pub-thumb"> -->
+   <div class="thumb-wrap">
+    <img
+      src="{{ '/images/pubs/cafosat2.png' | relative_url }}"
+      alt="cafosat demo"
+      class="pub-thumb"
+      width="300" height="210" loading="lazy" decoding="async"
+    />
+    <span class="conf-badge">EARTHVISION@CVPR&nbsp;2026</span>
+  </div>
+  <div class="pub-info">
+    <h3>
+     <a href="https://github.com/oishee-hoque/CAFOSat" target="_blank" rel="noopener">
+        CAFOSat: A Strongly Annotated Dataset for Infrastructure-Aware CAFO Mapping Using High-Resolution Imagery
+    </a>
+  </h3>
+    <p class="pub-authors">
+  <span class="author me"><em>Oishee Bintey Hoque</em><sup>*</sup></span>,
+  <span class="author">Nibir Chandra Mandal<sup>*</sup></span>,
+  <span class="author">Mandy L. Wilson</span>,
+  <span class="author">Samarth Swarup</span>,
+  <span class="author">Madhav Marathe</span>,
+  <span class="author">Abhijin Adiga</span>,
+   <p><em><sup>*</sup> equal contribution</em></p>
+  <p><strong>EARTHVISION@CVPR (2026)</strong></p>
+</p>
+    <div class="pub-links">
+      <a class="btn-link" href="https://github.com/oishee-hoque/CAFOSat">Code</a>
+      <a class="btn-link" href="https://huggingface.co/datasets/oishee3003/CAFOSat">Dataset</a>
+    </div>
+  </div>
+</div>
 
 <h4>2025</h4>
 <div class="pub-card">
@@ -342,40 +380,6 @@ My current research focuses on (i) knowledge-infused multimodal reasoning for ge
   <a class="btn-link" href="https://github.com/Nibir088/IrrMap">Code</a>
   <a class="btn-link" href="https://huggingface.co/Nibir/IrrMap/tree/main">Dataset</a>
 </div>
-  </div>
-</div>
-
-<div class="pub-card">
-  <!-- <img src="/images/pubs/cafosat.png" alt="CAFOSat demo" class="pub-thumb"> -->
-   <div class="thumb-wrap">
-    <img
-      src="{{ '/images/pubs/cafosat2.png' | relative_url }}"
-      alt="cafosat demo"
-      class="pub-thumb"
-      width="300" height="210" loading="lazy" decoding="async"
-    />
-    <span class="conf-badge">Under Review&nbsp;2025</span>
-  </div>
-  <div class="pub-info">
-    <h3>
-     <a href="https://github.com/oishee-hoque/CAFOSat" target="_blank" rel="noopener">
-        CAFOSat: A Strongly Annotated Dataset for Infrastructure-Aware CAFO Mapping Using High-Resolution Imagery
-    </a>
-  </h3>
-    <p class="pub-authors">
-  <span class="author me"><em>Oishee Bintey Hoque</em><sup>*</sup></span>,
-  <span class="author">Nibir Chandra Mandal<sup>*</sup></span>,
-  <span class="author">Mandy L. Wilson</span>,
-  <span class="author">Samarth Swarup</span>,
-  <span class="author">Madhav Marathe</span>,
-  <span class="author">Abhijin Adiga</span>,
-   <p><em><sup>*</sup> equal contribution</em></p>
-  <p><strong>Under Review (2025)</strong></p>
-</p>
-    <div class="pub-links">
-      <a class="btn-link" href="https://github.com/oishee-hoque/CAFOSat">Code</a>
-      <a class="btn-link" href="https://huggingface.co/datasets/oishee3003/CAFOSat">Dataset</a>
-    </div>
   </div>
 </div>
 
