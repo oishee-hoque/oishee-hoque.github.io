@@ -23,7 +23,7 @@ My current research focuses on (i) knowledge-infused multimodal reasoning for ge
   <!-- <a class="btn-link" href="https://oishee-hoque.github.io/files/Oishee_CV_2024.pdf">
     <i class="fas fa-file-download" aria-hidden="true"></i> Download Resume
   </a> -->
-  <a class="btn-link" href="https://drive.google.com/file/d/1yzWAx-yG4dnEmRFRJhdz87CfAH2H8yq1/view">
+  <a class="btn-link" href="https://drive.google.com/file/d/1o9q4iqbCWlq_SvdfXzVE5hqBZUzK-y1q/view?usp=sharing">
     <i class="fas fa-file-download" aria-hidden="true"></i> Download CV
   </a>
 </p>
