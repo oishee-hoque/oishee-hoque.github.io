@@ -20,12 +20,24 @@ redirect_from:
     </ul>
   </header>
 
-  <article>
-    <div class="profile">
-      <img src="{{ site.author.photo | relative_url }}" alt="Portrait of Oishee Bintey Hoque" width="900" height="900" fetchpriority="high">
-    </div>
+  <article class="about">
+    <aside class="about__side">
+      <div class="profile">
+        <img src="{{ site.author.photo | relative_url }}" alt="Portrait of Oishee Bintey Hoque" width="900" height="900" fetchpriority="high">
+      </div>
+      <h2 id="experience" class="about__side-title"><a href="{{ '/experience/' | relative_url }}">Affiliations &amp; experience</a></h2>
+      <ul class="affil">
+        {% for a in site.data.experience.affiliations %}
+        <li>
+          <span class="affil__org">{% if a.org_url %}<a href="{{ a.org_url }}" target="_blank" rel="noopener">{{ a.org }}</a>{% else %}{{ a.org }}{% endif %}</span>{% if a.unit %} ({{ a.unit }}){% endif %}{% if a.location %}<span class="affil__loc">, {{ a.location }}</span>{% endif %}
+          <span class="affil__role"><b>{{ a.role }}</b>, {{ a.when }}.</span>
+          {% if a.note %}<span class="affil__note">{{ a.note }}</span>{% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    </aside>
 
-    <div class="clearfix prose">
+    <div class="about__main prose">
       <p class="avail"><span class="avail__dot" aria-hidden="true"></span>Graduating in 2027 and open to applied and research scientist roles.</p>
       <p>I'm a PhD candidate in Computer Science at the University of Virginia and a recipient of the <span class="kw">UVA SEAS Endowed Fellowship</span>, advised by <a href="{{ site.author.advisor_url }}">Madhav Marathe</a> at the <a href="{{ site.author.group_url }}">Biocomplexity Institute</a>. I build computer vision systems: multimodal and vision–language models that bring domain knowledge into detection, segmentation and scene understanding.</p>
       <p>My PhD research is in computer vision for Earth observation: knowledge-guided and multimodal learning, vision–language models, and foundation-model adaptation for remote sensing, applied to agricultural and environmental monitoring. I design models that fold domain priors into segmentation and detection, and I build the large-scale, ML-ready geospatial datasets that make those models trainable and testable. Work from my PhD and internships has appeared at <span class="kw">NeurIPS</span>, <span class="kw">KDD</span>, <span class="kw">IJCAI</span>, <span class="kw">WACV</span> and <span class="kw">CVPR</span> workshops.</p>
@@ -41,51 +53,42 @@ redirect_from:
           <span>ML-ready dataset pipelines</span>
         </dd>
       </dl>
-    </div>
-
-    <h2 id="experience"><a href="{{ '/experience/' | relative_url }}">Affiliations &amp; experience</a></h2>
-    <ul class="affil">
-      {% for a in site.data.experience.affiliations %}
-      <li>
-        <span class="affil__org">{% if a.org_url %}<a href="{{ a.org_url }}" target="_blank" rel="noopener">{{ a.org }}</a>{% else %}{{ a.org }}{% endif %}</span>{% if a.unit %} ({{ a.unit }}){% endif %}{% if a.location %}<span class="affil__loc">, {{ a.location }}</span>{% endif %}
-        <span class="affil__role"><b>{{ a.role }}</b>, {{ a.when }}.</span>
-        {% if a.note %}<span class="affil__note">{{ a.note }}</span>{% endif %}
-      </li>
-      {% endfor %}
-    </ul>
 
     <h2 id="research">Research areas</h2>
-    <ul class="areas">
-      <li><span class="areas__title">Knowledge-guided multimodal models.</span> Segmentation and detection models that take domain structure as input instead of relearning it: crop and land-use priors through cross-attention, graph constraints on canal networks, and geometric priors on infrastructure. <span class="areas__refs"><a href="{{ '/publications/#kiim' | relative_url }}">KIIM</a><a href="{{ '/publications/#igrass' | relative_url }}">IGraSS</a><a href="{{ '/publications/#prism-cafo' | relative_url }}">PRISM-CAFO</a></span></li>
-      <li><span class="areas__title">ML-ready datasets and benchmarks.</span> Scalable pipelines that turn raw satellite and UAV archives into annotated, multimodal benchmarks with metadata, held-out sites and task-specific metrics. <span class="areas__refs"><a href="{{ '/publications/#irrmap' | relative_url }}">IrrMap</a><a href="{{ '/publications/#irrisight' | relative_url }}">IRRISIGHT</a><a href="{{ '/publications/#cafosat' | relative_url }}">CAFOSat</a><a href="{{ '/publications/#cwdbench' | relative_url }}">CWDBench</a></span></li>
-      <li><span class="areas__title">Foundation models and agentic geospatial systems.</span> Adapting SAM-, DINO- and Swin-based models and vision–language models to remote sensing, and composing LLM agents with deterministic geospatial tools for operational decision support. <span class="areas__refs"><a href="{{ '/publications/#arfa' | relative_url }}">ARFA</a><a href="{{ '/publications/#cwdbench' | relative_url }}">CWDBench</a></span></li>
-    </ul>
+      <ul class="areas">
+        <li><span class="areas__title">Knowledge-guided multimodal models.</span> Segmentation and detection models that take domain structure as input instead of relearning it: crop and land-use priors through cross-attention, graph constraints on canal networks, and geometric priors on infrastructure. <span class="areas__refs"><a href="{{ '/publications/#kiim' | relative_url }}">KIIM</a><a href="{{ '/publications/#igrass' | relative_url }}">IGraSS</a><a href="{{ '/publications/#prism-cafo' | relative_url }}">PRISM-CAFO</a></span></li>
+        <li><span class="areas__title">ML-ready datasets and benchmarks.</span> Scalable pipelines that turn raw satellite and UAV archives into annotated, multimodal benchmarks with metadata, held-out sites and task-specific metrics. <span class="areas__refs"><a href="{{ '/publications/#irrmap' | relative_url }}">IrrMap</a><a href="{{ '/publications/#irrisight' | relative_url }}">IRRISIGHT</a><a href="{{ '/publications/#cafosat' | relative_url }}">CAFOSat</a><a href="{{ '/publications/#cwdbench' | relative_url }}">CWDBench</a></span></li>
+        <li><span class="areas__title">Foundation models and agentic geospatial systems.</span> Adapting SAM-, DINO- and Swin-based models and vision–language models to remote sensing, and composing LLM agents with deterministic geospatial tools for operational decision support. <span class="areas__refs"><a href="{{ '/publications/#arfa' | relative_url }}">ARFA</a><a href="{{ '/publications/#cwdbench' | relative_url }}">CWDBench</a></span></li>
+      </ul>
 
-    <h2 id="news">News</h2>
-    <table class="news-table">
-      <tbody>
-        {% for n in site.data.news %}{% if n.highlight %}
-        <tr>
-          <th scope="row">{{ n.date }}</th>
-          <td><span class="pin" title="Pinned">{% include icons/thumbtack.svg %}</span>{{ n.headline | markdownify | remove: '<p>' | remove: '</p>' | strip }}{% if n.detail %} <span class="detail">{{ n.detail | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span>{% endif %}</td>
-        </tr>
-        {% endif %}{% endfor %}
-      </tbody>
-    </table>
-    <details class="morenews">
-      <summary><span class="morenews__more">See more news</span><span class="morenews__less">Show fewer</span></summary>
+      <h2 id="news">News</h2>
       <table class="news-table">
         <tbody>
-          {% for n in site.data.news %}{% unless n.highlight %}
+          {% for n in site.data.news %}{% if n.highlight %}
           <tr>
             <th scope="row">{{ n.date }}</th>
-            <td>{{ n.headline | markdownify | remove: '<p>' | remove: '</p>' | strip }}{% if n.detail %} <span class="detail">{{ n.detail | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span>{% endif %}</td>
+            <td><span class="pin" title="Pinned">{% include icons/thumbtack.svg %}</span>{{ n.headline | markdownify | remove: '<p>' | remove: '</p>' | strip }}{% if n.detail %} <span class="detail">{{ n.detail | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span>{% endif %}</td>
           </tr>
-          {% endunless %}{% endfor %}
+          {% endif %}{% endfor %}
         </tbody>
       </table>
-    </details>
+      <details class="morenews">
+        <summary><span class="morenews__more">See more news</span><span class="morenews__less">Show fewer</span></summary>
+        <table class="news-table">
+          <tbody>
+            {% for n in site.data.news %}{% unless n.highlight %}
+            <tr>
+              <th scope="row">{{ n.date }}</th>
+              <td>{{ n.headline | markdownify | remove: '<p>' | remove: '</p>' | strip }}{% if n.detail %} <span class="detail">{{ n.detail | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span>{% endif %}</td>
+            </tr>
+            {% endunless %}{% endfor %}
+          </tbody>
+        </table>
+      </details>
+    </div>
+  </article>
 
+  <article>
     <h2 id="selected"><a href="{{ '/publications/' | relative_url }}">Selected publications</a></h2>
     <div class="pubs pubs--selected">
       {% for p in site.data.publications %}{% if p.tags contains "selected" %}{% include pub.html pub=p %}{% endif %}{% endfor %}

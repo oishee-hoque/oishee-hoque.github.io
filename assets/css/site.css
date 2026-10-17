@@ -90,7 +90,13 @@ sup { line-height: 0; font-size: 0.7em; }
 .contact-icons a { color: var(--text); display: inline-flex; align-items: center; }
 .contact-icons a:hover { color: var(--theme); text-decoration: none; }
 
-.profile { float: right; width: 30%; max-width: 260px; margin: 0 0 1rem 1.5rem; }
+.about { display: grid; grid-template-columns: 300px minmax(0, 1fr); gap: 36px; align-items: start; }
+.about__side { min-width: 0; }
+.about__side-title { font-size: 1.15rem; font-weight: 500; margin: 1.2rem 0 0.4rem; }
+.about__side-title a { color: inherit; }
+.about__main { min-width: 0; }
+.about__main h2 { margin-top: 1.4rem; }
+.profile { width: 220px; margin: 0; }
 .profile img {
   display: block;
   width: 100%;
@@ -111,13 +117,13 @@ sup { line-height: 0; font-size: 0.7em; }
 
 /* Affiliations & experience */
 .affil { list-style: none; margin: 0; padding: 0; }
-.affil li { padding: 0.45rem 0; border-bottom: 1px solid var(--divider); }
+.affil li { padding: 0.4rem 0; border-bottom: 1px solid var(--divider); font-size: 0.92rem; line-height: 1.45; }
 .affil li:last-child { border-bottom: 0; }
 .affil__org { font-weight: 700; }
 .affil__loc { color: var(--text-light); }
 .affil__role { display: block; }
 .affil__role b { font-weight: 500; }
-.affil__note { display: block; color: var(--text-light); font-size: 0.9rem; }
+.affil__note { display: block; color: var(--text-light); font-size: 0.85rem; }
 
 /* Skills */
 .skills { display: grid; grid-template-columns: auto 1fr; gap: 6px 12px; align-items: baseline; margin: 0.6rem 0 0; }
@@ -229,7 +235,12 @@ sup { line-height: 0; font-size: 0.7em; }
 /* ---------- Responsive ---------- */
 
 @media (max-width: 700px) {
-  .profile { float: none; width: 150px; margin: 0 0 1rem; }
+  .about { grid-template-columns: 1fr; gap: 16px; }
+  .about__side { display: contents; }
+  .profile { width: 150px; margin: 0 0 0.5rem; }
+  .about__side-title { order: 2; }
+  .affil { order: 3; }
+  .about__main { order: 1; }
   .post-title { font-size: 2rem; }
   .pub { grid-template-columns: 1fr; gap: 10px; }
   .pub__thumb { max-width: 240px; }
