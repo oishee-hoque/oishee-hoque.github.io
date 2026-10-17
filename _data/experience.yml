@@ -23,16 +23,6 @@ affiliations:
     role: "Research Intern"
     when: "Summer 2023"
     note: "Irrigation mapping from multispectral Landsat imagery; led to IrrNet (V4A @ CVPR 2024)."
-  - org: "University of Virginia"
-    org_url: "https://engineering.virginia.edu/departments/computer-science"
-    unit: "Biocomplexity Institute"
-    location: "Charlottesville, VA"
-    role: "Ph.D. in Computer Science"
-    when: "Fall 2021 to present, expected 2027"
-    note: "Advisor: Madhav Marathe. UVA SEAS Endowed Fellowship (2025)."
-  - org: "University of Virginia"
-    role: "M.S. in Computer Science"
-    when: "2025"
 
 # `home: N` puts a position in the short list on the home page, in that order; leave it out to show the position only on this page.
 positions:
