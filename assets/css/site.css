@@ -230,7 +230,7 @@ sup { line-height: 0; font-size: 0.7em; }
   font-size: 0.88rem;
   font-weight: 500;
   color: var(--canopy);
-  margin: 0 0 12px;
+  margin: 0 0 10px;
   display: flex;
   align-items: center;
   gap: 9px;
@@ -486,7 +486,7 @@ sup { line-height: 0; font-size: 0.7em; }
   display: grid;
   grid-template-columns: 150px minmax(0, 1fr);
   gap: 14px;
-  padding: 5px 0;
+  padding: 7px 0;
   border-bottom: 1px solid var(--line-soft);
 }
 .xp__item:last-child { border-bottom: 0; }
@@ -506,6 +506,7 @@ sup { line-height: 0; font-size: 0.7em; }
 }
 .xp__role::after { content: ","; }
 .xp__org { color: var(--ink-2); font-size: 0.92rem; }
+.xp__summary { display: block; font-size: 0.84rem; line-height: 1.45; color: var(--ink-3); margin-top: 1px; }
 .xp__org a { color: var(--ink-2); text-decoration: none; }
 .xp__org a:hover { text-decoration: underline; }
 

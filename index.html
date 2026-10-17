@@ -10,12 +10,6 @@ redirect_from:
   <div class="hero__text">
     <h1 class="hero__name">Oishee Bintey Hoque</h1>
     <p class="hero__lede">I build computer vision systems: multimodal and vision–language models that bring domain knowledge into detection, segmentation and scene understanding.</p>
-    <ul class="status" aria-label="Positions and fellowships">
-      <li>PhD candidate, <a href="{{ site.author.institution_url }}">University of Virginia</a></li>
-      <li>Applied Scientist Intern, Amazon</li>
-      <li>Former Graduate Research Intern, Oak Ridge National Laboratory</li>
-      <li>UVA SEAS Endowed Fellowship Recipient, 2025</li>
-    </ul>
     <p class="avail"><span class="avail__dot" aria-hidden="true"></span>Graduating in 2027 and open to applied and research scientist roles.</p>
     <ul class="links" aria-label="Contact and profiles">
       <li><a href="mailto:{{ site.author.email }}">Email</a></li>
@@ -30,11 +24,29 @@ redirect_from:
   </figure>
 </section>
 
+<section class="section" id="experience">
+  <h2>Experience</h2>
+  <div class="section__body">
+    {% assign home_positions = site.data.experience.positions | where_exp: "e", "e.home" | sort: "home" %}
+    <ol class="xp">
+      {% for e in home_positions %}
+      <li class="xp__item">
+        <span class="xp__when">{{ e.start }}{% if e.end %}–{{ e.end }}{% endif %}</span>
+        <span class="xp__text">
+          <span class="xp__role">{{ e.role }}</span> <span class="xp__org">{% if e.org_url %}<a href="{{ e.org_url }}" target="_blank" rel="noopener">{{ e.org }}</a>{% else %}{{ e.org }}{% endif %}</span>
+          {% if e.summary %}<span class="xp__summary">{{ e.summary }}</span>{% endif %}
+        </span>
+      </li>
+      {% endfor %}
+    </ol>
+    <p class="more"><a href="{{ '/experience/' | relative_url }}">Full experience and education</a></p>
+  </div>
+</section>
+
 <section class="section" id="about">
   <h2>About</h2>
   <div class="section__body prose">
-    <p>I'm a PhD candidate in Computer Science at the University of Virginia and a recipient of the <span class="kw">UVA SEAS Endowed Fellowship</span>, advised by <a href="{{ site.author.advisor_url }}">Madhav Marathe</a> at the <a href="{{ site.author.group_url }}">Biocomplexity Institute</a>. My PhD research is in computer vision for Earth observation: knowledge-guided and multimodal learning, vision–language models, and foundation-model adaptation for remote sensing, applied to agricultural and environmental monitoring. I design models that fold domain priors into segmentation and detection, and I build the large-scale, ML-ready geospatial datasets that make those models trainable and testable.</p>
-    <p>I'm currently an <span class="kw">Applied Scientist Intern</span> on <a href="https://www.amazon.science/">Amazon</a>'s GRAISE team in Seattle, building multimodal AI for retail smart glasses: real-time on-device vision, cloud foundation models, and the hands-free AR and voice workflows on top. Before joining Amazon I spent a summer as a <span class="kw">Graduate Research Intern</span> in <a href="https://www.ornl.gov/group/geoai">Oak Ridge National Laboratory's GeoAI group</a>, and before the PhD I worked as a <span class="kw">software engineer</span> at <a href="https://www.enosisbd.com/">Enosis Solutions</a>. Work from my PhD and internships has appeared at <span class="kw">NeurIPS</span>, <span class="kw">KDD</span>, <span class="kw">IJCAI</span>, <span class="kw">WACV</span> and <span class="kw">CVPR</span> workshops.</p>
+    <p>I'm a PhD candidate in Computer Science at the University of Virginia and a recipient of the <span class="kw">UVA SEAS Endowed Fellowship</span>, advised by <a href="{{ site.author.advisor_url }}">Madhav Marathe</a> at the <a href="{{ site.author.group_url }}">Biocomplexity Institute</a>. My PhD research is in computer vision for Earth observation: knowledge-guided and multimodal learning, vision–language models, and foundation-model adaptation for remote sensing, applied to agricultural and environmental monitoring. I design models that fold domain priors into segmentation and detection, and I build the large-scale, ML-ready geospatial datasets that make those models trainable and testable. Work from my PhD and internships has appeared at <span class="kw">NeurIPS</span>, <span class="kw">KDD</span>, <span class="kw">IJCAI</span>, <span class="kw">WACV</span> and <span class="kw">CVPR</span> workshops.</p>
     <dl class="skills">
       <dt>Core skills</dt>
       <dd>
@@ -76,22 +88,6 @@ redirect_from:
         {% endunless %}{% endfor %}
       </ol>
     </details>
-  </div>
-</section>
-
-<section class="section" id="experience">
-  <h2>Experience</h2>
-  <div class="section__body">
-    {% assign home_positions = site.data.experience.positions | where_exp: "e", "e.home" | sort: "home" %}
-    <ol class="xp">
-      {% for e in home_positions %}
-      <li class="xp__item">
-        <span class="xp__when">{{ e.start }}{% if e.end %}–{{ e.end }}{% endif %}</span>
-        <span class="xp__text"><span class="xp__role">{{ e.role }}</span> <span class="xp__org">{% if e.org_url %}<a href="{{ e.org_url }}" target="_blank" rel="noopener">{{ e.org }}</a>{% else %}{{ e.org }}{% endif %}</span></span>
-      </li>
-      {% endfor %}
-    </ol>
-    <p class="more"><a href="{{ '/experience/' | relative_url }}">Full experience and education</a></p>
   </div>
 </section>
 

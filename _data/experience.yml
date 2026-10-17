@@ -10,7 +10,7 @@ positions:
     location: "Seattle, WA"
     start: "Sep 2026"
     end: "present"
-    summary: "Multimodal AI for retail smart glasses: real-time on-device vision, cloud foundation models (VLMs, LLMs, SAM), and hands-free AR and voice workflows."
+    summary: "Multimodal AI for retail smart glasses: real-time on-device vision, cloud foundation models, and hands-free AR and voice workflows."
 
   - role: "Graduate Research Intern (GRO program), GeoAI Group"
     home: 2
