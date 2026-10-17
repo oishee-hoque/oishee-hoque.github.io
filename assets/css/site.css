@@ -47,10 +47,10 @@
 }
 
 :root {
-  --paper: #f5f7f2;
-  --paper-2: #e9eee4;
-  --line: #cdd6c9;
-  --line-soft: #dfe6da;
+  --paper: #ffffff;
+  --paper-2: #eef2ea;
+  --line: #d3dbcf;
+  --line-soft: #e5eadf;
   --ink: #16261e;
   --ink-2: #44554b;
   --ink-3: #6b7a71;
@@ -409,6 +409,7 @@ sup { line-height: 0; font-size: 0.7em; }
 .hl__head a { color: var(--canopy); text-decoration-color: color-mix(in srgb, var(--canopy) 40%, transparent); }
 .hl__detail { font-size: 0.86rem; line-height: 1.45; color: var(--ink-2); }
 .hl__detail a { color: var(--ink-2); }
+.hl__detail strong, .news__detail strong { font-weight: 650; color: var(--ink); }
 
 /* The rest of the news, folded under "See more" */
 .morenews { margin-top: 22px; }

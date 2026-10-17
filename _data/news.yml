@@ -10,25 +10,25 @@
   kind: paper
   highlight: true
   headline: "First-author paper accepted at [WACV 2027](https://wacv.thecvf.com/Conferences/2027)"
-  detail: "CWDBench, Datasets Track. Work from my internship at Oak Ridge National Laboratory."
+  detail: "Work from **my internship** at Oak Ridge National Laboratory."
 
 - date: "Sep 2026"
   kind: award
   highlight: true
-  headline: "Google DeepMind travel grant"
-  detail: "To present ARFA at the OASIS 2026 challenge, [ACM SIGSPATIAL](https://sigspatial2026.sigspatial.org/), Riverside, CA."
+  headline: "Google DeepMind travel grant to our team"
+  detail: "For the ARFA team at the OASIS 2026 challenge, [ACM SIGSPATIAL](https://sigspatial2026.sigspatial.org/), Riverside, CA."
 
 - date: "Sep 2026"
   kind: award
   highlight: true
-  headline: "Finalist, [ACM SIGSPATIAL OASIS 2026](https://rsvp.withgoogle.com/events/oasis-2026) student challenge"
-  detail: "ARFA, an agentic flood-response assistant. Presenting Nov 3 in Riverside, CA."
+  headline: "Our team is a finalist in the [ACM SIGSPATIAL OASIS 2026](https://rsvp.withgoogle.com/events/oasis-2026) student challenge"
+  detail: "ARFA, an agentic flood-response assistant."
 
 - date: "Sep 2026"
   kind: role
   highlight: true
   headline: "Joined [Amazon](https://www.amazon.science/) as an Applied Scientist Intern"
-  detail: "GRAISE team, Seattle."
+  detail: "Working with the Amazon GRAISE team in Seattle."
 
 - date: "Jun 2026"
   kind: talk
@@ -39,7 +39,7 @@
   kind: role
   highlight: true
   headline: "Started a research internship at [Oak Ridge National Laboratory](https://www.ornl.gov/group/geoai)"
-  detail: "GeoAI group, GRO program. Post-Hurricane Helene forest damage from UAS imagery."
+  detail: "GeoAI group, GRO program."
 
 - date: "Mar 2026"
   kind: paper
