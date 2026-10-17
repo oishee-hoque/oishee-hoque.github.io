@@ -1,8 +1,10 @@
 # Experience page content. Each group renders as a timeline, newest first.
 # Entry fields: role, org, org_url, location, start, end, summary (one line), bullets (list), tech (comma-separated string).
 
+# `home: N` puts a position in the short list on the home page, in that order; leave it out to show the position only on this page.
 positions:
   - role: "Applied Scientist Intern"
+    home: 1
     org: "Amazon, GRAISE team"
     org_url: "https://www.amazon.science/"
     location: "Seattle, WA"
@@ -11,6 +13,7 @@ positions:
     summary: "Multimodal AI for retail smart glasses: real-time on-device vision, cloud foundation models (VLMs, LLMs, SAM), and hands-free AR and voice workflows."
 
   - role: "Graduate Research Intern (GRO program), GeoAI Group"
+    home: 2
     org: "Oak Ridge National Laboratory"
     org_url: "https://www.ornl.gov/group/geoai"
     location: "Oak Ridge, TN"
@@ -23,6 +26,7 @@ positions:
       - "Co-developed ARFA, an agentic riverine-flood-response assistant selected as a finalist in the ACM SIGSPATIAL OASIS 2026 challenge."
 
   - role: "Graduate Research Assistant"
+    home: 4
     org: "Biocomplexity Institute, University of Virginia"
     org_url: "https://biocomplexity.virginia.edu/"
     location: "Charlottesville, VA"
@@ -36,6 +40,7 @@ positions:
     tech: "Python, PyTorch, Hugging Face, OpenCV, rasterio/GDAL, QGIS, scikit-learn, NumPy, pandas, Matplotlib"
 
   - role: "Research Intern"
+    home: 3
     org: "USDA-ARS (SCINet / AI-COE Graduate Student Internship Program)"
     org_url: "https://scinet.usda.gov/"
     location: "Remote"

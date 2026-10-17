@@ -82,8 +82,9 @@ redirect_from:
 <section class="section" id="experience">
   <h2>Experience</h2>
   <div class="section__body">
+    {% assign home_positions = site.data.experience.positions | where_exp: "e", "e.home" | sort: "home" %}
     <ol class="xp">
-      {% for e in site.data.experience.positions %}
+      {% for e in home_positions %}
       <li class="xp__item">
         <span class="xp__when">{{ e.start }}{% if e.end %}–{{ e.end }}{% endif %}</span>
         <span class="xp__text"><span class="xp__role">{{ e.role }}</span> <span class="xp__org">{% if e.org_url %}<a href="{{ e.org_url }}" target="_blank" rel="noopener">{{ e.org }}</a>{% else %}{{ e.org }}{% endif %}</span></span>
