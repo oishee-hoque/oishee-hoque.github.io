@@ -4,14 +4,15 @@
 positions:
   - role: "Applied Scientist Intern"
     org: "Amazon, GRAISE team"
+    org_url: "https://www.amazon.science/"
     location: "Seattle, WA"
     start: "Sep 2026"
     end: "present"
-    summary: "Multimodal computer vision models for grocery."
+    summary: "Vision–language models for egocentric scene understanding on AR wearables in grocery stores."
 
-  - role: "Graduate Research Intern (GRO), GeoAI Group"
+  - role: "Graduate Research Intern (GRO program), GeoAI Group"
     org: "Oak Ridge National Laboratory"
-    org_url: "https://www.ornl.gov/"
+    org_url: "https://www.ornl.gov/group/geoai"
     location: "Oak Ridge, TN"
     start: "May 2026"
     end: "Aug 2026"

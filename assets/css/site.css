@@ -295,7 +295,18 @@ sup { line-height: 0; font-size: 0.7em; }
 .section__body { min-width: 0; }
 
 .prose { max-width: 66ch; font-size: 1.06rem; }
-.prose p { margin-bottom: 1.1em; }
+.prose p {
+  margin-bottom: 1.1em;
+  text-align: justify;
+  text-align-last: left;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
+.kw {
+  background: linear-gradient(transparent 50%, #cfe4d2 50%);
+  padding: 0 0.1em;
+  color: var(--ink);
+}
 
 .skills {
   margin: 1.6em 0 0;
@@ -361,7 +372,7 @@ sup { line-height: 0; font-size: 0.7em; }
   display: grid;
   grid-template-columns: 92px minmax(0, 1fr);
   gap: 16px;
-  padding: 9px 0;
+  padding: 7px 0;
   border-bottom: 1px solid var(--line-soft);
   position: relative;
 }
@@ -390,8 +401,16 @@ sup { line-height: 0; font-size: 0.7em; }
 .news__item--award .news__date::before { background: var(--soil); }
 .news__item--role .news__date::before { background: var(--water); }
 .news__item--talk .news__date::before { background: var(--ink-3); }
-.news__text { font-size: 0.98rem; }
-.news__text strong { font-weight: 600; }
+.news__text { font-size: 0.98rem; display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 10px; }
+.news__head {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--ink);
+}
+.news__head a { color: var(--canopy); text-decoration-color: color-mix(in srgb, var(--canopy) 40%, transparent); }
+.news__detail { display: block; width: 100%; font-size: 0.92rem; color: var(--ink-3); }
+.news__detail a { color: var(--ink-2); }
 .news.is-collapsed .news__item:nth-child(n + 7) { display: none; }
 .news__toggle {
   margin-top: 14px;
@@ -406,6 +425,35 @@ sup { line-height: 0; font-size: 0.7em; }
   cursor: pointer;
 }
 .news__toggle:hover { border-color: var(--canopy); }
+
+/* Compact experience list (home) */
+.xp { list-style: none; margin: 0; padding: 0; }
+.xp__item {
+  display: grid;
+  grid-template-columns: 150px minmax(0, 1fr);
+  gap: 16px;
+  padding: 7px 0;
+  border-bottom: 1px solid var(--line-soft);
+}
+.xp__item:last-child { border-bottom: 0; }
+.xp__when {
+  font-family: var(--font-display);
+  font-size: 0.86rem;
+  font-weight: 600;
+  color: var(--ink-3);
+  font-variant-numeric: tabular-nums;
+  padding-top: 2px;
+}
+.xp__role {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--ink);
+}
+.xp__role::after { content: ","; }
+.xp__org { color: var(--ink-2); font-size: 0.96rem; }
+.xp__org a { color: var(--ink-2); text-decoration: none; }
+.xp__org a:hover { text-decoration: underline; }
 
 /* ---------- Publications ---------- */
 
@@ -684,7 +732,8 @@ sup { line-height: 0; font-size: 0.7em; }
   .tl__item::after { left: 0; top: 0.9em; }
   .tl__when { flex-direction: row; gap: 6px; }
   .tl__body { padding-left: 0; }
-  .news__item, .dated li { grid-template-columns: 1fr; gap: 2px; }
+  .news__item, .dated li, .xp__item { grid-template-columns: 1fr; gap: 2px; }
+  .xp__when { padding-top: 0; }
   .news__date, .dated__when { padding-top: 0; }
   .skills { grid-template-columns: 1fr; }
 }

@@ -1,123 +1,156 @@
-# News, newest first. `date` is "Mon YYYY"; `text` may contain Markdown links.
-# `kind` is one of: paper, award, role, talk, service (controls the marker colour).
+# News, newest first.
+#   date      "Mon YYYY"
+#   kind      paper | award | role | talk | service   (marker colour)
+#   headline  what happened, short — this is what stands out
+#   detail    optional one line of context; Markdown links allowed in both fields
 # The home page shows the first 6 and hides the rest behind "Show all".
 
 - date: "Oct 2026"
   kind: paper
-  text: "**CWDBench**, a benchmark for coarse-woody-debris detection in UAV imagery, is accepted to the **WACV 2027 Datasets Track**."
+  headline: "Paper accepted at [WACV 2027](https://wacv.thecvf.com/Conferences/2027)"
+  detail: "CWDBench, Datasets Track."
 
 - date: "Sep 2026"
   kind: award
-  text: "**ARFA**, our agentic flood-response assistant, is a finalist in the 1st **ACM SIGSPATIAL Student Challenge on Open Agents with Spatial Intelligence for Social Good (OASIS 2026)**. We present on Nov 3 in Riverside, CA."
+  headline: "Google DeepMind travel grant"
+  detail: "To present ARFA at the OASIS 2026 challenge, [ACM SIGSPATIAL](https://sigspatial2026.sigspatial.org/), Riverside, CA."
+
+- date: "Sep 2026"
+  kind: award
+  headline: "Finalist, [ACM SIGSPATIAL OASIS 2026](https://rsvp.withgoogle.com/events/oasis-2026) student challenge"
+  detail: "ARFA, an agentic flood-response assistant. Presenting Nov 3 in Riverside, CA."
 
 - date: "Sep 2026"
   kind: role
-  text: "Started as an **Applied Scientist Intern at Amazon** (GRAISE team) in Seattle."
+  headline: "Joined [Amazon](https://www.amazon.science/) as an Applied Scientist Intern"
+  detail: "GRAISE team, Seattle."
 
 - date: "Jun 2026"
   kind: talk
-  text: "Presented **CAFOSat** at the EarthVision workshop, **CVPR 2026**, Denver."
+  headline: "Presented at [CVPR 2026](https://cvpr.thecvf.com/Conferences/2026)"
+  detail: "CAFOSat, EarthVision workshop, Denver."
 
 - date: "May 2026"
   kind: role
-  text: "Started a summer **Graduate Research (GRO) internship in the GeoAI group at Oak Ridge National Laboratory**, working on post-Hurricane Helene forest-damage characterization from UAS imagery."
+  headline: "Started a research internship at [Oak Ridge National Laboratory](https://www.ornl.gov/group/geoai)"
+  detail: "GeoAI group, GRO program. Post-Hurricane Helene forest damage from UAS imagery."
 
 - date: "Mar 2026"
   kind: paper
-  text: "**CAFOSat** accepted at **EarthVision @ CVPR 2026**."
+  headline: "Paper accepted at EarthVision, [CVPR 2026](https://cvpr.thecvf.com/Conferences/2026)"
+  detail: "CAFOSat."
 
 - date: "Feb 2026"
   kind: award
-  text: "Received the AIVO travel grant from **HARVEST-VISION @ WACV 2026**."
+  headline: "Travel grant, HARVEST-VISION workshop at [WACV 2026](https://wacv.thecvf.com/Conferences/2026)"
+  detail: "AIVO travel grant."
 
 - date: "Nov 2025"
   kind: paper
-  text: "**PRISM-CAFO** accepted at **WACV 2026**."
+  headline: "Paper accepted at [WACV 2026](https://wacv.thecvf.com/Conferences/2026)"
+  detail: "PRISM-CAFO."
 
 - date: "Oct 2025"
   kind: award
-  text: "Awarded the **UVA SEAS Endowed Fellowship** (2025–26)."
+  headline: "[UVA SEAS](https://engineering.virginia.edu/) Endowed Fellowship"
+  detail: "2025–26."
 
 - date: "Sep 2025"
   kind: paper
-  text: "**IRRISIGHT** accepted at **NeurIPS 2025**."
+  headline: "Paper accepted at [NeurIPS 2025](https://neurips.cc/Conferences/2025)"
+  detail: "IRRISIGHT."
 
 - date: "Aug 2025"
   kind: talk
-  text: "Presented **IGraSS** and **KIIM** (oral + poster) at **IJCAI 2025**, Montréal."
+  headline: "Presented at [IJCAI 2025](https://2025.ijcai.org/)"
+  detail: "IGraSS and KIIM, oral and poster, Montréal."
 
 - date: "Aug 2025"
   kind: service
-  text: "Mentored two undergraduate researchers at the Biocomplexity Institute over summer 2025."
+  headline: "Mentored two undergraduate researchers"
+  detail: "Biocomplexity Institute, summer 2025."
 
 - date: "Jun 2025"
   kind: paper
-  text: "**IrrMap** accepted at **KDD 2025**."
+  headline: "Paper accepted at [KDD 2025](https://kdd2025.kdd.org/)"
+  detail: "IrrMap."
 
 - date: "Jun 2025"
   kind: paper
-  text: "Two papers accepted at **IJCAI 2025**: **IGraSS** and **KIIM**."
+  headline: "Two papers accepted at [IJCAI 2025](https://2025.ijcai.org/)"
+  detail: "IGraSS and KIIM."
 
 - date: "Jun 2024"
   kind: talk
-  text: "Presented **IrrNet** (oral + poster) at the V4A workshop and a poster at WiCV, **CVPR 2024**, Seattle."
+  headline: "Presented at [CVPR 2024](https://cvpr.thecvf.com/Conferences/2024)"
+  detail: "IrrNet, oral and poster at V4A; poster at WiCV. Seattle."
 
 - date: "May 2024"
   kind: award
-  text: "Received the **CVPR 2024 DEI travel grant** and the **WiCV travel grant**."
+  headline: "CVPR 2024 DEI travel grant and WiCV travel grant"
 
 - date: "Apr 2024"
   kind: paper
-  text: "**IrrNet** accepted at the **V4A workshop, CVPR 2024** (oral + poster); extended abstract accepted at **WiCV**."
+  headline: "Paper accepted at V4A, [CVPR 2024](https://cvpr.thecvf.com/Conferences/2024)"
+  detail: "IrrNet, oral and poster. Extended abstract accepted at WiCV."
 
 - date: "Apr 2024"
   kind: award
-  text: "Accepted to the **Doctoral Consortium** of the 2024 Tapia Conference with a full travel grant; poster on irrigation canal mapping accepted."
+  headline: "Doctoral Consortium, [Tapia 2024](https://tapiaconference.cmd-it.org/)"
+  detail: "Accepted with a full travel grant; poster on irrigation canal mapping."
 
 - date: "Jan 2024"
   kind: service
-  text: "Joined the UVA CS Graduate Student Group (CSGSG) Council as **Social Chair**."
+  headline: "Social Chair, UVA CS Graduate Student Group Council"
 
 - date: "Jun 2023"
   kind: role
-  text: "Started a research internship with **USDA-ARS** through the SCINet / AI-COE Graduate Student Internship Program."
+  headline: "Started a research internship with [USDA-ARS](https://scinet.usda.gov/)"
+  detail: "SCINet / AI-COE Graduate Student Internship Program."
 
 - date: "Apr 2023"
   kind: award
-  text: "Awarded the **USDA-ARS AI-COE / SCINet Graduate Student Internship** fellowship."
+  headline: "USDA-ARS AI-COE / SCINet fellowship"
 
 - date: "Apr 2023"
   kind: talk
-  text: "Presented at the **CCI Symposium 2023** and attended the **CRA-WP Grad Cohort for Women**."
+  headline: "Presented at the CCI Symposium 2023"
+  detail: "Also attended the [CRA-WP Grad Cohort for Women](https://cra.org/cra-wp/grad-cohort-for-women/)."
 
 - date: "Jan 2023"
   kind: paper
-  text: "Co-first-author paper on COVID-19 policy data annotation published in **Scientific Data (Nature)**."
+  headline: "Paper published in [Scientific Data](https://www.nature.com/articles/s41597-023-01979-6) (Nature)"
+  detail: "COVID-19 policy data annotation, co-first author."
 
 - date: "Jan 2023"
   kind: award
-  text: "Team placed **3rd at AgAthon 2023**, the AgAID digital hackathon."
+  headline: "3rd place, AgAthon 2023"
+  detail: "AgAID digital hackathon."
 
 - date: "Jan 2022"
   kind: service
-  text: "Joined the UVA CSGSG Council as **Space and Media Chair**."
+  headline: "Space and Media Chair, UVA CS Graduate Student Group Council"
 
 - date: "Jan 2021"
   kind: paper
-  text: "Journal paper on COVID-19 detection from chest X-rays accepted at **SN Computer Science**."
+  headline: "Journal paper accepted at SN Computer Science"
+  detail: "COVID-19 detection from chest X-rays."
 
 - date: "Dec 2020"
   kind: talk
-  text: "Presented papers at **ICCIT 2020** and the **MLCSA workshop, ACCV 2020**."
+  headline: "Presented at ICCIT 2020 and the MLCSA workshop, ACCV 2020"
 
 - date: "Oct 2020"
   kind: paper
-  text: "**BdSL36** accepted at **MLCSA @ ACCV 2020**; a second paper accepted at **ICCIT 2020**."
+  headline: "Papers accepted at MLCSA, ACCV 2020 and at ICCIT 2020"
+  detail: "BdSL36 and document deblurring."
 
 - date: "Dec 2018"
   kind: talk
-  text: "Presented real-time Bangladeshi Sign Language detection at **ICIET 2018**."
+  headline: "Presented at ICIET 2018"
+  detail: "Real-time Bangladeshi Sign Language detection."
 
 - date: "Nov 2018"
   kind: service
-  text: "Competed in the **ACM ICPC Dhaka Regionals** (2017, 2018) and the **National Girls Programming Contest** (2016, 2018; 11th of 120 teams in 2018)."
+  headline: "ACM ICPC Dhaka Regionals and National Girls Programming Contest"
+  detail: "2016–2018; 11th of 120 teams in 2018."

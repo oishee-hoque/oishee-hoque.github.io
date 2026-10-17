@@ -19,6 +19,8 @@ awards:
     text: "**Dean's List of Honor**, Ahsanullah University of Science & Technology."
 
 travel:
+  - when: "Sep 2026"
+    text: "Google DeepMind travel grant to present ARFA at the OASIS 2026 student challenge, ACM SIGSPATIAL, Riverside, CA."
   - when: "Feb 2026"
     text: "AIVO travel grant, HARVEST-VISION workshop @ WACV 2026."
   - when: "Aug 2025"
