@@ -791,4 +791,5 @@ sup { line-height: 0; font-size: 0.7em; }
   .xp__when { padding-top: 0; }
   .news__date, .dated__when { padding-top: 0; }
   .skills { grid-template-columns: 1fr; }
+  .prose p { text-align: left; }
 }
