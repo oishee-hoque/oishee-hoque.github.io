@@ -3,25 +3,30 @@
 #   kind      paper | award | role | talk | service   (marker colour)
 #   headline  what happened, short — this is what stands out
 #   detail    optional one line of context; Markdown links allowed in both fields
-# The home page shows the first 6 and hides the rest behind "Show all".
+# Items with highlight: true appear in the Highlights section; the rest form the News list
+# (first 6 shown, the rest behind "Show all").
 
 - date: "Oct 2026"
   kind: paper
-  headline: "Paper accepted at [WACV 2027](https://wacv.thecvf.com/Conferences/2027)"
-  detail: "CWDBench, Datasets Track."
+  highlight: true
+  headline: "First-author paper accepted at [WACV 2027](https://wacv.thecvf.com/Conferences/2027)"
+  detail: "CWDBench, Datasets Track. Work from my internship at Oak Ridge National Laboratory."
 
 - date: "Sep 2026"
   kind: award
+  highlight: true
   headline: "Google DeepMind travel grant"
   detail: "To present ARFA at the OASIS 2026 challenge, [ACM SIGSPATIAL](https://sigspatial2026.sigspatial.org/), Riverside, CA."
 
 - date: "Sep 2026"
   kind: award
+  highlight: true
   headline: "Finalist, [ACM SIGSPATIAL OASIS 2026](https://rsvp.withgoogle.com/events/oasis-2026) student challenge"
   detail: "ARFA, an agentic flood-response assistant. Presenting Nov 3 in Riverside, CA."
 
 - date: "Sep 2026"
   kind: role
+  highlight: true
   headline: "Joined [Amazon](https://www.amazon.science/) as an Applied Scientist Intern"
   detail: "GRAISE team, Seattle."
 
@@ -32,6 +37,7 @@
 
 - date: "May 2026"
   kind: role
+  highlight: true
   headline: "Started a research internship at [Oak Ridge National Laboratory](https://www.ornl.gov/group/geoai)"
   detail: "GeoAI group, GRO program. Post-Hurricane Helene forest damage from UAS imagery."
 
@@ -52,8 +58,9 @@
 
 - date: "Oct 2025"
   kind: award
+  highlight: true
   headline: "[UVA SEAS](https://engineering.virginia.edu/) Endowed Fellowship"
-  detail: "2025–26."
+  detail: "$12,000 award given to 20–25 doctoral students across the School of Engineering, 2025–26."
 
 - date: "Sep 2025"
   kind: paper
