@@ -13,7 +13,7 @@ Almost everything you will want to change lives in `_data/`:
 | `_data/experience.yml` | Positions, teaching/mentoring, and education for the Experience page. |
 | `_data/activities.yml` | Awards, grants, talks, competitions and service for the Awards & Activities page. |
 
-The bio, hero text, research threads and core-skills chips are in `index.html`. Contact links, the CV link, and the navigation are in `_config.yml` under `author:` and `nav:`.
+The bio, research areas and core-skills chips are in `index.html`; the short affiliations list on the home page comes from the `affiliations:` block in `_data/experience.yml`. Contact links, the CV link, and the navigation are in `_config.yml` under `author:` and `nav:`.
 
 Publication tags: `first-author`, `dataset`, `journal`, `selected`. Mark yourself with `me: true` and co-first authors with `equal: true`.
 
@@ -31,7 +31,7 @@ bundle install          # once
 bundle exec jekyll serve
 ```
 
-Then open http://127.0.0.1:4000. Fonts are self-hosted in `assets/fonts/` (Bricolage Grotesque and Source Serif 4, both under the SIL Open Font License).
+Then open http://127.0.0.1:4000. The font is Roboto, self-hosted in `assets/fonts/`; the link icons are Font Awesome Free SVGs in `_includes/icons/`.
 
 ## Structure
 

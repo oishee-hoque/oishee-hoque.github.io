@@ -23,7 +23,7 @@ Renders one publication entry. Usage: {% include pub.html pub=entry %}
     {%- endif -%}
   </div>
   <div class="pub__body">
-    <p class="pub__venue">{{ pub.venue_short }}{% if pub.status %} <span class="pub__status">{{ pub.status }}</span>{% endif %}</p>
+    <p class="pub__venue-line"><span class="pub__venue">{{ pub.venue_short }}</span>{% if pub.status %} <span class="pub__status">{{ pub.status }}</span>{% endif %}</p>
     <h3 class="pub__title">
       {%- if primary != "" -%}<a href="{{ primary }}"{% if primary contains "http" %} target="_blank" rel="noopener"{% endif %}>{{ pub.title }}</a>{%- else -%}{{ pub.title }}{%- endif -%}
     </h3>

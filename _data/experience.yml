@@ -1,6 +1,39 @@
 # Experience page content. Each group renders as a timeline, newest first.
 # Entry fields: role, org, org_url, location, start, end, summary (one line), bullets (list), tech (comma-separated string).
 
+# Short "Affiliations & experience" list for the home page (newest first).
+affiliations:
+  - org: "Amazon"
+    org_url: "https://www.amazon.science/"
+    unit: "GRAISE team"
+    location: "Seattle, WA"
+    role: "Applied Scientist Intern"
+    when: "Fall 2026"
+    note: "Multimodal AI for retail smart glasses."
+  - org: "Oak Ridge National Laboratory"
+    org_url: "https://www.ornl.gov/group/geoai"
+    unit: "GeoAI Group"
+    location: "Oak Ridge, TN"
+    role: "Graduate Research Intern (GRO program)"
+    when: "Summer 2026"
+    note: "Post-Hurricane Helene forest damage from UAS imagery; led to CWDBench (WACV 2027) and ARFA (OASIS 2026 finalist)."
+  - org: "USDA-ARS"
+    org_url: "https://scinet.usda.gov/"
+    unit: "SCINet / AI-COE Graduate Student Internship Program"
+    role: "Research Intern"
+    when: "Summer 2023"
+    note: "Irrigation mapping from multispectral Landsat imagery; led to IrrNet (V4A @ CVPR 2024)."
+  - org: "University of Virginia"
+    org_url: "https://engineering.virginia.edu/departments/computer-science"
+    unit: "Biocomplexity Institute"
+    location: "Charlottesville, VA"
+    role: "Ph.D. in Computer Science"
+    when: "Fall 2021 to present, expected 2027"
+    note: "Advisor: Madhav Marathe. UVA SEAS Endowed Fellowship (2025)."
+  - org: "University of Virginia"
+    role: "M.S. in Computer Science"
+    when: "2025"
+
 # `home: N` puts a position in the short list on the home page, in that order; leave it out to show the position only on this page.
 positions:
   - role: "Applied Scientist Intern"
