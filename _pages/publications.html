@@ -1,0 +1,28 @@
+---
+title: "Publications"
+permalink: /publications/
+id: publications
+---
+{% assign first_count = 0 %}{% assign data_count = 0 %}
+{% for p in site.data.publications %}{% if p.tags contains "first-author" %}{% assign first_count = first_count | plus: 1 %}{% endif %}{% if p.tags contains "dataset" %}{% assign data_count = data_count | plus: 1 %}{% endif %}{% endfor %}
+<header class="page-head">
+  <h1>Publications</h1>
+  <p class="page-head__lede">{{ site.data.publications.size }} publications, {{ first_count }} as first or co-first author and {{ data_count }} introducing public datasets or benchmarks. Also on <a href="{{ site.author.scholar }}" target="_blank" rel="noopener">Google Scholar</a>.</p>
+  <div class="filters" role="group" aria-label="Filter publications">
+    <button type="button" class="filter is-active" data-filter="all" aria-pressed="true">All</button>
+    <button type="button" class="filter" data-filter="first-author" aria-pressed="false">First author</button>
+    <button type="button" class="filter" data-filter="dataset" aria-pressed="false">Datasets &amp; benchmarks</button>
+    <button type="button" class="filter" data-filter="journal" aria-pressed="false">Journal articles</button>
+  </div>
+</header>
+
+{% assign years = site.data.publications | map: "year" | uniq %}
+{% for y in years %}
+<section class="year" data-year="{{ y }}">
+  <h2 class="year__label">{{ y }}</h2>
+  <div class="pubs">
+    {% for p in site.data.publications %}{% if p.year == y %}{% include pub.html pub=p %}{% endif %}{% endfor %}
+  </div>
+</section>
+{% endfor %}
+<p class="filters__empty" hidden>No publications match this filter.</p>

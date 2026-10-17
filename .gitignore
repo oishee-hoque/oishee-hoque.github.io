@@ -1,3 +1,9 @@
 _site/
-
-oishee-hoque.github.io
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+vendor/
+.bundle/
+Gemfile.lock
+node_modules/
+.DS_Store

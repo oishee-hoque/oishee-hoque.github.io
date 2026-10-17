@@ -1,0 +1,274 @@
+# Publications, newest first. Each entry:
+#   key        short id (used for the thumbnail file images/pubs/<key>.webp and anchors)
+#   title, venue, venue_short, year
+#   authors    list; mark yourself with me: true; mark co-first authors with equal: true
+#   note       optional one-line context (award, oral, finalist...)
+#   tags       any of: first-author, dataset, journal, selected
+#   links      list of {label, url}
+#   thumb      optional override; defaults to /images/pubs/<key>.webp. Set thumb: none for a text tile.
+
+- key: cwdbench
+  title: "CWDBench: A Benchmark for Instance-Level Characterization of Coarse Woody Debris in Aerial Imagery"
+  venue: "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), Datasets Track"
+  venue_short: "WACV 2027"
+  year: 2027
+  status: "accepted"
+  authors:
+    - {name: "Oishee Bintey Hoque", me: true}
+    - {name: "et al."}  # TODO: replace with the camera-ready author list
+  note: "First public benchmark for fallen-log detection in centimeter-resolution UAV orthomosaics: 10,399 verified instances with oriented boxes and masks, paired LiDAR and photogrammetric height models, and a centerline-based metric for elongated objects."
+  tags: [first-author, dataset, selected]
+  links: []   # TODO: add arXiv / code / dataset links when public
+
+- key: arfa
+  title: "ARFA: An Agentic System for Real-Time Riverine Flood Response"
+  venue: "1st ACM SIGSPATIAL Student Challenge on Open Agents with Spatial Intelligence for Social Good (OASIS 2026)"
+  venue_short: "OASIS @ SIGSPATIAL 2026"
+  year: 2026
+  authors:
+    - {name: "Youssef Hussein"}
+    - {name: "JangHyeon Lee"}
+    - {name: "Oishee Bintey Hoque", me: true}
+    - {name: "Dalton Lunga"}
+  note: "Challenge finalist. A hybrid agentic system that pairs LLM agents for location, structure and reasoning with deterministic geospatial tools for flood assessment, facility discovery and evacuation routing."
+  tags: [selected]
+  links:
+    - {label: "DOI", url: "https://doi.org/10.1145/3849739.3856755"}
+    - {label: "Code", url: "https://github.com/joHussien/ARFA"}
+
+- key: cafosat
+  title: "CAFOSat: A Strongly Annotated Dataset for Infrastructure-Aware CAFO Mapping Using High-Resolution Imagery"
+  venue: "EarthVision Workshop, IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+  venue_short: "EarthVision @ CVPR 2026"
+  year: 2026
+  authors:
+    - {name: "Oishee Bintey Hoque", me: true, equal: true}
+    - {name: "Nibir Chandra Mandal", equal: true}
+    - {name: "Mandy L. Wilson"}
+    - {name: "Samarth Swarup"}
+    - {name: "Madhav Marathe"}
+    - {name: "Abhijin Adiga"}
+  tags: [first-author, dataset, selected]
+  links:
+    - {label: "Code", url: "https://github.com/oishee-hoque/CAFOSat"}
+    - {label: "Dataset", url: "https://huggingface.co/datasets/oishee3003/CAFOSat"}
+
+- key: prism-cafo
+  title: "PRISM-CAFO: Prior-Conditioned Remote-Sensing Infrastructure Segmentation and Mapping for CAFOs"
+  venue: "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)"
+  venue_short: "WACV 2026"
+  year: 2026
+  authors:
+    - {name: "Oishee Bintey Hoque", me: true, equal: true}
+    - {name: "Nibir Chandra Mandal", equal: true}
+    - {name: "Kyle Luong"}
+    - {name: "Mandy L. Wilson"}
+    - {name: "Samarth Swarup"}
+    - {name: "Madhav Marathe"}
+    - {name: "Abhijin Adiga"}
+  tags: [first-author, selected]
+  links:
+    - {label: "PDF", url: "https://arxiv.org/pdf/2601.11451"}
+    - {label: "Code", url: "https://github.com/oishee-hoque/PRISM-CAFO"}
+
+- key: irrisight
+  title: "IRRISIGHT: A Large-Scale Multimodal Dataset and Scalable Pipeline to Address Irrigation and Water Management in Agriculture"
+  venue: "Advances in Neural Information Processing Systems (NeurIPS)"
+  venue_short: "NeurIPS 2025"
+  year: 2025
+  authors:
+    - {name: "Nibir Chandra Mandal", equal: true}
+    - {name: "Oishee Bintey Hoque", me: true, equal: true}
+    - {name: "Mandy L. Wilson"}
+    - {name: "Samarth Swarup"}
+    - {name: "Sayjro K. Nouwakpo"}
+    - {name: "Abhijin Adiga"}
+    - {name: "Madhav Marathe"}
+  tags: [first-author, dataset, selected]
+  links:
+    - {label: "Code", url: "https://github.com/Nibir088/IRRISIGHT"}
+    - {label: "Dataset", url: "https://huggingface.co/datasets/OBH30/IRRISIGHT"}
+
+- key: igrass
+  title: "IGraSS: Learning to Identify Infrastructure Networks from Satellite Imagery by Iterative Graph-Constrained Semantic Segmentation"
+  venue: "International Joint Conference on Artificial Intelligence (IJCAI)"
+  venue_short: "IJCAI 2025"
+  year: 2025
+  authors:
+    - {name: "Oishee Bintey Hoque", me: true}
+    - {name: "Abhijin Adiga"}
+    - {name: "Aniruddha Adiga"}
+    - {name: "Siddharth Chaudhary"}
+    - {name: "Madhav V. Marathe"}
+    - {name: "S. S. Ravi"}
+    - {name: "Kirti Rajagopalan"}
+    - {name: "Amanda Wilson"}
+    - {name: "Samarth Swarup"}
+  tags: [first-author, selected]
+  links:
+    - {label: "PDF", url: "https://www.ijcai.org/proceedings/2025/1076.pdf"}
+    - {label: "Code", url: "https://github.com/oishee-hoque/IGraSS"}
+
+- key: kiim
+  title: "Knowledge-Informed Deep Learning for Irrigation Type Mapping from Remote Sensing"
+  venue: "International Joint Conference on Artificial Intelligence (IJCAI)"
+  venue_short: "IJCAI 2025"
+  year: 2025
+  authors:
+    - {name: "Oishee Bintey Hoque", me: true, equal: true}
+    - {name: "Nibir Chandra Mandal", equal: true}
+    - {name: "Abhijin Adiga"}
+    - {name: "Samarth Swarup"}
+    - {name: "Sayjro K. Nouwakpo"}
+    - {name: "Amanda Wilson"}
+    - {name: "Madhav Marathe"}
+  tags: [first-author, selected]
+  links:
+    - {label: "PDF", url: "https://www.ijcai.org/proceedings/2025/1077.pdf"}
+    - {label: "Code", url: "https://github.com/Nibir088/KIIM/tree/main/KIIM"}
+
+- key: irrmap
+  title: "IrrMap: A Large-Scale Comprehensive Dataset for Irrigation Method Mapping"
+  venue: "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)"
+  venue_short: "KDD 2025"
+  year: 2025
+  authors:
+    - {name: "Nibir Chandra Mandal", equal: true}
+    - {name: "Oishee Bintey Hoque", me: true, equal: true}
+    - {name: "Abhijin Adiga"}
+    - {name: "Samarth Swarup"}
+    - {name: "Mandy L. Wilson"}
+    - {name: "Lu Feng"}
+    - {name: "Yangfeng Ji"}
+    - {name: "Miaomiao Zhang"}
+    - {name: "Geoffrey Fox"}
+    - {name: "Madhav Marathe"}
+  tags: [first-author, dataset]
+  links:
+    - {label: "PDF", url: "https://dl.acm.org/doi/pdf/10.1145/3711896.3737380"}
+    - {label: "Code", url: "https://github.com/Nibir088/IrrMap"}
+    - {label: "Dataset", url: "https://huggingface.co/Nibir/IrrMap/tree/main"}
+
+- key: wrr
+  title: "Mapping Irrigation Methods in the Northwestern US Using Deep Learning Classification"
+  venue: "Water Resources Research, 60(8)"
+  venue_short: "Water Resources Research 2024"
+  year: 2024
+  thumb: none
+  authors:
+    - {name: "Sayjro K. Nouwakpo"}
+    - {name: "David Bjorneberg"}
+    - {name: "Kenneth McGwire"}
+    - {name: "Oishee Bintey Hoque", me: true}
+  tags: [journal]
+  links:
+    - {label: "Article", url: "https://doi.org/10.1029/2023WR036155"}
+
+- key: irrnet
+  title: "IrrNet: Advancing Irrigation Mapping with Incremental Patch Size Training on Remote Sensing Imagery"
+  venue: "Vision for Agriculture Workshop, IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+  venue_short: "V4A @ CVPR 2024"
+  year: 2024
+  note: "Oral and poster presentation."
+  authors:
+    - {name: "Oishee Bintey Hoque", me: true}
+    - {name: "Samarth Swarup"}
+    - {name: "Abhijin Adiga"}
+    - {name: "Sayjro Kossi Nouwakpo"}
+    - {name: "Madhav Marathe"}
+  tags: [first-author]
+  links:
+    - {label: "PDF", url: "https://openaccess.thecvf.com/content/CVPR2024W/Vision4Ag/html/Hoque_IrrNet_Advancing_Irrigation_Mapping_with_Incremental_Patch_Size_Training_on_CVPRW_2024_paper.html"}
+
+- key: npi
+  title: "COVID-19 Non-Pharmaceutical Interventions: Data Annotation for Rapidly Changing Local Policy Information"
+  venue: "Scientific Data (Nature)"
+  venue_short: "Scientific Data 2023"
+  year: 2023
+  authors:
+    - {name: "Oishee Bintey Hoque", me: true, equal: true}
+    - {name: "Benjamin Hurt", equal: true}
+    - {name: "Finn Mokrzycki"}
+    - {name: "Anjali Mathew"}
+    - {name: "Maryann Xue"}
+    - {name: "Luka Gabitsinashvili"}
+    - {name: "Haile Mokrzycki"}
+    - {name: "Ranya Fischer"}
+    - {name: "Nicholas Telesca"}
+    - {name: "Lauren Aurelia Xue"}
+    - {name: "Jacob Ritchie"}
+    - {name: "J.D. Zamfirescu-Pereira"}
+    - {name: "Mark E. Whiting"}
+    - {name: "Madhav Marathe"}
+  tags: [first-author, dataset, journal]
+  links:
+    - {label: "Article", url: "https://www.nature.com/articles/s41597-023-01979-6"}
+
+- key: hrnet
+  title: "Automated COVID-19 Detection from Chest X-Ray Images: A High-Resolution Network (HRNet) Approach"
+  venue: "SN Computer Science, 2(4)"
+  venue_short: "SN Computer Science 2021"
+  year: 2021
+  authors:
+    - {name: "Sifat Ahmed"}
+    - {name: "Tonmoy Hossain"}
+    - {name: "Oishee Bintey Hoque", me: true}
+    - {name: "Sujan Sarker"}
+    - {name: "Sejuti Rahman"}
+    - {name: "Faisal Muhammad Shah"}
+  tags: [journal]
+  links:
+    - {label: "Article", url: "https://link.springer.com/article/10.1007/s42979-021-00690-w"}
+
+- key: iccit
+  title: "Autonomous Deblurring of Images and Information Extraction from Documents Using CycleGAN and Mask R-CNN"
+  venue: "23rd International Conference on Computer and Information Technology (ICCIT)"
+  venue_short: "ICCIT 2020"
+  year: 2020
+  thumb: none
+  authors:
+    - {name: "Oishee Bintey Hoque", me: true}
+    - {name: "Maisha Binte Rashid"}
+    - {name: "K M Tawsik Jawad"}
+  tags: [first-author]
+  links:
+    - {label: "PDF", url: "/files/ICCIT_2020.pdf"}
+    - {label: "DOI", url: "https://doi.org/10.1109/ICCIT51783.2020.9392717"}
+    - {label: "Slides", url: "/files/ICCIT_2020_presentation.pdf"}
+
+- key: bdsl36
+  title: "BdSL36: A Dataset for Bangladeshi Sign Letters Recognition"
+  venue: "Machine Learning and Computing for Visual Semantic Analysis Workshop, Asian Conference on Computer Vision (ACCV)"
+  venue_short: "MLCSA @ ACCV 2020"
+  year: 2020
+  note: "From my undergraduate thesis."
+  authors:
+    - {name: "Oishee Bintey Hoque", me: true}
+    - {name: "Mohammad Imrul Jubair"}
+    - {name: "Al-Farabi Akash"}
+    - {name: "Md. Saiful Islam"}
+  tags: [first-author, dataset]
+  links:
+    - {label: "PDF", url: "https://openaccess.thecvf.com/content/ACCV2020W/MLCSA/html/Hoque_BdSL36_A_Dataset_for_Bangladeshi_Sign_Letters_Recognition_ACCVW_2020_paper.html"}
+    - {label: "Code & dataset", url: "https://rb.gy/mm3yjg"}
+    - {label: "Slides", url: "/files/ACCV2020/ACCV_Presentation.pdf"}
+    - {label: "Demo", url: "https://youtu.be/lSYgBMn2Tlg"}
+
+- key: frcnn
+  title: "Real-Time Bangladeshi Sign Language Detection Using Faster R-CNN"
+  venue: "International Conference on Innovations in Engineering and Technology (ICIET)"
+  venue_short: "ICIET 2018"
+  year: 2018
+  note: "From my undergraduate thesis."
+  authors:
+    - {name: "Oishee Bintey Hoque", me: true}
+    - {name: "Mohammad Imrul Jubair"}
+    - {name: "Al-Farabi Akash"}
+    - {name: "Md. Saiful Islam"}
+  tags: [first-author]
+  links:
+    - {label: "PDF", url: "/files/ICIET2018.pdf"}
+    - {label: "DOI", url: "https://ieeexplore.ieee.org/document/8660780"}
+    - {label: "Code & dataset", url: "https://github.com/imruljubair/bdslimset"}
+    - {label: "Slides", url: "/files/ICIET2018_presentation.pdf"}
+    - {label: "Demo", url: "https://youtu.be/OU8IFpR0_sU"}

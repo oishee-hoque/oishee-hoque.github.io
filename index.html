@@ -1,0 +1,106 @@
+---
+title: "Oishee Bintey Hoque"
+permalink: /
+id: home
+redirect_from:
+  - /about/
+  - /about.html
+---
+<section class="hero">
+  <div class="hero__text">
+    <h1 class="hero__name">Oishee<br>Bintey Hoque</h1>
+    <p class="hero__lede">I build computer vision systems for Earth observation: knowledge-guided multimodal models and the large-scale geospatial datasets they are trained and tested on.</p>
+    <ul class="status" aria-label="Current positions">
+      <li>PhD candidate, <a href="{{ site.author.institution_url }}">University of Virginia</a></li>
+      <li>Applied Scientist Intern, Amazon</li>
+    </ul>
+    <p class="avail"><span class="avail__dot" aria-hidden="true"></span>Graduating in 2027 and open to applied and research scientist roles.</p>
+    <ul class="links" aria-label="Contact and profiles">
+      <li><a href="mailto:{{ site.author.email }}">Email</a></li>
+      <li><a href="{{ site.author.cv }}" target="_blank" rel="noopener">CV</a></li>
+      <li><a href="{{ site.author.scholar }}" target="_blank" rel="noopener">Google Scholar</a></li>
+      <li><a href="{{ site.author.github }}" target="_blank" rel="noopener">GitHub</a></li>
+      <li><a href="{{ site.author.linkedin }}" target="_blank" rel="noopener">LinkedIn</a></li>
+    </ul>
+  </div>
+  <figure class="tile">
+    <div class="tile__frame">
+      <img src="{{ site.author.photo | relative_url }}" alt="Portrait of Oishee Bintey Hoque" width="800" height="1000" fetchpriority="high">
+      <span class="tile__tick tile__tick--top" aria-hidden="true"></span>
+      <span class="tile__tick tile__tick--bottom" aria-hidden="true"></span>
+      <span class="tile__tick tile__tick--left" aria-hidden="true"></span>
+      <span class="tile__tick tile__tick--right" aria-hidden="true"></span>
+      <span class="tile__coord tile__coord--tl" aria-hidden="true">38.03° N</span>
+      <span class="tile__coord tile__coord--br" aria-hidden="true">78.51° W</span>
+    </div>
+    <figcaption>{{ site.author.group }}, {{ site.author.location }}</figcaption>
+  </figure>
+</section>
+
+<section class="section" id="about">
+  <h2>About</h2>
+  <div class="section__body prose">
+    <p>I'm a PhD candidate in Computer Science at the University of Virginia, advised by <a href="{{ site.author.advisor_url }}">Madhav Marathe</a> at the <a href="{{ site.author.group_url }}">Biocomplexity Institute</a>. My research is in computer vision for Earth observation: knowledge-guided and multimodal learning, vision–language models, and foundation-model adaptation for remote sensing, applied to agricultural and environmental monitoring. I design models that fold domain priors into segmentation and detection, and I build the large-scale, ML-ready geospatial datasets that make those models trainable and testable.</p>
+    <p>I'm currently an Applied Scientist Intern at Amazon in Seattle, after a summer as a GRO intern in Oak Ridge National Laboratory's GeoAI group. Before the PhD I worked as a software engineer. My work has appeared at NeurIPS, KDD, IJCAI, WACV and CVPR workshops.</p>
+    <dl class="skills">
+      <dt>Core skills</dt>
+      <dd>
+        <span>Vision–language models</span>
+        <span>Multimodal fusion</span>
+        <span>Semantic and instance segmentation</span>
+        <span>Object detection</span>
+        <span>Foundation-model adaptation</span>
+        <span>ML-ready dataset pipelines</span>
+        <span>PyTorch</span>
+        <span>Python</span>
+        <span>GDAL, rasterio, QGIS</span>
+      </dd>
+    </dl>
+  </div>
+</section>
+
+<section class="section" id="research">
+  <h2>Research</h2>
+  <div class="section__body threads">
+    <div class="thread">
+      <h3>Knowledge-guided multimodal models</h3>
+      <p>Segmentation and detection models that take domain structure as input instead of relearning it: crop and land-use priors through cross-attention, graph constraints on canal networks, and geometric priors on infrastructure.</p>
+      <p class="thread__refs"><a href="{{ '/publications/#kiim' | relative_url }}">KIIM</a> <a href="{{ '/publications/#igrass' | relative_url }}">IGraSS</a> <a href="{{ '/publications/#prism-cafo' | relative_url }}">PRISM-CAFO</a></p>
+    </div>
+    <div class="thread">
+      <h3>ML-ready datasets and benchmarks</h3>
+      <p>Scalable pipelines that turn raw satellite and UAV archives into annotated, multimodal benchmarks with metadata, held-out sites and task-specific metrics.</p>
+      <p class="thread__refs"><a href="{{ '/publications/#irrmap' | relative_url }}">IrrMap</a> <a href="{{ '/publications/#irrisight' | relative_url }}">IRRISIGHT</a> <a href="{{ '/publications/#cafosat' | relative_url }}">CAFOSat</a> <a href="{{ '/publications/#cwdbench' | relative_url }}">CWDBench</a></p>
+    </div>
+    <div class="thread">
+      <h3>Foundation models and agentic geospatial systems</h3>
+      <p>Adapting SAM-, DINO- and Swin-based models and vision–language models to remote sensing, and composing LLM agents with deterministic geospatial tools for operational decision support.</p>
+      <p class="thread__refs"><a href="{{ '/publications/#arfa' | relative_url }}">ARFA</a> <a href="{{ '/publications/#cwdbench' | relative_url }}">CWDBench</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="news">
+  <h2>News</h2>
+  <div class="section__body">
+    <ol class="news" data-collapse="6">
+      {% for n in site.data.news %}
+      <li class="news__item news__item--{{ n.kind }}">
+        <span class="news__date">{{ n.date }}</span>
+        <span class="news__text">{{ n.text | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+      </li>
+      {% endfor %}
+    </ol>
+    <button class="news__toggle" type="button" hidden data-more="Show all {{ site.data.news.size }} updates" data-less="Show fewer">Show all {{ site.data.news.size }} updates</button>
+  </div>
+</section>
+
+<section class="section" id="selected">
+  <h2>Selected publications</h2>
+  <div class="section__body">
+    <div class="pubs pubs--selected">
+      {% for p in site.data.publications %}{% if p.tags contains "selected" %}{% include pub.html pub=p %}{% endif %}{% endfor %}
+    </div>
+    <p class="more"><a href="{{ '/publications/' | relative_url }}">All {{ site.data.publications.size }} publications</a></p>
+  </div>
+</section>

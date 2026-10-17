@@ -1,0 +1,47 @@
+{%- comment -%}
+Renders one publication entry. Usage: {% include pub.html pub=entry %}
+{%- endcomment -%}
+{%- assign pub = include.pub -%}
+{%- assign primary = "" -%}
+{%- for l in pub.links -%}
+  {%- if primary == "" and l.label != "Code" and l.label != "Dataset" and l.label != "Demo" and l.label != "Slides" and l.label != "Code & dataset" -%}
+    {%- assign primary = l.url -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- if primary == "" and pub.links.size > 0 -%}{%- assign primary = pub.links[0].url -%}{%- endif -%}
+{%- assign has_equal = false -%}
+{%- for a in pub.authors -%}{%- if a.equal -%}{%- assign has_equal = true -%}{%- endif -%}{%- endfor -%}
+<article class="pub" id="{{ pub.key }}" data-tags="{{ pub.tags | join: ' ' }}" data-year="{{ pub.year }}">
+  <div class="pub__thumb">
+    {%- if pub.thumb == "none" -%}
+      <span class="pub__tile" aria-hidden="true">{{ pub.venue_short | split: " " | first }}</span>
+    {%- else -%}
+      {%- if pub.thumb -%}{%- assign thumb = pub.thumb -%}{%- else -%}{%- assign thumb = "/images/pubs/" | append: pub.key | append: ".webp" -%}{%- endif -%}
+      {%- if primary != "" -%}<a href="{{ primary }}" tabindex="-1" aria-hidden="true"{% if primary contains "http" %} target="_blank" rel="noopener"{% endif %}>{%- endif -%}
+      <img src="{{ thumb | relative_url }}" alt="" loading="lazy" decoding="async" width="720" height="480">
+      {%- if primary != "" -%}</a>{%- endif -%}
+    {%- endif -%}
+  </div>
+  <div class="pub__body">
+    <p class="pub__venue">{{ pub.venue_short }}{% if pub.status %} <span class="pub__status">{{ pub.status }}</span>{% endif %}</p>
+    <h3 class="pub__title">
+      {%- if primary != "" -%}<a href="{{ primary }}"{% if primary contains "http" %} target="_blank" rel="noopener"{% endif %}>{{ pub.title }}</a>{%- else -%}{{ pub.title }}{%- endif -%}
+    </h3>
+    <p class="pub__authors">
+      {%- for a in pub.authors -%}
+        {%- if a.me -%}<span class="me">{{ a.name }}</span>{%- else -%}{{ a.name }}{%- endif -%}
+        {%- if a.equal -%}<sup>*</sup>{%- endif -%}
+        {%- unless forloop.last -%}, {% endunless -%}
+      {%- endfor -%}
+      {%- if has_equal %} <span class="pub__equal"><sup>*</sup>equal contribution</span>{%- endif -%}
+    </p>
+    <p class="pub__where">{{ pub.venue }}{% if pub.note %} <span class="pub__note">{{ pub.note }}</span>{% endif %}</p>
+    {%- if pub.links.size > 0 -%}
+    <p class="pub__links">
+      {%- for l in pub.links -%}
+        <a class="chip" href="{{ l.url | relative_url }}"{% if l.url contains "http" %} target="_blank" rel="noopener"{% endif %}>{{ l.label }}</a>
+      {%- endfor -%}
+    </p>
+    {%- endif -%}
+  </div>
+</article>
