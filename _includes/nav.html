@@ -1,6 +1,6 @@
 <header class="topbar">
   <div class="wrap topbar__inner">
-    <a class="wordmark" href="{{ '/' | relative_url }}"><b>Oishee</b> Bintey Hoque</a>
+    <a class="wordmark" href="{{ '/' | relative_url }}" aria-label="Home"><img class="wordmark__logo" src="{{ '/images/logo.svg' | relative_url }}" alt="" width="40" height="40"></a>
     <nav class="nav" aria-label="Site">
       {% for item in site.nav %}
       {% assign is_current = false %}

@@ -1,7 +1,7 @@
 # Experience page content. Each group renders as a timeline, newest first.
 # Entry fields: role, org, org_url, location, start, end, summary (one line), bullets (list), tech (comma-separated string).
 
-# Short "Affiliations & experience" list for the home page (newest first).
+# Short affiliations list for the home page (newest first). Entries with `more: true` are folded under "See more".
 affiliations:
   - org: "Amazon"
     org_url: "https://www.amazon.science/"
@@ -23,6 +23,31 @@ affiliations:
     role: "Research Intern"
     when: "Summer 2023"
     note: "Irrigation mapping from multispectral Landsat imagery; led to IrrNet (V4A @ CVPR 2024)."
+  - org: "University of Virginia"
+    org_url: "https://engineering.virginia.edu/departments/computer-science"
+    unit: "Biocomplexity Institute"
+    location: "Charlottesville, VA"
+    role: "Ph.D. in Computer Science"
+    when: "Fall 2021 to present, expected 2027"
+    note: "Advisor: Madhav Marathe. UVA SEAS Endowed Fellowship (2025)."
+    more: true
+  - org: "University of Virginia"
+    role: "M.S. in Computer Science"
+    when: "2025"
+    more: true
+  - org: "Enosis Solutions"
+    org_url: "https://www.enosisbd.com/"
+    location: "Dhaka, Bangladesh"
+    role: "Software Engineer"
+    when: "2020 to 2021"
+    more: true
+  - org: "Ahsanullah University of Science & Technology"
+    org_url: "http://aust.edu/"
+    location: "Dhaka, Bangladesh"
+    role: "B.Sc. in Computer Science and Engineering"
+    when: "2015 to 2019"
+    note: "Dean's List of Honor."
+    more: true
 
 # `home: N` puts a position in the short list on the home page, in that order; leave it out to show the position only on this page.
 positions:
