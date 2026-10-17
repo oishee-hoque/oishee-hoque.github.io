@@ -50,36 +50,32 @@ redirect_from:
   </div>
 </section>
 
-<section class="section" id="highlights">
-  <h2>Highlights</h2>
+<section class="section" id="news">
+  <h2>News</h2>
   <div class="section__body">
-    <ol class="hl">
+    <ol class="hl" aria-label="Pinned news">
       {% for n in site.data.news %}{% if n.highlight %}
       <li class="hl__item hl__item--{{ n.kind }}">
-        <span class="hl__date">{{ n.date }}</span>
+        <span class="hl__date"><svg class="hl__pin" viewBox="0 0 16 16" width="12" height="12" aria-hidden="true" focusable="false"><path d="M9.5 1.5 14.5 6.5l-1.4 1.4-.7-.7-3 3 .3 2.9-1.4 1.4-2.9-2.9L2 15l-1-1 3.4-3.4L1.5 7.7l1.4-1.4 2.9.3 3-3-.7-.7z" fill="currentColor"/></svg><span class="hl__pin-label">Pinned</span> {{ n.date }}</span>
         <span class="hl__head">{{ n.headline | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span>
         {% if n.detail %}<span class="hl__detail">{{ n.detail | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span>{% endif %}
       </li>
       {% endif %}{% endfor %}
     </ol>
-  </div>
-</section>
-
-<section class="section" id="news">
-  <h2>News</h2>
-  <div class="section__body">
-    <ol class="news" data-collapse="6">
-      {% for n in site.data.news %}{% unless n.highlight %}
-      <li class="news__item news__item--{{ n.kind }}">
-        <span class="news__date">{{ n.date }}</span>
-        <span class="news__text">
-          <span class="news__head">{{ n.headline | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span>
-          {% if n.detail %}<span class="news__detail">{{ n.detail | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span>{% endif %}
-        </span>
-      </li>
-      {% endunless %}{% endfor %}
-    </ol>
-    <button class="news__toggle" type="button" hidden data-more="Show all updates" data-less="Show fewer">Show all updates</button>
+    <details class="morenews">
+      <summary><span class="morenews__more">See more news</span><span class="morenews__less">Show fewer</span></summary>
+      <ol class="news">
+        {% for n in site.data.news %}{% unless n.highlight %}
+        <li class="news__item news__item--{{ n.kind }}">
+          <span class="news__date">{{ n.date }}</span>
+          <span class="news__text">
+            <span class="news__head">{{ n.headline | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span>
+            {% if n.detail %}<span class="news__detail">{{ n.detail | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span>{% endif %}
+          </span>
+        </li>
+        {% endunless %}{% endfor %}
+      </ol>
+    </details>
   </div>
 </section>
 
