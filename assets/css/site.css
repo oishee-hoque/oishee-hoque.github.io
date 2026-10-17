@@ -262,66 +262,19 @@ sup { line-height: 0; font-size: 0.7em; }
 }
 .links a:hover { color: var(--canopy); text-decoration-color: var(--canopy); }
 
-/* The map-tile portrait: a neatline with graticule ticks and corner coordinates. */
-.tile {
-  margin: 6px 0 0;
-  max-width: 340px;
+/* Portrait */
+.portrait {
+  margin: 8px 0 0;
   justify-self: end;
+  width: min(100%, 300px);
 }
-.tile__frame {
-  position: relative;
-  padding: 14px;
-  border: 1.5px solid var(--ink);
-  background: var(--paper);
-}
-.tile__frame::after {
-  content: "";
-  position: absolute;
-  inset: 9px;
-  border: 1px solid var(--ink);
-  pointer-events: none;
-}
-.tile__frame img {
+.portrait img {
   display: block;
   width: 100%;
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
-  filter: saturate(0.96);
-}
-.tile__tick {
-  position: absolute;
-  pointer-events: none;
-}
-.tile__tick--top, .tile__tick--bottom {
-  left: 14px; right: 14px; height: 6px;
-  background: repeating-linear-gradient(90deg, var(--ink) 0 1px, transparent 1px 26px);
-}
-.tile__tick--top { top: 1px; }
-.tile__tick--bottom { bottom: 1px; }
-.tile__tick--left, .tile__tick--right {
-  top: 14px; bottom: 14px; width: 6px;
-  background: repeating-linear-gradient(180deg, var(--ink) 0 1px, transparent 1px 26px);
-}
-.tile__tick--left { left: 1px; }
-.tile__tick--right { right: 1px; }
-.tile__coord {
-  position: absolute;
-  font-family: var(--font-display);
-  font-size: 0.62rem;
-  font-weight: 600;
-  letter-spacing: 0.02em;
-  color: var(--ink);
-  background: var(--paper);
-  padding: 0 4px;
-  line-height: 1.2;
-}
-.tile__coord--tl { top: -0.45rem; left: 22px; }
-.tile__coord--br { bottom: -0.45rem; right: 22px; }
-.tile figcaption {
-  font-family: var(--font-display);
-  font-size: 0.8rem;
-  color: var(--ink-3);
-  margin-top: 10px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px var(--line), 0 0 0 6px var(--paper), 0 0 0 7px var(--line-soft);
 }
 
 /* ---------- Sections (label column + body) ---------- */
@@ -719,7 +672,7 @@ sup { line-height: 0; font-size: 0.7em; }
     padding-top: 36px;
     gap: 28px;
   }
-  .tile { max-width: 260px; justify-self: start; order: -1; }
+  .portrait { width: 180px; justify-self: start; order: -1; margin-top: 0; }
   .section, .year {
     grid-template-columns: 1fr;
     gap: 14px;
