@@ -405,7 +405,7 @@ sup { line-height: 0; font-size: 0.7em; }
 
 /* Services page */
 .section__intro { color: var(--text-light); margin: -0.2rem 0 0.8rem; max-width: 70ch; }
-.section__intro--dark { color: var(--text); font-weight: 500; margin-bottom: 0.4rem; }
+.section__intro--dark { color: var(--text); font-weight: 500; margin-bottom: 0.4rem; max-width: none; }
 .svc-bullets { margin: 0 0 0.6rem; padding-left: 1.3em; list-style: disc; }
 .svc-bullets li { margin: 3px 0; }
 .svc-bullets li::marker { color: var(--theme-2); }
