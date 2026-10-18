@@ -89,7 +89,10 @@ sup { line-height: 0; font-size: 0.7em; }
 .post-title b { font-weight: 700; color: var(--theme); }
 .desc { color: var(--text-light); font-size: 1.1rem; margin: 0.4rem 0 0.9rem; }
 
-.contact-icons { display: flex; flex-wrap: wrap; gap: 0.2rem 0.9rem; margin: 0.8rem 0 0; padding: 0; list-style: none; font-size: 1.45rem; }
+.email { margin: 0.7rem 0 0; font-size: 0.95rem; }
+.email a { color: var(--text); }
+.email a:hover { color: var(--theme); }
+.contact-icons { display: flex; flex-wrap: wrap; gap: 0.2rem 0.9rem; margin: 0.4rem 0 0; padding: 0; list-style: none; font-size: 1.45rem; }
 .contact-icons a { color: var(--text); display: inline-flex; align-items: center; }
 .contact-icons a:hover { color: var(--theme); text-decoration: none; }
 
@@ -322,7 +325,7 @@ sup { line-height: 0; font-size: 0.7em; }
   .about__side-title { order: 2; }
   .affil { order: 3; }
   .affil--more { order: initial; }
-  .contact-icons { order: 0; }
+  .email, .contact-icons { order: 0; }
   .about__main { order: 1; }
   .post-title { font-size: 2rem; }
   .pub { grid-template-columns: 1fr; gap: 10px; }

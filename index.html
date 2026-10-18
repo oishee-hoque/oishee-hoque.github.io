@@ -17,9 +17,9 @@ redirect_from:
       <div class="profile">
         <img src="{{ site.author.photo | relative_url }}" alt="Portrait of Oishee Bintey Hoque" width="900" height="900" fetchpriority="high">
       </div>
+      <p class="email"><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
     <ul class="contact-icons" aria-label="Contact and profiles">
-        <li><a href="mailto:{{ site.author.email }}" title="Email" aria-label="Email">{% include icons/envelope.svg %}</a></li>
-        <li><a href="{{ site.author.cv }}" target="_blank" rel="noopener" title="CV" aria-label="CV">{% include icons/file-pdf.svg %}</a></li>
+          <li><a href="{{ site.author.cv }}" target="_blank" rel="noopener" title="CV" aria-label="CV">{% include icons/file-pdf.svg %}</a></li>
         <li><a href="{{ site.author.scholar }}" target="_blank" rel="noopener" title="Google Scholar" aria-label="Google Scholar">{% include icons/google-scholar.svg %}</a></li>
         <li><a href="{{ site.author.github }}" target="_blank" rel="noopener" title="GitHub" aria-label="GitHub">{% include icons/github.svg %}</a></li>
         <li><a href="{{ site.author.linkedin }}" target="_blank" rel="noopener" title="LinkedIn" aria-label="LinkedIn">{% include icons/linkedin.svg %}</a></li>
