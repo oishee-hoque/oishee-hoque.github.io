@@ -31,6 +31,7 @@ redirect_from:
           <span class="affil__org">{% if a.org_url %}<a href="{{ a.org_url }}" target="_blank" rel="noopener">{{ a.org }}</a>{% else %}{{ a.org }}{% endif %}</span>{% if a.unit %} ({{ a.unit }}){% endif %}{% if a.location %}<span class="affil__loc">, {{ a.location }}</span>{% endif %}
           <span class="affil__role"><b>{{ a.role }}</b>, {{ a.when }}.</span>
           {% if a.note %}<span class="affil__note">{{ a.note }}</span>{% endif %}
+          {% if a.bullets %}<ul class="affil__bullets">{% for b in a.bullets %}<li>{{ b | markdownify | remove: '<p>' | remove: '</p>' | strip }}</li>{% endfor %}</ul>{% endif %}
         </li>
         {% endunless %}{% endfor %}
         <li class="affil__more">
@@ -42,6 +43,7 @@ redirect_from:
                 <span class="affil__org">{% if a.org_url %}<a href="{{ a.org_url }}" target="_blank" rel="noopener">{{ a.org }}</a>{% else %}{{ a.org }}{% endif %}</span>{% if a.unit %} ({{ a.unit }}){% endif %}{% if a.location %}<span class="affil__loc">, {{ a.location }}</span>{% endif %}
                 <span class="affil__role"><b>{{ a.role }}</b>, {{ a.when }}.</span>
                 {% if a.note %}<span class="affil__note">{{ a.note }}</span>{% endif %}
+                {% if a.bullets %}<ul class="affil__bullets">{% for b in a.bullets %}<li>{{ b | markdownify | remove: '<p>' | remove: '</p>' | strip }}</li>{% endfor %}</ul>{% endif %}
               </li>
               {% endif %}{% endfor %}
             </ol>

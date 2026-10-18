@@ -153,6 +153,9 @@ sup { line-height: 0; font-size: 0.7em; }
 .affil__role { display: block; }
 .affil__role b { font-weight: 500; }
 .affil__note { display: block; color: var(--text-light); font-size: 0.85rem; }
+.affil__bullets { margin: 2px 0 0; padding-left: 1.1em; color: var(--text-light); font-size: 0.85rem; list-style: disc; }
+.affil__bullets li { margin: 1px 0; }
+.affil__bullets strong { color: var(--text); font-weight: 500; }
 
 .affil__more { position: relative; padding: 0 0 0 1.6rem; }
 .affil__more::before { content: ""; position: absolute; left: 0.42rem; top: -1rem; height: 1.5rem; width: 2px; background: var(--divider); }
