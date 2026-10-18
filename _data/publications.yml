@@ -6,8 +6,9 @@
 #   tags       any of: first-author, dataset, journal, selected; plus research areas knowledge, datasets, foundation (home-page filters)
 #   links      list of {label, url}
 #   thumb      optional override; defaults to /images/pubs/<key>.webp (720x480, a figure from the paper).
-#              Set thumb: none for an icon tile instead, with optional tile (label), tile_icon (a file in
-#              _includes/icons/, without .svg) and tile_style: soon (grey, for work not yet public).
+#              Set thumb: none for a tile instead: on its own it shows the venue's first word in large
+#              letters (e.g. ICCIT), or `tile` if given. Add tile_icon (a file in _includes/icons/, without
+#              .svg) for an icon tile, and tile_style: soon for the grey "not yet public" look.
 
 - key: cwdbench
   title: "CWDBench: A Benchmark for Instance-Level Characterization of Coarse Woody Debris in Aerial Imagery"
@@ -231,6 +232,7 @@
   venue: "23rd International Conference on Computer and Information Technology (ICCIT)"
   venue_short: "ICCIT 2020"
   year: 2020
+  thumb: none
   authors:
     - {name: "Oishee Bintey Hoque", me: true}
     - {name: "Maisha Binte Rashid"}

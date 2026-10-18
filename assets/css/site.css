@@ -243,6 +243,7 @@ sup { line-height: 0; font-size: 0.7em; }
 .pub__tile { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 7px; height: 100%; padding: 8px 10px; text-align: center; color: var(--theme); background: linear-gradient(135deg, rgba(38, 152, 186, 0.13), rgba(38, 152, 186, 0.04)); }
 .pub__tile-icon { font-size: 1.75rem; line-height: 1; display: flex; }
 .pub__tile-label { font-size: 0.74rem; font-weight: 500; line-height: 1.25; color: #2f7389; }
+.pub__tile--text { font-weight: 700; font-size: 1.4rem; color: var(--theme); background: #f6f6f6; }
 .pub__tile--soon { color: #a3a3a3; background: #f5f5f5; }
 .pub__tile--soon .pub__tile-icon { font-size: 1.45rem; }
 .pub__tile--soon .pub__tile-label { color: var(--text-light); font-style: italic; font-size: 0.8rem; }

@@ -13,11 +13,13 @@ Renders one publication entry. Usage: {% include pub.html pub=entry %}
 {%- for a in pub.authors -%}{%- if a.equal -%}{%- assign has_equal = true -%}{%- endif -%}{%- endfor -%}
 <article class="pub" id="{{ pub.key }}" data-tags="{{ pub.tags | join: ' ' }}" data-year="{{ pub.year }}">
   <div class="pub__thumb">
-    {%- if pub.thumb == "none" -%}
+    {%- if pub.thumb == "none" and pub.tile_icon -%}
       <span class="pub__tile{% if pub.tile_style %} pub__tile--{{ pub.tile_style }}{% endif %}" aria-hidden="true">
-        {%- if pub.tile_icon -%}<span class="pub__tile-icon">{% include icons/{{ pub.tile_icon }}.svg %}</span>{%- endif -%}
+        <span class="pub__tile-icon">{% include icons/{{ pub.tile_icon }}.svg %}</span>
         <span class="pub__tile-label">{% if pub.tile %}{{ pub.tile }}{% else %}{{ pub.venue_short }}{% endif %}</span>
       </span>
+    {%- elsif pub.thumb == "none" -%}
+      <span class="pub__tile pub__tile--text" aria-hidden="true">{% if pub.tile %}{{ pub.tile }}{% else %}{{ pub.venue_short | split: " " | first }}{% endif %}</span>
     {%- else -%}
       {%- if pub.thumb -%}{%- assign thumb = pub.thumb -%}{%- else -%}{%- assign thumb = "/images/pubs/" | append: pub.key | append: ".webp" -%}{%- endif -%}
       {%- if primary != "" -%}<a href="{{ primary }}" tabindex="-1" aria-hidden="true"{% if primary contains "http" %} target="_blank" rel="noopener"{% endif %}>{%- endif -%}
