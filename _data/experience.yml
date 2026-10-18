@@ -1,6 +1,6 @@
 # Home page data.
 #   affiliations: the experience timeline (newest first). Entries with `more: true` sit under "See more".
-#                 Fields: org, org_url, unit, location, role, when, note (one line) and/or bullets (list; Markdown ok).
+#                 Fields: org, org_url, unit, unit_url, location, role, when, note (one line) and/or bullets (list; Markdown ok).
 #   education:    degree, org, org_url, when (shown in brackets after the university), note;
 #                 entries with `more: true` sit under "See more"
 
@@ -17,8 +17,9 @@ affiliations:
       - "Cloud vision–language and multimodal foundation models"
       - "Hands-free AR and voice workflows"
   - org: "Oak Ridge National Laboratory"
-    org_url: "https://www.ornl.gov/group/geoai"
+    org_url: "https://www.ornl.gov/"
     unit: "GeoAI Group"
+    unit_url: "https://www.ornl.gov/group/geoai"
     location: "Oak Ridge, TN"
     role: "Graduate Research Intern (GRO program)"
     when: "Summer 2026"
