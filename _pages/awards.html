@@ -39,8 +39,8 @@ redirect_from:
     <li class="spot__item spot__item--{{ h.kind }}">
       <span class="spot__icon" aria-hidden="true">{% if h.kind == "newsletter" %}{% include icons/newspaper.svg %}{% else %}{% include icons/star.svg %}{% endif %}</span>
       <span class="spot__when">{{ h.when }}</span>
-      <span class="spot__title">{{ h.title }}</span>
-      <span class="spot__source">{{ h.source }}</span>
+      <span class="spot__title">{{ h.source }}</span>
+      <span class="spot__source">{{ h.title }}</span>
       <a class="spot__cta" href="{{ h.url }}" target="_blank" rel="noopener">{{ h.cta }} {% include icons/arrow-up-right-from-square.svg %}</a>
     </li>
     {% endfor %}
