@@ -123,6 +123,8 @@ sup { line-height: 0; font-size: 0.7em; }
 .avail__dot { width: 9px; height: 9px; border-radius: 50%; background: var(--theme-2); box-shadow: 0 0 0 3px rgba(181, 9, 172, 0.18); flex: none; }
 .avail a { color: inherit; font-weight: 700; white-space: nowrap; text-decoration: underline; text-decoration-color: rgba(181, 9, 172, 0.45); text-underline-offset: 3px; }
 .avail a:hover { text-decoration-color: currentColor; }
+.avail a.reach { cursor: pointer; }
+.avail a.reach--copied { text-decoration: none; opacity: 0.85; }
 .clearfix::after { content: ""; display: table; clear: both; }
 
 .post h2 { font-size: 1.55rem; font-weight: 500; margin: 1.8rem 0 0.8rem; padding-bottom: 0.25rem; border-bottom: 2px solid var(--divider); }

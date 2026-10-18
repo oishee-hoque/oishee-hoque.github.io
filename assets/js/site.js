@@ -50,3 +50,30 @@
     }
   });
 })();
+
+/* "Please feel free to reach out!" copies the email to the clipboard and shows a brief confirmation.
+   Falls back to the mailto: link if the clipboard API is unavailable or blocked. */
+(function () {
+  var link = document.querySelector("a.reach");
+  if (!link) return;
+  var email = (link.getAttribute("href") || "").replace(/^mailto:/, "");
+  if (!email) return;
+  var original = link.textContent;
+  var confirm = link.getAttribute("data-copied") || "Copied!";
+  var timer;
+  link.addEventListener("click", function (e) {
+    if (!navigator.clipboard || !navigator.clipboard.writeText) return; // let the mailto fire
+    e.preventDefault();
+    navigator.clipboard.writeText(email).then(function () {
+      link.textContent = confirm;
+      link.classList.add("reach--copied");
+      clearTimeout(timer);
+      timer = setTimeout(function () {
+        link.textContent = original;
+        link.classList.remove("reach--copied");
+      }, 1800);
+    }).catch(function () {
+      window.location.href = "mailto:" + email; // clipboard denied -> fall back to mail app
+    });
+  });
+})();
