@@ -423,7 +423,7 @@ sup { line-height: 0; font-size: 0.7em; }
 .svc__when--inline { margin-left: 4px; }
 .svc__note { font-size: 0.85rem; color: var(--text-light); line-height: 1.45; }
 
-.mentees { list-style: none; margin: 0 0 0.8rem; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 24px; }
+.mentees { list-style: none; margin: 0.2rem 0 0.8rem; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 24px; }
 .mentee { display: flex; flex-direction: column; gap: 2px; padding: 12px 14px; border: 1px solid var(--divider); border-radius: 6px; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05); }
 .mentee__name { font-weight: 700; font-size: 1.02rem; }
 .mentee__name a { color: var(--text); }

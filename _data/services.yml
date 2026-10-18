@@ -15,8 +15,12 @@ mentoring:
     - "Computer vision pipelines for geospatial analysis, with emphasis on model evaluation and reproducibility."
     - "Dataset preparation and model training for satellite-imagery irrigation mapping."
   mentees:
-    - {name: "Kyle Duong", when: "Summer 2025 to Spring 2026"}
-    - {name: "Jonathan Bierly", when: "Summer 2025"}
+    - name: "Kyle Duong"
+      role: "Undergraduate researcher, Computer Science, University of Virginia"
+      when: "Summer 2025 to Spring 2026"
+    - name: "Jonathan Bierly"
+      role: "Undergraduate researcher, Computer Science, University of Virginia"
+      when: "Summer 2025"
   training:
     - {text: "Selected participant, **UR2PhD Graduate Student Mentor Training Course**, Computing Research Association", when: "Fall 2025"}
 
