@@ -46,6 +46,18 @@ id: services
   {% endif %}
 </section>
 
+<section class="section section--leadership">
+  <h2>Leadership</h2>
+  <ol class="svc">
+    {% for l in sv.leadership %}
+    <li class="svc__item">
+      <span class="svc__title">{{ l.org }}</span>
+      {% for r in l.roles %}<span class="svc__role">{{ r.role }} <span class="svc__when svc__when--inline">{{ r.when }}</span></span>{% endfor %}
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+
 <section class="section section--reviewing">
   <h2>Reviewing &amp; program committees</h2>
   <ol class="svc">
@@ -72,17 +84,6 @@ id: services
   </ol>
 </section>
 
-<section class="section section--leadership">
-  <h2>Leadership</h2>
-  <ol class="svc">
-    {% for l in sv.leadership %}
-    <li class="svc__item">
-      <span class="svc__title">{{ l.org }}</span>
-      {% for r in l.roles %}<span class="svc__role">{{ r.role }} <span class="svc__when svc__when--inline">{{ r.when }}</span></span>{% endfor %}
-    </li>
-    {% endfor %}
-  </ol>
-</section>
 
 <section class="section section--volunteering">
   <h2>Volunteering</h2>
