@@ -49,6 +49,7 @@
   venue: "EarthVision Workshop, IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
   venue_short: "EarthVision @ CVPR 2026"
   year: 2026
+  note: "A semi-automated annotation pipeline that refines imprecise public CAFO records into facility boxes and infrastructure-level labels (barns, manure lagoons, feed storage), with curated hard negatives and validated synthetic imagery to benchmark robustness under distribution shift."
   authors:
     - {name: "Oishee Bintey Hoque", me: true, equal: true}
     - {name: "Nibir Chandra Mandal", equal: true}
@@ -56,7 +57,7 @@
     - {name: "Samarth Swarup"}
     - {name: "Madhav Marathe"}
     - {name: "Abhijin Adiga"}
-  tags: [first-author, dataset, selected, datasets, knowledge, foundation]
+  tags: [first-author, dataset, selected, datasets, knowledge]
   links:
     - {label: "PDF", url: "https://arxiv.org/pdf/2606.00548"}
     - {label: "Code", url: "https://github.com/oishee-hoque/CAFOSat"}
@@ -67,6 +68,7 @@
   venue: "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)"
   venue_short: "WACV 2026"
   year: 2026
+  note: "Infrastructure-first, explainable CAFO mapping: YOLO detects barns, lagoons and feedlots, SAM turns them into geometry-filtered masks, and structural descriptors fused with deep visual features classify the facility type and tie each decision to visible infrastructure."
   authors:
     - {name: "Oishee Bintey Hoque", me: true, equal: true}
     - {name: "Nibir Chandra Mandal", equal: true}
@@ -85,6 +87,7 @@
   venue: "Advances in Neural Information Processing Systems (NeurIPS)"
   venue_short: "NeurIPS 2025"
   year: 2025
+  note: "A scalable pipeline that aligns raster, vector and point data (soil, hydrology, crops, land use, climate) on a common 10 m grid and turns tabular attributes into domain-informed text prompts: 1.4M pixel-aligned image–text patches across 20 states for benchmarking vision and vision–language models."
   authors:
     - {name: "Nibir Chandra Mandal", equal: true}
     - {name: "Oishee Bintey Hoque", me: true, equal: true}
@@ -104,6 +107,7 @@
   venue: "International Joint Conference on Artificial Intelligence (IJCAI)"
   venue_short: "IJCAI 2025"
   year: 2025
+  note: "An iterative framework that couples semantic segmentation (RGB, NDWI and elevation inputs) with graph-based reachability constraints that repair incomplete canal ground truth, then retrains on the refined labels; a different graph constraint carries it over to road networks."
   authors:
     - {name: "Oishee Bintey Hoque", me: true}
     - {name: "Abhijin Adiga"}
@@ -124,6 +128,7 @@
   venue: "International Joint Conference on Artificial Intelligence (IJCAI)"
   venue_short: "IJCAI 2025"
   year: 2025
+  note: "A Swin-Transformer that injects agronomic knowledge: a projection matrix encoding crop-to-irrigation probabilities, a spatial attention map separating farmland from non-agricultural land, bi-directional cross-attention between image and crop modalities, a weighted ensemble, and two-phase transfer learning across states."
   authors:
     - {name: "Oishee Bintey Hoque", me: true, equal: true}
     - {name: "Nibir Chandra Mandal", equal: true}
@@ -142,6 +147,7 @@
   venue: "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)"
   venue_short: "KDD 2025"
   year: 2025
+  note: "An extensible, ML-ready pipeline that fuses multi-resolution Landsat and Sentinel imagery with crop type, land use and vegetation indices into 1.1M geospatially aligned 224×224 patches (western US, 2013–2023), with curated train–test splits, dataloaders and benchmark models."
   authors:
     - {name: "Nibir Chandra Mandal", equal: true}
     - {name: "Oishee Bintey Hoque", me: true, equal: true}
@@ -182,7 +188,7 @@
   venue: "Vision for Agriculture Workshop, IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
   venue_short: "V4A @ CVPR 2024"
   year: 2024
-  note: "Oral and poster presentation."
+  note: "Oral and poster presentation. An incremental patch-size training scheme in which models learn fine field-level detail on small patches before broader landscape context on progressively larger ones, for irrigation mapping from Landsat 5 and 7 imagery."
   authors:
     - {name: "Oishee Bintey Hoque", me: true}
     - {name: "Samarth Swarup"}
