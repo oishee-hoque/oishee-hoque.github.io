@@ -32,7 +32,55 @@ redirect_from:
   </ol>
 </section>
 
-{% assign groups = "highlights:Media and research highlights|travel:Travel grants|talks:Talks and presentations|competitions:Competitions" | split: "|" %}
+<section class="section section--highlights">
+  <h2>Media and research highlights</h2>
+  <ol class="spot">
+    {% for h in site.data.activities.highlights %}
+    <li class="spot__item spot__item--{{ h.kind }}">
+      <span class="spot__icon" aria-hidden="true">{% if h.kind == "newsletter" %}{% include icons/newspaper.svg %}{% else %}{% include icons/star.svg %}{% endif %}</span>
+      <span class="spot__when">{{ h.when }}</span>
+      <span class="spot__title">{{ h.title }}</span>
+      <span class="spot__source">{{ h.source }}</span>
+      <a class="spot__cta" href="{{ h.url }}" target="_blank" rel="noopener">{{ h.cta }} {% include icons/arrow-up-right-from-square.svg %}</a>
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+
+<section class="section section--travel">
+  <h2>Travel grants</h2>
+  <ol class="trips">
+    {% for t in site.data.activities.travel %}
+    <li class="trip">
+      <span class="trip__icon" aria-hidden="true">{% include icons/plane-departure.svg %}</span>
+      <span class="trip__body">
+        <span class="trip__funder">{{ t.funder }}</span>
+        <span class="trip__event">{% if t.event_url %}<a href="{{ t.event_url }}" target="_blank" rel="noopener">{{ t.event }}</a>{% else %}{{ t.event }}{% endif %}{% if t.note %} <span class="trip__note">{{ t.note }}</span>{% endif %}</span>
+        <span class="trip__meta"><span class="trip__when">{{ t.when }}</span>{% if t.place %}<span class="trip__place">{% include icons/location-dot.svg %} {{ t.place }}</span>{% endif %}</span>
+      </span>
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+
+<section class="section section--talks">
+  <h2>Talks and presentations</h2>
+  <ol class="talks">
+    {% for t in site.data.activities.talks %}
+    <li class="talk">
+      <span class="talk__when">{{ t.when }}</span>
+      <span class="talk__body">
+        <span class="talk__venue">{% if t.venue_url %}<a href="{{ t.venue_url }}" target="_blank" rel="noopener">{{ t.venue }}</a>{% else %}{{ t.venue }}{% endif %}</span>
+        <span class="talk__type">{% include icons/microphone.svg %} {{ t.type }}</span>
+        {% if t.title %}<span class="talk__title">{{ t.title }}</span>{% endif %}
+        {% if t.place %}<span class="talk__place">{% include icons/location-dot.svg %} {{ t.place }}</span>{% endif %}
+      </span>
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+
+{% assign groups = "competitions:Competitions" | split: "|" %}
 {% for g in groups %}
 {% assign parts = g | split: ":" %}
 {% assign key = parts[0] %}
