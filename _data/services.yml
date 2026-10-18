@@ -9,16 +9,14 @@ teaching:
     - {course: "Mobile Application Development", when: "Fall 2022", note: "Guided Android/iOS development with industry practices."}
 
 mentoring:
-  intro: "Undergraduate Research Mentor, Biocomplexity Institute, University of Virginia (June 2025 to present). Research methodology, coding practice and paper writing for undergraduates working in computer vision and remote sensing."
+  intro: "Undergraduate Research Mentor, Biocomplexity Institute, University of Virginia (June 2025 to Spring 2026)."
+  bullets:
+    - "Research methodology, coding practice and paper writing for undergraduates working in computer vision and remote sensing."
+    - "Computer vision pipelines for geospatial analysis, with emphasis on model evaluation and reproducibility."
+    - "Dataset preparation and model training for satellite-imagery irrigation mapping."
   mentees:
-    - name: "Kyle Duong"
-      role: "Undergraduate researcher, Computer Science, University of Virginia"
-      when: "Summer 2025 to Spring 2026"
-      note: "Computer vision pipelines for geospatial analysis, with emphasis on model evaluation and reproducibility."
-    - name: "Jonathan Bierly"
-      role: "Undergraduate researcher, Computer Science, University of Virginia"
-      when: "Summer 2025"
-      note: "Dataset preparation and model training for satellite-imagery irrigation mapping."
+    - {name: "Kyle Duong", when: "Summer 2025 to Spring 2026"}
+    - {name: "Jonathan Bierly", when: "Summer 2025"}
   training:
     - {text: "Selected participant, **UR2PhD Graduate Student Mentor Training Course**, Computing Research Association", when: "Fall 2025"}
 

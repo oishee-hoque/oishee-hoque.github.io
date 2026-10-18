@@ -25,18 +25,13 @@ id: services
 
 <section class="section section--mentoring">
   <h2>Mentoring</h2>
-  <p class="section__intro">{{ sv.mentoring.intro }}</p>
-  <ol class="mentees">
-    {% for m in sv.mentoring.mentees %}
-    <li class="mentee">
-      <span class="mentee__name">{% if m.url %}<a href="{{ m.url }}" target="_blank" rel="noopener">{{ m.name }}</a>{% else %}{{ m.name }}{% endif %}</span>
-      <span class="mentee__role">{{ m.role }}</span>
-      <span class="mentee__when">{{ m.when }}</span>
-      {% if m.note %}<span class="mentee__note">{{ m.note }}</span>{% endif %}
-      {% if m.current %}<span class="mentee__current">Current: {{ m.current }}</span>{% endif %}
-    </li>
-    {% endfor %}
-  </ol>
+  <p class="section__intro section__intro--dark">{{ sv.mentoring.intro }}</p>
+  <ul class="svc-bullets">
+    {% for b in sv.mentoring.bullets %}<li>{{ b }}</li>{% endfor %}
+  </ul>
+  {% if sv.mentoring.mentees %}
+  <p class="mentee-line"><span class="mentee-line__label">Mentees:</span> {% for m in sv.mentoring.mentees %}{% if m.url %}<a href="{{ m.url }}" target="_blank" rel="noopener">{{ m.name }}</a>{% else %}{{ m.name }}{% endif %} <span class="mentee-line__when">({{ m.when }})</span>{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
+  {% endif %}
   {% if sv.mentoring.training %}
   <ol class="dated dated--tight">
     {% for t in sv.mentoring.training %}
