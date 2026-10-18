@@ -188,7 +188,7 @@
   venue: "Vision for Agriculture Workshop, IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
   venue_short: "V4A @ CVPR 2024"
   year: 2024
-  note: "Oral and poster presentation. An incremental patch-size training scheme in which models learn fine field-level detail on small patches before broader landscape context on progressively larger ones, for irrigation mapping from Landsat 5 and 7 imagery."
+  note: "An incremental patch-size training scheme in which models learn fine field-level detail on small patches before broader landscape context on progressively larger ones, for irrigation mapping from Landsat 5 and 7 imagery."
   authors:
     - {name: "Oishee Bintey Hoque", me: true}
     - {name: "Samarth Swarup"}
