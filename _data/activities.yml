@@ -22,7 +22,7 @@ awards:
     title: "AI-COE Fellowship"
     org: "USDA-ARS SCINet Graduate Student Internship Program"
     org_url: "https://scinet.usda.gov/"
-    detail: "Funded summer research internship on irrigation mapping."
+    detail: "Funded summer research internship on AI in remote sensing."
     kind: fellowship
   - when: "2023"
     title: "3rd place, AgAthon 2023"

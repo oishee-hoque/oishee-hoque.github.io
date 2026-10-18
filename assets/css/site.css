@@ -121,6 +121,8 @@ sup { line-height: 0; font-size: 0.7em; }
 }
 .avail { display: flex; align-items: center; gap: 9px; width: fit-content; margin: 1.1rem auto 0; padding: 8px 16px; color: #9b0893; font-weight: 500; background: rgba(181, 9, 172, 0.06); border: 1px solid rgba(181, 9, 172, 0.3); border-radius: 8px; }
 .avail__dot { width: 9px; height: 9px; border-radius: 50%; background: var(--theme-2); box-shadow: 0 0 0 3px rgba(181, 9, 172, 0.18); flex: none; }
+.avail a { color: inherit; font-weight: 700; white-space: nowrap; text-decoration: underline; text-decoration-color: rgba(181, 9, 172, 0.45); text-underline-offset: 3px; }
+.avail a:hover { text-decoration-color: currentColor; }
 .clearfix::after { content: ""; display: table; clear: both; }
 
 .post h2 { font-size: 1.55rem; font-weight: 500; margin: 1.8rem 0 0.8rem; padding-bottom: 0.25rem; border-bottom: 2px solid var(--divider); }

@@ -5,7 +5,7 @@
 #                 entries with `more: true` sit under "See more"
 
 affiliations:
-  - org: "Amazon"
+  - org: "Amazon Science"
     org_url: "https://www.amazon.science/"
     unit: "GRAISE team"
     location: "Seattle, WA"
