@@ -39,7 +39,7 @@
   kind: role
   highlight: true
   headline: "Started a research internship at [Oak Ridge National Laboratory](https://www.ornl.gov/)"
-  detail: "[GeoAI group](https://www.ornl.gov/group/geoai), GRO program."
+  detail: "GeoAI group, GRO program."
 
 - date: "Mar 2026"
   kind: paper

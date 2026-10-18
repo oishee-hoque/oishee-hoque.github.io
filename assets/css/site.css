@@ -108,6 +108,7 @@ sup { line-height: 0; font-size: 0.7em; }
 .post h2.about__side-title { font-size: 0.95rem; font-weight: 700; margin: 1.1rem 0 0.5rem; padding-bottom: 0.2rem; border-bottom: 2px solid var(--divider); }
 .about__side-title a { color: inherit; }
 .about__main { min-width: 0; }
+.about__main > p:not(.avail) { text-align: justify; }
 .about__main h2 { margin-top: 1.4rem; }
 .profile { width: 220px; margin: 0 auto; }
 .profile img {
@@ -495,4 +496,12 @@ sup { line-height: 0; font-size: 0.7em; }
   .talk { grid-template-columns: 1fr; gap: 4px; }
   .news-table th { width: auto; display: block; padding-bottom: 0; }
   .news-table td { display: block; padding-top: 0; }
+}
+/* narrower bio columns: let browsers hyphenate so justified lines don't open wide gaps;
+   on phones (~350px) the bio goes ragged-right instead */
+@media (max-width: 1000px) {
+  .about__main > p:not(.avail) { hyphens: auto; -webkit-hyphens: auto; }
+}
+@media (max-width: 480px) {
+  .about__main > p:not(.avail) { text-align: left; }
 }
