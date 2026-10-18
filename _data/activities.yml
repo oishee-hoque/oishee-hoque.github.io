@@ -21,6 +21,11 @@ awards:
     org_url: "https://scinet.usda.gov/"
     detail: "Funded summer research internship on irrigation mapping."
     kind: fellowship
+  - when: "2023"
+    title: "3rd place, AgAthon 2023"
+    org: "AgAID Institute digital hackathon"
+    org_url: "https://agaid.org/"
+    kind: competition
   - when: "2021"
     title: "PhD Fellowship"
     org: "UVA Computer Science"
@@ -91,8 +96,6 @@ talks:
     text: "**Oral** — *Real-Time Bangladeshi Sign Language Detection Using Faster R-CNN*, ICIET 2018"
 
 competitions:
-  - when: "Jan 2023"
-    text: "**3rd place**, AgAthon 2023 (AgAID digital hackathon)"
   - when: "Oct 2018"
     text: "**11th of 120 teams**, National Girls Programming Contest 2018"
   - when: "2017–18"
