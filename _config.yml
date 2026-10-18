@@ -1,5 +1,5 @@
 # Site settings — oishee-hoque.github.io
-# Content lives in _data/*.yml (news, publications, experience, awards).
+# Content lives in _data/*.yml (news, publications, experience, activities, services).
 # Page templates live in _layouts/ and _includes/. Styles in assets/css/site.css.
 
 title: "Oishee Bintey Hoque"
@@ -40,8 +40,10 @@ nav:
     url: "/"
   - title: "Publications"
     url: "/publications/"
-  - title: "Awards & Activities"
-    url: "/activities/"
+  - title: "Awards & Talks"
+    url: "/awards/"
+  - title: "Services"
+    url: "/services/"
 
 # Build settings
 markdown: kramdown

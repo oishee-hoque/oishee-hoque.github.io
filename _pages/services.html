@@ -1,0 +1,98 @@
+---
+title: "Services"
+permalink: /services/
+id: services
+---
+{% assign sv = site.data.services %}
+<header class="page-head">
+  <h1>Services</h1>
+  <p class="page-head__lede">Teaching, mentoring, reviewing, leadership and volunteering.</p>
+</header>
+
+<section class="section section--teaching">
+  <h2>Teaching</h2>
+  <p class="section__intro">{{ sv.teaching.intro }}</p>
+  <ol class="svc">
+    {% for c in sv.teaching.courses %}
+    <li class="svc__item">
+      <span class="svc__title">{{ c.course }}</span>
+      <span class="svc__when">{{ c.when }}</span>
+      {% if c.note %}<span class="svc__note">{{ c.note }}</span>{% endif %}
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+
+<section class="section section--mentoring">
+  <h2>Mentoring</h2>
+  <p class="section__intro">{{ sv.mentoring.intro }}</p>
+  <ol class="mentees">
+    {% for m in sv.mentoring.mentees %}
+    <li class="mentee">
+      <span class="mentee__name">{% if m.url %}<a href="{{ m.url }}" target="_blank" rel="noopener">{{ m.name }}</a>{% else %}{{ m.name }}{% endif %}</span>
+      <span class="mentee__role">{{ m.role }}</span>
+      <span class="mentee__when">{{ m.when }}</span>
+      {% if m.note %}<span class="mentee__note">{{ m.note }}</span>{% endif %}
+      {% if m.current %}<span class="mentee__current">Current: {{ m.current }}</span>{% endif %}
+    </li>
+    {% endfor %}
+  </ol>
+  {% if sv.mentoring.training %}
+  <ol class="dated dated--tight">
+    {% for t in sv.mentoring.training %}
+    <li><span class="dated__when">{{ t.when }}</span><span class="dated__text">{{ t.text | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span></li>
+    {% endfor %}
+  </ol>
+  {% endif %}
+</section>
+
+<section class="section section--reviewing">
+  <h2>Reviewing &amp; program committees</h2>
+  <ol class="svc">
+    {% for r in sv.reviewing %}
+    <li class="svc__item">
+      <span class="svc__title">{{ r.venue }}</span>
+      <span class="svc__role">{{ r.role }}</span>
+      <span class="svc__when">{{ r.years }}</span>
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+
+<section class="section section--judging">
+  <h2>Judging</h2>
+  <ol class="svc">
+    {% for r in sv.judging %}
+    <li class="svc__item">
+      <span class="svc__title">{{ r.venue }}</span>
+      <span class="svc__role">{{ r.role }}</span>
+      <span class="svc__when">{{ r.years }}</span>
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+
+<section class="section section--leadership">
+  <h2>Leadership</h2>
+  <ol class="svc">
+    {% for l in sv.leadership %}
+    <li class="svc__item">
+      <span class="svc__title">{{ l.org }}</span>
+      {% for r in l.roles %}<span class="svc__role">{{ r.role }} <span class="svc__when svc__when--inline">{{ r.when }}</span></span>{% endfor %}
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+
+<section class="section section--volunteering">
+  <h2>Volunteering</h2>
+  <ol class="svc">
+    {% for v in sv.volunteering %}
+    <li class="svc__item">
+      <span class="svc__title">{{ v.org }}</span>
+      <span class="svc__role">{{ v.role }}</span>
+      <span class="svc__when">{{ v.when }}</span>
+    </li>
+    {% endfor %}
+  </ol>
+</section>

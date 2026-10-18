@@ -1,4 +1,4 @@
-# Awards & Activities page.
+# Awards & Talks page.
 # awards:        cards — {when, title, org, org_url, detail, kind}  kind: fellowship | award | competition | grant
 # other groups:  rows  — {when, text, place}  (text may contain Markdown; place is shown as a grey tag)
 
@@ -102,23 +102,3 @@ competitions:
     text: "ACM ICPC Dhaka Regionals, 2017 and 2018"
   - when: "Mar 2016"
     text: "**5th place**, Intra-AUST Programming Contest"
-
-service:
-  - when: "2024"
-    text: "**Reviewer**, CVPR Workshop on Vision for Agriculture (V4A)"
-  - when: "2024"
-    text: "**Social Chair**, UVA Computer Science Graduate Student Group (CSGSG) Council"
-  - when: "2022"
-    text: "**Space and Media Chair**, UVA CSGSG Council"
-  - when: "2019–20"
-    text: "**Judge**, Bangladesh National Robotics Olympiad"
-  - when: "2019"
-    text: "**Program committee / sub-reviewer**, ICIET 2019"
-  - when: "2023"
-    text: "**Student volunteer**, GEMS (Girls Excited about Math and Science), University of Virginia — course design and teaching"
-  - when: "2023"
-    text: "**Volunteer**, Meals on Wheels"
-  - when: "2018"
-    text: "**Problem setter, organizer and host**, AUST CSE Week and preliminary programming contest"
-  - when: "2016–18"
-    text: "**Class representative**, Batch 35, AUST CSE (52 students)"

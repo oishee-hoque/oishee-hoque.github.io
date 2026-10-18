@@ -2,7 +2,6 @@
 #   affiliations: the experience timeline (newest first). Entries with `more: true` sit under "See more".
 #                 Fields: org, org_url, unit, location, role, when, note (one line) and/or bullets (list; Markdown ok).
 #   education:    degree, org, org_url, when, note
-#   teaching:     role, org, when, note
 
 affiliations:
   - org: "Amazon"
@@ -52,23 +51,13 @@ education:
     org: "University of Virginia"
     org_url: "https://engineering.virginia.edu/departments/computer-science"
     when: "2021 to present, expected 2027"
-    note: "Advisor: Madhav Marathe, Biocomplexity Institute. UVA SEAS Endowed Fellowship (2025); UVA CS PhD Fellowship (2021)."
   - degree: "M.S. in Computer Science"
     org: "University of Virginia"
     org_url: "https://engineering.virginia.edu/departments/computer-science"
     when: "2025"
+    note: "Coursework: Machine Learning, Interpretable ML, ML for Image Processing, NLP, 3D Computer Vision, Design and Analysis of Algorithms."
   - degree: "B.Sc. in Computer Science and Engineering"
     org: "Ahsanullah University of Science & Technology"
     org_url: "http://aust.edu/"
     when: "2015 to 2019"
     note: "Dean's List of Honor. Thesis on real-time Bangladeshi Sign Language recognition ([thesis](/files/Defense.pdf), [slides](/files/DefensePresentation.pdf))."
-
-teaching:
-  - role: "Undergraduate Research Mentor"
-    org: "Biocomplexity Institute, University of Virginia"
-    when: "2025 to present"
-    note: "Mentoring undergraduates in computer vision and remote sensing: dataset preparation, model evaluation, reproducibility and paper writing."
-  - role: "Graduate Teaching Assistant"
-    org: "Department of Computer Science, University of Virginia"
-    when: "2021 to 2025"
-    note: "Neural Networks, Digital Signal Processing, Machine Learning, Mobile Application Development."

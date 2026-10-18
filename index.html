@@ -66,16 +66,6 @@ redirect_from:
         {% endfor %}
       </ol>
 
-      <h2 class="about__side-title">Teaching &amp; mentoring</h2>
-      <ol class="affil affil--teach">
-        {% for t in site.data.experience.teaching %}
-        <li class="affil__item">
-          <span class="affil__org">{{ t.role }}</span>
-          <span class="affil__role">{{ t.org }}, {{ t.when }}.</span>
-          {% if t.note %}<span class="affil__note">{{ t.note }}</span>{% endif %}
-        </li>
-        {% endfor %}
-      </ol>
     </aside>
 
     <div class="about__main prose">

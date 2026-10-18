@@ -1,11 +1,13 @@
 ---
-title: "Awards & Activities"
-permalink: /activities/
-id: activities
+title: "Awards & Talks"
+permalink: /awards/
+id: awards
+redirect_from:
+  - /activities/
 ---
 <header class="page-head">
-  <h1>Awards &amp; Activities</h1>
-  <p class="page-head__lede">Fellowships and awards, travel grants, talks, competitions and service.</p>
+  <h1>Awards &amp; Talks</h1>
+  <p class="page-head__lede">Fellowships and awards, media highlights, travel grants, talks and competitions.</p>
 </header>
 
 <section class="section">
@@ -30,7 +32,7 @@ id: activities
   </ol>
 </section>
 
-{% assign groups = "highlights:Media and research highlights|travel:Travel grants|talks:Talks and presentations|competitions:Competitions|service:Service and volunteering" | split: "|" %}
+{% assign groups = "highlights:Media and research highlights|travel:Travel grants|talks:Talks and presentations|competitions:Competitions" | split: "|" %}
 {% for g in groups %}
 {% assign parts = g | split: ":" %}
 {% assign key = parts[0] %}

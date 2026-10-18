@@ -1,0 +1,56 @@
+# Services page. Sections render in this order.
+
+teaching:
+  intro: "Graduate Teaching Assistant, Department of Computer Science, University of Virginia (2021–2025): grading, weekly office hours and project supervision."
+  courses:
+    - {course: "Neural Networks", when: "Spring 2025", note: "Graded assignments and final projects for 35–70 students."}
+    - {course: "Digital Signal Processing", when: "Spring 2024", note: "Office hours on theory and coding; graded assignments and final projects."}
+    - {course: "Machine Learning", when: "Spring 2023", note: "Supported implementations; office hours on theory and coding."}
+    - {course: "Mobile Application Development", when: "Fall 2022", note: "Guided Android/iOS development with industry practices."}
+
+mentoring:
+  intro: "Undergraduate Research Mentor, Biocomplexity Institute, University of Virginia (June 2025 to present). Research methodology, coding practice and paper writing for undergraduates working in computer vision and remote sensing."
+  mentees:
+    - name: "Kyle Duong"
+      role: "Undergraduate researcher, Computer Science, University of Virginia"
+      when: "Summer 2025 to present"
+      note: "Computer vision pipelines for geospatial analysis, with emphasis on model evaluation and reproducibility."
+    - name: "Jonathan Bierly"
+      role: "Undergraduate researcher, Computer Science, University of Virginia"
+      when: "Summer 2025"
+      note: "Dataset preparation and model training for satellite-imagery irrigation mapping."
+  training:
+    - {text: "Selected participant, **UR2PhD Graduate Student Mentor Training Course**, Computing Research Association", when: "Fall 2025"}
+
+reviewing:
+  - venue: "CVPR Workshop on Vision for Agriculture (V4A)"
+    role: "Reviewer"
+    years: "2024"
+  - venue: "International Conference on Innovations in Engineering and Technology (ICIET)"
+    role: "Program committee / sub-reviewer"
+    years: "2019"
+
+judging:
+  - venue: "Bangladesh National Robotics Olympiad"
+    role: "Judge"
+    years: "2019, 2020"
+
+leadership:
+  - org: "UVA Computer Science Graduate Student Group (CSGSG) Council"
+    roles:
+      - {role: "Social Chair", when: "2024"}
+      - {role: "Space and Media Chair", when: "2022"}
+  - org: "AUST CSE Week and preliminary programming contest"
+    roles:
+      - {role: "Organizer and host; problem setter; host of the prize-giving ceremony", when: "2018"}
+  - org: "Ahsanullah University of Science & Technology, CSE Batch 35"
+    roles:
+      - {role: "Class representative (52 students)", when: "2016–2018"}
+
+volunteering:
+  - org: "GEMS (Girls Excited about Math and Science), University of Virginia"
+    role: "Student volunteer: course design and teaching sessions"
+    when: "Fall 2023"
+  - org: "Meals on Wheels"
+    role: "Volunteer: meal delivery to elderly residents"
+    when: "2023"
