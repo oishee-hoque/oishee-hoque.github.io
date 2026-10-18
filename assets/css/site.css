@@ -297,11 +297,47 @@ sup { line-height: 0; font-size: 0.7em; }
 .tl__bullets li { margin: 2px 0; }
 .tl__tech { color: var(--text-light); font-size: 0.85rem; margin: 0; }
 
+/* Awards cards */
+.awards { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+.award {
+  position: relative;
+  display: grid;
+  grid-template-columns: 44px minmax(0, 1fr);
+  grid-template-areas: "icon when" "icon title" "icon org" "icon detail";
+  column-gap: 12px;
+  padding: 14px 16px 14px 14px;
+  border: 1px solid var(--divider);
+  border-left: 4px solid var(--theme);
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+.award--fellowship { border-left-color: var(--theme); }
+.award--competition { border-left-color: var(--theme-4); }
+.award--award { border-left-color: var(--theme-3); }
+.award--grant { border-left-color: var(--theme-2); }
+.award__icon { grid-area: icon; width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center; font-size: 1.15rem; color: var(--theme); background: rgba(38, 152, 186, 0.1); }
+.award--competition .award__icon { color: var(--theme-4); background: rgba(242, 145, 5, 0.12); }
+.award--award .award__icon { color: var(--theme-3); background: rgba(0, 171, 55, 0.1); }
+.award--grant .award__icon { color: var(--theme-2); background: rgba(181, 9, 172, 0.08); }
+.award__when { grid-area: when; font-size: 0.78rem; font-weight: 500; color: var(--text-light); }
+.award__title { grid-area: title; font-weight: 700; font-size: 1.02rem; line-height: 1.3; }
+.award__org { grid-area: org; font-size: 0.9rem; color: var(--text); }
+.award__org a { color: var(--text); }
+.award__org a:hover { color: var(--theme); }
+.award__detail { grid-area: detail; font-size: 0.85rem; color: var(--text-light); margin-top: 4px; line-height: 1.45; }
+
 /* Dated lists (awards page) */
 .dated { list-style: none; margin: 0; padding: 0; }
-.dated li { display: grid; grid-template-columns: 100px minmax(0, 1fr); gap: 16px; padding: 0.3rem 0; }
-.dated__when { font-weight: 700; }
+.dated li { display: grid; grid-template-columns: 100px minmax(0, 1fr); gap: 16px; padding: 0.45rem 0; border-bottom: 1px solid var(--divider); }
+.dated li:last-child { border-bottom: 0; }
+.dated__when { font-weight: 700; color: var(--text-light); font-size: 0.92rem; padding-top: 1px; }
 .dated__text strong { font-weight: 700; }
+.dated__place { display: inline-block; font-size: 0.78rem; color: var(--text-light); border: 1px solid var(--divider); border-radius: 999px; padding: 0 8px; margin-left: 6px; vertical-align: 1px; white-space: nowrap; }
+.section--travel .dated__when, .section--talks .dated__when { color: var(--theme); }
+.section--competitions .dated__when { color: var(--theme-4); }
+.section--service .dated__when { color: var(--theme-3); }
+.section--highlights .dated__when { color: var(--theme-2); }
 
 /* ---------- Footer ---------- */
 
@@ -333,6 +369,7 @@ sup { line-height: 0; font-size: 0.7em; }
   .tl__item { grid-template-columns: 1fr; gap: 4px; }
   .tl__when { flex-direction: row; gap: 6px; }
   .dated li { grid-template-columns: 1fr; gap: 0; }
+  .awards { grid-template-columns: 1fr; }
   .news-table th { width: auto; display: block; padding-bottom: 0; }
   .news-table td { display: block; padding-top: 0; }
 }
