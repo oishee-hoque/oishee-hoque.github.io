@@ -35,7 +35,8 @@ Renders one publication entry. Usage: {% include pub.html pub=entry %}
     </h3>
     <p class="pub__authors">
       {%- for a in pub.authors -%}
-        {%- if a.me -%}<span class="me">{{ a.name }}</span>{%- else -%}{{ a.name }}{%- endif -%}
+        {%- capture aname -%}{%- if a.url -%}<a href="{{ a.url }}" target="_blank" rel="noopener">{{ a.name }}</a>{%- else -%}{{ a.name }}{%- endif -%}{%- endcapture -%}
+        {%- if a.me -%}<span class="me">{{ aname }}</span>{%- else -%}{{ aname }}{%- endif -%}
         {%- if a.equal -%}<sup>*</sup>{%- endif -%}
         {%- unless forloop.last -%}, {% endunless -%}
       {%- endfor -%}

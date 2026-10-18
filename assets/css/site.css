@@ -264,6 +264,8 @@ sup { line-height: 0; font-size: 0.7em; }
 .pub__title a:hover { color: var(--theme); text-decoration: none; }
 .pub__authors { margin: 0; font-size: 0.95rem; }
 .pub__authors .me { font-weight: 700; }
+.pub__authors a { color: inherit; }
+.pub__authors a:hover { color: var(--theme); }
 .pub__equal { color: var(--text-light); font-size: 0.8rem; white-space: nowrap; }
 .pub__where { margin: 0 0 0.4rem; font-size: 0.9rem; font-style: italic; color: var(--text-light); }
 .pub__note { display: block; font-style: normal; color: var(--text); font-size: 0.9rem; margin-top: 0.2rem; }

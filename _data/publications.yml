@@ -1,7 +1,8 @@
 # Publications, newest first. Each entry:
 #   key        short id (used for the thumbnail file images/pubs/<key>.webp and anchors)
 #   title, venue, venue_short, year
-#   authors    list; mark yourself with me: true; mark co-first authors with equal: true
+#   authors    list; mark yourself with me: true; mark co-first authors with equal: true;
+#              optional url (e.g. an OpenReview profile) makes the name a link
 #   note       optional one-line context (award, oral, finalist...)
 #   tags       any of: first-author, dataset, journal, selected; plus research areas knowledge, datasets, foundation (home-page filters)
 #   links      list of {label, url}
@@ -17,8 +18,10 @@
   year: 2027
   status: "accepted"
   authors:
-    - {name: "Oishee Bintey Hoque", me: true}
-    - {name: "et al."}  # TODO: replace with the camera-ready author list
+    - {name: "Oishee Bintey Hoque", me: true, url: "https://openreview.net/profile?id=~Oishee_Bintey_Hoque1"}
+    - {name: "Theresa Chen", url: "https://openreview.net/profile?id=~Theresa_Chen1"}
+    - {name: "K. C. Cushman", url: "https://openreview.net/profile?id=~K._C._Cushman2"}
+    - {name: "Philipe Ambrozio Dias", url: "https://openreview.net/profile?id=~Philipe_Ambrozio_Dias1"}
   note: "First public benchmark for fallen-log detection in centimeter-resolution UAV orthomosaics: 10,399 verified instances with oriented boxes and masks, paired LiDAR and photogrammetric height models, and a centerline-based metric for elongated objects."
   tags: [first-author, dataset, selected, datasets, foundation]
   links: []   # TODO: add arXiv / code / dataset links when public
@@ -53,7 +56,7 @@
     - {name: "Samarth Swarup"}
     - {name: "Madhav Marathe"}
     - {name: "Abhijin Adiga"}
-  tags: [first-author, dataset, selected, datasets, knowledge]
+  tags: [first-author, dataset, selected, datasets, knowledge, foundation]
   links:
     - {label: "PDF", url: "https://arxiv.org/pdf/2606.00548"}
     - {label: "Code", url: "https://github.com/oishee-hoque/CAFOSat"}
