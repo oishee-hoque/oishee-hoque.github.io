@@ -55,6 +55,7 @@
     - {name: "Abhijin Adiga"}
   tags: [first-author, dataset, selected, datasets, knowledge]
   links:
+    - {label: "PDF", url: "https://arxiv.org/pdf/2606.00548"}
     - {label: "Code", url: "https://github.com/oishee-hoque/CAFOSat"}
     - {label: "Dataset", url: "https://huggingface.co/datasets/oishee3003/CAFOSat"}
 
@@ -91,6 +92,7 @@
     - {name: "Madhav Marathe"}
   tags: [first-author, dataset, selected, datasets]
   links:
+    - {label: "PDF", url: "https://proceedings.neurips.cc/paper_files/paper/2025/file/0821a1413339bf79ba01876783d95c53-Paper-Datasets_and_Benchmarks_Track.pdf"}
     - {label: "Code", url: "https://github.com/Nibir088/IRRISIGHT"}
     - {label: "Dataset", url: "https://huggingface.co/datasets/OBH30/IRRISIGHT"}
 
@@ -169,6 +171,7 @@
     - {name: "Oishee Bintey Hoque", me: true}
   tags: [journal, knowledge]
   links:
+    - {label: "PDF", url: "https://eprints.nwisrl.ars.usda.gov/id/eprint/1834/1/1791.pdf"}
     - {label: "Article", url: "https://doi.org/10.1029/2023WR036155"}
 
 - key: irrnet
@@ -209,6 +212,7 @@
     - {name: "Madhav Marathe"}
   tags: [first-author, dataset, journal, datasets]
   links:
+    - {label: "PDF", url: "https://www.nature.com/articles/s41597-023-01979-6.pdf"}
     - {label: "Article", url: "https://www.nature.com/articles/s41597-023-01979-6"}
 
 - key: hrnet
@@ -225,6 +229,7 @@
     - {name: "Faisal Muhammad Shah"}
   tags: [journal]
   links:
+    - {label: "PDF", url: "/files/HRNet.pdf"}
     - {label: "Article", url: "https://link.springer.com/article/10.1007/s42979-021-00690-w"}
 
 - key: iccit

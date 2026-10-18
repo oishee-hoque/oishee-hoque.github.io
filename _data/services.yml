@@ -1,7 +1,8 @@
 # Services page. Sections render in this order.
 
 teaching:
-  intro: "Graduate Teaching Assistant, Department of Computer Science, University of Virginia (2021–2025): grading, weekly office hours and project supervision."
+  intro: "Graduate Teaching Assistant, Department of Computer Science, University of Virginia (2021–2025)."
+  duties: "Grading, weekly office hours and project supervision."
   courses:
     - {course: "Neural Networks", when: "Spring 2025", note: "Graded assignments and final projects for 35–70 students."}
     - {course: "Digital Signal Processing", when: "Spring 2024", note: "Office hours on theory and coding; graded assignments and final projects."}

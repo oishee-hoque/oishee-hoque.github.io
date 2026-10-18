@@ -55,7 +55,6 @@ education:
     org: "University of Virginia"
     org_url: "https://engineering.virginia.edu/departments/computer-science"
     when: "2025"
-    more: true
     note: "Coursework: Machine Learning, Interpretable ML, ML for Image Processing, NLP, 3D Computer Vision, Design and Analysis of Algorithms."
   - degree: "B.Sc. in Computer Science and Engineering"
     org: "Ahsanullah University of Science & Technology"

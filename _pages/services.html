@@ -11,7 +11,8 @@ id: services
 
 <section class="section section--teaching">
   <h2>Teaching</h2>
-  <p class="section__intro">{{ sv.teaching.intro }}</p>
+  <p class="section__intro section__intro--dark">{{ sv.teaching.intro }}</p>
+  {% if sv.teaching.duties %}<p class="section__intro">{{ sv.teaching.duties }}</p>{% endif %}
   <ol class="svc">
     {% for c in sv.teaching.courses %}
     <li class="svc__item">
