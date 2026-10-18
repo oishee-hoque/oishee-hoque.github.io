@@ -14,7 +14,7 @@ Almost everything you will want to change lives in `_data/`:
 | `_data/activities.yml` | Awards (rendered as cards: `title`, `org`, `detail`, `kind`), media highlights, travel grants, talks and competitions for the Awards & Talks page. |
 | `_data/services.yml` | Teaching, mentoring (mentees), reviewing, judging, leadership and volunteering for the Services page. |
 
-The bio, research areas and core-skills chips are in `index.html`; the experience timeline and education block come from `_data/experience.yml` (timeline entries with `more: true` sit under "See more"). Contact links, the CV link, and the navigation are in `_config.yml` under `author:` and `nav:`.
+The bio, research areas and core-skills chips are in `index.html`; the experience timeline and education block come from `_data/experience.yml` (timeline entries with `more: true` sit under "See more"). Contact links, the CV link, and the navigation are in `_config.yml` under `author:` and `nav:`. The CV button opens `files/Hoque_CV_2026.pdf`; to update the CV, replace that file (same name) and push.
 
 Publication tags: `first-author`, `dataset`, `journal`, `selected`. Mark yourself with `me: true` and co-first authors with `equal: true`.
 

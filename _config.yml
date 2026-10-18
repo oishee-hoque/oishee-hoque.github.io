@@ -22,7 +22,7 @@ author:
   advisor: "Madhav Marathe"
   advisor_url: "https://biocomplexity.virginia.edu/person/madhav-marathe"
   photo: "/images/oishee-portrait.jpg"
-  cv: "https://drive.google.com/file/d/1hf_t9hN4jdrBmOnKjcE7j8TsPxEsy52Q/view?usp=sharing" # swap for e.g. /files/Hoque_CV_2026.pdf to self-host
+  cv: "/files/Hoque_CV_2026.pdf" # self-hosted; replace the file to update (previous Google Drive copy: https://drive.google.com/file/d/1hf_t9hN4jdrBmOnKjcE7j8TsPxEsy52Q/view)
   scholar: "https://scholar.google.com/citations?user=Xyu3_yUAAAAJ&hl=en"
   github: "https://github.com/oishee-hoque"
   linkedin: "https://www.linkedin.com/in/oishee-hoque/"
