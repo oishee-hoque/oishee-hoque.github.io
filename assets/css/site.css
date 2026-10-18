@@ -432,6 +432,15 @@ sup { line-height: 0; font-size: 0.7em; }
 .mentee__note { font-size: 0.85rem; color: var(--text-light); line-height: 1.45; margin-top: 2px; }
 .mentee__current { font-size: 0.85rem; color: var(--theme); margin-top: 2px; }
 .dated--tight li { padding: 0.3rem 0; }
+.training { list-style: none; margin: 0; padding: 0; }
+.training__item { display: grid; grid-template-columns: 40px minmax(0, 1fr); column-gap: 12px; align-items: center; padding: 10px 14px; border-radius: 6px; background: linear-gradient(90deg, rgba(0, 171, 55, 0.1), rgba(0, 171, 55, 0.03)); border-left: 4px solid var(--theme-3); }
+.training__icon { width: 40px; height: 40px; border-radius: 50%; display: grid; place-items: center; color: #fff; background: var(--theme-3); font-size: 1rem; }
+.training__body { display: flex; flex-direction: column; gap: 1px; }
+.training__role { font-size: 0.78rem; font-weight: 500; color: var(--theme-3); text-transform: none; }
+.training__title { font-weight: 700; }
+.training__meta { font-size: 0.85rem; color: var(--text-light); }
+.training__meta a { color: var(--text-light); }
+.training__meta a:hover { color: var(--theme); }
 
 /* ---------- Footer ---------- */
 

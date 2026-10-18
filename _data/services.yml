@@ -22,7 +22,11 @@ mentoring:
       role: "Undergraduate researcher, Computer Science, University of Virginia"
       when: "Summer 2025"
   training:
-    - {text: "Selected participant, **UR2PhD Graduate Student Mentor Training Course**, Computing Research Association", when: "Fall 2025"}
+    - title: "UR2PhD Graduate Student Mentor Training Course"
+      org: "Computing Research Association"
+      org_url: "https://cra.org/ur2phd/"
+      role: "Selected participant"
+      when: "Fall 2025"
 
 reviewing:
   - venue: "CVPR Workshop on Vision for Agriculture (V4A)"

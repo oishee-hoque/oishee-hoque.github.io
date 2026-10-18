@@ -43,9 +43,16 @@ id: services
   </ol>
   {% endif %}
   {% if sv.mentoring.training %}
-  <ol class="dated dated--tight">
+  <ol class="training">
     {% for t in sv.mentoring.training %}
-    <li><span class="dated__when">{{ t.when }}</span><span class="dated__text">{{ t.text | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span></li>
+    <li class="training__item">
+      <span class="training__icon" aria-hidden="true">{% include icons/graduation-cap.svg %}</span>
+      <span class="training__body">
+        <span class="training__role">{{ t.role }}</span>
+        <span class="training__title">{{ t.title }}</span>
+        <span class="training__meta">{% if t.org_url %}<a href="{{ t.org_url }}" target="_blank" rel="noopener">{{ t.org }}</a>{% else %}{{ t.org }}{% endif %} &middot; {{ t.when }}</span>
+      </span>
+    </li>
     {% endfor %}
   </ol>
   {% endif %}
