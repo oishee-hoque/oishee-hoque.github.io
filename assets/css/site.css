@@ -119,8 +119,8 @@ sup { line-height: 0; font-size: 0.7em; }
   border-radius: 50%;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
-.avail { display: inline-flex; align-items: center; gap: 9px; margin: 1rem 0 0; padding: 7px 14px; color: #00802b; font-weight: 500; background: rgba(0, 171, 55, 0.07); border: 1px solid rgba(0, 171, 55, 0.3); border-radius: 8px; }
-.avail__dot { width: 9px; height: 9px; border-radius: 50%; background: var(--theme-3); box-shadow: 0 0 0 3px rgba(0, 171, 55, 0.2); flex: none; }
+.avail { display: flex; align-items: center; gap: 9px; width: fit-content; margin: 1.1rem auto 0; padding: 8px 16px; color: #9b0893; font-weight: 500; background: rgba(181, 9, 172, 0.06); border: 1px solid rgba(181, 9, 172, 0.3); border-radius: 8px; }
+.avail__dot { width: 9px; height: 9px; border-radius: 50%; background: var(--theme-2); box-shadow: 0 0 0 3px rgba(181, 9, 172, 0.18); flex: none; }
 .clearfix::after { content: ""; display: table; clear: both; }
 
 .post h2 { font-size: 1.55rem; font-weight: 500; margin: 1.8rem 0 0.8rem; padding-bottom: 0.25rem; border-bottom: 2px solid var(--divider); }

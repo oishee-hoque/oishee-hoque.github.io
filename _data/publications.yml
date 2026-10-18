@@ -49,7 +49,7 @@
   venue: "EarthVision Workshop, IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
   venue_short: "EarthVision @ CVPR 2026"
   year: 2026
-  note: "A semi-automated annotation pipeline that refines imprecise public CAFO records into facility boxes and infrastructure-level labels (barns, manure lagoons, feed storage), with curated hard negatives and validated synthetic imagery to benchmark robustness under distribution shift."
+  note: "A semi-automated annotation pipeline that uses classifier Grad-CAM heatmaps to re-localize imprecise public CAFO records and refine them into facility boxes and infrastructure-level labels, with curated hard negatives and validated synthetic imagery from GroundingDINO-guided Stable Diffusion inpainting to benchmark robustness under distribution shift."
   authors:
     - {name: "Oishee Bintey Hoque", me: true, equal: true}
     - {name: "Nibir Chandra Mandal", equal: true}
@@ -107,7 +107,7 @@
   venue: "International Joint Conference on Artificial Intelligence (IJCAI)"
   venue_short: "IJCAI 2025"
   year: 2025
-  note: "An iterative framework that couples semantic segmentation (RGB, NDWI and elevation inputs) with graph-based reachability constraints that repair incomplete canal ground truth, then retrains on the refined labels; a different graph constraint carries it over to road networks."
+  note: "An iterative framework that couples semantic segmentation (RGB, NDWI and elevation inputs) with graph-based reachability constraints that repair incomplete canal ground truth, then retrains on the refined labels; a different graph constraint carries it over to road networks. Also proposes r-neighborhood metrics (rIoU, rPrecision, rRecall, rF1) that tolerate the small offsets of single-pixel annotations of thin structures."
   authors:
     - {name: "Oishee Bintey Hoque", me: true}
     - {name: "Abhijin Adiga"}
@@ -128,7 +128,7 @@
   venue: "International Joint Conference on Artificial Intelligence (IJCAI)"
   venue_short: "IJCAI 2025"
   year: 2025
-  note: "A Swin-Transformer that injects agronomic knowledge: a projection matrix encoding crop-to-irrigation probabilities, a spatial attention map separating farmland from non-agricultural land, bi-directional cross-attention between image and crop modalities, a weighted ensemble, and two-phase transfer learning across states."
+  note: "A Swin-Transformer segmentation model that injects agronomic knowledge: a projection matrix encoding crop-to-irrigation probabilities, a spatial attention map separating farmland from non-agricultural land, bi-directional cross-attention between image and crop modalities, a weighted ensemble, and two-phase transfer learning across states."
   authors:
     - {name: "Oishee Bintey Hoque", me: true, equal: true}
     - {name: "Nibir Chandra Mandal", equal: true}
@@ -147,7 +147,7 @@
   venue: "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)"
   venue_short: "KDD 2025"
   year: 2025
-  note: "An extensible, ML-ready pipeline that fuses multi-resolution Landsat and Sentinel imagery with crop type, land use and vegetation indices into 1.1M geospatially aligned 224×224 patches (western US, 2013–2023), with curated train–test splits, dataloaders and benchmark models."
+  note: "An extensible, ML-ready pipeline that fuses multi-resolution Landsat and Sentinel imagery with crop type, land use and vegetation indices into 1.1M geospatially aligned 224×224 patches, with curated train–test splits, dataloaders and benchmark segmentation models."
   authors:
     - {name: "Nibir Chandra Mandal", equal: true}
     - {name: "Oishee Bintey Hoque", me: true, equal: true}
