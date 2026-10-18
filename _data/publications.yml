@@ -3,7 +3,7 @@
 #   title, venue, venue_short, year
 #   authors    list; mark yourself with me: true; mark co-first authors with equal: true
 #   note       optional one-line context (award, oral, finalist...)
-#   tags       any of: first-author, dataset, journal, selected
+#   tags       any of: first-author, dataset, journal, selected; plus research areas knowledge, datasets, foundation (home-page filters)
 #   links      list of {label, url}
 #   thumb      optional override; defaults to /images/pubs/<key>.webp. Set thumb: none for a text tile.
 
@@ -17,7 +17,7 @@
     - {name: "Oishee Bintey Hoque", me: true}
     - {name: "et al."}  # TODO: replace with the camera-ready author list
   note: "First public benchmark for fallen-log detection in centimeter-resolution UAV orthomosaics: 10,399 verified instances with oriented boxes and masks, paired LiDAR and photogrammetric height models, and a centerline-based metric for elongated objects."
-  tags: [first-author, dataset, selected]
+  tags: [first-author, dataset, selected, datasets, foundation]
   links: []   # TODO: add arXiv / code / dataset links when public
 
 - key: arfa
@@ -31,7 +31,7 @@
     - {name: "Oishee Bintey Hoque", me: true}
     - {name: "Dalton Lunga"}
   note: "Challenge finalist. A hybrid agentic system that pairs LLM agents for location, structure and reasoning with deterministic geospatial tools for flood assessment, facility discovery and evacuation routing."
-  tags: [selected]
+  tags: [selected, foundation]
   links:
     - {label: "DOI", url: "https://doi.org/10.1145/3849739.3856755"}
     - {label: "Code", url: "https://github.com/joHussien/ARFA"}
@@ -48,7 +48,7 @@
     - {name: "Samarth Swarup"}
     - {name: "Madhav Marathe"}
     - {name: "Abhijin Adiga"}
-  tags: [first-author, dataset, selected]
+  tags: [first-author, dataset, selected, datasets, knowledge]
   links:
     - {label: "Code", url: "https://github.com/oishee-hoque/CAFOSat"}
     - {label: "Dataset", url: "https://huggingface.co/datasets/oishee3003/CAFOSat"}
@@ -66,7 +66,7 @@
     - {name: "Samarth Swarup"}
     - {name: "Madhav Marathe"}
     - {name: "Abhijin Adiga"}
-  tags: [first-author, selected]
+  tags: [first-author, selected, knowledge, foundation]
   links:
     - {label: "PDF", url: "https://arxiv.org/pdf/2601.11451"}
     - {label: "Code", url: "https://github.com/oishee-hoque/PRISM-CAFO"}
@@ -84,7 +84,7 @@
     - {name: "Sayjro K. Nouwakpo"}
     - {name: "Abhijin Adiga"}
     - {name: "Madhav Marathe"}
-  tags: [first-author, dataset, selected]
+  tags: [first-author, dataset, selected, datasets]
   links:
     - {label: "Code", url: "https://github.com/Nibir088/IRRISIGHT"}
     - {label: "Dataset", url: "https://huggingface.co/datasets/OBH30/IRRISIGHT"}
@@ -104,7 +104,7 @@
     - {name: "Kirti Rajagopalan"}
     - {name: "Amanda Wilson"}
     - {name: "Samarth Swarup"}
-  tags: [first-author, selected]
+  tags: [first-author, selected, knowledge]
   links:
     - {label: "PDF", url: "https://www.ijcai.org/proceedings/2025/1076.pdf"}
     - {label: "Code", url: "https://github.com/oishee-hoque/IGraSS"}
@@ -122,7 +122,7 @@
     - {name: "Sayjro K. Nouwakpo"}
     - {name: "Amanda Wilson"}
     - {name: "Madhav Marathe"}
-  tags: [first-author, selected]
+  tags: [first-author, selected, knowledge]
   links:
     - {label: "PDF", url: "https://www.ijcai.org/proceedings/2025/1077.pdf"}
     - {label: "Code", url: "https://github.com/Nibir088/KIIM/tree/main/KIIM"}
@@ -143,7 +143,7 @@
     - {name: "Miaomiao Zhang"}
     - {name: "Geoffrey Fox"}
     - {name: "Madhav Marathe"}
-  tags: [first-author, dataset]
+  tags: [first-author, dataset, datasets]
   links:
     - {label: "PDF", url: "https://dl.acm.org/doi/pdf/10.1145/3711896.3737380"}
     - {label: "Code", url: "https://github.com/Nibir088/IrrMap"}
@@ -160,7 +160,7 @@
     - {name: "David Bjorneberg"}
     - {name: "Kenneth McGwire"}
     - {name: "Oishee Bintey Hoque", me: true}
-  tags: [journal]
+  tags: [journal, knowledge]
   links:
     - {label: "Article", url: "https://doi.org/10.1029/2023WR036155"}
 
@@ -176,7 +176,7 @@
     - {name: "Abhijin Adiga"}
     - {name: "Sayjro Kossi Nouwakpo"}
     - {name: "Madhav Marathe"}
-  tags: [first-author]
+  tags: [first-author, knowledge]
   links:
     - {label: "PDF", url: "https://openaccess.thecvf.com/content/CVPR2024W/Vision4Ag/html/Hoque_IrrNet_Advancing_Irrigation_Mapping_with_Incremental_Patch_Size_Training_on_CVPRW_2024_paper.html"}
 
@@ -200,7 +200,7 @@
     - {name: "J.D. Zamfirescu-Pereira"}
     - {name: "Mark E. Whiting"}
     - {name: "Madhav Marathe"}
-  tags: [first-author, dataset, journal]
+  tags: [first-author, dataset, journal, datasets]
   links:
     - {label: "Article", url: "https://www.nature.com/articles/s41597-023-01979-6"}
 
@@ -247,7 +247,7 @@
     - {name: "Mohammad Imrul Jubair"}
     - {name: "Al-Farabi Akash"}
     - {name: "Md. Saiful Islam"}
-  tags: [first-author, dataset]
+  tags: [first-author, dataset, datasets]
   links:
     - {label: "PDF", url: "https://openaccess.thecvf.com/content/ACCV2020W/MLCSA/html/Hoque_BdSL36_A_Dataset_for_Bangladeshi_Sign_Letters_Recognition_ACCVW_2020_paper.html"}
     - {label: "Code & dataset", url: "https://rb.gy/mm3yjg"}

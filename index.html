@@ -115,10 +115,20 @@ redirect_from:
   </article>
 
   <article>
-    <h2 id="selected"><a href="{{ '/publications/' | relative_url }}">Selected publications</a></h2>
-    <div class="pubs pubs--selected">
-      {% for p in site.data.publications %}{% if p.tags contains "selected" %}{% include pub.html pub=p %}{% endif %}{% endfor %}
+    {% assign sel = site.data.publications | where_exp: "p", "p.tags contains 'selected'" %}
+    {% assign n_k = 0 %}{% assign n_d = 0 %}{% assign n_f = 0 %}
+    {% for p in sel %}{% if p.tags contains "knowledge" %}{% assign n_k = n_k | plus: 1 %}{% endif %}{% if p.tags contains "datasets" %}{% assign n_d = n_d | plus: 1 %}{% endif %}{% if p.tags contains "foundation" %}{% assign n_f = n_f | plus: 1 %}{% endif %}{% endfor %}
+    <h2 id="selected">Featured publications</h2>
+    <p class="featured__lede">A few papers that best represent my work. <a href="{{ '/publications/' | relative_url }}">See all {{ site.data.publications.size }} publications</a></p>
+    <div class="filters filters--pills" role="group" aria-label="Filter featured publications">
+      <button type="button" class="filter is-active" data-filter="all" aria-pressed="true">All ({{ sel.size }})</button>
+      <button type="button" class="filter filter--1" data-filter="knowledge" aria-pressed="false">Knowledge-guided models ({{ n_k }})</button>
+      <button type="button" class="filter filter--2" data-filter="datasets" aria-pressed="false">Datasets &amp; benchmarks ({{ n_d }})</button>
+      <button type="button" class="filter filter--3" data-filter="foundation" aria-pressed="false">Foundation models &amp; agents ({{ n_f }})</button>
     </div>
-    <p class="more"><a href="{{ '/publications/' | relative_url }}">All {{ site.data.publications.size }} publications</a></p>
+    <div class="pubs pubs--selected">
+      {% for p in sel %}{% include pub.html pub=p %}{% endfor %}
+    </div>
+    <p class="filters__empty" hidden>No featured publications match this filter.</p>
   </article>
 </div>
