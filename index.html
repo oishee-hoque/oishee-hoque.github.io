@@ -119,7 +119,7 @@ redirect_from:
     {% assign n_k = 0 %}{% assign n_d = 0 %}{% assign n_f = 0 %}
     {% for p in sel %}{% if p.tags contains "knowledge" %}{% assign n_k = n_k | plus: 1 %}{% endif %}{% if p.tags contains "datasets" %}{% assign n_d = n_d | plus: 1 %}{% endif %}{% if p.tags contains "foundation" %}{% assign n_f = n_f | plus: 1 %}{% endif %}{% endfor %}
     <h2 id="selected">Featured publications</h2>
-    <p class="featured__lede">A few papers that best represent my work. <a href="{{ '/publications/' | relative_url }}">See all {{ site.data.publications.size }} publications</a></p>
+    <p class="featured__lede"><a href="{{ '/publications/' | relative_url }}">See all publications</a></p>
     <div class="filters filters--pills" role="group" aria-label="Filter featured publications">
       <button type="button" class="filter is-active" data-filter="all" aria-pressed="true">All ({{ sel.size }})</button>
       <button type="button" class="filter filter--1" data-filter="knowledge" aria-pressed="false">Knowledge-guided models ({{ n_k }})</button>

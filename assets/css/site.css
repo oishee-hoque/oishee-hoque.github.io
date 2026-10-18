@@ -228,6 +228,7 @@ sup { line-height: 0; font-size: 0.7em; }
 .pub__thumb a { display: block; }
 .pub__thumb img { display: block; width: 100%; height: auto; }
 .pub__tile { display: grid; place-items: center; height: 100%; font-weight: 700; font-size: 1.4rem; color: var(--theme); background: #f6f6f6; }
+.pub__tile--soon { font-size: 0.95rem; font-weight: 500; color: var(--text-light); font-style: italic; }
 .pub__venue-line { margin: 0 0 0.3rem; }
 .pub__venue { display: inline-block; font-size: 0.78rem; font-weight: 500; color: #fff; background: var(--theme); border-radius: 3px; padding: 1px 7px; margin: 0; }
 .pub__status { color: var(--text-light); font-weight: 400; font-size: 0.85rem; margin-left: 6px; }

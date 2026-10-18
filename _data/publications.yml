@@ -30,11 +30,11 @@
     - {name: "JangHyeon Lee"}
     - {name: "Oishee Bintey Hoque", me: true}
     - {name: "Dalton Lunga"}
+  thumb: none
+  tile: "Coming soon"
   note: "Challenge finalist. A hybrid agentic system that pairs LLM agents for location, structure and reasoning with deterministic geospatial tools for flood assessment, facility discovery and evacuation routing."
   tags: [selected, foundation]
-  links:
-    - {label: "DOI", url: "https://doi.org/10.1145/3849739.3856755"}
-    - {label: "Code", url: "https://github.com/joHussien/ARFA"}
+  links: []   # paper, code and figure to be added after the challenge
 
 - key: cafosat
   title: "CAFOSat: A Strongly Annotated Dataset for Infrastructure-Aware CAFO Mapping Using High-Resolution Imagery"
