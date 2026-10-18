@@ -21,9 +21,9 @@ redirect_from:
       <div class="profile">
         <img src="{{ site.author.photo | relative_url }}" alt="Portrait of Oishee Bintey Hoque" width="900" height="900" fetchpriority="high">
       </div>
-      <p class="email"><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
+      <p class="email"><a href="mailto:{{ site.author.email }}">{% include icons/envelope.svg %} {{ site.author.email }}</a></p>
     <ul class="contact-icons" aria-label="Contact and profiles">
-          <li><a href="{{ site.author.cv }}" target="_blank" rel="noopener" title="CV" aria-label="CV">{% include icons/file-pdf.svg %}</a></li>
+          <li><a class="cv-pill" href="{{ site.author.cv }}" target="_blank" rel="noopener" title="Curriculum vitae (PDF)">{% include icons/file-pdf.svg %} CV</a></li>
         <li><a href="{{ site.author.scholar }}" target="_blank" rel="noopener" title="Google Scholar" aria-label="Google Scholar">{% include icons/google-scholar.svg %}</a></li>
         <li><a href="{{ site.author.github }}" target="_blank" rel="noopener" title="GitHub" aria-label="GitHub">{% include icons/github.svg %}</a></li>
         <li><a href="{{ site.author.linkedin }}" target="_blank" rel="noopener" title="LinkedIn" aria-label="LinkedIn">{% include icons/linkedin.svg %}</a></li>
@@ -57,13 +57,27 @@ redirect_from:
 
       <h2 class="about__side-title">Education</h2>
       <ol class="affil affil--edu">
-        {% for e in site.data.experience.education %}
+        {% for e in site.data.experience.education %}{% unless e.more %}
         <li class="affil__item">
           <span class="affil__org">{{ e.degree }}</span>
           <span class="affil__role">{% if e.org_url %}<a href="{{ e.org_url }}" target="_blank" rel="noopener">{{ e.org }}</a>{% else %}{{ e.org }}{% endif %}, {{ e.when }}.</span>
           {% if e.note %}<span class="affil__note">{{ e.note | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span>{% endif %}
         </li>
-        {% endfor %}
+        {% endunless %}{% endfor %}
+        <li class="affil__more">
+          <details class="moreaffil">
+            <summary><span class="moreaffil__more">See more</span><span class="moreaffil__less">Show fewer</span></summary>
+            <ol class="affil affil--more affil--edu">
+              {% for e in site.data.experience.education %}{% if e.more %}
+              <li class="affil__item">
+                <span class="affil__org">{{ e.degree }}</span>
+                <span class="affil__role">{% if e.org_url %}<a href="{{ e.org_url }}" target="_blank" rel="noopener">{{ e.org }}</a>{% else %}{{ e.org }}{% endif %}, {{ e.when }}.</span>
+                {% if e.note %}<span class="affil__note">{{ e.note | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span>{% endif %}
+              </li>
+              {% endif %}{% endfor %}
+            </ol>
+          </details>
+        </li>
       </ol>
 
     </aside>
@@ -126,22 +140,24 @@ redirect_from:
           </tbody>
         </table>
       </details>
-      {% assign sel = site.data.publications | where_exp: "p", "p.tags contains 'selected'" %}
-      {% assign n_k = 0 %}{% assign n_d = 0 %}{% assign n_f = 0 %}
-      {% for p in sel %}{% if p.tags contains "knowledge" %}{% assign n_k = n_k | plus: 1 %}{% endif %}{% if p.tags contains "datasets" %}{% assign n_d = n_d | plus: 1 %}{% endif %}{% if p.tags contains "foundation" %}{% assign n_f = n_f | plus: 1 %}{% endif %}{% endfor %}
-      <h2 id="selected">Featured publications</h2>
-      <p class="featured__lede"><a href="{{ '/publications/' | relative_url }}">See all publications</a></p>
-      <div class="filters filters--pills" role="group" aria-label="Filter featured publications">
-        <button type="button" class="filter is-active" data-filter="all" aria-pressed="true">All ({{ sel.size }})</button>
-        <button type="button" class="filter filter--1" data-filter="knowledge" aria-pressed="false">Knowledge-guided models ({{ n_k }})</button>
-        <button type="button" class="filter filter--2" data-filter="datasets" aria-pressed="false">Datasets &amp; benchmarks ({{ n_d }})</button>
-        <button type="button" class="filter filter--3" data-filter="foundation" aria-pressed="false">Foundation models &amp; agents ({{ n_f }})</button>
-      </div>
-      <div class="pubs pubs--selected">
-        {% for p in sel %}{% include pub.html pub=p %}{% endfor %}
-      </div>
-      <p class="filters__empty" hidden>No featured publications match this filter.</p>
     </div>
   </article>
 
+  <article class="featured">
+    {% assign sel = site.data.publications | where_exp: "p", "p.tags contains 'selected'" %}
+    {% assign n_k = 0 %}{% assign n_d = 0 %}{% assign n_f = 0 %}
+    {% for p in sel %}{% if p.tags contains "knowledge" %}{% assign n_k = n_k | plus: 1 %}{% endif %}{% if p.tags contains "datasets" %}{% assign n_d = n_d | plus: 1 %}{% endif %}{% if p.tags contains "foundation" %}{% assign n_f = n_f | plus: 1 %}{% endif %}{% endfor %}
+    <h2 id="selected">Featured publications</h2>
+    <p class="featured__lede"><a href="{{ '/publications/' | relative_url }}">See all publications</a></p>
+    <div class="filters filters--pills" role="group" aria-label="Filter featured publications">
+      <button type="button" class="filter is-active" data-filter="all" aria-pressed="true">All ({{ sel.size }})</button>
+      <button type="button" class="filter filter--1" data-filter="knowledge" aria-pressed="false">Knowledge-guided models ({{ n_k }})</button>
+      <button type="button" class="filter filter--2" data-filter="datasets" aria-pressed="false">Datasets &amp; benchmarks ({{ n_d }})</button>
+      <button type="button" class="filter filter--3" data-filter="foundation" aria-pressed="false">Foundation models &amp; agents ({{ n_f }})</button>
+    </div>
+    <div class="pubs pubs--selected">
+      {% for p in sel %}{% include pub.html pub=p %}{% endfor %}
+    </div>
+    <p class="filters__empty" hidden>No featured publications match this filter.</p>
+  </article>
 </div>

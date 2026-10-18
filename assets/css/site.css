@@ -89,10 +89,14 @@ sup { line-height: 0; font-size: 0.7em; }
 .post-title b { font-weight: 700; color: var(--theme); }
 .desc { color: var(--text-light); font-size: 1.1rem; margin: 0.4rem 0 0.9rem; }
 
-.email { margin: 0.7rem 0 0; font-size: 0.95rem; }
-.email a { color: var(--text); }
-.email a:hover { color: var(--theme); }
-.contact-icons { display: flex; flex-wrap: wrap; gap: 0.2rem 0.9rem; margin: 0.4rem 0 0; padding: 0; list-style: none; font-size: 1.45rem; }
+.email { margin: 0.8rem 0 0; font-size: 0.95rem; text-align: center; }
+.email a { color: var(--theme); font-weight: 500; display: inline-flex; align-items: center; gap: 6px; }
+.email a .icon { color: var(--theme-2); }
+.email a:hover { text-decoration: underline; }
+.contact-icons { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 0.2rem 0.9rem; margin: 0.5rem 0 0; padding: 0; list-style: none; font-size: 1.45rem; }
+.cv-pill { font-size: 0.82rem; font-weight: 700; letter-spacing: 0.02em; color: #fff !important; background: var(--theme); border-radius: 999px; padding: 4px 11px; display: inline-flex; align-items: center; gap: 5px; }
+.cv-pill .icon { font-size: 0.95em; }
+.cv-pill:hover { background: #1f7f9c; text-decoration: none; }
 .contact-icons a { color: var(--text); display: inline-flex; align-items: center; }
 .contact-icons a:hover { color: var(--theme); text-decoration: none; }
 
@@ -102,8 +106,7 @@ sup { line-height: 0; font-size: 0.7em; }
 .about__side-title a { color: inherit; }
 .about__main { min-width: 0; }
 .about__main h2 { margin-top: 1.4rem; }
-.about__main .pub { grid-template-columns: 130px minmax(0, 1fr); gap: 16px; }
-.profile { width: 220px; margin: 0; }
+.profile { width: 220px; margin: 0 auto; }
 .profile img {
   display: block;
   width: 100%;
