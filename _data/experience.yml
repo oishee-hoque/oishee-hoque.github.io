@@ -1,8 +1,9 @@
-# Experience page content. Each group renders as a timeline, newest first.
-# Entry fields: role, org, org_url, location, start, end, summary (one line), bullets (list), tech (comma-separated string).
+# Home page data.
+#   affiliations: the experience timeline (newest first). Entries with `more: true` sit under "See more".
+#                 Fields: org, org_url, unit, location, role, when, note (one line) and/or bullets (list; Markdown ok).
+#   education:    degree, org, org_url, when, note
+#   teaching:     role, org, when, note
 
-# Short affiliations list for the home page (newest first). Entries with `more: true` are folded under "See more".
-# Each entry: org, org_url, unit, location, role, when, optional note (one line) and/or bullets (list; Markdown ok).
 affiliations:
   - org: "Amazon"
     org_url: "https://www.amazon.science/"
@@ -32,18 +33,6 @@ affiliations:
     bullets:
       - "Semantic segmentation of multispectral satellite imagery"
       - "A multi-scale training scheme that improved generalization over prior baselines"
-  - org: "University of Virginia"
-    org_url: "https://engineering.virginia.edu/departments/computer-science"
-    unit: "Biocomplexity Institute"
-    location: "Charlottesville, VA"
-    role: "Ph.D. in Computer Science"
-    when: "Fall 2021 to present, expected 2027"
-    note: "Advisor: Madhav Marathe. UVA SEAS Endowed Fellowship (2025)."
-    more: true
-  - org: "University of Virginia"
-    role: "M.S. in Computer Science"
-    when: "2025"
-    more: true
   - org: "Enosis Solutions"
     org_url: "https://www.enosisbd.com/"
     location: "Dhaka, Bangladesh"
@@ -58,114 +47,28 @@ affiliations:
     note: "Dean's List of Honor."
     more: true
 
-# `home: N` puts a position in the short list on the home page, in that order; leave it out to show the position only on this page.
-positions:
-  - role: "Applied Scientist Intern"
-    home: 1
-    org: "Amazon, GRAISE team"
-    org_url: "https://www.amazon.science/"
-    location: "Seattle, WA"
-    start: "Sep 2026"
-    end: "present"
-    summary: "Multimodal AI for retail smart glasses: real-time on-device vision, cloud foundation models, and hands-free AR and voice workflows."
-
-  - role: "Graduate Research Intern (GRO program), GeoAI Group"
-    home: 2
-    org: "Oak Ridge National Laboratory"
-    org_url: "https://www.ornl.gov/group/geoai"
-    location: "Oak Ridge, TN"
-    start: "May 2026"
-    end: "Aug 2026"
-    summary: "AI-assisted characterization of post-Hurricane Helene forest damage from UAS imagery."
-    bullets:
-      - "Adapted foundation models (SAM, Mask2Former) and fused LiDAR- and photogrammetry-derived height products for instance-level detection of fallen logs."
-      - "Built the CWDBench benchmark (WACV 2027 Datasets Track): 10k+ verified instances with oriented boxes and masks, cross-site and cross-sensor evaluation, and a centerline metric for elongated objects."
-      - "Co-developed ARFA, an agentic riverine-flood-response assistant selected as a finalist in the ACM SIGSPATIAL OASIS 2026 challenge."
-
-  - role: "Graduate Research Assistant"
-    home: 4
-    org: "Biocomplexity Institute, University of Virginia"
-    org_url: "https://biocomplexity.virginia.edu/"
-    location: "Charlottesville, VA"
-    start: "Aug 2021"
-    end: "present"
-    summary: "Knowledge-guided computer vision and large-scale datasets for agricultural and environmental mapping, advised by Madhav Marathe."
-    bullets:
-      - "Released IrrMap (KDD 2025) and IRRISIGHT (NeurIPS 2025), two of the largest public multimodal datasets for irrigation and agricultural water management, with end-to-end ML-ready pipelines."
-      - "Designed KIIM (IJCAI 2025), a knowledge-guided irrigation-mapping model that injects crop-type and land-use priors through cross-attention, and IGraSS (IJCAI 2025), which couples segmentation with graph constraints for canal-network extraction."
-      - "Built the PRISM-CAFO (WACV 2026) and CAFOSat (EarthVision @ CVPR 2026) pipelines for prior-conditioned livestock-facility detection and strongly annotated dataset creation from NAIP imagery."
-    tech: "Python, PyTorch, Hugging Face, OpenCV, rasterio/GDAL, QGIS, scikit-learn, NumPy, pandas, Matplotlib"
-
-  - role: "Research Intern"
-    home: 3
-    org: "USDA-ARS (SCINet / AI-COE Graduate Student Internship Program)"
-    org_url: "https://scinet.usda.gov/"
-    location: "Remote"
-    start: "Jun 2023"
-    end: "Aug 2023"
-    summary: "Irrigation mapping from multispectral Landsat imagery."
-    bullets:
-      - "Built geospatial training sets and evaluated spectral-index and band combinations for irrigation classification."
-      - "Developed IrrNet (V4A @ CVPR 2024), an incremental patch-size training scheme that improved accuracy by roughly 10% over prior baselines."
-
-  - role: "Software Engineer"
-    org: "Enosis Solutions"
-    org_url: "https://www.enosisbd.com/"
-    location: "Dhaka, Bangladesh"
-    start: "Aug 2020"
-    end: "Jul 2021"
-    summary: "Full-stack development on production systems in a 6–8 person team."
-    bullets:
-      - "Built an incident-management tool in C#/MVC and a web platform for training and testing machine-learning models (React, Node.js, SQL/MongoDB)."
-    tech: "C#, JavaScript, React, Node.js, Express, MySQL, Oracle, MongoDB, Git, Jira"
-
-  - role: "Undergraduate Researcher"
-    org: "Ahsanullah University of Science & Technology"
-    org_url: "http://aust.edu/"
-    location: "Dhaka, Bangladesh"
-    start: "2018"
-    end: "2020"
-    summary: "Real-time sign-language recognition and document understanding with deep learning."
-    bullets:
-      - "Created the BdSL36 dataset and real-time detectors for Bangladeshi Sign Language (ICIET 2018, MLCSA @ ACCV 2020)."
-
-teaching:
-  - role: "Undergraduate Research Mentor"
-    org: "Biocomplexity Institute, University of Virginia"
-    start: "Jun 2025"
-    end: "present"
-    summary: "Mentoring undergraduate researchers in computer vision and remote sensing: dataset preparation, model evaluation, reproducibility, and paper writing."
-
-  - role: "Graduate Teaching Assistant"
-    org: "Department of Computer Science, University of Virginia"
-    start: "Aug 2021"
-    end: "Jan 2025"
-    summary: "Neural Networks (Spring 2025), Digital Signal Processing (Spring 2024), Machine Learning (Spring 2023), Mobile Application Development (Fall 2022)."
-
 education:
   - degree: "Ph.D. in Computer Science"
     org: "University of Virginia"
     org_url: "https://engineering.virginia.edu/departments/computer-science"
-    start: "2021"
-    end: "2027 (expected)"
-    details:
-      - "Advisor: Madhav Marathe, Biocomplexity Institute"
-      - "UVA SEAS Endowed Fellowship (2025); UVA CS PhD Fellowship (2021)"
-      - "Focus: knowledge-guided machine learning, multimodal understanding, vision–language models, remote sensing"
-
+    when: "2021 to present, expected 2027"
+    note: "Advisor: Madhav Marathe, Biocomplexity Institute. UVA SEAS Endowed Fellowship (2025); UVA CS PhD Fellowship (2021)."
   - degree: "M.S. in Computer Science"
     org: "University of Virginia"
     org_url: "https://engineering.virginia.edu/departments/computer-science"
-    start: ""
-    end: "2025"
-    details:
-      - "Coursework: machine learning, ML for image processing, interpretable ML, NLP, 3D computer vision, algorithms, software security"
-
+    when: "2025"
   - degree: "B.Sc. in Computer Science and Engineering"
     org: "Ahsanullah University of Science & Technology"
     org_url: "http://aust.edu/"
-    start: "2015"
-    end: "2019"
-    details:
-      - "Dean's List of Honor; CGPA 3.79 / 4.00"
-      - "Thesis: Detecting Letters and Words from Bangladeshi Sign Language in Real-Time ([thesis](/files/Defense.pdf), [slides](/files/DefensePresentation.pdf)); supervisor Mohammad Imrul Jubair"
+    when: "2015 to 2019"
+    note: "Dean's List of Honor. Thesis on real-time Bangladeshi Sign Language recognition ([thesis](/files/Defense.pdf), [slides](/files/DefensePresentation.pdf))."
+
+teaching:
+  - role: "Undergraduate Research Mentor"
+    org: "Biocomplexity Institute, University of Virginia"
+    when: "2025 to present"
+    note: "Mentoring undergraduates in computer vision and remote sensing: dataset preparation, model evaluation, reproducibility and paper writing."
+  - role: "Graduate Teaching Assistant"
+    org: "Department of Computer Science, University of Virginia"
+    when: "2021 to 2025"
+    note: "Neural Networks, Digital Signal Processing, Machine Learning, Mobile Application Development."

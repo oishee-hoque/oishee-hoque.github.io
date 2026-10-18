@@ -40,8 +40,6 @@ nav:
     url: "/"
   - title: "Publications"
     url: "/publications/"
-  - title: "Experience"
-    url: "/experience/"
   - title: "Awards & Activities"
     url: "/activities/"
 

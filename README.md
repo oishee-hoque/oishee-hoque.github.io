@@ -10,10 +10,10 @@ Almost everything you will want to change lives in `_data/`:
 | --- | --- |
 | `_data/news.yml` | News items, newest first. The home page shows the first six and hides the rest behind "Show all". |
 | `_data/publications.yml` | Every paper: title, venue, authors, links, tags. Entries tagged `selected` also appear on the home page. Put a `720x480` thumbnail at `images/pubs/<key>.webp`, or set `thumb: none` for a text tile. |
-| `_data/experience.yml` | Positions, teaching/mentoring, and education for the Experience page. |
+| `_data/experience.yml` | The experience timeline (`affiliations`), `education` and `teaching` blocks on the home page. |
 | `_data/activities.yml` | Awards (rendered as cards: `title`, `org`, `detail`, `kind`), grants, talks, competitions and service for the Awards & Activities page. |
 
-The bio, research areas and core-skills chips are in `index.html`; the timeline on the home page comes from the `affiliations:` block in `_data/experience.yml` (entries with `more: true` sit under "See more"). Contact links, the CV link, and the navigation are in `_config.yml` under `author:` and `nav:`.
+The bio, research areas and core-skills chips are in `index.html`; the experience timeline, education and teaching blocks come from `_data/experience.yml` (timeline entries with `more: true` sit under "See more"). Contact links, the CV link, and the navigation are in `_config.yml` under `author:` and `nav:`.
 
 Publication tags: `first-author`, `dataset`, `journal`, `selected`. Mark yourself with `me: true` and co-first authors with `equal: true`.
 
@@ -37,7 +37,7 @@ Then open http://127.0.0.1:4000. The font is Roboto, self-hosted in `assets/font
 
 - `_layouts/default.html` — page shell
 - `_includes/` — `head.html`, `nav.html`, `footer.html`, and `pub.html` (one publication entry)
-- `_pages/` — publications, experience, activities, 404
+- `_pages/` — publications, activities, 404
 - `assets/css/site.css`, `assets/js/site.js` — all styling and the small amount of JavaScript (news toggle, publication filters)
 - `images/`, `files/` — images, PDFs
 

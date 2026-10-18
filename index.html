@@ -5,6 +5,10 @@ id: home
 redirect_from:
   - /about/
   - /about.html
+  - /experience/
+  - /education-awards/
+  - /resume
+  - /cv/
 ---
 <div class="post">
   <header class="post-header">
@@ -49,6 +53,28 @@ redirect_from:
             </ol>
           </details>
         </li>
+      </ol>
+
+      <h2 class="about__side-title">Education</h2>
+      <ol class="affil affil--edu">
+        {% for e in site.data.experience.education %}
+        <li class="affil__item">
+          <span class="affil__org">{{ e.degree }}</span>
+          <span class="affil__role">{% if e.org_url %}<a href="{{ e.org_url }}" target="_blank" rel="noopener">{{ e.org }}</a>{% else %}{{ e.org }}{% endif %}, {{ e.when }}.</span>
+          {% if e.note %}<span class="affil__note">{{ e.note | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span>{% endif %}
+        </li>
+        {% endfor %}
+      </ol>
+
+      <h2 class="about__side-title">Teaching &amp; mentoring</h2>
+      <ol class="affil affil--teach">
+        {% for t in site.data.experience.teaching %}
+        <li class="affil__item">
+          <span class="affil__org">{{ t.role }}</span>
+          <span class="affil__role">{{ t.org }}, {{ t.when }}.</span>
+          {% if t.note %}<span class="affil__note">{{ t.note }}</span>{% endif %}
+        </li>
+        {% endfor %}
       </ol>
     </aside>
 
@@ -110,24 +136,22 @@ redirect_from:
           </tbody>
         </table>
       </details>
+      {% assign sel = site.data.publications | where_exp: "p", "p.tags contains 'selected'" %}
+      {% assign n_k = 0 %}{% assign n_d = 0 %}{% assign n_f = 0 %}
+      {% for p in sel %}{% if p.tags contains "knowledge" %}{% assign n_k = n_k | plus: 1 %}{% endif %}{% if p.tags contains "datasets" %}{% assign n_d = n_d | plus: 1 %}{% endif %}{% if p.tags contains "foundation" %}{% assign n_f = n_f | plus: 1 %}{% endif %}{% endfor %}
+      <h2 id="selected">Featured publications</h2>
+      <p class="featured__lede"><a href="{{ '/publications/' | relative_url }}">See all publications</a></p>
+      <div class="filters filters--pills" role="group" aria-label="Filter featured publications">
+        <button type="button" class="filter is-active" data-filter="all" aria-pressed="true">All ({{ sel.size }})</button>
+        <button type="button" class="filter filter--1" data-filter="knowledge" aria-pressed="false">Knowledge-guided models ({{ n_k }})</button>
+        <button type="button" class="filter filter--2" data-filter="datasets" aria-pressed="false">Datasets &amp; benchmarks ({{ n_d }})</button>
+        <button type="button" class="filter filter--3" data-filter="foundation" aria-pressed="false">Foundation models &amp; agents ({{ n_f }})</button>
+      </div>
+      <div class="pubs pubs--selected">
+        {% for p in sel %}{% include pub.html pub=p %}{% endfor %}
+      </div>
+      <p class="filters__empty" hidden>No featured publications match this filter.</p>
     </div>
   </article>
 
-  <article>
-    {% assign sel = site.data.publications | where_exp: "p", "p.tags contains 'selected'" %}
-    {% assign n_k = 0 %}{% assign n_d = 0 %}{% assign n_f = 0 %}
-    {% for p in sel %}{% if p.tags contains "knowledge" %}{% assign n_k = n_k | plus: 1 %}{% endif %}{% if p.tags contains "datasets" %}{% assign n_d = n_d | plus: 1 %}{% endif %}{% if p.tags contains "foundation" %}{% assign n_f = n_f | plus: 1 %}{% endif %}{% endfor %}
-    <h2 id="selected">Featured publications</h2>
-    <p class="featured__lede"><a href="{{ '/publications/' | relative_url }}">See all publications</a></p>
-    <div class="filters filters--pills" role="group" aria-label="Filter featured publications">
-      <button type="button" class="filter is-active" data-filter="all" aria-pressed="true">All ({{ sel.size }})</button>
-      <button type="button" class="filter filter--1" data-filter="knowledge" aria-pressed="false">Knowledge-guided models ({{ n_k }})</button>
-      <button type="button" class="filter filter--2" data-filter="datasets" aria-pressed="false">Datasets &amp; benchmarks ({{ n_d }})</button>
-      <button type="button" class="filter filter--3" data-filter="foundation" aria-pressed="false">Foundation models &amp; agents ({{ n_f }})</button>
-    </div>
-    <div class="pubs pubs--selected">
-      {% for p in sel %}{% include pub.html pub=p %}{% endfor %}
-    </div>
-    <p class="filters__empty" hidden>No featured publications match this filter.</p>
-  </article>
 </div>
