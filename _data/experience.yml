@@ -1,7 +1,8 @@
 # Home page data.
 #   affiliations: the experience timeline (newest first). Entries with `more: true` sit under "See more".
 #                 Fields: org, org_url, unit, location, role, when, note (one line) and/or bullets (list; Markdown ok).
-#   education:    degree, org, org_url, when, note; entries with `more: true` sit under "See more"
+#   education:    degree, org, org_url, when (shown in brackets after the university), note;
+#                 entries with `more: true` sit under "See more"
 
 affiliations:
   - org: "Amazon"
@@ -50,7 +51,7 @@ education:
   - degree: "Ph.D. in Computer Science"
     org: "University of Virginia"
     org_url: "https://engineering.virginia.edu/departments/computer-science"
-    when: "2021 to present, expected 2027"
+    when: "2021 – Spring 2027 (expected)"
   - degree: "M.S. in Computer Science"
     org: "University of Virginia"
     org_url: "https://engineering.virginia.edu/departments/computer-science"
@@ -59,6 +60,6 @@ education:
   - degree: "B.Sc. in Computer Science and Engineering"
     org: "Ahsanullah University of Science & Technology"
     org_url: "http://aust.edu/"
-    when: "2015 to 2019"
+    when: "2015 – 2019"
     more: true
     note: "Dean's List of Honor. Thesis on real-time Bangladeshi Sign Language recognition ([thesis](/files/Defense.pdf), [slides](/files/DefensePresentation.pdf))."

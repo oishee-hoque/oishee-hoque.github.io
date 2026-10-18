@@ -129,6 +129,7 @@ sup { line-height: 0; font-size: 0.7em; }
 .prose > p { margin-bottom: 0.9rem; }
 .prose__after { margin-top: 0.2rem; }
 .kw { font-weight: 500; }
+.affil__dates { white-space: nowrap; }
 .venue { display: inline-block; font-size: 0.86em; font-weight: 700; letter-spacing: 0.02em; line-height: 1.35; color: #1d7a95; background: rgba(38, 152, 186, 0.12); border-radius: 4px; padding: 0 6px; white-space: nowrap; }
 
 /* Affiliations & experience: vertical timeline */

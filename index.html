@@ -60,7 +60,7 @@ redirect_from:
         {% for e in site.data.experience.education %}{% unless e.more %}
         <li class="affil__item">
           <span class="affil__org">{{ e.degree }}</span>
-          <span class="affil__role">{% if e.org_url %}<a href="{{ e.org_url }}" target="_blank" rel="noopener">{{ e.org }}</a>{% else %}{{ e.org }}{% endif %}, {{ e.when }}.</span>
+          <span class="affil__role">{% if e.org_url %}<a href="{{ e.org_url }}" target="_blank" rel="noopener">{{ e.org }}</a>{% else %}{{ e.org }}{% endif %}, <span class="affil__dates">({{ e.when }})</span></span>
           {% if e.note %}<span class="affil__note">{{ e.note | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span>{% endif %}
         </li>
         {% endunless %}{% endfor %}
@@ -71,7 +71,7 @@ redirect_from:
               {% for e in site.data.experience.education %}{% if e.more %}
               <li class="affil__item">
                 <span class="affil__org">{{ e.degree }}</span>
-                <span class="affil__role">{% if e.org_url %}<a href="{{ e.org_url }}" target="_blank" rel="noopener">{{ e.org }}</a>{% else %}{{ e.org }}{% endif %}, {{ e.when }}.</span>
+                <span class="affil__role">{% if e.org_url %}<a href="{{ e.org_url }}" target="_blank" rel="noopener">{{ e.org }}</a>{% else %}{{ e.org }}{% endif %}, <span class="affil__dates">({{ e.when }})</span></span>
                 {% if e.note %}<span class="affil__note">{{ e.note | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span>{% endif %}
               </li>
               {% endif %}{% endfor %}
