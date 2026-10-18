@@ -22,8 +22,8 @@ affiliations:
     role: "Graduate Research Intern (GRO program)"
     when: "Summer 2026"
     bullets:
-      - "**Main research:** instance segmentation and oriented detection in high-resolution UAV imagery with adapted vision foundation models and LiDAR fusion"
-      - "**Team competition:** an LLM-agent system that pairs language reasoning with deterministic geospatial tools for disaster response"
+      - "**Main research:** instance segmentation and oriented detection in high-resolution UAV imagery with adapted vision foundation models and LiDAR fusion (Accepted @ [WACV 2027](https://wacv.thecvf.com/Conferences/2027))"
+      - "**Team competition:** an LLM-agent system that pairs language reasoning with deterministic geospatial tools for disaster response (Finalist @ [OASIS 2026](https://rsvp.withgoogle.com/events/oasis-2026))"
   - org: "USDA-ARS"
     org_url: "https://scinet.usda.gov/"
     unit: "SCINet / AI-COE Graduate Student Internship Program"

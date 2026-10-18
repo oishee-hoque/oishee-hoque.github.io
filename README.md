@@ -9,7 +9,7 @@ Almost everything you will want to change lives in `_data/`:
 | File | What it holds |
 | --- | --- |
 | `_data/news.yml` | News items, newest first. The home page shows the first six and hides the rest behind "Show all". |
-| `_data/publications.yml` | Every paper: title, venue, authors, links, tags. Entries tagged `selected` also appear on the home page. Put a `720x480` thumbnail at `images/pubs/<key>.webp`, or set `thumb: none` for a text tile. |
+| `_data/publications.yml` | Every paper: title, venue, authors, links, tags. Entries tagged `selected` also appear on the home page. Put a `720x480` thumbnail at `images/pubs/<key>.webp`, or set `thumb: none` for an icon tile (`tile`, `tile_icon`, `tile_style: soon`; see the file header). |
 | `_data/experience.yml` | The experience timeline (`affiliations`) and `education` block on the home page. |
 | `_data/activities.yml` | Awards (rendered as cards: `title`, `org`, `detail`, `kind`), media highlights, travel grants, talks and competitions for the Awards & Talks page. |
 | `_data/services.yml` | Teaching, mentoring (mentees), reviewing, judging, leadership and volunteering for the Services page. |

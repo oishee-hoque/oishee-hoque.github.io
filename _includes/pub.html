@@ -14,11 +14,15 @@ Renders one publication entry. Usage: {% include pub.html pub=entry %}
 <article class="pub" id="{{ pub.key }}" data-tags="{{ pub.tags | join: ' ' }}" data-year="{{ pub.year }}">
   <div class="pub__thumb">
     {%- if pub.thumb == "none" -%}
-      <span class="pub__tile{% if pub.tile %} pub__tile--soon{% endif %}" aria-hidden="true">{% if pub.tile %}{{ pub.tile }}{% else %}{{ pub.venue_short | split: " " | first }}{% endif %}</span>
+      <span class="pub__tile{% if pub.tile_style %} pub__tile--{{ pub.tile_style }}{% endif %}" aria-hidden="true">
+        {%- if pub.tile_icon -%}<span class="pub__tile-icon">{% include icons/{{ pub.tile_icon }}.svg %}</span>{%- endif -%}
+        <span class="pub__tile-label">{% if pub.tile %}{{ pub.tile }}{% else %}{{ pub.venue_short }}{% endif %}</span>
+      </span>
     {%- else -%}
       {%- if pub.thumb -%}{%- assign thumb = pub.thumb -%}{%- else -%}{%- assign thumb = "/images/pubs/" | append: pub.key | append: ".webp" -%}{%- endif -%}
       {%- if primary != "" -%}<a href="{{ primary }}" tabindex="-1" aria-hidden="true"{% if primary contains "http" %} target="_blank" rel="noopener"{% endif %}>{%- endif -%}
-      <img src="{{ thumb | relative_url }}" alt="" loading="lazy" decoding="async" width="720" height="480">
+      {%- comment -%} ?v= changes on every build, so browsers fetch regenerated thumbnails instead of cached ones {%- endcomment -%}
+      <img src="{{ thumb | relative_url }}?v={{ site.time | date: '%s' }}" alt="" loading="lazy" decoding="async" width="720" height="480">
       {%- if primary != "" -%}</a>{%- endif -%}
     {%- endif -%}
   </div>

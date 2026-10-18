@@ -5,7 +5,9 @@
 #   note       optional one-line context (award, oral, finalist...)
 #   tags       any of: first-author, dataset, journal, selected; plus research areas knowledge, datasets, foundation (home-page filters)
 #   links      list of {label, url}
-#   thumb      optional override; defaults to /images/pubs/<key>.webp. Set thumb: none for a text tile.
+#   thumb      optional override; defaults to /images/pubs/<key>.webp (720x480, a figure from the paper).
+#              Set thumb: none for an icon tile instead, with optional tile (label), tile_icon (a file in
+#              _includes/icons/, without .svg) and tile_style: soon (grey, for work not yet public).
 
 - key: cwdbench
   title: "CWDBench: A Benchmark for Instance-Level Characterization of Coarse Woody Debris in Aerial Imagery"
@@ -32,6 +34,8 @@
     - {name: "Dalton Lunga"}
   thumb: none
   tile: "Coming soon"
+  tile_icon: hourglass-half
+  tile_style: soon
   note: "Challenge finalist. A hybrid agentic system that pairs LLM agents for location, structure and reasoning with deterministic geospatial tools for flood assessment, facility discovery and evacuation routing."
   tags: [selected, foundation]
   links: []   # paper, code and figure to be added after the challenge
@@ -143,7 +147,7 @@
     - {name: "Miaomiao Zhang"}
     - {name: "Geoffrey Fox"}
     - {name: "Madhav Marathe"}
-  tags: [first-author, dataset, datasets]
+  tags: [first-author, dataset, selected, datasets]
   links:
     - {label: "PDF", url: "https://dl.acm.org/doi/pdf/10.1145/3711896.3737380"}
     - {label: "Code", url: "https://github.com/Nibir088/IrrMap"}
@@ -154,7 +158,9 @@
   venue: "Water Resources Research, 60(8)"
   venue_short: "Water Resources Research 2024"
   year: 2024
-  thumb: none
+  thumb: none   # no figure available yet; replace with images/pubs/wrr.webp and delete these three lines
+  tile: "Water Resources Research"
+  tile_icon: droplet
   authors:
     - {name: "Sayjro K. Nouwakpo"}
     - {name: "David Bjorneberg"}
@@ -176,7 +182,7 @@
     - {name: "Abhijin Adiga"}
     - {name: "Sayjro Kossi Nouwakpo"}
     - {name: "Madhav Marathe"}
-  tags: [first-author, knowledge]
+  tags: [first-author, selected, knowledge]
   links:
     - {label: "PDF", url: "https://openaccess.thecvf.com/content/CVPR2024W/Vision4Ag/html/Hoque_IrrNet_Advancing_Irrigation_Mapping_with_Incremental_Patch_Size_Training_on_CVPRW_2024_paper.html"}
 
@@ -225,7 +231,6 @@
   venue: "23rd International Conference on Computer and Information Technology (ICCIT)"
   venue_short: "ICCIT 2020"
   year: 2020
-  thumb: none
   authors:
     - {name: "Oishee Bintey Hoque", me: true}
     - {name: "Maisha Binte Rashid"}
