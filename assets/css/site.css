@@ -106,6 +106,7 @@ sup { line-height: 0; font-size: 0.7em; }
 .about { display: grid; grid-template-columns: 300px minmax(0, 1fr); gap: 36px; align-items: start; }
 .about__side { min-width: 0; }
 .post h2.about__side-title { font-size: 0.95rem; font-weight: 700; margin: 1.1rem 0 0.5rem; padding-bottom: 0.2rem; border-bottom: 2px solid var(--divider); }
+.about__side-title--exp { display: none; } /* desktop: the timeline needs no heading; shown only on mobile */
 .about__side-title a { color: inherit; }
 .about__main { min-width: 0; }
 .about__main > p:not(.avail) { text-align: justify; font-size: 0.94rem; line-height: 1.55; }
@@ -488,9 +489,10 @@ sup { line-height: 0; font-size: 0.7em; }
   .profile { width: 150px; margin: 0 auto 0.6rem; justify-self: center; order: 0; }
   .email, .contact-icons { order: 1; }
   .about__main { order: 2; }
-  #experience { order: 3; }
-  .about__side-title { order: 4; }
-  .affil--edu { order: 5; }
+  .about__side-title { order: 5; }
+  .about__side-title--exp { display: block; order: 3; }
+  #experience { order: 4; }
+  .affil--edu { order: 6; }
   .post-title { font-size: 2rem; }
   .pub { grid-template-columns: 1fr; gap: 10px; }
   .pub__thumb { max-width: 240px; }
