@@ -483,12 +483,14 @@ sup { line-height: 0; font-size: 0.7em; }
   .hl { grid-template-columns: 1fr; }
   .about { grid-template-columns: 1fr; gap: 16px; }
   .about__side { display: contents; }
-  .profile { width: 150px; margin: 0 0 0.5rem; }
-  .about__side-title { order: 2; }
-  .affil { order: 3; }
-  .affil--more { order: initial; }
-  .email, .contact-icons { order: 0; }
-  .about__main { order: 1; }
+  /* single column: photo (centered), contact, bio, then the experience timeline
+     BEFORE the Education heading so Amazon/ORNL/USDA don't sit under "Education" */
+  .profile { width: 150px; margin: 0 auto 0.6rem; justify-self: center; order: 0; }
+  .email, .contact-icons { order: 1; }
+  .about__main { order: 2; }
+  #experience { order: 3; }
+  .about__side-title { order: 4; }
+  .affil--edu { order: 5; }
   .post-title { font-size: 2rem; }
   .pub { grid-template-columns: 1fr; gap: 10px; }
   .pub__thumb { max-width: 240px; }
